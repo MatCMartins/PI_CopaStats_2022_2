@@ -1,19 +1,31 @@
-.cabecalho div{
-    margin: auto;
-}
 .cabecalho_titulo{
     text-align: center;
-    display: inline-block;
     background: #2AEB77;  
 }
 #titulo_tela{
     font-family: 'Ruda';
-    font-style: normal;
     font-weight: 800;
     font-size: 64px;
-    line-height: 78px;
-    color: #FFFFFF;  
+    color: #FFFFFF; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
 }
 .menu_de_navegacoes{
-    display:inline-block;
+    text-align: center;
+    background: #1AE884;
+    mix-blend-mode: darken;
+    border: 1px solid #1AE884;
+    backdrop-filter: blur(2px);
+}
+.navbar_cat{
+    text-decoration: none;
+}
+.cat{
+    text-decoration: none;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
 }
