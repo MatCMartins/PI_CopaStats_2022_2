@@ -1,0 +1,10 @@
+.cabecalho div{
+    margin: auto;
+}
+.cabecalho_titulo{
+    text-align: center;
+    display: inline-block;  
+}
+.menu_de_navegacoes{
+    display:inline-block;
+}
