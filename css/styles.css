@@ -3,7 +3,16 @@
 }
 .cabecalho_titulo{
     text-align: center;
-    display: inline-block;  
+    display: inline-block;
+    background: #2AEB77;  
+}
+#titulo_tela{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;  
 }
 .menu_de_navegacoes{
     display:inline-block;
