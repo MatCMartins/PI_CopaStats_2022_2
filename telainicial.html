@@ -8,32 +8,54 @@
     <link rel="stylesheet" href="css/styles.css">   
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="row">
-            <div class="container-fluid">
-                <div class="cabecalho fixed-top">
-                    <div class="border cabecalho_titulo col-lg-12 ">
-                        <a class="navbar_cat" id="titulo_tela" href="#">COPASTATS</a>
-                    </div>
-                    <button class="navbar-toggler navbar-toggle-left fixed-top navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#barraNav">
-                        <span class="navbar-toggler-icon"> </span> 
+    <header>
+        <div class="container-fluid p-0 m-0">
+            <div class="row">
+                <div class="cabecalho col-lg-12 p-0">
+                    <div class="cabecalho_titulo">
+                        <a class="navbar_cat" id="titulo_tela" href="telainicial.html">COPASTATS</a>
+                        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#barraNav">
+                            <span class="navbar-toggler-icon"> </span> 
                         </button>
-                    <div class="menu_de_navegacoes collapse navbar-collapse d-flex justify-content-center justify-content-between col-lg-12" id="barraNav">
-                                <a href="#" class="nav-link ms-3 cat">Jogos</a>
-                                <a href="#" class="nav-link cat">Seleções</a>
-                                <a href="#" class="nav-link cat">Classificações</a>
-                                <a href="#" class="nav-link cat">Jogadores</a>
-                                <a href="#" class="nav-link cat">Fórum</a>
-                                <a href="#" class="nav-link cat">Simulador</a>
-                                <a href="#" class="nav-link me-3 cat">Perfil</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
-
+        <div class="container-fluid p-0 m-0">
+            <div class="row">
+                <nav class="navbar-expand-lg p-0">
+                    <div class="collapse navbar-collapse " id="barraNav">
+                        <div class="menu_de_navegacoes navbar navbar-nav d-flex justify-content-center justify-content-between col-lg-12">
+                            <a href="#" class="nav-item nav-link ms-lg-5 cat">Jogos</a>
+                            <a href="#" class="nav-item nav-link cat">Seleções</a>
+                            <a href="#" class="nav-item nav-link cat">Classificações</a>
+                            <a href="#" class="nav-item nav-link cat">Jogadores</a>
+                            <a href="#" class="nav-item nav-link cat">Fórum</a>
+                            <a href="#" class="nav-item nav-link cat">Simulador</a>
+                            <a href="#" class="img me-lg-5 cat"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="mt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <section class="col-lg-3 ms-lg-5 m-auto ">
+                        <h1>Último Jogo</h1>
+                    </section>
+                    <section class="col-lg-5 m-auto">
+                        <h1>Sobre o CopaStats</h1>
+                    </section>
+                    <section class="col-lg-3 m-auto me-lg-5">
+                        <h1>Brasil</h1>
+                    </section>
+                </div>
+            </div>
+        </article>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
