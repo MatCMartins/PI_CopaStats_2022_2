@@ -2,8 +2,8 @@ body{
     background-color: #D9D9D9;
 }
 .cabecalho_titulo{
-    background: #2AEB77;  
-    border: 1px solid #2AEB77;
+    background: #000F90;  
+    border: 1px solid #000F90;
 }
 
 .cat{
@@ -57,8 +57,8 @@ body{
 }
 
 .menu_de_navegacoes{
-    background: #1AE884;
-    border: 1px solid #1AE884;
+    background: #0000A6;
+    border: 1px solid #0000A6;
     backdrop-filter: blur(2px);
 }
 
@@ -69,27 +69,78 @@ h1, h2{
     margin-top: 10px;
     margin-left: 10px;
 }
-article section{
-    background: #F6F6F6;
+section{
     border-radius: 30px;
     margin-bottom: 30px;
-    margin-left: 10px;
 }
 
-.fundo_inicial{
-    background-color: #f6f6f6;
-}
-.jogo_destaque, .jogador_destaque{
+
+.texto_inicial{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 300%; 
 }
 
 .grupo_g{
-    border: 1px solid #1AE884;
+    border: 1px solid #5F7BFA;
     border-radius: 10px;
-    background: #1AE884;
+    background: #5F7BFA;
 
 }
 
+tr{
+    
+    border-bottom: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+th{
+    font-size:large;
+    text-align: center;
+}
+th,td{
+    width: 90px;
+    height: 55px;
+}
+
+.times_tabela{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.dados_tabela{
+    text-align: center;
+}
+.dados_tabela:nth-child(2n+1){
+    background-color: lightgray;
+}
+.topicos{
+    margin-left: 15px;
+}
+.pontos{
+    margin-left: -5px;
+}
+.passado{
+    padding-left: 30px;
+}
+.bolas_passados{
+    border-radius: 50%;
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background-color: red;
+}
+.tabela_pag_inicial{
+    margin-bottom: 10px;
+}
+.imagem-brasao{
+    width: 300px;
+    height: 250px;
+}
 
 
 
