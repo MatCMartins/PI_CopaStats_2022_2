@@ -83,10 +83,11 @@ section{
     font-size: 300%; 
 }
 
-.grupo_g{
+.grupo{
     border: 1px solid #5F7BFA;
     border-radius: 10px;
     background: #5F7BFA;
+    display: inline;
 
 }
 
@@ -109,9 +110,11 @@ th,td{
 
 .times_tabela{
     margin-left: 10px;
-    margin-right: 50px;
 }
-
+span{
+    font-size: 14px;
+    font-weight: 600;
+}
 .dados_tabela{
     text-align: center;
 }
@@ -134,15 +137,16 @@ th,td{
     width: 7px;
     background-color: red;
 }
-.tabela_pag_inicial{
+.tabela{
     margin-bottom: 10px;
 }
-.imagem-brasao{
-    width: 300px;
-    height: 250px;
+
+.elemento_area_pontuacao{
+    font-size: 24px;
 }
 
-
-
+.time1{
+    margin-left: 200px
+}
 
 
