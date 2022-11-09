@@ -1,0 +1,287 @@
+{
+  "get": "players/squads",
+  "parameters": {
+    "team": "23"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "team": {
+        "id": 23,
+        "name": "Saudi Arabia",
+        "logo": "https://media.api-sports.io/football/teams/23.png"
+      },
+      "players": [
+        {
+          "id": 44411,
+          "name": "Mohammed Khalil Ibrahim Al Owais",
+          "age": 31,
+          "number": null,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/44411.png"
+        },
+        {
+          "id": 44591,
+          "name": "Fawaz Balqassem Abdo Al Qarni",
+          "age": 30,
+          "number": null,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/44591.png"
+        },
+        {
+          "id": 44709,
+          "name": "Mohammed Faraj Al Rubaie Al Yami",
+          "age": 25,
+          "number": null,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/44709.png"
+        },
+        {
+          "id": 193288,
+          "name": "Nawaf Dhahi Faisal Al Suweiti Al Aqidi",
+          "age": 22,
+          "number": null,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/193288.png"
+        },
+        {
+          "id": 44589,
+          "name": "Amin Mohammedsaleh Ahmed Jan Al Bukhari",
+          "age": 25,
+          "number": null,
+          "position": "Goalkeeper",
+          "photo": "https://media.api-sports.io/football/players/44589.png"
+        },
+        {
+          "id": 44594,
+          "name": "Saud Abdullah Salim Abdulhamid",
+          "age": 23,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44594.png"
+        },
+        {
+          "id": 44475,
+          "name": "Abdulelah Ali Awadh Al Amri",
+          "age": 25,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44475.png"
+        },
+        {
+          "id": 44329,
+          "name": "Mohammed Ibrahim Al Burayk",
+          "age": 30,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44329.png"
+        },
+        {
+          "id": 44309,
+          "name": "Sultan Abdullah Salim Al Ghannam",
+          "age": 28,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44309.png"
+        },
+        {
+          "id": 44331,
+          "name": "Yasser Gharsan Al Shahrani",
+          "age": 30,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44331.png"
+        },
+        {
+          "id": 44362,
+          "name": "Hassan Mohammed Osama Al Tambakti",
+          "age": 23,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44362.png"
+        },
+        {
+          "id": 44653,
+          "name": "Ahmed Mohammed Bamasud",
+          "age": 27,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44653.png"
+        },
+        {
+          "id": 44332,
+          "name": "Ali Hadi Al Bulayhi",
+          "age": 33,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44332.png"
+        },
+        {
+          "id": 44303,
+          "name": "Abdullah Mohammed Musa Madu",
+          "age": 29,
+          "number": null,
+          "position": "Defender",
+          "photo": "https://media.api-sports.io/football/players/44303.png"
+        },
+        {
+          "id": 147812,
+          "name": "Ayman Yahya Salem Ahmed",
+          "age": 21,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/147812.png"
+        },
+        {
+          "id": 44338,
+          "name": "Nawaf Shaker Al Abid",
+          "age": 32,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44338.png"
+        },
+        {
+          "id": 44339,
+          "name": "Nasser Eissa Shafi Al Dawsari",
+          "age": 24,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44339.png"
+        },
+        {
+          "id": 44340,
+          "name": "Salem Mohammed Al Dawsari",
+          "age": 31,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44340.png"
+        },
+        {
+          "id": 44341,
+          "name": "Salman Mohammed Al Faraj",
+          "age": 33,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44341.png"
+        },
+        {
+          "id": 44509,
+          "name": "Ali Sadiq Nasser Al Hassan",
+          "age": 25,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44509.png"
+        },
+        {
+          "id": 44692,
+          "name": "Sami Khalil Al Najei",
+          "age": 25,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44692.png"
+        },
+        {
+          "id": 44347,
+          "name": "Hattan Sultan Ahmad Bahebri",
+          "age": 30,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44347.png"
+        },
+        {
+          "id": 44349,
+          "name": "Mohammed Ibrahim Kanno",
+          "age": 28,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44349.png"
+        },
+        {
+          "id": 44350,
+          "name": "Abdullah Ibrahim Otayf",
+          "age": 30,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44350.png"
+        },
+        {
+          "id": 44483,
+          "name": "Abdulelah Saad Hameed Al Malki",
+          "age": 28,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/44483.png"
+        },
+        {
+          "id": 104652,
+          "name": "Riyadh Mohammed Sharahili",
+          "age": 29,
+          "number": null,
+          "position": "Midfielder",
+          "photo": "https://media.api-sports.io/football/players/104652.png"
+        },
+        {
+          "id": 44382,
+          "name": "Abdullah Abdulrahman Al Hamdan",
+          "age": 23,
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/44382.png"
+        },
+        {
+          "id": 44617,
+          "name": "Fahad Mosaed Al Muwallad Al Harbi",
+          "age": 28,
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/44617.png"
+        },
+        {
+          "id": 44586,
+          "name": "Abdulrahman Ali Hassan Al Obud",
+          "age": 27,
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/44586.png"
+        },
+        {
+          "id": 44551,
+          "name": "Saleh Khalid Mohammed Al Shehri",
+          "age": 29,
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/44551.png"
+        },
+        {
+          "id": 268087,
+          "name": "Haitham Mohammed Asiri",
+          "age": 21,
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/268087.png"
+        },
+        {
+          "id": 44324,
+          "name": "Firas Tariq Nasser Al Brikan",
+          "age": 22,
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/44324.png"
+        },
+        {
+          "id": 301526,
+          "name": "Abdullah Hadi Radif",
+          "age": 19,
+          "number": null,
+          "position": "Attacker",
+          "photo": "https://media.api-sports.io/football/players/301526.png"
+        }
+      ]
+    }
+  ]
+}
