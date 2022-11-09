@@ -1,11 +1,16 @@
 body{
     background-color: #D9D9D9;
 }
+.tela_inicial{
+    background-color: #061329;
+}
 .cabecalho_titulo{
     background: #000F90;  
     border: 1px solid #000F90;
 }
-
+li{
+    list-style-type: none;
+}
 a{
     text-decoration: none;
 }
@@ -57,6 +62,9 @@ a{
         width: 100%; 
         height: auto; 
     }
+    .texto_inicial{
+        font-size: 150%; 
+    }
 }
 
 @media (min-width: 992px){
@@ -81,6 +89,9 @@ a{
         width: 100%; 
         height: auto; 
     }
+    .texto_inicial{
+        font-size: 300%; 
+    }
     
 }
 
@@ -95,10 +106,10 @@ h1, h2{
     font-weight: 600;
     line-height: 49px;
     margin-top: 10px;
-    margin-left: 10px;
+    
 }
 section{
-    border-radius: 30px;
+    border-radius: 10px;
     margin-bottom: 30px;
 }
 
@@ -108,7 +119,7 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     font-style:italic;
     font-weight: bold;
-    font-size: 300%; 
+    color: #FFFFFF
 }
 
 .grupo{
@@ -187,3 +198,8 @@ div.carousel-item ul{
     display: none;
 }
 
+.dado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
