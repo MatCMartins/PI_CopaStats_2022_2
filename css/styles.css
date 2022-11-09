@@ -172,7 +172,7 @@ span{
 .elemento_area_pontuacao{
     font-size: 120%;
 }
-ul{
+div.carousel-item ul{
     list-style-type: none;
     color: #FFFFFF;
 }
