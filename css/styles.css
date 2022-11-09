@@ -1,11 +1,19 @@
 body{
     background-color: #D9D9D9;
 }
-.cabecalho_titulo{
-    background: #2AEB77;  
-    border: 1px solid #2AEB77;
+.tela_inicial{
+    background-color: #061329;
 }
-
+.cabecalho_titulo{
+    background: #000F90;  
+    border: 1px solid #000F90;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 .cat{
     text-decoration: none;
     font-family:sans-serif;
@@ -42,6 +50,21 @@ body{
         margin-left: 4%;
         margin-top: 20px;
     }
+    .classJogador{ 
+        margin: auto;
+        position: relative;
+        width: 380px;
+        height: 380px;
+        overflow: hidden;
+        border-radius: 50%; 
+    }
+    .jogador{ 
+        width: 100%; 
+        height: auto; 
+    }
+    .texto_inicial{
+        font-size: 150%; 
+    }
 }
 
 @media (min-width: 992px){
@@ -54,11 +77,27 @@ body{
     .navbar-toggler{
         display: none;
     }
+    .classJogador ,.classTecnico{
+        margin: auto; 
+        position: relative;
+        width: 180px;
+        height: 195px;
+        overflow: hidden;
+        border-radius: 50%; 
+    }
+    .jogador ,.tecnico{ 
+        width: 100%; 
+        height: auto; 
+    }
+    .texto_inicial{
+        font-size: 300%; 
+    }
+    
 }
 
 .menu_de_navegacoes{
-    background: #1AE884;
-    border: 1px solid #1AE884;
+    background: #0000A6;
+    border: 1px solid #0000A6;
     backdrop-filter: blur(2px);
 }
 
@@ -67,31 +106,100 @@ h1, h2{
     font-weight: 600;
     line-height: 49px;
     margin-top: 10px;
-    margin-left: 10px;
+    
 }
-article section{
-    background: #F6F6F6;
-    border-radius: 30px;
+section{
+    border-radius: 10px;
     margin-bottom: 30px;
-    margin-left: 10px;
 }
 
-.fundo_inicial{
-    background-color: #f6f6f6;
+
+.texto_inicial{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    color: #FFFFFF
 }
-.jogo_destaque, .jogador_destaque{
+
+.grupo{
+    border: 1px solid #5F7BFA;
+    border-radius: 10px;
+    background: #5F7BFA;
+    display: inline;
+
+}
+
+tr{
+    
+    border-bottom: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+th{
+    font-size:large;
     text-align: center;
 }
-
-.grupo_g{
-    border: 1px solid #1AE884;
-    border-radius: 10px;
-    background: #1AE884;
-
+th,td{
+    width: 90px;
+    height: 55px;
 }
 
+.times_tabela{
+    margin-left: 10px;
+}
+span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.dados_tabela{
+    text-align: center;
+}
+.dados_tabela:nth-child(2n+1){
+    background-color: lightgray;
+}
+.topicos{
+    margin-left: 15px;
+}
+.pontos{
+    margin-left: -5px;
+}
+.passado{
+    padding-left: 30px;
+}
+.bolas_passados{
+    border-radius: 50%;
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background-color: red;
+}
+.tabela{
+    margin-bottom: 10px;
+}
 
+.elemento_area_pontuacao{
+    font-size: 120%;
+}
+div.carousel-item ul{
+    list-style-type: none;
+    color: #FFFFFF;
+}
+.carousel{
+    border-radius: 25px;
+}
+.carousel-control-prev,.carousel-control-next    {
+    width: 4%
+}
 
+#jogadores1,#jogadores2,#jogadores3,#jogadores4,#jogadores5, #tecnico, #selecao_intro,#estatisticas_selecao{
+    display: none;
+}
 
-
-
+.dado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
