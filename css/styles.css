@@ -77,7 +77,7 @@ a{
     .navbar-toggler{
         display: none;
     }
-    .classJogador{
+    .classJogador ,.classTecnico{
         margin: auto; 
         position: relative;
         width: 180px;
@@ -85,7 +85,7 @@ a{
         overflow: hidden;
         border-radius: 50%; 
     }
-    .jogador{ 
+    .jogador ,.tecnico{ 
         width: 100%; 
         height: auto; 
     }
@@ -194,7 +194,7 @@ div.carousel-item ul{
     width: 4%
 }
 
-#jogadores1,#jogadores2,#jogadores3,#jogadores4,#jogadores5{
+#jogadores1,#jogadores2,#jogadores3,#jogadores4,#jogadores5, #tecnico, #selecao_intro,#estatisticas_selecao{
     display: none;
 }
 
