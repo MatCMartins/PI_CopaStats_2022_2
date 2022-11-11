@@ -1,237 +1,2357 @@
 {
-  "get": "players/squads",
+  "get": "players",
   "parameters": {
+    "season": "2022",
     "team": "17"
   },
   "errors": [],
-  "results": 1,
+  "results": 20,
   "paging": {
     "current": 1,
-    "total": 1
+    "total": 4
   },
   "response": [
     {
-      "team": {
-        "id": 17,
-        "name": "South Korea",
-        "logo": "https://media.api-sports.io/football/teams/17.png"
+      "player": {
+        "id": 2902,
+        "name": "Ju Se-Jong",
+        "firstname": "Se-Jong",
+        "lastname": "Ju",
+        "age": 32,
+        "birth": {
+          "date": "1990-10-30",
+          "place": "Anyang",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "176 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2902.png"
       },
-      "players": [
+      "statistics": [
         {
-          "id": 2891,
-          "name": "Gu Sung-Yun",
-          "age": 28,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/2891.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 1,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2907,
+        "name": "Lee Jin-Hyun",
+        "firstname": "Jin-Hyun",
+        "lastname": "Lee",
+        "age": 25,
+        "birth": {
+          "date": "1997-08-26",
+          "place": "Pohang",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "172 cm",
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2907.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34180,
+        "name": "Lee Jung-Hyub",
+        "firstname": "Jung-Hyub",
+        "lastname": "Lee",
+        "age": 31,
+        "birth": {
+          "date": "1991-06-24",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "186 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34180.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34379,
+        "name": "Lee Ju-Yong",
+        "firstname": "Ju-Yong",
+        "lastname": "Lee",
+        "age": 30,
+        "birth": {
+          "date": "1992-09-26",
+          "place": "Goyang",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "180 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34379.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34380,
+        "name": "Lee Yong",
+        "firstname": "Yong",
+        "lastname": "Lee",
+        "age": 36,
+        "birth": {
+          "date": "1986-12-24",
+          "place": "Seoul",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "180 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34380.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 11,
+            "lineups": 8,
+            "minutes": 794,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 3,
+            "out": 0,
+            "bench": 6
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 2890,
-          "name": "Jo Hyeon-Woo",
-          "age": 31,
-          "number": 21,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/2890.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 2,
+            "minutes": 163,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 2,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34386,
+        "name": "Han Seung-Gyu",
+        "firstname": "Seung-Gyu",
+        "lastname": "Han",
+        "age": 26,
+        "birth": {
+          "date": "1996-09-28",
+          "place": "Yongin",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "173 cm",
+        "weight": "65 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34386.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34423,
+        "name": "Park Joo-Ho",
+        "firstname": "Joo-Ho",
+        "lastname": "Park",
+        "age": 35,
+        "birth": {
+          "date": "1987-01-16",
+          "place": "Seoul",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "175 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34423.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34429,
+        "name": "In-Sung Kim",
+        "firstname": "In-Sung",
+        "lastname": "Kim",
+        "age": 33,
+        "birth": {
+          "date": "1989-09-09",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "180 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34429.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34481,
+        "name": "Kim Dae-Won",
+        "firstname": "Dae-Won",
+        "lastname": "Kim",
+        "age": 25,
+        "birth": {
+          "date": "1997-02-10",
+          "place": "Seoul",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "170 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34481.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 2892,
-          "name": "Seung-Gyu Kim",
-          "age": 32,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/2892.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34537,
+        "name": "Kim Young-Bin",
+        "firstname": "Young-Bin",
+        "lastname": "Kim",
+        "age": 31,
+        "birth": {
+          "date": "1991-09-20",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "184 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34537.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 9,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34554,
+        "name": "Yoon Bit-Garam",
+        "firstname": "Bit-Garam",
+        "lastname": "Yoon",
+        "age": 32,
+        "birth": {
+          "date": "1990-05-07",
+          "place": "Changwon",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "178 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34554.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34602,
+        "name": "Kim Dong-Jun",
+        "firstname": "Dong-Jun",
+        "lastname": "Kim",
+        "age": 28,
+        "birth": {
+          "date": "1994-12-19",
+          "place": "Suncheon",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "189 cm",
+        "weight": "85 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34602.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 34374,
-          "name": "Song Bum-Keun",
-          "age": 25,
-          "number": 12,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/34374.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 5
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34615,
+        "name": "Kim Dong-Hyun",
+        "firstname": "Dong-Hyun",
+        "lastname": "Kim",
+        "age": 25,
+        "birth": {
+          "date": "1997-06-11",
+          "place": "Seoul",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "182 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34615.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 11,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34647,
+        "name": "Jae-Ik Lee",
+        "firstname": "Jae-Ik",
+        "lastname": "Lee",
+        "age": 23,
+        "birth": {
+          "date": "1999-05-21",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34647.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 2894,
-          "name": "Hong Chul",
-          "age": 32,
-          "number": 14,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2894.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34666,
+        "name": "Cho Jae-Wan",
+        "firstname": "Jae-Wan",
+        "lastname": "Cho",
+        "age": 27,
+        "birth": {
+          "date": "1995-08-29",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "174 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34666.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34738,
+        "name": "Lee Yeong-Jae",
+        "firstname": "Yeong-Jae",
+        "lastname": "Lee",
+        "age": 28,
+        "birth": {
+          "date": "1994-09-13",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "175 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34738.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 2896,
-          "name": "Kim Jin-Su",
-          "age": 30,
-          "number": 3,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2896.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 44,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34757,
+        "name": "Lee Chang-Geun",
+        "firstname": "Chang-Geun",
+        "lastname": "Lee",
+        "age": 29,
+        "birth": {
+          "date": "1993-08-30",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "186 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/34757.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 99540,
+        "name": "Lee Ki-Je",
+        "firstname": "Ki-Je",
+        "lastname": "Lee",
+        "age": 31,
+        "birth": {
+          "date": "1991-07-09",
+          "place": "Jeju",
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "175 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/99540.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 236377,
+        "name": "Choi Ji-Mook",
+        "firstname": "Ji-Mook",
+        "lastname": "Choi",
+        "age": 24,
+        "birth": {
+          "date": "1998-10-09",
+          "place": null,
+          "country": "Korea Republic"
+        },
+        "nationality": "Korea Republic",
+        "height": "178 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/236377.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 30,
+            "name": "World Cup - Qualification Asia",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 2912,
-          "name": "Kim Moon-Hwan",
-          "age": 27,
-          "number": 15,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2912.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 306618,
+        "name": "Kang Seong-Jin",
+        "firstname": "Seong-Jin",
+        "lastname": "Kang",
+        "age": 19,
+        "birth": {
+          "date": "2003-03-26",
+          "place": null,
+          "country": "Korea Republic"
         },
+        "nationality": "Korea Republic",
+        "height": "178 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/306618.png"
+      },
+      "statistics": [
         {
-          "id": 34417,
-          "name": "Kim Tae-Hwan",
-          "age": 33,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/34417.png"
-        },
-        {
-          "id": 2898,
-          "name": "Kim Young-Gwon",
-          "age": 32,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2898.png"
-        },
-        {
-          "id": 2899,
-          "name": "Kwon Kyung-Won",
-          "age": 30,
-          "number": 20,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2899.png"
-        },
-        {
-          "id": 33759,
-          "name": "Lee Sang-Min",
-          "age": 24,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/33759.png"
-        },
-        {
-          "id": 2900,
-          "name": "Park Ji-Soo",
-          "age": 28,
-          "number": 18,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2900.png"
-        },
-        {
-          "id": 200799,
-          "name": "Park Min-Gyu",
-          "age": 27,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/200799.png"
-        },
-        {
-          "id": 34504,
-          "name": "Yoon Jong-Gyu",
-          "age": 24,
-          "number": 2,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/34504.png"
-        },
-        {
-          "id": 34239,
-          "name": "Cho Yu-Min",
-          "age": 26,
-          "number": 4,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/34239.png"
-        },
-        {
-          "id": 2903,
-          "name": "Woo-Young Jung",
-          "age": 33,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/2903.png"
-        },
-        {
-          "id": 34695,
-          "name": "Ko Seung-Beom",
-          "age": 28,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/34695.png"
-        },
-        {
-          "id": 2913,
-          "name": "Kwon Chang-Hoon",
-          "age": 28,
-          "number": 22,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/2913.png"
-        },
-        {
-          "id": 2909,
-          "name": "Paik Seung-Ho",
-          "age": 25,
-          "number": 8,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/2909.png"
-        },
-        {
-          "id": 34395,
-          "name": "Son Jun-Ho",
-          "age": 30,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/34395.png"
-        },
-        {
-          "id": 34132,
-          "name": "Um Won-Sang",
-          "age": 23,
-          "number": 11,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/34132.png"
-        },
-        {
-          "id": 304958,
-          "name": "Yang Hyun-Jun",
-          "age": 20,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/304958.png"
-        },
-        {
-          "id": 34211,
-          "name": "Cho Gue-Sung",
-          "age": 24,
-          "number": 9,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/34211.png"
-        },
-        {
-          "id": 34168,
-          "name": "Kim Jin-Gyu",
-          "age": 25,
-          "number": 10,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/34168.png"
-        },
-        {
-          "id": 2908,
-          "name": "Na Sang-Ho",
-          "age": 26,
-          "number": 7,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/2908.png"
-        },
-        {
-          "id": 34710,
-          "name": "Oh Hyeon-Gyu",
-          "age": 21,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/34710.png"
-        },
-        {
-          "id": 34598,
-          "name": "Song Min-Kyu",
-          "age": 23,
-          "number": 13,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/34598.png"
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         }
       ]
     }

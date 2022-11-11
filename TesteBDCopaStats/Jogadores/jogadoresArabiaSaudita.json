@@ -1,285 +1,1913 @@
 {
-  "get": "players/squads",
+  "get": "players",
   "parameters": {
+    "season": "2021",
     "team": "23"
   },
   "errors": [],
-  "results": 1,
+  "results": 20,
   "paging": {
     "current": 1,
-    "total": 1
+    "total": 3
   },
   "response": [
     {
-      "team": {
-        "id": 23,
-        "name": "Saudi Arabia",
-        "logo": "https://media.api-sports.io/football/teams/23.png"
+      "player": {
+        "id": 2627,
+        "name": "Mohammed Abdoh Ibrahim Al Khabrani",
+        "firstname": "Mohammed Abdoh Ibrahim",
+        "lastname": "Al Khabrani",
+        "age": 29,
+        "birth": {
+          "date": "1993-10-14",
+          "place": null,
+          "country": "Saudi Arabia"
+        },
+        "nationality": "Saudi Arabia",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2627.png"
       },
-      "players": [
+      "statistics": [
         {
-          "id": 44411,
-          "name": "Mohammed Khalil Ibrahim Al Owais",
-          "age": 31,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/44411.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2630,
+        "name": "Ziyad Abdulwahed Al Sahafi Al Muwallad",
+        "firstname": "Ziyad Abdulwahed",
+        "lastname": "Al Sahafi Al Muwallad",
+        "age": 28,
+        "birth": {
+          "date": "1994-02-03",
+          "place": "Jeddah",
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "184 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2630.png"
+      },
+      "statistics": [
         {
-          "id": 44591,
-          "name": "Fawaz Balqassem Abdo Al Qarni",
-          "age": 30,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/44591.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 68,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2641,
+        "name": "Abdulfattah Adam Ahmad Mohammed",
+        "firstname": "Abdulfattah",
+        "lastname": "Adam Ahmad Mohammed",
+        "age": 27,
+        "birth": {
+          "date": "1995-01-01",
+          "place": null,
+          "country": "Niger"
         },
+        "nationality": "Saudi Arabia",
+        "height": "178 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2641.png"
+      },
+      "statistics": [
         {
-          "id": 44709,
-          "name": "Mohammed Faraj Al Rubaie Al Yami",
-          "age": 25,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/44709.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 37121,
+        "name": "Mukhtar Abdullah Ali Shaikh",
+        "firstname": "Mukhtar Abdullah",
+        "lastname": "Ali Shaikh",
+        "age": 25,
+        "birth": {
+          "date": "1997-10-30",
+          "place": "Muqdisho",
+          "country": "Somalia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "179 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/37121.png"
+      },
+      "statistics": [
         {
-          "id": 193288,
-          "name": "Nawaf Dhahi Faisal Al Suweiti Al Aqidi",
-          "age": 22,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/193288.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44294,
+        "name": "Zaid Majed Zaid Al Bawardi",
+        "firstname": "Zaid Majed Zaid",
+        "lastname": "Al Bawardi",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-26",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "191 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44294.png"
+      },
+      "statistics": [
         {
-          "id": 44589,
-          "name": "Amin Mohammedsaleh Ahmed Jan Al Bukhari",
-          "age": 25,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/44589.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44336,
+        "name": "Ahmed Mohammed Sharahili",
+        "firstname": "Ahmed Mohammed",
+        "lastname": "Sharahili",
+        "age": 28,
+        "birth": {
+          "date": "1994-05-08",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "185 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44336.png"
+      },
+      "statistics": [
         {
-          "id": 44594,
-          "name": "Saud Abdullah Salim Abdulhamid",
-          "age": 23,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44594.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44373,
+        "name": "Abdulmajeed Mohammed Issa Al Sulaiheem",
+        "firstname": "Abdulmajeed Mohammed Issa",
+        "lastname": "Al Sulaiheem",
+        "age": 28,
+        "birth": {
+          "date": "1994-05-15",
+          "place": "Riyadh",
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "165 cm",
+        "weight": "63 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44373.png"
+      },
+      "statistics": [
         {
-          "id": 44475,
-          "name": "Abdulelah Ali Awadh Al Amri",
-          "age": 25,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44475.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44374,
+        "name": "Turki Marwan Saad Al Ammar",
+        "firstname": "Turki Marwan Saad",
+        "lastname": "Al Ammar",
+        "age": 23,
+        "birth": {
+          "date": "1999-09-24",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "173 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44374.png"
+      },
+      "statistics": [
         {
-          "id": 44329,
-          "name": "Mohammed Ibrahim Al Burayk",
-          "age": 30,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44329.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44411,
+        "name": "Mohammed Khalil Ibrahim Al Owais",
+        "firstname": "Mohammed Khalil Ibrahim",
+        "lastname": "Al Owais",
+        "age": 31,
+        "birth": {
+          "date": "1991-10-10",
+          "place": "Al-Hasa",
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "185 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44411.png"
+      },
+      "statistics": [
         {
-          "id": 44309,
-          "name": "Sultan Abdullah Salim Al Ghannam",
-          "age": 28,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44309.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44425,
+        "name": "Abdullah Hassoun Tarmin",
+        "firstname": "Abdullah Hassoun",
+        "lastname": "Tarmin",
+        "age": 25,
+        "birth": {
+          "date": "1997-03-19",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "176 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44425.png"
+      },
+      "statistics": [
         {
-          "id": 44331,
-          "name": "Yasser Gharsan Al Shahrani",
-          "age": 30,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44331.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44429,
+        "name": "Housain Ali Jassim Al Moqahwi",
+        "firstname": "Housain Ali Jassim",
+        "lastname": "Al Moqahwi",
+        "age": 34,
+        "birth": {
+          "date": "1988-03-24",
+          "place": "Jeddah",
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "173 cm",
+        "weight": "64 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44429.png"
+      },
+      "statistics": [
         {
-          "id": 44362,
-          "name": "Hassan Mohammed Osama Al Tambakti",
-          "age": 23,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44362.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44447,
+        "name": "Abdulrahman Abdullah Mohammed Ghareeb",
+        "firstname": "Abdulrahman Abdullah Mohammed",
+        "lastname": "Ghareeb",
+        "age": 25,
+        "birth": {
+          "date": "1997-03-31",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "165 cm",
+        "weight": "60 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44447.png"
+      },
+      "statistics": [
         {
-          "id": 44653,
-          "name": "Ahmed Mohammed Bamasud",
-          "age": 27,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44653.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44501,
+        "name": "Habib Yasseen Kadhim Al Wotayan",
+        "firstname": "Habib Yasseen Kadhim",
+        "lastname": "Al Wotayan",
+        "age": 26,
+        "birth": {
+          "date": "1996-08-08",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "183 cm",
+        "weight": "87 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44501.png"
+      },
+      "statistics": [
         {
-          "id": 44332,
-          "name": "Ali Hadi Al Bulayhi",
-          "age": 33,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44332.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44585,
+        "name": "Mohammed Marzouq Aqeel Al Khamsawi Al Kuwaykibi",
+        "firstname": "Mohammed Marzouq Aqeel",
+        "lastname": "Al Khamsawi Al Kuwaykibi",
+        "age": 28,
+        "birth": {
+          "date": "1994-12-02",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "168 cm",
+        "weight": "59 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44585.png"
+      },
+      "statistics": [
         {
-          "id": 44303,
-          "name": "Abdullah Mohammed Musa Madu",
-          "age": 29,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/44303.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 89,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44695,
+        "name": "Hassan Mohammed Hassan Al Amri",
+        "firstname": "Hassan Mohammed Hassan",
+        "lastname": "Al Amri",
+        "age": 28,
+        "birth": {
+          "date": "1994-04-21",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "168 cm",
+        "weight": "55 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44695.png"
+      },
+      "statistics": [
         {
-          "id": 147812,
-          "name": "Ayman Yahya Salem Ahmed",
-          "age": 21,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/147812.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44709,
+        "name": "Mohammed Faraj Al Rubaie Al Yami",
+        "firstname": "Mohammed Faraj",
+        "lastname": "Al Rubaie Al Yami",
+        "age": 25,
+        "birth": {
+          "date": "1997-08-14",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "188 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44709.png"
+      },
+      "statistics": [
         {
-          "id": 44338,
-          "name": "Nawaf Shaker Al Abid",
-          "age": 32,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44338.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44741,
+        "name": "Abdullah Hussain Essa Al-Owaisher",
+        "firstname": "Abdullah Hussain Essa",
+        "lastname": "Al-Owaisher",
+        "age": 31,
+        "birth": {
+          "date": "1991-05-13",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "184 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44741.png"
+      },
+      "statistics": [
         {
-          "id": 44339,
-          "name": "Nasser Eissa Shafi Al Dawsari",
-          "age": 24,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44339.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44754,
+        "name": "Ali Hassan Al Asmari",
+        "firstname": "Ali Hassan",
+        "lastname": "Al Asmari",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-12",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "185 cm",
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44754.png"
+      },
+      "statistics": [
         {
-          "id": 44340,
-          "name": "Salem Mohammed Al Dawsari",
-          "age": 31,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44340.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 30,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 104679,
+        "name": "Saeed Awadh Al Rubaie Al Yami",
+        "firstname": "Saeed Awadh",
+        "lastname": "Al Rubaie Al Yami",
+        "age": 28,
+        "birth": {
+          "date": "1994-06-04",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": "183 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/104679.png"
+      },
+      "statistics": [
         {
-          "id": 44341,
-          "name": "Salman Mohammed Al Faraj",
-          "age": 33,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44341.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 193289,
+        "name": "Mohammed Khalil Maran",
+        "firstname": "Mohammed Khalil",
+        "lastname": "Maran",
+        "age": 21,
+        "birth": {
+          "date": "2001-02-15",
+          "place": null,
+          "country": "Saudi Arabia"
         },
+        "nationality": "Saudi Arabia",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/193289.png"
+      },
+      "statistics": [
         {
-          "id": 44509,
-          "name": "Ali Sadiq Nasser Al Hassan",
-          "age": 25,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44509.png"
-        },
-        {
-          "id": 44692,
-          "name": "Sami Khalil Al Najei",
-          "age": 25,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44692.png"
-        },
-        {
-          "id": 44347,
-          "name": "Hattan Sultan Ahmad Bahebri",
-          "age": 30,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44347.png"
-        },
-        {
-          "id": 44349,
-          "name": "Mohammed Ibrahim Kanno",
-          "age": 28,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44349.png"
-        },
-        {
-          "id": 44350,
-          "name": "Abdullah Ibrahim Otayf",
-          "age": 30,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44350.png"
-        },
-        {
-          "id": 44483,
-          "name": "Abdulelah Saad Hameed Al Malki",
-          "age": 28,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/44483.png"
-        },
-        {
-          "id": 104652,
-          "name": "Riyadh Mohammed Sharahili",
-          "age": 29,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/104652.png"
-        },
-        {
-          "id": 44382,
-          "name": "Abdullah Abdulrahman Al Hamdan",
-          "age": 23,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/44382.png"
-        },
-        {
-          "id": 44617,
-          "name": "Fahad Mosaed Al Muwallad Al Harbi",
-          "age": 28,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/44617.png"
-        },
-        {
-          "id": 44586,
-          "name": "Abdulrahman Ali Hassan Al Obud",
-          "age": 27,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/44586.png"
-        },
-        {
-          "id": 44551,
-          "name": "Saleh Khalid Mohammed Al Shehri",
-          "age": 29,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/44551.png"
-        },
-        {
-          "id": 268087,
-          "name": "Haitham Mohammed Asiri",
-          "age": 21,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/268087.png"
-        },
-        {
-          "id": 44324,
-          "name": "Firas Tariq Nasser Al Brikan",
-          "age": 22,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/44324.png"
-        },
-        {
-          "id": 301526,
-          "name": "Abdullah Hadi Radif",
-          "age": 19,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/301526.png"
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2021
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         }
       ]
     }

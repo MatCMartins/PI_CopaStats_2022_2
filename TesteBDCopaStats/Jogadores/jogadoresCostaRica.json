@@ -2,45 +2,45 @@
   "get": "players",
   "parameters": {
     "season": "2022",
-    "team": "13"
+    "team": "29"
   },
   "errors": [],
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 5
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 141,
-        "name": "Moussa Wagué",
-        "firstname": "Moussa",
-        "lastname": "Wagué",
-        "age": 24,
+        "id": 731,
+        "name": "K. Navas",
+        "firstname": "Keylor Antonio",
+        "lastname": "Navas Gamboa",
+        "age": 36,
         "birth": {
-          "date": "1998-10-04",
-          "place": "Bignona",
-          "country": "Senegal"
+          "date": "1986-12-15",
+          "place": "San Isidro",
+          "country": "Costa Rica"
         },
-        "nationality": "Senegal",
-        "height": "177 cm",
-        "weight": "70 kg",
+        "nationality": "Costa Rica",
+        "height": "185 cm",
+        "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/141.png"
+        "photo": "https://media.api-sports.io/football/players/731.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 10,
+            "name": "Friendlies",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
             "flag": null,
             "season": 2022
           },
@@ -49,7 +49,7 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
@@ -108,136 +108,1276 @@
     },
     {
       "player": {
-        "id": 406,
-        "name": "Salif Sané",
-        "firstname": "Salif",
-        "lastname": "Sané",
-        "age": 32,
-        "birth": {
-          "date": "1990-08-25",
-          "place": "Lormont",
-          "country": "France"
-        },
-        "nationality": "Senegal",
-        "height": "196 cm",
-        "weight": "85 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/406.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 1915,
-        "name": "B. Sarr",
-        "firstname": "Bouna Junior",
-        "lastname": "Sarr",
+        "id": 2830,
+        "name": "F. Calvo",
+        "firstname": "Francisco Javier",
+        "lastname": "Calvo Quesada",
         "age": 30,
         "birth": {
-          "date": "1992-01-31",
-          "place": "Lyon",
-          "country": "France"
+          "date": "1992-07-08",
+          "place": "San José",
+          "country": "Costa Rica"
         },
-        "nationality": "Senegal",
-        "height": "177 cm",
-        "weight": "69 kg",
+        "nationality": "Costa Rica",
+        "height": "180 cm",
+        "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1915.png"
+        "photo": "https://media.api-sports.io/football/players/2830.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 10,
+            "name": "Friendlies",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 6,
-            "lineups": 6,
-            "minutes": 518,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2832,
+        "name": "Keysher Fuller Spence",
+        "firstname": "Keysher",
+        "lastname": "Fuller Spence",
+        "age": 28,
+        "birth": {
+          "date": "1994-07-12",
+          "place": "Puerto Limón",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "183 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2832.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 102,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2834,
+        "name": "R. Matarrita",
+        "firstname": "Ronald Alberto",
+        "lastname": "Matarrita Ulate",
+        "age": 28,
+        "birth": {
+          "date": "1994-07-09",
+          "place": "Alajuela",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2834.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2836,
+        "name": "J. Vargas",
+        "firstname": "Juan Pablo",
+        "lastname": "Vargas Campos",
+        "age": 27,
+        "birth": {
+          "date": "1995-06-06",
+          "place": "Valverde Vega",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "194 cm",
+        "weight": "88 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2836.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2837,
+        "name": "Kendall Jamaal Waston Manley",
+        "firstname": "Kendall Jamaal",
+        "lastname": "Waston Manley",
+        "age": 34,
+        "birth": {
+          "date": "1988-01-01",
+          "place": "San José",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "196 cm",
+        "weight": "106 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2837.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2840,
+        "name": "Celso Borges Mora",
+        "firstname": "Celso",
+        "lastname": "Borges Mora",
+        "age": 34,
+        "birth": {
+          "date": "1988-05-27",
+          "place": "San José",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "182 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2840.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2842,
+        "name": "R. Leal",
+        "firstname": "Randall Enrique",
+        "lastname": "Leal Arley",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-14",
+          "place": "Moravia",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "169 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2842.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2848,
+        "name": "José Guillermo Ortiz Picado",
+        "firstname": "José Guillermo",
+        "lastname": "Ortiz Picado",
+        "age": 30,
+        "birth": {
+          "date": "1992-06-20",
+          "place": "La Uruca",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "180 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2848.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 13883,
+        "name": "Ricardo José Blanco Mora",
+        "firstname": "Ricardo José",
+        "lastname": "Blanco Mora",
+        "age": 33,
+        "birth": {
+          "date": "1989-05-12",
+          "place": "Alajuela",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "172 cm",
+        "weight": "65 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/13883.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 13937,
+        "name": "Orlando Moisés Galo Calderón",
+        "firstname": "Orlando Moisés",
+        "lastname": "Galo Calderón",
+        "age": 22,
+        "birth": {
+          "date": "2000-08-11",
+          "place": "Puntarenas",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/13937.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 13939,
+        "name": "Carlos Manuel Martínez Castro",
+        "firstname": "Carlos Manuel",
+        "lastname": "Martínez Castro",
+        "age": 23,
+        "birth": {
+          "date": "1999-03-30",
+          "place": "Santa Ana",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "176 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/13939.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 103,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 14009,
+        "name": "Allen Esteban Guevara Zúñiga",
+        "firstname": "Allen Esteban",
+        "lastname": "Guevara Zúñiga",
+        "age": 33,
+        "birth": {
+          "date": "1989-04-16",
+          "place": null,
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "161 cm",
+        "weight": "57 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/14009.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 14106,
+        "name": "Douglas Andrey López Araya",
+        "firstname": "Douglas Andrey",
+        "lastname": "López Araya",
+        "age": 24,
+        "birth": {
+          "date": "1998-09-21",
+          "place": "Alajuela",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "180 cm",
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/14106.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19895,
+        "name": "B. Oviedo",
+        "firstname": "Bryan Josué",
+        "lastname": "Oviedo Jiménez",
+        "age": 32,
+        "birth": {
+          "date": "1990-02-18",
+          "place": "San José",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "172 cm",
+        "weight": "60 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/19895.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 155,
             "number": null,
             "position": "Defender",
             "rating": null,
@@ -282,81 +1422,7 @@
             "committed": null
           },
           "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
+            "yellow": 1,
             "yellowred": 0,
             "red": 0
           },
@@ -372,1331 +1438,43 @@
     },
     {
       "player": {
-        "id": 2994,
-        "name": "Pape Moussa Konaté",
-        "firstname": "Pape Moussa",
-        "lastname": "Konaté",
-        "age": 29,
+        "id": 135148,
+        "name": "P. Sequeira",
+        "firstname": "Patrick Gilmar",
+        "lastname": "Sequeira Mejías",
+        "age": 23,
         "birth": {
-          "date": "1993-04-03",
-          "place": "Mbour",
-          "country": "Senegal"
+          "date": "1999-03-01",
+          "place": "Limón",
+          "country": "Costa Rica"
         },
-        "nationality": "Senegal",
-        "height": "181 cm",
-        "weight": "78 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2994.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 8450,
-        "name": "Abdoulaye Seck",
-        "firstname": "Abdoulaye",
-        "lastname": "Seck",
-        "age": 30,
-        "birth": {
-          "date": "1992-06-04",
-          "place": "M'Bour",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "192 cm",
-        "weight": "95 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/8450.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 1,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 7
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 15470,
-        "name": "Alioune Badara Samb",
-        "firstname": "Alioune",
-        "lastname": "Badara Samb",
-        "age": 33,
-        "birth": {
-          "date": "1989-10-01",
-          "place": "Dakar",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
+        "nationality": "Costa Rica",
         "height": "190 cm",
-        "weight": "83 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/15470.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 20533,
-        "name": "O. Nguette",
-        "firstname": "Opa",
-        "lastname": "Nguette",
-        "age": 28,
-        "birth": {
-          "date": "1994-07-08",
-          "place": "Mantes-la-Jolie",
-          "country": "France"
-        },
-        "nationality": "Senegal",
-        "height": "182 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/20533.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 20659,
-        "name": "A. Mendy",
-        "firstname": "Arial Benabent",
-        "lastname": "Mendy",
-        "age": 28,
-        "birth": {
-          "date": "1994-11-07",
-          "place": "Ziguinchor",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "180 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/20659.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 20878,
-        "name": "Saliou Ciss",
-        "firstname": "Saliou",
-        "lastname": "Ciss",
-        "age": 33,
-        "birth": {
-          "date": "1989-06-15",
-          "place": "Kholpa",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "174 cm",
-        "weight": "72 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/20878.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 8,
-            "lineups": 7,
-            "minutes": 667,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 2,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 22162,
-        "name": "R. Coly",
-        "firstname": "Racine",
-        "lastname": "Coly",
-        "age": 27,
-        "birth": {
-          "date": "1995-12-08",
-          "place": "Dakar",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "185 cm",
         "weight": "70 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/22162.png"
+        "photo": "https://media.api-sports.io/football/players/135148.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
             "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50777,
-        "name": "C. Diop",
-        "firstname": "Clément",
-        "lastname": "Diop Degoud",
-        "age": 29,
-        "birth": {
-          "date": "1993-10-13",
-          "place": "Paris",
-          "country": "France"
-        },
-        "nationality": "Senegal",
-        "height": "185 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50777.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 104059,
-        "name": "Pape Seydou N’Diaye",
-        "firstname": "Pape Seydou",
-        "lastname": "N’Diaye",
-        "age": 29,
-        "birth": {
-          "date": "1993-02-11",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/104059.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 144730,
-        "name": "Alpha Richard Diounkou Tecagne",
-        "firstname": "Alpha Richard",
-        "lastname": "Diounkou Tecagne",
-        "age": 21,
-        "birth": {
-          "date": "2001-10-10",
-          "place": "Sindone",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "183 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/144730.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
           },
           "league": {
             "id": 10,
             "name": "Friendlies",
             "country": "World",
             "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 203468,
-        "name": "D. Lopy",
-        "firstname": "Dion",
-        "lastname": "Lopy",
-        "age": 20,
-        "birth": {
-          "date": "2002-02-02",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "186 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/203468.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 18,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 293023,
-        "name": "Jean Rémi Bocandé",
-        "firstname": "Jean Rémi",
-        "lastname": "Bocandé",
-        "age": 34,
-        "birth": {
-          "date": "1988-12-29",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/293023.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 293986,
-        "name": "El Hadji Moutarou Baldé",
-        "firstname": "El Hadji Moutarou",
-        "lastname": "Baldé",
-        "age": 29,
-        "birth": {
-          "date": "1993-10-05",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/293986.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 0,
-            "minutes": 17,
+            "minutes": 51,
             "number": null,
-            "position": "Defender",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
@@ -1750,12 +1528,223 @@
             "missed": null,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 196255,
+        "name": "Aarón René Suárez Zúñiga",
+        "firstname": "Aarón René",
+        "lastname": "Suárez Zúñiga",
+        "age": 20,
+        "birth": {
+          "date": "2002-06-27",
+          "place": "San José",
+          "country": "Costa Rica"
         },
+        "nationality": "Costa Rica",
+        "height": "176 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/196255.png"
+      },
+      "statistics": [
         {
           "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 74,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 196480,
+        "name": "Carlos Andrei Mora Montoya",
+        "firstname": "Carlos Andrei",
+        "lastname": "Mora Montoya",
+        "age": 21,
+        "birth": {
+          "date": "2001-03-18",
+          "place": "San José",
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": "178 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/196480.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 46,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 263331,
+        "name": "Ian Elijah Lawrence Escoe",
+        "firstname": "Ian Elijah",
+        "lastname": "Lawrence Escoe",
+        "age": 20,
+        "birth": {
+          "date": "2002-05-28",
+          "place": null,
+          "country": "Costa Rica"
+        },
+        "nationality": "Costa Rica",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/263331.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
           },
           "league": {
             "id": 10,
@@ -1829,313 +1818,28 @@
     },
     {
       "player": {
-        "id": 321625,
-        "name": "Mohamed Rassoul Ba",
-        "firstname": "Mohamed Rassoul",
-        "lastname": "Ba",
-        "age": 21,
-        "birth": {
-          "date": "2001-02-12",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/321625.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 321627,
-        "name": "Serigne Saliou Gueye",
-        "firstname": "Serigne Saliou",
-        "lastname": "Gueye",
+        "id": 270648,
+        "name": "Juan Luis Pérez Rodríguez",
+        "firstname": "Juan Luis",
+        "lastname": "Pérez Rodríguez",
         "age": 23,
         "birth": {
-          "date": "1999-01-10",
-          "place": null,
-          "country": "Senegal"
+          "date": "1999-06-29",
+          "place": "Ciudad Quesada",
+          "country": "Costa Rica"
         },
-        "nationality": "Senegal",
+        "nationality": "Nicaragua",
         "height": null,
         "weight": null,
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/321627.png"
+        "photo": "https://media.api-sports.io/football/players/270648.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
             "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 339419,
-        "name": "Elhadj Mané",
-        "firstname": "Elhadj",
-        "lastname": "Mané",
-        "age": 21,
-        "birth": {
-          "date": "2001-06-08",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/339419.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 374070,
-        "name": "Abdoulaye Diedhiou",
-        "firstname": "Abdoulaye",
-        "lastname": "Diedhiou",
-        "age": 22,
-        "birth": {
-          "date": "2000-07-12",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "175 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/374070.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
+            "name": "Costa Rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
           },
           "league": {
             "id": 10,

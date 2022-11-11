@@ -2,39 +2,39 @@
   "get": "players",
   "parameters": {
     "season": "2022",
-    "team": "7"
+    "team": "26"
   },
   "errors": [],
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 3
+    "total": 4
   },
   "response": [
     {
       "player": {
-        "id": 237,
-        "name": "G. Pereiro",
-        "firstname": "Gastón Rodrigo",
-        "lastname": "Pereiro López",
-        "age": 27,
+        "id": 6,
+        "name": "L. Balerdi",
+        "firstname": "Leonardo Julián",
+        "lastname": "Balerdi Rosa",
+        "age": 23,
         "birth": {
-          "date": "1995-06-11",
-          "place": "Montevideo",
-          "country": "Uruguay"
+          "date": "1999-01-26",
+          "place": "Villa Mercedes",
+          "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "188 cm",
-        "weight": "76 kg",
+        "nationality": "Argentina",
+        "height": "187 cm",
+        "weight": "85 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/237.png"
+        "photo": "https://media.api-sports.io/football/players/6.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 34,
@@ -45,85 +45,11 @@
             "season": 2022
           },
           "games": {
-            "appearences": 3,
-            "lineups": 0,
-            "minutes": 28,
-            "number": null,
-            "position": "Attacker",
-            "rating": "7.000000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 0,
-            "bench": 8
-          },
-          "shots": {
-            "total": 2,
-            "on": 1
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 20,
-            "key": 3,
-            "accuracy": 4
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 4,
-            "won": 1
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
             "appearences": 0,
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Attacker",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
@@ -182,28 +108,28 @@
     },
     {
       "player": {
-        "id": 429,
-        "name": "F. Muslera",
-        "firstname": "Néstor Fernando",
-        "lastname": "Muslera Micol",
-        "age": 36,
+        "id": 529,
+        "name": "N. Tagliafico",
+        "firstname": "Nicolás Alejandro",
+        "lastname": "Tagliafico",
+        "age": 30,
         "birth": {
-          "date": "1986-06-16",
-          "place": "Buenos Aires",
+          "date": "1992-08-31",
+          "place": "Rafael Calzada",
           "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "190 cm",
-        "weight": "84 kg",
+        "nationality": "Argentina",
+        "height": "172 cm",
+        "weight": "65 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/429.png"
+        "photo": "https://media.api-sports.io/football/players/529.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 34,
@@ -214,653 +140,51 @@
             "season": 2022
           },
           "games": {
-            "appearences": 10,
-            "lineups": 10,
-            "minutes": 900,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": "6.880000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 14,
-            "assists": null,
-            "saves": 36
-          },
-          "passes": {
-            "total": 215,
-            "key": null,
-            "accuracy": 12
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 3,
-            "won": 1
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 120,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 854,
-        "name": "M. Cáceres",
-        "firstname": "José Martín",
-        "lastname": "Cáceres Silva",
-        "age": 35,
-        "birth": {
-          "date": "1987-04-07",
-          "place": "Montevideo",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "180 cm",
-        "weight": "78 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/854.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 11,
+            "appearences": 9,
             "lineups": 8,
-            "minutes": 772,
+            "minutes": 753,
             "number": null,
             "position": "Defender",
-            "rating": "6.620000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 0,
-            "bench": 8
-          },
-          "shots": {
-            "total": 4,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 301,
-            "key": 3,
-            "accuracy": 22
-          },
-          "tackles": {
-            "total": 13,
-            "blocks": 2,
-            "interceptions": 10
-          },
-          "duels": {
-            "total": 46,
-            "won": 23
-          },
-          "dribbles": {
-            "attempts": 2,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 3,
-            "committed": 8
-          },
-          "cards": {
-            "yellow": 3,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 208,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
+            "rating": "6.966666",
             "captain": false
           },
           "substitutes": {
             "in": 1,
-            "out": 0,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 1477,
-        "name": "S. Coates",
-        "firstname": "Sebastián",
-        "lastname": "Coates Nión",
-        "age": 32,
-        "birth": {
-          "date": "1990-10-07",
-          "place": "Montevideo",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "196 cm",
-        "weight": "92 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1477.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 360,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.775000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
             "out": 0,
             "bench": 6
           },
           "shots": {
-            "total": 2,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 148,
-            "key": null,
-            "accuracy": 28
-          },
-          "tackles": {
-            "total": 12,
-            "blocks": 3,
-            "interceptions": 8
-          },
-          "duels": {
-            "total": 26,
-            "won": 18
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 3
-          },
-          "cards": {
-            "yellow": 2,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 235,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2608,
-        "name": "Martín Nicolás Campaña Delgado",
-        "firstname": "Martín Nicolás",
-        "lastname": "Campaña Delgado",
-        "age": 33,
-        "birth": {
-          "date": "1989-05-29",
-          "place": "Maldonado",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "186 cm",
-        "weight": "85 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2608.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 360,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 12
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2614,
-        "name": "N. Nández",
-        "firstname": "Nahitan Michel",
-        "lastname": "Nández Acosta",
-        "age": 27,
-        "birth": {
-          "date": "1995-12-28",
-          "place": "Punta del Este",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "172 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2614.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 13,
-            "lineups": 11,
-            "minutes": 917,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.415384",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 5,
-            "bench": 2
-          },
-          "shots": {
             "total": 5,
-            "on": 2
+            "on": null
           },
           "goals": {
             "total": 0,
             "conceded": 0,
-            "assists": 2,
+            "assists": null,
             "saves": null
           },
           "passes": {
-            "total": 287,
-            "key": 9,
-            "accuracy": 15
+            "total": 385,
+            "key": 7,
+            "accuracy": 36
           },
           "tackles": {
-            "total": 15,
-            "blocks": null,
-            "interceptions": 11
+            "total": 13,
+            "blocks": 1,
+            "interceptions": 15
           },
           "duels": {
-            "total": 127,
-            "won": 47
+            "total": 71,
+            "won": 38
           },
           "dribbles": {
-            "attempts": 23,
-            "success": 9,
+            "attempts": 4,
+            "success": 3,
             "past": null
           },
           "fouls": {
-            "drawn": 9,
-            "committed": 18
+            "drawn": 13,
+            "committed": 21
           },
           "cards": {
             "yellow": 3,
@@ -877,801 +201,9 @@
         },
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 10297,
-        "name": "G. De Amores",
-        "firstname": "Guillermo Rafael",
-        "lastname": "De Amores Ravelo",
-        "age": 28,
-        "birth": {
-          "date": "1994-10-19",
-          "place": "San Jacinto",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "186 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/10297.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 11731,
-        "name": "Germán Alexis Rolín Fernández",
-        "firstname": "Germán Alexis",
-        "lastname": "Rolín Fernández",
-        "age": 33,
-        "birth": {
-          "date": "1989-02-07",
-          "place": "Montevideo",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "186 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/11731.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35931,
-        "name": "S. Sosa",
-        "firstname": "Carlos Sebastián",
-        "lastname": "Sosa Silva",
-        "age": 36,
-        "birth": {
-          "date": "1986-08-19",
-          "place": "Montevideo",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "184 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35931.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 14,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 36494,
-        "name": "Yonatan Irrazábal Condines",
-        "firstname": "Yonatan",
-        "lastname": "Irrazábal Condines",
-        "age": 34,
-        "birth": {
-          "date": "1988-02-12",
-          "place": "Montevideo",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "181 cm",
-        "weight": "81 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/36494.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50077,
-        "name": "Sergio Ramón Rochet Álvarez",
-        "firstname": "Sergio Ramón",
-        "lastname": "Rochet Álvarez",
-        "age": 29,
-        "birth": {
-          "date": "1993-03-23",
-          "place": "Nueva Palmira",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "190 cm",
-        "weight": "82 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50077.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 360,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 8
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 136,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51535,
-        "name": "S. Cáceres",
-        "firstname": "Sebastián Enzo",
-        "lastname": "Cáceres Ramos",
-        "age": 23,
-        "birth": {
-          "date": "1999-08-18",
-          "place": "Montevideo",
-          "country": "Uruguay"
-        },
-        "nationality": "Uruguay",
-        "height": "180 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51535.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 10,
@@ -1693,7 +225,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 1
           },
           "shots": {
             "total": null,
@@ -1745,28 +277,28 @@
     },
     {
       "player": {
-        "id": 51553,
-        "name": "F. Martínez",
-        "firstname": "Federico Andrés",
-        "lastname": "Martínez Berroa",
-        "age": 26,
+        "id": 576,
+        "name": "E. Salvio",
+        "firstname": "Eduardo Antonio",
+        "lastname": "Salvio",
+        "age": 32,
         "birth": {
-          "date": "1996-02-28",
-          "place": "Montevideo",
-          "country": "Uruguay"
+          "date": "1990-07-13",
+          "place": "Avellaneda",
+          "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "175 cm",
-        "weight": "72 kg",
+        "nationality": "Argentina",
+        "height": "172 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51553.png"
+        "photo": "https://media.api-sports.io/football/players/576.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 34,
@@ -1779,10 +311,10 @@
           "games": {
             "appearences": 1,
             "lineups": 0,
-            "minutes": 6,
+            "minutes": 24,
             "number": null,
-            "position": "Attacker",
-            "rating": "6.300000",
+            "position": "Midfielder",
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
@@ -1791,7 +323,7 @@
             "bench": 2
           },
           "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
@@ -1801,9 +333,9 @@
             "saves": null
           },
           "passes": {
-            "total": 1,
+            "total": 13,
             "key": null,
-            "accuracy": 1
+            "accuracy": 13
           },
           "tackles": {
             "total": null,
@@ -1811,12 +343,12 @@
             "interceptions": null
           },
           "duels": {
-            "total": 3,
-            "won": null
+            "total": 5,
+            "won": 2
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 1,
+            "success": 1,
             "past": null
           },
           "fouls": {
@@ -1835,12 +367,297 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 642,
+        "name": "S. Agüero",
+        "firstname": "Sergio Leonel",
+        "lastname": "Agüero del Castillo",
+        "age": 33,
+        "birth": {
+          "date": "1988-06-02",
+          "place": "Quilmes",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "173 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/642.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 982,
+        "name": "L. Alario",
+        "firstname": "Lucas Nicolás",
+        "lastname": "Alario",
+        "age": 30,
+        "birth": {
+          "date": "1992-10-08",
+          "place": "Tostado",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "184 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/982.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 21,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 6
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 7,
+            "key": null,
+            "accuracy": 6
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 5,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2462,
+        "name": "E. Andrada",
+        "firstname": "Esteban Maximiliano",
+        "lastname": "Andrada",
+        "age": 31,
+        "birth": {
+          "date": "1991-01-26",
+          "place": "Mendoza",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "193 cm",
+        "weight": "83 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2462.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 6
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
         },
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 10,
@@ -1855,7 +672,7 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Attacker",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
@@ -1914,28 +731,28 @@
     },
     {
       "player": {
-        "id": 51560,
-        "name": "Juan Ignacio Ramírez Polero",
-        "firstname": "Juan Ignacio",
-        "lastname": "Ramírez Polero",
-        "age": 25,
+        "id": 2463,
+        "name": "F. Armani",
+        "firstname": "Franco",
+        "lastname": "Armani",
+        "age": 36,
         "birth": {
-          "date": "1997-02-01",
-          "place": "Mercedes",
-          "country": "Uruguay"
+          "date": "1986-10-16",
+          "place": "Casilda",
+          "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "180 cm",
-        "weight": "76 kg",
+        "nationality": "Argentina",
+        "height": "189 cm",
+        "weight": "85 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51560.png"
+        "photo": "https://media.api-sports.io/football/players/2463.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 34,
@@ -1946,18 +763,18 @@
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 5,
+            "lineups": 5,
+            "minutes": 450,
             "number": null,
-            "position": "Attacker",
-            "rating": null,
+            "position": "Goalkeeper",
+            "rating": "6.820000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 2
+            "bench": 8
           },
           "shots": {
             "total": null,
@@ -1965,23 +782,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 2,
             "assists": null,
-            "saves": null
+            "saves": 5
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 115,
+            "key": 1,
+            "accuracy": 15
           },
           "tackles": {
             "total": null,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 2,
+            "won": 2
           },
           "dribbles": {
             "attempts": null,
@@ -1989,7 +806,7 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 1,
             "committed": null
           },
           "cards": {
@@ -2000,50 +817,29 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51592,
-        "name": "Kevin Emiliano Dawson Blanco",
-        "firstname": "Kevin Emiliano",
-        "lastname": "Dawson Blanco",
-        "age": 30,
-        "birth": {
-          "date": "1992-02-08",
-          "place": "Colonia del Sacramento",
-          "country": "Uruguay"
         },
-        "nationality": "Uruguay",
-        "height": "185 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51592.png"
-      },
-      "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 10,
+            "name": "Friendlies",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
             "number": null,
             "position": "Goalkeeper",
             "rating": null,
@@ -2104,28 +900,28 @@
     },
     {
       "player": {
-        "id": 51618,
-        "name": "B. Rodríguez",
-        "firstname": "Paul Brian",
-        "lastname": "Rodríguez Bravo",
-        "age": 22,
+        "id": 2466,
+        "name": "Walter Kannemann",
+        "firstname": "Walter",
+        "lastname": "Kannemann",
+        "age": 31,
         "birth": {
-          "date": "2000-05-20",
-          "place": "Tranqueras",
-          "country": "Uruguay"
+          "date": "1991-03-14",
+          "place": "Concepción del Uruguay",
+          "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "174 cm",
-        "weight": "68 kg",
+        "nationality": "Argentina",
+        "height": "185 cm",
+        "weight": "86 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51618.png"
+        "photo": "https://media.api-sports.io/football/players/2466.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 34,
@@ -2136,54 +932,149 @@
             "season": 2022
           },
           "games": {
-            "appearences": 11,
-            "lineups": 8,
-            "minutes": 578,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
-            "position": "Midfielder",
-            "rating": "6.745454",
+            "position": "Defender",
+            "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 3,
-            "out": 7,
-            "bench": 6
+            "in": 0,
+            "out": 0,
+            "bench": 2
           },
           "shots": {
-            "total": 6,
-            "on": 1
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6002,
+        "name": "E. Palacios",
+        "firstname": "Exequiel Alejandro",
+        "lastname": "Palacios",
+        "age": 24,
+        "birth": {
+          "date": "1998-10-05",
+          "place": "Famaillá",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "177 cm",
+        "weight": "67 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/6002.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 10,
+            "lineups": 2,
+            "minutes": 241,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.611111",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 8,
+            "out": 1,
+            "bench": 12
+          },
+          "shots": {
+            "total": 1,
+            "on": null
           },
           "goals": {
             "total": 0,
             "conceded": 0,
-            "assists": 1,
+            "assists": null,
             "saves": null
           },
           "passes": {
-            "total": 145,
-            "key": 11,
-            "accuracy": 9
+            "total": 176,
+            "key": 2,
+            "accuracy": 16
           },
           "tackles": {
-            "total": 5,
-            "blocks": null,
-            "interceptions": 3
+            "total": 7,
+            "blocks": 1,
+            "interceptions": 2
           },
           "duels": {
-            "total": 89,
-            "won": 46
+            "total": 34,
+            "won": 19
           },
           "dribbles": {
-            "attempts": 40,
-            "success": 23,
+            "attempts": 3,
+            "success": 1,
             "past": null
           },
           "fouls": {
-            "drawn": 16,
+            "drawn": 10,
             "committed": 4
           },
           "cards": {
-            "yellow": 0,
+            "yellow": 1,
             "yellowred": 0,
             "red": 0
           },
@@ -2197,15 +1088,110 @@
         },
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 10,
             "name": "Friendlies",
             "country": "World",
             "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 28,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6067,
+        "name": "T. Almada",
+        "firstname": "Thiago Ezequiel",
+        "lastname": "Almada",
+        "age": 21,
+        "birth": {
+          "date": "2001-04-26",
+          "place": "Ciudadela",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "171 cm",
+        "weight": "63 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/6067.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
             "flag": null,
             "season": 2022
           },
@@ -2268,33 +1254,371 @@
             "missed": null,
             "saved": null
           }
+        },
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 36,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         }
       ]
     },
     {
       "player": {
-        "id": 51689,
-        "name": "A. Oliveros",
-        "firstname": "Agustín",
-        "lastname": "Oliveros Cano",
-        "age": 24,
+        "id": 6231,
+        "name": "F. Medina",
+        "firstname": "Facundo Axel",
+        "lastname": "Medina",
+        "age": 23,
         "birth": {
-          "date": "1998-08-17",
-          "place": "Montevideo",
-          "country": "Uruguay"
+          "date": "1999-05-28",
+          "place": "Buenos Aires",
+          "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "183 cm",
-        "weight": "79 kg",
+        "nationality": "Argentina",
+        "height": "177 cm",
+        "weight": "78 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51689.png"
+        "photo": "https://media.api-sports.io/football/players/6231.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 10,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 4
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 23,
+            "key": null,
+            "accuracy": 18
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 11756,
+        "name": "A. Rossi",
+        "firstname": "Agustín Daniel",
+        "lastname": "Rossi",
+        "age": 27,
+        "birth": {
+          "date": "1995-08-21",
+          "place": "Buenos Aires",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "193 cm",
+        "weight": "92 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/11756.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35550,
+        "name": "M. Meza",
+        "firstname": "Maximiliano Eduardo",
+        "lastname": "Meza",
+        "age": 30,
+        "birth": {
+          "date": "1992-12-15",
+          "place": "Caá Catí",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "180 cm",
+        "weight": "69 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35550.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 34,
@@ -2306,17 +1630,17 @@
           },
           "games": {
             "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
+            "lineups": 0,
+            "minutes": 32,
             "number": null,
-            "position": "Defender",
-            "rating": "6.700000",
+            "position": "Midfielder",
+            "rating": "6.200000",
             "captain": false
           },
           "substitutes": {
-            "in": 0,
+            "in": 1,
             "out": 0,
-            "bench": 3
+            "bench": 1
           },
           "shots": {
             "total": null,
@@ -2329,27 +1653,27 @@
             "saves": null
           },
           "passes": {
-            "total": 41,
-            "key": null,
-            "accuracy": 34
+            "total": 9,
+            "key": 1,
+            "accuracy": 7
           },
           "tackles": {
-            "total": 2,
+            "total": 1,
             "blocks": null,
-            "interceptions": 1
+            "interceptions": null
           },
           "duels": {
-            "total": 3,
+            "total": 7,
             "won": 2
           },
           "dribbles": {
-            "attempts": null,
+            "attempts": 1,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 1,
+            "committed": 1
           },
           "cards": {
             "yellow": 0,
@@ -2363,39 +1687,18 @@
             "missed": 0,
             "saved": null
           }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51718,
-        "name": "Camilo Damián Cándido Aquino",
-        "firstname": "Camilo Damián",
-        "lastname": "Cándido Aquino",
-        "age": 27,
-        "birth": {
-          "date": "1995-06-02",
-          "place": "Montevideo",
-          "country": "Uruguay"
         },
-        "nationality": "Uruguay",
-        "height": "174 cm",
-        "weight": "67 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51718.png"
-      },
-      "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 10,
+            "name": "Friendlies",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
             "flag": null,
             "season": 2022
           },
@@ -2404,14 +1707,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Midfielder",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 2
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -2463,28 +1766,313 @@
     },
     {
       "player": {
-        "id": 70544,
-        "name": "Rodrigo Martín Muñoz Salomón",
-        "firstname": "Rodrigo Martín",
-        "lastname": "Muñoz Salomón",
-        "age": 40,
+        "id": 237090,
+        "name": "E. Zeballos",
+        "firstname": "Oscar Exequiel",
+        "lastname": "Zeballos",
+        "age": 20,
         "birth": {
-          "date": "1982-01-22",
-          "place": "Montevideo",
-          "country": "Uruguay"
+          "date": "2002-04-24",
+          "place": "Santiago del Estero",
+          "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "181 cm",
-        "weight": "79 kg",
+        "nationality": "Argentina",
+        "height": "174 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/70544.png"
+        "photo": "https://media.api-sports.io/football/players/237090.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 237143,
+        "name": "S. Simón",
+        "firstname": "Santiago",
+        "lastname": "Simón",
+        "age": 20,
+        "birth": {
+          "date": "2002-06-13",
+          "place": "José C. Paz",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "178 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/237143.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 237186,
+        "name": "C. Medina",
+        "firstname": "Cristian Nicolás",
+        "lastname": "Medina",
+        "age": 20,
+        "birth": {
+          "date": "2002-06-01",
+          "place": "Moreno",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": "178 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/237186.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 278339,
+        "name": "F. Gomes",
+        "firstname": "Federico",
+        "lastname": "Gomes Gerth",
+        "age": 18,
+        "birth": {
+          "date": "2004-03-05",
+          "place": "San Isidro",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/278339.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 34,
@@ -2506,7 +2094,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 3
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -2558,28 +2146,102 @@
     },
     {
       "player": {
-        "id": 316517,
-        "name": "Alan Matturro Romero",
-        "firstname": "Alan",
-        "lastname": "Matturro Romero",
-        "age": 18,
+        "id": 286473,
+        "name": "F. Carboni",
+        "firstname": "Franco Ezequiel",
+        "lastname": "Carboni",
+        "age": 19,
         "birth": {
-          "date": "2004-10-11",
-          "place": "Montevideo",
-          "country": "Uruguay"
+          "date": "2003-04-04",
+          "place": "Buenos Aires",
+          "country": "Argentina"
         },
-        "nationality": "Uruguay",
-        "height": "189 cm",
-        "weight": "74 kg",
+        "nationality": "Argentina",
+        "height": null,
+        "weight": null,
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/316517.png"
+        "photo": "https://media.api-sports.io/football/players/286473.png"
       },
       "statistics": [
         {
           "team": {
-            "id": 7,
-            "name": "Uruguay",
-            "logo": "https://media.api-sports.io/football/teams/7.png"
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
           },
           "league": {
             "id": 10,
@@ -2595,6 +2257,270 @@
             "minutes": 0,
             "number": null,
             "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 333667,
+        "name": "T. Geralnik",
+        "firstname": "Tiago José",
+        "lastname": "Geralnik",
+        "age": 19,
+        "birth": {
+          "date": "2003-03-31",
+          "place": "Rosario",
+          "country": "Argentina"
+        },
+        "nationality": "Argentina",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/333667.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 350037,
+        "name": "Nicolás Paz Martínez",
+        "firstname": "Nicolás",
+        "lastname": "Paz Martínez",
+        "age": 18,
+        "birth": {
+          "date": "2004-09-08",
+          "place": "Santa Cruz de Tenerife",
+          "country": "Spain"
+        },
+        "nationality": "Argentina",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/350037.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "league": {
+            "id": 34,
+            "name": "World Cup - Qualification South America",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
             "rating": null,
             "captain": false
           },

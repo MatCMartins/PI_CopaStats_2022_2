@@ -1,397 +1,4281 @@
 {
-  "get": "players/squads",
+  "get": "players",
   "parameters": {
+    "season": "2022",
     "team": "24"
   },
   "errors": [],
-  "results": 1,
+  "results": 20,
   "paging": {
     "current": 1,
-    "total": 1
+    "total": 3
   },
   "response": [
     {
-      "team": {
-        "id": 24,
-        "name": "Poland",
-        "logo": "https://media.api-sports.io/football/teams/24.png"
+      "player": {
+        "id": 97,
+        "name": "K. Glik",
+        "firstname": "Kamil Jacek",
+        "lastname": "Glik",
+        "age": 34,
+        "birth": {
+          "date": "1988-02-03",
+          "place": "Jastrzębie Zdrój",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "190 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/97.png"
       },
-      "players": [
+      "statistics": [
         {
-          "id": 31035,
-          "name": "B. Dr\u0105gowski",
-          "age": 25,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/31035.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 6,
+            "lineups": 5,
+            "minutes": 456,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.740000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 175,
+            "key": null,
+            "accuracy": 32
+          },
+          "tackles": {
+            "total": null,
+            "blocks": 5,
+            "interceptions": 8
+          },
+          "duels": {
+            "total": 22,
+            "won": 11
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 15573,
-          "name": "Kamil Mieczys\u0142aw Grabara",
-          "age": 23,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/15573.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 8,
+            "lineups": 7,
+            "minutes": 652,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.887500",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 3
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 350,
+            "key": 3,
+            "accuracy": 37
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": 4,
+            "interceptions": 9
+          },
+          "duels": {
+            "total": 51,
+            "won": 30
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 7
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40384,
-          "name": "R. Majecki",
-          "age": 23,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/40384.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 481,
+        "name": "Grzegorz Krychowiak",
+        "firstname": "Grzegorz",
+        "lastname": "Krychowiak",
+        "age": 32,
+        "birth": {
+          "date": "1990-01-29",
+          "place": "Gryfice",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "186 cm",
+        "weight": "83 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/481.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 5,
+            "lineups": 5,
+            "minutes": 397,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.625000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 168,
+            "key": 3,
+            "accuracy": 36
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 37,
+            "won": 20
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 9,
+            "committed": 7
+          },
+          "cards": {
+            "yellow": 3,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 2998,
-          "name": "\u0141. Skorupski",
-          "age": 31,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/2998.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 8,
+            "lineups": 7,
+            "minutes": 626,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 2,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 1,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 851,
-          "name": "W. Szcz\u0119sny",
-          "age": 32,
-          "number": null,
-          "position": "Goalkeeper",
-          "photo": "https://media.api-sports.io/football/players/851.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 61,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 488,
+        "name": "M. Rybus",
+        "firstname": "Maciej",
+        "lastname": "Rybus",
+        "age": 33,
+        "birth": {
+          "date": "1989-08-19",
+          "place": "Łowicz",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "173 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/488.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 6,
+            "lineups": 4,
+            "minutes": 338,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 3,
+            "bench": 4
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 173,
+            "key": 4,
+            "accuracy": 25
+          },
+          "tackles": {
+            "total": 9,
+            "blocks": null,
+            "interceptions": 4
+          },
+          "duels": {
+            "total": 31,
+            "won": 20
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 7
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 2999,
-          "name": "J. Bednarek",
-          "age": 26,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2999.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1068,
+        "name": "J. Góralski",
+        "firstname": "Jacek",
+        "lastname": "Góralski",
+        "age": 30,
+        "birth": {
+          "date": "1992-09-21",
+          "place": "Bydgoszcz",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "172 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1068.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 2,
+            "minutes": 124,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.450000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 2,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 41,
+            "key": null,
+            "accuracy": 16
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 6,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 3000,
-          "name": "B. Bereszy\u0144ski",
-          "age": 30,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/3000.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 46,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 13,
+            "key": null,
+            "accuracy": 10
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40224,
-          "name": "P. Bochniewicz",
-          "age": 26,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/40224.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2164,
+        "name": "Tomasz Karol Kędziora",
+        "firstname": "Tomasz Karol",
+        "lastname": "Kędziora",
+        "age": 28,
+        "birth": {
+          "date": "1994-06-11",
+          "place": "Sulechów",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "183 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2164.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 19298,
-          "name": "M. Cash",
-          "age": 25,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/19298.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 5
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 1,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 30921,
-          "name": "P. Dawidowicz",
-          "age": 27,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/30921.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2385,
+        "name": "K. Świderski",
+        "firstname": "Karol",
+        "lastname": "Świderski",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-23",
+          "place": "Rawicz",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "184 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2385.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 1,
+            "minutes": 114,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.066666",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 1,
+            "bench": 5
+          },
+          "shots": {
+            "total": 5,
+            "on": 4
+          },
+          "goals": {
+            "total": 2,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 17,
+            "key": null,
+            "accuracy": 6
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 23,
+            "won": 15
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 9,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 97,
-          "name": "K. Glik",
-          "age": 34,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/97.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 9,
+            "lineups": 4,
+            "minutes": 393,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.133333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 5,
+            "out": 2,
+            "bench": 5
+          },
+          "shots": {
+            "total": 12,
+            "on": 8
+          },
+          "goals": {
+            "total": 5,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 118,
+            "key": 9,
+            "accuracy": 9
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 66,
+            "won": 36
+          },
+          "dribbles": {
+            "attempts": 11,
+            "success": 8,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 12,
+            "committed": 6
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 3001,
-          "name": "R. Gumny",
-          "age": 24,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/3001.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 3001,
+        "name": "R. Gumny",
+        "firstname": "Robert",
+        "lastname": "Gumny",
+        "age": 24,
+        "birth": {
+          "date": "1998-06-04",
+          "place": "Poznan",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "182 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/3001.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 35,
+            "key": null,
+            "accuracy": 27
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 9,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40495,
-          "name": "M. Helik",
-          "age": 27,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/40495.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 113,
+            "key": 2,
+            "accuracy": 103
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 8,
+            "won": 5
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 3002,
-          "name": "A. J\u0119drzejczyk",
-          "age": 35,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/3002.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 3003,
+        "name": "M. Kamiński",
+        "firstname": "Marcin",
+        "lastname": "Kamiński",
+        "age": 30,
+        "birth": {
+          "date": "1992-01-15",
+          "place": "Konin",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "192 cm",
+        "weight": "84 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/3003.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 125618,
-          "name": "M. Karbownik",
-          "age": 21,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/125618.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 3007,
+        "name": "P. Frankowski",
+        "firstname": "Przemysław",
+        "lastname": "Frankowski",
+        "age": 27,
+        "birth": {
+          "date": "1995-04-12",
+          "place": "Gdańsk",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "176 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/3007.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 2,
+            "minutes": 196,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 2,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 49,
+            "key": 2,
+            "accuracy": 21
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 11,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": 4,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 2164,
-          "name": "Tomasz Karol K\u0119dziora",
-          "age": 28,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/2164.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 7,
+            "lineups": 3,
+            "minutes": 257,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.728571",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 4,
+            "out": 3,
+            "bench": 4
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 2,
+            "saves": null
+          },
+          "passes": {
+            "total": 141,
+            "key": 7,
+            "accuracy": 16
+          },
+          "tackles": {
+            "total": 5,
+            "blocks": 1,
+            "interceptions": 4
+          },
+          "duels": {
+            "total": 25,
+            "won": 13
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 5
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 61431,
-          "name": "J. Kiwior",
-          "age": 22,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/61431.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 3012,
+        "name": "K. Grosicki",
+        "firstname": "Kamil Paweł",
+        "lastname": "Grosicki",
+        "age": 34,
+        "birth": {
+          "date": "1988-06-08",
+          "place": "Szczecin",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "180 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/3012.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 15,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.650000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 4
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 3,
+            "key": 2,
+            "accuracy": 2
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 3,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 178708,
-          "name": "M. Nawrocki",
-          "age": 21,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/178708.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 0,
+            "minutes": 41,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 3,
+            "out": 0,
+            "bench": 4
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 20,
+            "key": 6,
+            "accuracy": 6
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 6,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40984,
-          "name": "T. Puchacz",
-          "age": 23,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/40984.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 19,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19826,
+        "name": "K. Bielik",
+        "firstname": "Krystian",
+        "lastname": "Bielik",
+        "age": 24,
+        "birth": {
+          "date": "1998-01-04",
+          "place": "Konin",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "189 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/19826.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 40392,
-          "name": "M. Wieteska",
-          "age": 25,
-          "number": null,
-          "position": "Defender",
-          "photo": "https://media.api-sports.io/football/players/40392.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 31,
+            "key": null,
+            "accuracy": 25
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 11,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 19826,
-          "name": "K. Bielik",
-          "age": 24,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/19826.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 46,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40392,
+        "name": "M. Wieteska",
+        "firstname": "Mateusz",
+        "lastname": "Wieteska",
+        "age": 25,
+        "birth": {
+          "date": "1997-02-11",
+          "place": "Warszawa",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "187 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40392.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 84,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 5
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 45,
+            "key": null,
+            "accuracy": 35
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": 1,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 5,
+            "won": 5
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40422,
-          "name": "P. Dziczek",
-          "age": 24,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/40422.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 3007,
-          "name": "P. Frankowski",
-          "age": 27,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/3007.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40452,
+        "name": "K. Michalak",
+        "firstname": "Konrad Hubert",
+        "lastname": "Michalak",
+        "age": 25,
+        "birth": {
+          "date": "1997-09-19",
+          "place": "Szprotawa",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "176 cm",
+        "weight": "61 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40452.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 1068,
-          "name": "J. G\u00f3ralski",
-          "age": 30,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/1068.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40559,
+        "name": "K. Jóźwiak",
+        "firstname": "Kamil",
+        "lastname": "Jóźwiak",
+        "age": 24,
+        "birth": {
+          "date": "1998-04-22",
+          "place": "Międzyrzecz",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "176 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40559.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 3012,
-          "name": "K. Grosicki",
-          "age": 34,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/3012.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 8,
+            "lineups": 5,
+            "minutes": 532,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.962500",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 3,
+            "out": 2,
+            "bench": 5
+          },
+          "shots": {
+            "total": 2,
+            "on": 2
+          },
+          "goals": {
+            "total": 2,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 216,
+            "key": 5,
+            "accuracy": 22
+          },
+          "tackles": {
+            "total": 19,
+            "blocks": null,
+            "interceptions": 5
+          },
+          "duels": {
+            "total": 101,
+            "won": 54
+          },
+          "dribbles": {
+            "attempts": 23,
+            "success": 12,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 14,
+            "committed": 13
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40559,
-          "name": "K. J\u00f3\u017awiak",
-          "age": 24,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/40559.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40560,
+        "name": "J. Kamiński",
+        "firstname": "Jakub",
+        "lastname": "Kamiński",
+        "age": 20,
+        "birth": {
+          "date": "2002-06-05",
+          "place": "Ruda Slaska",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "179 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40560.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 111,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 3
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 33,
+            "key": 2,
+            "accuracy": 11
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 8,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40560,
-          "name": "J. Kami\u0144ski",
-          "age": 20,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/40560.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 33,
+            "key": 6,
+            "accuracy": 30
+          },
+          "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 9,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40586,
+        "name": "S. Kowalczyk",
+        "firstname": "Sebastian",
+        "lastname": "Kowalczyk",
+        "age": 24,
+        "birth": {
+          "date": "1998-08-22",
+          "place": "Szczecin",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "169 cm",
+        "weight": "54 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40586.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40594,
+        "name": "A. Buksa",
+        "firstname": "Adam",
+        "lastname": "Buksa",
+        "age": 26,
+        "birth": {
+          "date": "1996-07-12",
+          "place": "Kraków",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "191 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40594.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 95,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.150000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 20,
+            "key": null,
+            "accuracy": 6
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 21,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 5,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 3008,
-          "name": "M. Klich",
-          "age": 32,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/3008.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 6,
+            "lineups": 3,
+            "minutes": 278,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.180000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 3,
+            "out": 3,
+            "bench": 3
+          },
+          "shots": {
+            "total": 8,
+            "on": 6
+          },
+          "goals": {
+            "total": 5,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 55,
+            "key": 2,
+            "accuracy": 5
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 55,
+            "won": 19
+          },
+          "dribbles": {
+            "attempts": 5,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 11
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 64304,
-          "name": "K. Koz\u0142owski",
-          "age": 19,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/64304.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 7,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40774,
+        "name": "P. Płacheta",
+        "firstname": "Przemysław",
+        "lastname": "Płacheta",
+        "age": 24,
+        "birth": {
+          "date": "1998-03-23",
+          "place": "Łowicz",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "177 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40774.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
         },
         {
-          "id": 481,
-          "name": "Grzegorz Krychowiak",
-          "age": 32,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/481.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 1,
+            "minutes": 127,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.066666",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 6
+          },
+          "shots": {
+            "total": 2,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 91,
+            "key": 7,
+            "accuracy": 25
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 12,
+            "won": 5
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 40612,
-          "name": "P. Kun",
-          "age": 27,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/40612.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 40984,
+        "name": "T. Puchacz",
+        "firstname": "Tymoteusz",
+        "lastname": "Puchacz",
+        "age": 23,
+        "birth": {
+          "date": "1999-01-23",
+          "place": "Sulechów",
+          "country": "Poland"
+        },
+        "nationality": "Poland",
+        "height": "180 cm",
+        "weight": "81 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/40984.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 5,
+            "name": "UEFA Nations League",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 120,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.650000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 51,
+            "key": 3,
+            "accuracy": 17
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 7,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 3009,
-          "name": "K. Linetty",
-          "age": 27,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/3009.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 5,
+            "lineups": 4,
+            "minutes": 328,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.660000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 4,
+            "bench": 3
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 168,
+            "key": 1,
+            "accuracy": 27
+          },
+          "tackles": {
+            "total": 8,
+            "blocks": 1,
+            "interceptions": 3
+          },
+          "duels": {
+            "total": 40,
+            "won": 21
+          },
+          "dribbles": {
+            "attempts": 7,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 9,
+            "committed": 5
+          },
+          "cards": {
+            "yellow": 3,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         },
         {
-          "id": 3014,
-          "name": "S. \u017burkowski",
-          "age": 25,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/3014.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": 10,
+            "name": "Friendlies",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 119762,
+        "name": "K. Piątkowski",
+        "firstname": "Kamil",
+        "lastname": "Piątkowski",
+        "age": 22,
+        "birth": {
+          "date": "2000-06-21",
+          "place": "Jasło",
+          "country": "Poland"
         },
+        "nationality": "Poland",
+        "height": "191 cm",
+        "weight": "87 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/119762.png"
+      },
+      "statistics": [
         {
-          "id": 1939,
-          "name": "Jakub Piotrowski",
-          "age": 25,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/1939.png"
-        },
-        {
-          "id": 3010,
-          "name": "A. Reca",
-          "age": 27,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/3010.png"
-        },
-        {
-          "id": 40809,
-          "name": "M. Sk\u00f3ra\u015b",
-          "age": 22,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/40809.png"
-        },
-        {
-          "id": 3011,
-          "name": "Damian Dawid Szyma\u0144ski",
-          "age": 27,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/3011.png"
-        },
-        {
-          "id": 40403,
-          "name": "S. Szyma\u0144ski",
-          "age": 23,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/40403.png"
-        },
-        {
-          "id": 329,
-          "name": "P. Zieli\u0144ski",
-          "age": 28,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/329.png"
-        },
-        {
-          "id": 301772,
-          "name": "M. \u0141\u0119gowski",
-          "age": 19,
-          "number": null,
-          "position": "Midfielder",
-          "photo": "https://media.api-sports.io/football/players/301772.png"
-        },
-        {
-          "id": 40594,
-          "name": "A. Buksa",
-          "age": 26,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/40594.png"
-        },
-        {
-          "id": 3013,
-          "name": "D. Kownacki",
-          "age": 25,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/3013.png"
-        },
-        {
-          "id": 521,
-          "name": "R. Lewandowski",
-          "age": 34,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/521.png"
-        },
-        {
-          "id": 333,
-          "name": "A. Milik",
-          "age": 28,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/333.png"
-        },
-        {
-          "id": 1651,
-          "name": "K. Pi\u0105tek",
-          "age": 27,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/1651.png"
-        },
-        {
-          "id": 2385,
-          "name": "K. \u015awiderski",
-          "age": 25,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/2385.png"
-        },
-        {
-          "id": 203474,
-          "name": "N. Zalewski",
-          "age": 20,
-          "number": null,
-          "position": "Attacker",
-          "photo": "https://media.api-sports.io/football/players/203474.png"
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "league": {
+            "id": null,
+            "name": "WC Qualification Europe",
+            "country": null,
+            "logo": null,
+            "flag": null,
+            "season": "2022"
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.950000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 189,
+            "key": 1,
+            "accuracy": 87
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 5
+          },
+          "duels": {
+            "total": 12,
+            "won": 7
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
         }
       ]
     }
