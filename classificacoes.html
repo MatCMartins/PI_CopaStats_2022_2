@@ -9,6 +9,53 @@
 </head>
 <body>
     <header>
+        <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-4 modal-dialog-centered">Cadastro</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="usuarioCadastro" class="col-form-label">User</label>
+                            <input id="usuarioCadastro" class="form-control" type="text"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senhaCadastro" class="col-form-label" >Senha</label>
+                            <input id="senhaCadastro"  class="form-control" type="password"></input>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalLogin" aria-labelledby="modalLogin" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-4 modal-dialog-centered">Login</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="usuarioLogin" class="col-form-label">User</label>
+                            <input id="usuarioLogin" class="form-control" type="text"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senhaLogin" class="col-form-label" >Senha</label>
+                            <input id="senhaLogin"  class="form-control" type="password"></input>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="cabecalho col-lg-12 p-0">
@@ -31,8 +78,13 @@
                             <a href="classificacoes.html" class="nav-item nav-link cat">Classificações</a>
                             <a href="jogadores.html" class="nav-item nav-link cat">Jogadores</a>
                             <a href="forum.html" class="nav-item nav-link cat">Fórum</a>
-                            <a href="simulador.html" class="nav-item nav-link cat">Simulador</a>
-                            <a href="#" class="img me-lg-5 cat"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
+                            <div class="dropdown">
+                                <a href="#" class="img me-lg-5 cat dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" data-bs-target="#modalCadastro" data-bs-toggle="modal" class="dropdown-item">Cadastro</a></li>
+                                    <li><a href="#" data-bs-target="#modalLogin" data-bs-toggle="modal" class="dropdown-item">Login</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
