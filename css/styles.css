@@ -1,9 +1,6 @@
 body{
     background-color: #D9D9D9;
 }
-.tela_inicial{
-    background-color: #061329;
-}
 .cabecalho_titulo{
     background: #000F90;  
     border: 1px solid #000F90;
@@ -79,8 +76,8 @@ a{
     .classJogador ,.classTecnico{
         margin: auto; 
         position: relative;
-        width: 180px;
-        height: 195px;
+        width: 150px;
+        height: 165px;
         overflow: hidden;
         border-radius: 50%; 
     }
@@ -214,3 +211,4 @@ div.carousel-item ul{
     display: flex;
     align-items: center;
 }
+
