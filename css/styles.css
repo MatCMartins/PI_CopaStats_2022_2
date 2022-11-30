@@ -212,3 +212,16 @@ div.carousel-item ul{
     align-items: center;
 }
 
+.container,#selecao_intro, #tecnico, #estatisticas_selecao, #proximo_jogo, #jogadores_selecao{
+    border-radius: 20px;
+    border: 1px solid #F6F6F6;
+    background-color: #F6F6F6;
+}
+
+.carousel-inner>.carousel-item{
+    /*disables white flash*/
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    -o-transition: -o-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+ }  
+
