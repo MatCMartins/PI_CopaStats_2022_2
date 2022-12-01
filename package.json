@@ -2,9 +2,9 @@
   "name": "pi_copastats_2022_2",
   "version": "1.0.0",
   "description": "",
-  "main": "backend.js",
+  "main": "frontend.js",
   "scripts": {
-    "test": "nodemon backend.js"
+    "start": "nodemon backend.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.7.5",
     "mongoose-unique-validator": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
