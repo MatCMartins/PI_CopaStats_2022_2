@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "16"
   },
@@ -8,406 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 4
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 2876,
-        "name": "L. Rodríguez",
-        "firstname": "Luis Alfonso",
-        "lastname": "Rodríguez Alanís",
-        "age": 31,
-        "birth": {
-          "date": "1991-01-21",
-          "place": "Monterrey",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "175 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2876.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2883,
-        "name": "R. Pizarro",
-        "firstname": "Rodolfo Gilbert",
-        "lastname": "Pizarro Thomas",
-        "age": 28,
-        "birth": {
-          "date": "1994-02-15",
-          "place": "Tampico",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "175 cm",
-        "weight": "71 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2883.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 81,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 11448,
-        "name": "B. Galdames",
-        "firstname": "Benjamín Ignacio",
-        "lastname": "Galdames Millán",
-        "age": 21,
-        "birth": {
-          "date": "2001-02-24",
-          "place": "Santiago",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/11448.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35546,
-        "name": "A. González",
-        "firstname": "Arturo Alfonso",
-        "lastname": "González González",
-        "age": 28,
-        "birth": {
-          "date": "1994-09-05",
-          "place": "Reynosa",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "173 cm",
-        "weight": "64 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35546.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35562,
-        "name": "J. Domínguez",
-        "firstname": "Julio César",
-        "lastname": "Domínguez Juárez",
+        "id": 35473,
+        "name": "R. Cota",
+        "firstname": "Rodolfo",
+        "lastname": "Cota Robles",
         "age": 35,
         "birth": {
-          "date": "1987-11-08",
-          "place": "Arriaga",
+          "date": "1987-07-03",
+          "place": "Mazatlán",
           "country": "Mexico"
         },
         "nationality": "Mexico",
-        "height": "175 cm",
-        "weight": "73 kg",
+        "height": "188 cm",
+        "weight": "82 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35562.png"
+        "photo": "https://media.api-sports.io/football/players/35473.png"
       },
       "statistics": [
         {
@@ -417,10 +38,10 @@
             "logo": "https://media.api-sports.io/football/teams/16.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -429,102 +50,7 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35590,
-        "name": "S. Córdova",
-        "firstname": "Francisco Sebastián",
-        "lastname": "Córdova Reyes",
-        "age": 25,
-        "birth": {
-          "date": "1997-06-12",
-          "place": "Aguascalientes",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "173 cm",
-        "weight": "65 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35590.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Midfielder",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
@@ -539,7 +65,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -574,30 +100,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
           }
         }
       ]
     },
     {
       "player": {
-        "id": 35648,
-        "name": "É. Aguirre",
-        "firstname": "Érick Germáin",
-        "lastname": "Aguirre Tafolla",
-        "age": 25,
+        "id": 2098,
+        "name": "G. Ochoa",
+        "firstname": "Francisco Guillermo",
+        "lastname": "Ochoa Magaña",
+        "age": 37,
         "birth": {
-          "date": "1997-02-23",
-          "place": "La Ruana",
+          "date": "1985-07-13",
+          "place": "Guadalajara",
           "country": "Mexico"
         },
         "nationality": "Mexico",
-        "height": "171 cm",
-        "weight": "60 kg",
+        "height": "190 cm",
+        "weight": "85 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35648.png"
+        "photo": "https://media.api-sports.io/football/players/2098.png"
       },
       "statistics": [
         {
@@ -607,200 +133,10 @@
             "logo": "https://media.api-sports.io/football/teams/16.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 172,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35687,
-        "name": "J. Angulo",
-        "firstname": "Jesús Ricardo",
-        "lastname": "Angulo Uriarte",
-        "age": 25,
-        "birth": {
-          "date": "1997-02-20",
-          "place": "Culiacán",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "170 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35687.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35769,
-        "name": "C. Acevedo",
-        "firstname": "Carlos",
-        "lastname": "Acevedo López",
-        "age": 26,
-        "birth": {
-          "date": "1996-04-19",
-          "place": "Torreón",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "182 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35769.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -810,13 +146,13 @@
             "minutes": 180,
             "number": null,
             "position": "Goalkeeper",
-            "rating": null,
+            "rating": "6.950000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 2
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -824,14 +160,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 2,
             "assists": null,
-            "saves": null
+            "saves": 2
           },
           "passes": {
-            "total": null,
+            "total": 58,
             "key": null,
-            "accuracy": null
+            "accuracy": 24
           },
           "tackles": {
             "total": null,
@@ -839,8 +175,8 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 1,
+            "won": 1
           },
           "dribbles": {
             "attempts": null,
@@ -848,7 +184,7 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 1,
             "committed": null
           },
           "cards": {
@@ -859,600 +195,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
           }
         }
       ]
     },
     {
       "player": {
-        "id": 35789,
-        "name": "E. Aguirre",
-        "firstname": "Eduardo Daniel",
-        "lastname": "Aguirre Lara",
-        "age": 24,
+        "id": 35704,
+        "name": "A. Talavera",
+        "firstname": "Alfredo",
+        "lastname": "Talavera Díaz",
+        "age": 40,
         "birth": {
-          "date": "1998-08-03",
-          "place": "San Pedro de las Colonias",
+          "date": "1982-09-18",
+          "place": "La Barca",
           "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "176 cm",
-        "weight": "65 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35789.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 19,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35878,
-        "name": "A. Cervantes",
-        "firstname": "Alan Jhosué",
-        "lastname": "Cervantes Martín del Campo",
-        "age": 24,
-        "birth": {
-          "date": "1998-01-17",
-          "place": "Guadalajara",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "174 cm",
-        "weight": "58 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35878.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35885,
-        "name": "A. Zendejas",
-        "firstname": "Alejandro",
-        "lastname": "Zendejas Saavedra",
-        "age": 24,
-        "birth": {
-          "date": "1998-02-07",
-          "place": "Ciudad Juárez",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "170 cm",
-        "weight": "66 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35885.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 72,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 36142,
-        "name": "S. Reyes",
-        "firstname": "Salvador",
-        "lastname": "Reyes Chávez",
-        "age": 24,
-        "birth": {
-          "date": "1998-05-04",
-          "place": "Taxco de Alarcón",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "172 cm",
-        "weight": "69 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/36142.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51051,
-        "name": "J. Araujo",
-        "firstname": "Julián Vicente",
-        "lastname": "Araujo Zúñiga",
-        "age": 21,
-        "birth": {
-          "date": "2001-08-13",
-          "place": null,
-          "country": "USA"
-        },
-        "nationality": "Mexico",
-        "height": "178 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51051.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51068,
-        "name": "E. Álvarez",
-        "firstname": "Efraín",
-        "lastname": "Álvarez",
-        "age": 20,
-        "birth": {
-          "date": "2002-06-19",
-          "place": "Los Angeles",
-          "country": "USA"
-        },
-        "nationality": "Mexico",
-        "height": "173 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51068.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51191,
-        "name": "D. Ochoa",
-        "firstname": "David",
-        "lastname": "Ochoa",
-        "age": 21,
-        "birth": {
-          "date": "2001-01-16",
-          "place": "Oxnard",
-          "country": "USA"
         },
         "nationality": "Mexico",
         "height": "188 cm",
-        "weight": "79 kg",
+        "weight": "83 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51191.png"
+        "photo": "https://media.api-sports.io/football/players/35704.png"
       },
       "statistics": [
         {
@@ -1462,10 +228,10 @@
             "logo": "https://media.api-sports.io/football/teams/16.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1481,7 +247,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 1
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1489,7 +255,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1524,30 +290,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
           }
         }
       ]
     },
     {
       "player": {
-        "id": 119193,
-        "name": "L. Olivas",
-        "firstname": "Luis Alejandro",
-        "lastname": "Olivas Salcedo",
-        "age": 22,
+        "id": 126751,
+        "name": "K. Álvarez",
+        "firstname": "Kevin Nahin",
+        "lastname": "Álvarez Campos",
+        "age": 23,
         "birth": {
-          "date": "2000-02-10",
-          "place": "Tepic",
+          "date": "1999-01-15",
+          "place": "Colima",
           "country": "Mexico"
         },
         "nationality": "Mexico",
-        "height": "182 cm",
-        "weight": "88 kg",
+        "height": "175 cm",
+        "weight": "63 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/119193.png"
+        "photo": "https://media.api-sports.io/football/players/126751.png"
       },
       "statistics": [
         {
@@ -1557,24 +323,119 @@
             "logo": "https://media.api-sports.io/football/teams/16.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
-            "lineups": 0,
-            "minutes": 8,
+            "lineups": 1,
+            "minutes": 66,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
-            "in": 1,
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 14,
+            "key": null,
+            "accuracy": 10
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 7,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2870,
+        "name": "N. Araújo",
+        "firstname": "Néstor Alejandro",
+        "lastname": "Araújo Razo",
+        "age": 31,
+        "birth": {
+          "date": "1991-08-29",
+          "place": "Guadalajara",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "188 cm",
+        "weight": "87 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2870.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
             "out": 0,
             "bench": 1
           },
@@ -1584,23 +445,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 46,
             "key": null,
-            "accuracy": null
+            "accuracy": 37
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 3
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 4,
+            "won": 1
           },
           "dribbles": {
             "attempts": null,
@@ -1609,102 +470,7 @@
           },
           "fouls": {
             "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 127227,
-        "name": "I. Reyes",
-        "firstname": "Israel",
-        "lastname": "Reyes Romero",
-        "age": 22,
-        "birth": {
-          "date": "2000-05-23",
-          "place": "Autlán de Navarro",
-          "country": "Mexico"
-        },
-        "nationality": "Mexico",
-        "height": "178 cm",
-        "weight": "73 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/127227.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 16,
-            "name": "Mexico",
-            "logo": "https://media.api-sports.io/football/teams/16.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 46,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
+            "committed": 2
           },
           "cards": {
             "yellow": 1,
@@ -1714,8 +480,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1723,21 +489,21 @@
     },
     {
       "player": {
-        "id": 266345,
-        "name": "É. Lira",
-        "firstname": "Érik Antonio",
-        "lastname": "Lira Méndez",
-        "age": 22,
+        "id": 2873,
+        "name": "C. Montes",
+        "firstname": "César Jasib",
+        "lastname": "Montes Castro",
+        "age": 25,
         "birth": {
-          "date": "2000-05-08",
-          "place": "Ciudad de México",
+          "date": "1997-02-24",
+          "place": "Hermosillo",
           "country": "Mexico"
         },
         "nationality": "Mexico",
-        "height": "170 cm",
-        "weight": "62 kg",
+        "height": "191 cm",
+        "weight": "84 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/266345.png"
+        "photo": "https://media.api-sports.io/football/players/2873.png"
       },
       "statistics": [
         {
@@ -1747,20 +513,495 @@
             "logo": "https://media.api-sports.io/football/teams/16.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 126,
+            "key": null,
+            "accuracy": 52
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 14,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2874,
+        "name": "H. Moreno",
+        "firstname": "Héctor Alfredo",
+        "lastname": "Moreno Herrera",
+        "age": 34,
+        "birth": {
+          "date": "1988-01-17",
+          "place": "Culiacán",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "186 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2874.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 132,
+            "key": 1,
+            "accuracy": 55
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 16,
+            "won": 9
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35690,
+        "name": "L. Chávez",
+        "firstname": "Luis Gerardo",
+        "lastname": "Chávez Magallón",
+        "age": 26,
+        "birth": {
+          "date": "1996-01-15",
+          "place": "Jalisco",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "177 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35690.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 71,
+            "key": 3,
+            "accuracy": 30
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 21,
+            "won": 10
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 6,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2881,
+        "name": "J. Gallardo",
+        "firstname": "Jesús Daniel",
+        "lastname": "Gallardo Vasconcelos",
+        "age": 28,
+        "birth": {
+          "date": "1994-08-15",
+          "place": "Cárdenas",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "176 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2881.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.750000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 64,
+            "key": 1,
+            "accuracy": 25
+          },
+          "tackles": {
+            "total": 7,
+            "blocks": 1,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 15,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 382,
+        "name": "H. Herrera",
+        "firstname": "Héctor Miguel",
+        "lastname": "Herrera López",
+        "age": 32,
+        "birth": {
+          "date": "1990-04-19",
+          "place": "Tijuana",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "185 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/382.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 161,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.650000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 74,
+            "key": 1,
+            "accuracy": 31
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 3
+          },
+          "duels": {
+            "total": 21,
+            "won": 11
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2888,
+        "name": "C. Rodríguez",
+        "firstname": "Carlos Alberto",
+        "lastname": "Rodríguez Gómez",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-03",
+          "place": "San Nicolás de los Garza",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "170 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2888.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 0,
-            "minutes": 29,
+            "minutes": 19,
             "number": null,
             "position": "Midfielder",
-            "rating": null,
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
@@ -1774,14 +1015,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 20,
             "key": null,
-            "accuracy": null
+            "accuracy": 17
           },
           "tackles": {
             "total": null,
@@ -1789,17 +1030,17 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 4,
+            "won": 1
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 1,
+            "success": 1,
             "past": null
           },
           "fouls": {
             "drawn": null,
-            "committed": null
+            "committed": 1
           },
           "cards": {
             "yellow": 0,
@@ -1809,8 +1050,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1818,21 +1059,21 @@
     },
     {
       "player": {
-        "id": 297268,
-        "name": "O. Campos",
-        "firstname": "Omar Antonio",
-        "lastname": "Campos Chagoya",
-        "age": 20,
+        "id": 35970,
+        "name": "L. Romo",
+        "firstname": "Luis Francisco",
+        "lastname": "Romo Barrón",
+        "age": 27,
         "birth": {
-          "date": "2002-07-20",
-          "place": null,
+          "date": "1995-06-05",
+          "place": "Alhome",
           "country": "Mexico"
         },
         "nationality": "Mexico",
-        "height": "174 cm",
-        "weight": "65 kg",
+        "height": "184 cm",
+        "weight": "78 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/297268.png"
+        "photo": "https://media.api-sports.io/football/players/35970.png"
       },
       "statistics": [
         {
@@ -1842,10 +1083,10 @@
             "logo": "https://media.api-sports.io/football/teams/16.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1861,7 +1102,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1869,7 +1110,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1904,8 +1145,768 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2879,
+        "name": "R. Alvarado",
+        "firstname": "Roberto Carlos",
+        "lastname": "Alvarado Hernández",
+        "age": 24,
+        "birth": {
+          "date": "1998-09-07",
+          "place": "Irapuato",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "176 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2879.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 17,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 7,
+            "key": null,
+            "accuracy": 4
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 3,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 51069,
+        "name": "U. Antuna",
+        "firstname": "Carlos Uriel",
+        "lastname": "Antuna Romero",
+        "age": 25,
+        "birth": {
+          "date": "1997-08-21",
+          "place": "Gómez Palacio",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "167 cm",
+        "weight": "59 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/51069.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 30,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 6,
+            "key": null,
+            "accuracy": 3
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35552,
+        "name": "R. Funes Mori",
+        "firstname": "Rogelio Gabriel",
+        "lastname": "Funes Mori",
+        "age": 31,
+        "birth": {
+          "date": "1991-03-05",
+          "place": "Godoy Cruz",
+          "country": "Argentina"
+        },
+        "nationality": "Mexico",
+        "height": "190 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35552.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35603,
+        "name": "H. Martín",
+        "firstname": "Henry Josué",
+        "lastname": "Martín Mex",
+        "age": 30,
+        "birth": {
+          "date": "1992-11-18",
+          "place": "Mérida",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "177 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35603.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 71,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 10,
+            "key": 1,
+            "accuracy": 7
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 7,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2889,
+        "name": "A. Vega",
+        "firstname": "Ernesto Alexis",
+        "lastname": "Vega Rojas",
+        "age": 25,
+        "birth": {
+          "date": "1997-11-25",
+          "place": "Cuauhtémoc",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "173 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2889.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 150,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.550000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 5,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 38,
+            "key": null,
+            "accuracy": 14
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 23,
+            "won": 7
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 5,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 248,
+        "name": "H. Lozano",
+        "firstname": "Hirving Rodrigo",
+        "lastname": "Lozano Bahena",
+        "age": 27,
+        "birth": {
+          "date": "1995-07-30",
+          "place": "Ciudad de México",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "175 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/248.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 253,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": 3
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 50,
+            "key": 8,
+            "accuracy": 12
+          },
+          "tackles": {
+            "total": 7,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 49,
+            "won": 24
+          },
+          "dribbles": {
+            "attempts": 8,
+            "success": 5,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 11,
+            "committed": 7
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35544,
+        "name": "J. Vásquez",
+        "firstname": "Johan Felipe",
+        "lastname": "Vásquez Ibarra",
+        "age": 24,
+        "birth": {
+          "date": "1998-10-22",
+          "place": "Navojoa",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "182 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35544.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35774,
+        "name": "G. Arteaga",
+        "firstname": "Gerardo Daniel",
+        "lastname": "Arteaga Zamora",
+        "age": 24,
+        "birth": {
+          "date": "1998-09-07",
+          "place": "Zapopan",
+          "country": "Mexico"
+        },
+        "nationality": "Mexico",
+        "height": "175 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35774.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

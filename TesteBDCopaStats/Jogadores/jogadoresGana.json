@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "1504"
   },
@@ -8,26 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 5
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 3411,
-        "name": "Felix Annan",
-        "firstname": "Felix",
-        "lastname": "Annan",
-        "age": 28,
+        "id": 128987,
+        "name": "Salis Abdul Samed",
+        "firstname": "Salis Abdul",
+        "lastname": "Samed",
+        "age": 22,
         "birth": {
-          "date": "1994-11-22",
-          "place": null,
+          "date": "2000-03-26",
+          "place": "Accra",
           "country": "Ghana"
         },
         "nationality": "Ghana",
-        "height": null,
-        "weight": null,
+        "height": "179 cm",
+        "weight": "69 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/3411.png"
+        "photo": "https://media.api-sports.io/football/players/128987.png"
       },
       "statistics": [
         {
@@ -37,10 +38,580 @@
             "logo": "https://media.api-sports.io/football/teams/1504.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 196187,
+        "name": "A. Seidu",
+        "firstname": "Alidu",
+        "lastname": "Seidu",
+        "age": 22,
+        "birth": {
+          "date": "2000-06-04",
+          "place": "Abidjan",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "173 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/196187.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 66,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 19,
+            "key": null,
+            "accuracy": 16
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 10,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 7578,
+        "name": "G. Mensah",
+        "firstname": "Gideon",
+        "lastname": "Mensah",
+        "age": 24,
+        "birth": {
+          "date": "1998-07-18",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "178 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/7578.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 21633,
+        "name": "A. Djiku",
+        "firstname": "Alexander Kwabena",
+        "lastname": "Baidoo Djiku",
+        "age": 28,
+        "birth": {
+          "date": "1994-08-09",
+          "place": "Montpellier",
+          "country": "France"
+        },
+        "nationality": "Ghana",
+        "height": "182 cm",
+        "weight": "81 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/21633.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 26,
+            "key": null,
+            "accuracy": 22
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 2,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1370,
+        "name": "A. Ayew",
+        "firstname": "André Morgan",
+        "lastname": "Rami Ayew",
+        "age": 33,
+        "birth": {
+          "date": "1989-12-17",
+          "place": "Lille",
+          "country": "France"
+        },
+        "nationality": "Ghana",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1370.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 77,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 12,
+            "key": null,
+            "accuracy": 10
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 16,
+            "won": 5
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 3421,
+        "name": "D. Amartey",
+        "firstname": "Daniel",
+        "lastname": "Amartey",
+        "age": 28,
+        "birth": {
+          "date": "1994-12-21",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "186 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/3421.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.100000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 89,
+            "key": 2,
+            "accuracy": 40
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": 3,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 12,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 8631,
+        "name": "A. Nurudeen",
+        "firstname": "Abdul",
+        "lastname": "Manaf Nurudeen",
+        "age": 23,
+        "birth": {
+          "date": "1999-02-08",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "190 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/8631.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -56,7 +627,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -64,7 +635,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -99,600 +670,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
         }
       ]
     },
     {
       "player": {
-        "id": 3414,
-        "name": "H. Afful",
-        "firstname": "Harrison",
-        "lastname": "Afful",
-        "age": 36,
+        "id": 138815,
+        "name": "T. Lamptey",
+        "firstname": "Tariq Kwame",
+        "lastname": "Nii-Lante Lamptey",
+        "age": 22,
         "birth": {
-          "date": "1986-07-24",
-          "place": "Tema",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "171 cm",
-        "weight": "67 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/3414.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 3416,
-        "name": "John Boye",
-        "firstname": "John",
-        "lastname": "Boye",
-        "age": 35,
-        "birth": {
-          "date": "1987-04-23",
-          "place": "Accra",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "184 cm",
-        "weight": "73 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/3416.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 3419,
-        "name": "Afriyie Acquah",
-        "firstname": "Afriyie",
-        "lastname": "Acquah",
-        "age": 30,
-        "birth": {
-          "date": "1992-01-05",
-          "place": "Sunyani",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "179 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/3419.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 3420,
-        "name": "Kas Thomas Agyepong",
-        "firstname": "Kas Thomas",
-        "lastname": "Agyepong",
-        "age": 26,
-        "birth": {
-          "date": "1996-10-10",
-          "place": "Accra",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "168 cm",
-        "weight": "67 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/3420.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16967,
-        "name": "John Duku Antwi",
-        "firstname": "John Duku",
-        "lastname": "Antwi",
-        "age": 30,
-        "birth": {
-          "date": "1992-08-06",
-          "place": "Sekondi",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "180 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16967.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 19831,
-        "name": "T. Fosu",
-        "firstname": "Tariqe",
-        "lastname": "Fosu",
-        "age": 27,
-        "birth": {
-          "date": "1995-11-05",
-          "place": "Wandsworth",
+          "date": "2000-09-30",
+          "place": "Hillingdon",
           "country": "England"
         },
         "nationality": "Ghana",
-        "height": "180 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/19831.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35840,
-        "name": "C. Aboagye",
-        "firstname": "Clifford",
-        "lastname": "Aboagye",
-        "age": 27,
-        "birth": {
-          "date": "1995-02-11",
-          "place": "Accra",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "167 cm",
+        "height": "163 cm",
         "weight": "55 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35840.png"
+        "photo": "https://media.api-sports.io/football/players/138815.png"
       },
       "statistics": [
         {
@@ -702,305 +703,20 @@
             "logo": "https://media.api-sports.io/football/teams/1504.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 47374,
-        "name": "Patrick Twumasi",
-        "firstname": "Patrick",
-        "lastname": "Twumasi",
-        "age": 28,
-        "birth": {
-          "date": "1994-05-09",
-          "place": "Obuasi",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "176 cm",
-        "weight": "67 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/47374.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 61221,
-        "name": "Benson Anang",
-        "firstname": "Benson",
-        "lastname": "Anang",
-        "age": 22,
-        "birth": {
-          "date": "2000-05-01",
-          "place": null,
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "161 cm",
-        "weight": "61 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/61221.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 102,
             "number": null,
             "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 66029,
-        "name": "B. Tetteh",
-        "firstname": "Benjamin",
-        "lastname": "Tetteh",
-        "age": 25,
-        "birth": {
-          "date": "1997-07-10",
-          "place": "Accra",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "193 cm",
-        "weight": "65 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/66029.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 117,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
+            "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
@@ -1009,111 +725,37 @@
             "bench": 1
           },
           "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 21,
             "key": null,
-            "accuracy": null
+            "accuracy": 7
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 3,
+            "blocks": 1,
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 13,
+            "won": 5
           },
           "dribbles": {
-            "attempts": null,
+            "attempts": 2,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": null,
-            "name": "Kirin Cup",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 89,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 2,
+            "committed": 3
           },
           "cards": {
             "yellow": 1,
@@ -1123,11 +765,32 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19022,
+        "name": "D. Odoi",
+        "firstname": "Denis",
+        "lastname": "Frimpong Odoi",
+        "age": 34,
+        "birth": {
+          "date": "1988-05-27",
+          "place": "Leuven",
+          "country": "Belgium"
         },
+        "nationality": "Ghana",
+        "height": "178 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/19022.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 1504,
@@ -1135,927 +798,19 @@
             "logo": "https://media.api-sports.io/football/teams/1504.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 0,
-            "minutes": 44,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 79160,
-        "name": "Eugene Ansah",
-        "firstname": "Eugene",
-        "lastname": "Ansah",
-        "age": 28,
-        "birth": {
-          "date": "1994-12-16",
-          "place": "Accra",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "179 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/79160.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 119966,
-        "name": "Yaw Annor",
-        "firstname": "Yaw",
-        "lastname": "Annor",
-        "age": 25,
-        "birth": {
-          "date": "1997-12-03",
-          "place": "Ho",
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": "179 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/119966.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 126968,
-        "name": "Montari Kamaheni",
-        "firstname": "Montari",
-        "lastname": "Kamaheni",
-        "age": 22,
-        "birth": {
-          "date": "2000-02-01",
-          "place": null,
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/126968.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "minutes": 12,
             "number": null,
             "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 175426,
-        "name": "Mumuni Shafiu",
-        "firstname": "Mumuni",
-        "lastname": "Shafiu",
-        "age": 27,
-        "birth": {
-          "date": "1995-05-11",
-          "place": null,
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/175426.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 257273,
-        "name": "Moro Salifu",
-        "firstname": "Moro",
-        "lastname": "Salifu",
-        "age": 24,
-        "birth": {
-          "date": "1998-12-15",
-          "place": null,
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/257273.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 291438,
-        "name": "Kwadwo Amoako",
-        "firstname": "Kwadwo",
-        "lastname": "Amoako",
-        "age": 24,
-        "birth": {
-          "date": "1998-12-12",
-          "place": null,
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/291438.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 293450,
-        "name": "David Sandan Abagna",
-        "firstname": "David Sandan",
-        "lastname": "Abagna",
-        "age": 24,
-        "birth": {
-          "date": "1998-09-09",
-          "place": null,
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/293450.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 14,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 293642,
-        "name": "Kwame Opoku",
-        "firstname": "Kwame",
-        "lastname": "Opoku",
-        "age": 23,
-        "birth": {
-          "date": "1999-05-08",
-          "place": null,
-          "country": "Ghana"
-        },
-        "nationality": "Ghana",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/293642.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1504,
-            "name": "Ghana",
-            "logo": "https://media.api-sports.io/football/teams/1504.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 30,
-            "number": null,
-            "position": "Attacker",
             "rating": null,
             "captain": false
           },
@@ -2070,7 +825,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -2105,8 +860,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -2114,21 +869,21 @@
     },
     {
       "player": {
-        "id": 336924,
-        "name": "Diawisie Taylor",
-        "firstname": "Diawisie",
-        "lastname": "Taylor",
+        "id": 8789,
+        "name": "K. Sowah",
+        "firstname": "Kamal",
+        "lastname": "Sowah",
         "age": 22,
         "birth": {
-          "date": "2000-01-01",
-          "place": null,
+          "date": "2000-01-09",
+          "place": "Sabon Zango",
           "country": "Ghana"
         },
         "nationality": "Ghana",
-        "height": null,
-        "weight": null,
+        "height": "179 cm",
+        "weight": "66 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/336924.png"
+        "photo": "https://media.api-sports.io/football/players/8789.png"
       },
       "statistics": [
         {
@@ -2138,10 +893,10 @@
             "logo": "https://media.api-sports.io/football/teams/1504.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -2157,7 +912,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -2165,7 +920,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -2200,8 +955,958 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19281,
+        "name": "A. Semenyo",
+        "firstname": "Antoine Serlom",
+        "lastname": "Semenyo",
+        "age": 22,
+        "birth": {
+          "date": "2000-01-07",
+          "place": "London",
+          "country": "England"
+        },
+        "nationality": "Ghana",
+        "height": "185 cm",
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/19281.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 3428,
+        "name": "J. Ayew",
+        "firstname": "Jordan Pierre",
+        "lastname": "Ayew",
+        "age": 31,
+        "birth": {
+          "date": "1991-09-11",
+          "place": "Marseille",
+          "country": "France"
+        },
+        "nationality": "Ghana",
+        "height": "182 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/3428.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 91,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.600000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 29,
+            "key": 3,
+            "accuracy": 13
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 19,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 4,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 47480,
+        "name": "M. Salisu",
+        "firstname": "Mohammed",
+        "lastname": "Salisu Abdul Karim",
+        "age": 23,
+        "birth": {
+          "date": "1999-04-17",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "191 cm",
+        "weight": "82 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/47480.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.850000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 2,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 92,
+            "key": 1,
+            "accuracy": 33
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": 3,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 19,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 3412,
+        "name": "L. Ati-Zigi",
+        "firstname": "Lawrence",
+        "lastname": "Ati-Zigi",
+        "age": 26,
+        "birth": {
+          "date": "1996-11-29",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "188 cm",
+        "weight": "84 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/3412.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": "6.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 5,
+            "assists": null,
+            "saves": 6
+          },
+          "passes": {
+            "total": 47,
+            "key": null,
+            "accuracy": 14
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 21996,
+        "name": "A. Baba",
+        "firstname": "Abdul Rahman",
+        "lastname": "Baba",
+        "age": 28,
+        "birth": {
+          "date": "1994-07-02",
+          "place": "Tamale",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "180 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/21996.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 92,
+            "number": null,
+            "position": "Defender",
+            "rating": "5.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 31,
+            "key": 1,
+            "accuracy": 24
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 7,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 49,
+        "name": "T. Partey",
+        "firstname": "Thomas",
+        "lastname": "Teye Partey",
+        "age": 29,
+        "birth": {
+          "date": "1993-06-13",
+          "place": "Odumase Krobo",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "185 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/49.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.150000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 101,
+            "key": 2,
+            "accuracy": 44
+          },
+          "tackles": {
+            "total": 7,
+            "blocks": 2,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 19,
+            "won": 14
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 199837,
+        "name": "K. Sulemana",
+        "firstname": "Kamaldeen",
+        "lastname": "Sulemana",
+        "age": 20,
+        "birth": {
+          "date": "2002-02-15",
+          "place": "Techiman",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/199837.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 12,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 4,
+            "key": null,
+            "accuracy": 2
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 3,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 25530,
+        "name": "D. Kyereh",
+        "firstname": "Daniel-Kofi",
+        "lastname": "Kyereh",
+        "age": 26,
+        "birth": {
+          "date": "1996-03-08",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "179 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/25530.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 12,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.450000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 4,
+            "key": null,
+            "accuracy": 2
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 61418,
+        "name": "O. Bukari",
+        "firstname": "Osman",
+        "lastname": "Bukari",
+        "age": 24,
+        "birth": {
+          "date": "1998-12-13",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "170 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/61418.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 13,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": 2,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 5,
+            "key": null,
+            "accuracy": 4
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 5,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 15911,
+        "name": "M. Kudus",
+        "firstname": "Mohammed",
+        "lastname": "Kudus",
+        "age": 22,
+        "birth": {
+          "date": "2000-08-02",
+          "place": "Accra",
+          "country": "Ghana"
+        },
+        "nationality": "Ghana",
+        "height": "177 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/15911.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 160,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.750000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": 3
+          },
+          "goals": {
+            "total": 2,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 44,
+            "key": null,
+            "accuracy": 16
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 19,
+            "won": 11
+          },
+          "dribbles": {
+            "attempts": 8,
+            "success": 5,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

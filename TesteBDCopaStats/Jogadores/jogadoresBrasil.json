@@ -1,7 +1,8 @@
 {
   "get": "players",
   "parameters": {
-    "season": "2021",
+    "league": "1",
+    "season": "2022",
     "team": "6"
   },
   "errors": [],
@@ -13,21 +14,21 @@
   "response": [
     {
       "player": {
-        "id": 257,
-        "name": "Marquinhos",
-        "firstname": "Marcos",
-        "lastname": "Aoás Corrêa",
-        "age": 28,
+        "id": 2410,
+        "name": "Weverton",
+        "firstname": "Weverton",
+        "lastname": "Pereira da Silva",
+        "age": 35,
         "birth": {
-          "date": "1994-05-14",
-          "place": "São Paulo",
+          "date": "1987-12-13",
+          "place": "Rio Branco",
           "country": "Brazil"
         },
         "nationality": "Brazil",
-        "height": "183 cm",
-        "weight": "75 kg",
+        "height": "189 cm",
+        "weight": "91 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/257.png"
+        "photo": "https://media.api-sports.io/football/players/2410.png"
       },
       "statistics": [
         {
@@ -37,17 +38,112 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 6,
-            "lineups": 6,
-            "minutes": 540,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 256,
+        "name": "Daniel Alves da Silva",
+        "firstname": "Daniel",
+        "lastname": "Alves da Silva",
+        "age": 39,
+        "birth": {
+          "date": "1983-05-06",
+          "place": "Juazeiro",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "172 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/256.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
             "position": "Defender",
             "rating": null,
@@ -56,14 +152,14 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 1
+            "bench": 2
           },
           "shots": {
             "total": null,
             "on": null
           },
           "goals": {
-            "total": 1,
+            "total": 0,
             "conceded": null,
             "assists": null,
             "saves": null
@@ -92,7 +188,7 @@
             "committed": null
           },
           "cards": {
-            "yellow": 1,
+            "yellow": 0,
             "yellowred": 0,
             "red": 0
           },
@@ -101,6 +197,291 @@
             "commited": null,
             "scored": null,
             "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 10168,
+        "name": "Éverton Ribeiro",
+        "firstname": "Éverton Augusto",
+        "lastname": "de Barros Ribeiro",
+        "age": 33,
+        "birth": {
+          "date": "1989-04-10",
+          "place": "Arujá",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "171 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/10168.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 10321,
+        "name": "Pedro",
+        "firstname": "Pedro Guilherme",
+        "lastname": "Abreu dos Santos",
+        "age": 25,
+        "birth": {
+          "date": "1997-06-20",
+          "place": "Rio de Janeiro",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/10321.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 257,
+        "name": "Marquinhos",
+        "firstname": "Marcos",
+        "lastname": "Aoás Corrêa",
+        "age": 28,
+        "birth": {
+          "date": "1994-05-14",
+          "place": "São Paulo",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "183 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/257.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.000000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 64,
+            "key": 1,
+            "accuracy": 61
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 2,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -132,41 +513,41 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 6,
-            "lineups": 6,
-            "minutes": 540,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 80,
             "number": null,
             "position": "Attacker",
-            "rating": null,
+            "rating": "6.200000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
-            "bench": 1
+            "out": 1,
+            "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
-            "total": 2,
-            "conceded": null,
+            "total": 0,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 42,
+            "key": 3,
+            "accuracy": 33
           },
           "tackles": {
             "total": null,
@@ -174,28 +555,28 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 20,
+            "won": 9
           },
           "dribbles": {
-            "attempts": null,
+            "attempts": 4,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 9,
+            "committed": 1
           },
           "cards": {
-            "yellow": 1,
+            "yellow": 0,
             "yellowred": 0,
             "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -203,21 +584,21 @@
     },
     {
       "player": {
-        "id": 280,
-        "name": "Alisson",
-        "firstname": "Alisson Ramsés",
-        "lastname": "Becker",
-        "age": 30,
+        "id": 1496,
+        "name": "Raphinha",
+        "firstname": "Raphael",
+        "lastname": "Dias Belloli",
+        "age": 26,
         "birth": {
-          "date": "1992-10-02",
-          "place": "Novo Hamburgo",
+          "date": "1996-12-14",
+          "place": "Porto Alegre",
           "country": "Brazil"
         },
         "nationality": "Brazil",
-        "height": "193 cm",
-        "weight": "91 kg",
+        "height": "176 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/280.png"
+        "photo": "https://media.api-sports.io/football/players/1496.png"
       },
       "statistics": [
         {
@@ -227,344 +608,59 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 2,
-            "minutes": 180,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 299,
-        "name": "Fabinho",
-        "firstname": "Fábio Henrique",
-        "lastname": "Tavares",
-        "age": 29,
-        "birth": {
-          "date": "1993-10-23",
-          "place": "Campinas",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "188 cm",
-        "weight": "78 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/299.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 2,
-            "minutes": 190,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 302,
-        "name": "Roberto Firmino",
-        "firstname": "Roberto Firmino",
-        "lastname": "Barbosa de Oliveira",
-        "age": 31,
-        "birth": {
-          "date": "1991-10-02",
-          "place": "Maceió",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "181 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/302.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 5,
-            "lineups": 2,
-            "minutes": 215,
+            "minutes": 160,
             "number": null,
             "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 2,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 371,
-        "name": "Felipe",
-        "firstname": "Felipe Augusto",
-        "lastname": "de Almeida Monteiro",
-        "age": 33,
-        "birth": {
-          "date": "1989-05-16",
-          "place": "Mogi das Cruzes",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "190 cm",
-        "weight": "83 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/371.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
+            "rating": "7.000000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
-            "bench": 1
+            "out": 2,
+            "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 3,
+            "on": 3
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 58,
+            "key": 3,
+            "accuracy": 24
           },
           "tackles": {
-            "total": null,
+            "total": 5,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 18,
+            "won": 8
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 5,
+            "success": 2,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 1,
+            "committed": 1
           },
           "cards": {
             "yellow": 0,
@@ -574,8 +670,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -585,8 +681,8 @@
       "player": {
         "id": 372,
         "name": "Éder Militão",
-        "firstname": "Éder",
-        "lastname": "Gabriel Militão",
+        "firstname": "Éder Gabriel",
+        "lastname": "Militão",
         "age": 24,
         "birth": {
           "date": "1998-01-18",
@@ -607,215 +703,25 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 5,
-            "lineups": 3,
-            "minutes": 275,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
             "number": null,
             "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 618,
-        "name": "Danilo",
-        "firstname": "Danilo Luiz",
-        "lastname": "da Silva",
-        "age": 31,
-        "birth": {
-          "date": "1991-07-15",
-          "place": "Bicas",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "184 cm",
-        "weight": "78 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/618.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 7,
-            "lineups": 6,
-            "minutes": 575,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 643,
-        "name": "Gabriel Jesus",
-        "firstname": "Gabriel Fernando",
-        "lastname": "de Jesus",
-        "age": 25,
-        "birth": {
-          "date": "1997-04-03",
-          "place": "São Paulo",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "175 cm",
-        "weight": "73 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/643.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 282,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
+            "rating": "7.000000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 3,
+            "out": 0,
             "bench": 1
           },
           "shots": {
@@ -824,23 +730,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 59,
+            "key": 1,
+            "accuracy": 51
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 5,
+            "won": 2
           },
           "dribbles": {
             "attempts": null,
@@ -848,19 +754,19 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 1,
+            "committed": 3
           },
           "cards": {
-            "yellow": 1,
+            "yellow": 0,
             "yellowred": 0,
-            "red": 1
+            "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -892,70 +798,70 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 4,
-            "lineups": 0,
-            "minutes": 64,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 166,
             "number": null,
             "position": "Attacker",
-            "rating": null,
+            "rating": "7.000000",
             "captain": false
           },
           "substitutes": {
-            "in": 4,
-            "out": 0,
-            "bench": 7
+            "in": 0,
+            "out": 1,
+            "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 5,
+            "on": 2
           },
           "goals": {
             "total": 0,
-            "conceded": null,
-            "assists": null,
+            "conceded": 0,
+            "assists": 1,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 42,
+            "key": 6,
+            "accuracy": 18
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
+            "total": 3,
+            "blocks": 1,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 26,
+            "won": 12
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 9,
+            "success": 3,
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 6,
             "committed": null
           },
           "cards": {
-            "yellow": 1,
+            "yellow": 0,
             "yellowred": 0,
             "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -963,21 +869,21 @@
     },
     {
       "player": {
-        "id": 860,
-        "name": "Alex Sandro",
-        "firstname": "Alex Sandro",
-        "lastname": "Lobo Silva",
-        "age": 31,
+        "id": 10009,
+        "name": "Rodrygo",
+        "firstname": "Rodrygo",
+        "lastname": "Silva de Goes",
+        "age": 21,
         "birth": {
-          "date": "1991-01-26",
-          "place": "Catanduva",
+          "date": "2001-01-09",
+          "place": "Osasco",
           "country": "Brazil"
         },
         "nationality": "Brazil",
-        "height": "180 cm",
-        "weight": "80 kg",
+        "height": "174 cm",
+        "weight": "64 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/860.png"
+        "photo": "https://media.api-sports.io/football/players/10009.png"
       },
       "statistics": [
         {
@@ -987,121 +893,406 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 183,
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 58,
             "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 2,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 1566,
-        "name": "Emerson",
-        "firstname": "Emerson Aparecido",
-        "lastname": "Leite de Souza Junior",
-        "age": 23,
-        "birth": {
-          "date": "1999-01-14",
-          "place": "São Paulo",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "181 cm",
-        "weight": "79 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1566.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 1,
-            "minutes": 110,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Attacker",
+            "rating": "6.450000",
             "captain": false
           },
           "substitutes": {
             "in": 2,
             "out": 0,
-            "bench": 6
+            "bench": 2
+          },
+          "shots": {
+            "total": 3,
+            "on": 2
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 36,
+            "key": 1,
+            "accuracy": 16
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 8,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 905,
+        "name": "Fred",
+        "firstname": "Frederico",
+        "lastname": "Rodrigues de Paula Santos",
+        "age": 29,
+        "birth": {
+          "date": "1993-03-05",
+          "place": "Belo Horizonte",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "169 cm",
+        "weight": "64 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/905.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 73,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 47,
+            "key": 2,
+            "accuracy": 19
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": 1,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 747,
+        "name": "Casemiro",
+        "firstname": "Carlos Henrique",
+        "lastname": "Casimiro",
+        "age": 30,
+        "birth": {
+          "date": "1992-02-23",
+          "place": "São José dos Campos",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "185 cm",
+        "weight": "84 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/747.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 113,
+            "key": 1,
+            "accuracy": 48
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": 2,
+            "interceptions": 5
+          },
+          "duels": {
+            "total": 13,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 9971,
+        "name": "Antony",
+        "firstname": "Antony Matheus",
+        "lastname": "dos Santos",
+        "age": 22,
+        "birth": {
+          "date": "2000-02-24",
+          "place": "Osasco",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "174 cm",
+        "weight": "63 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/9971.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 27,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 27,
+            "key": 1,
+            "accuracy": 13
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 8,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 4,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 378,
+        "name": "Alex Telles",
+        "firstname": "Alex",
+        "lastname": "Nicolao Telles",
+        "age": 30,
+        "birth": {
+          "date": "1992-12-15",
+          "place": "Caxias do Sul",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "181 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/378.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 4,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1109,7 +1300,102 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 8,
+            "key": null,
+            "accuracy": 8
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 30497,
+        "name": "Bremer",
+        "firstname": "Gleison Bremer",
+        "lastname": "Silva Nascimento",
+        "age": 25,
+        "birth": {
+          "date": "1997-03-18",
+          "place": "Itapitanga",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "188 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/30497.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1144,8 +1430,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1153,21 +1439,21 @@
     },
     {
       "player": {
-        "id": 1646,
-        "name": "Lucas Paquetá",
-        "firstname": "Lucas",
-        "lastname": "Tolentino Coelho de Lima",
-        "age": 25,
+        "id": 618,
+        "name": "Danilo",
+        "firstname": "Danilo Luiz",
+        "lastname": "da Silva",
+        "age": 31,
         "birth": {
-          "date": "1997-08-27",
-          "place": "Rio de Janeiro",
+          "date": "1991-07-15",
+          "place": "Bicas",
           "country": "Brazil"
         },
         "nationality": "Brazil",
-        "height": "180 cm",
-        "weight": "72 kg",
+        "height": "184 cm",
+        "weight": "78 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1646.png"
+        "photo": "https://media.api-sports.io/football/players/618.png"
       },
       "statistics": [
         {
@@ -1177,34 +1463,224 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 6,
-            "lineups": 4,
-            "minutes": 356,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
             "number": null,
-            "position": "Midfielder",
+            "position": "Defender",
+            "rating": "7.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 73,
+            "key": null,
+            "accuracy": 61
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 3,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 860,
+        "name": "Alex Sandro",
+        "firstname": "Alex Sandro",
+        "lastname": "Lobo Silva",
+        "age": 31,
+        "birth": {
+          "date": "1991-01-26",
+          "place": "Catanduva",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "180 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/860.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 176,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.750000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 139,
+            "key": 1,
+            "accuracy": 63
+          },
+          "tackles": {
+            "total": 8,
+            "blocks": null,
+            "interceptions": 3
+          },
+          "duels": {
+            "total": 17,
+            "won": 13
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 617,
+        "name": "Ederson",
+        "firstname": "Ederson",
+        "lastname": "Santana de Moraes",
+        "age": 29,
+        "birth": {
+          "date": "1993-08-17",
+          "place": "Osasco",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "188 cm",
+        "weight": "86 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/617.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 2,
-            "out": 4,
-            "bench": 3
+            "in": 0,
+            "out": 0,
+            "bench": 2
           },
           "shots": {
             "total": null,
             "on": null
           },
           "goals": {
-            "total": 2,
-            "conceded": null,
+            "total": 0,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1232,37 +1708,37 @@
             "committed": null
           },
           "cards": {
-            "yellow": 1,
+            "yellow": 0,
             "yellowred": 0,
             "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
         }
       ]
     },
     {
       "player": {
-        "id": 2410,
-        "name": "Weverton",
-        "firstname": "Weverton",
-        "lastname": "Pereira da Silva",
-        "age": 35,
+        "id": 259,
+        "name": "Thiago Emiliano da Silva",
+        "firstname": "Thiago",
+        "lastname": "Emiliano da Silva",
+        "age": 38,
         "birth": {
-          "date": "1987-12-13",
-          "place": "Rio Branco",
+          "date": "1984-09-22",
+          "place": "Rio de Janeiro",
           "country": "Brazil"
         },
         "nationality": "Brazil",
-        "height": "189 cm",
-        "weight": "91 kg",
+        "height": "183 cm",
+        "weight": "79 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2410.png"
+        "photo": "https://media.api-sports.io/football/players/259.png"
       },
       "statistics": [
         {
@@ -1272,26 +1748,26 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
-            "position": "Goalkeeper",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 6
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -1367,248 +1843,58 @@
             "logo": "https://media.api-sports.io/football/teams/6.png"
           },
           "league": {
-            "id": 9,
-            "name": "Copa America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": 2021
+            "season": 2022
           },
           "games": {
-            "appearences": 7,
-            "lineups": 5,
-            "minutes": 463,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 152,
             "number": null,
             "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 4,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2414,
-        "name": "Éverton",
-        "firstname": "Éverton",
-        "lastname": "Sousa Soares",
-        "age": 26,
-        "birth": {
-          "date": "1996-03-22",
-          "place": "Fortaleza",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "174 cm",
-        "weight": "72 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2414.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 6,
-            "lineups": 4,
-            "minutes": 270,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 4,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 9458,
-        "name": "Léo Ortiz",
-        "firstname": "Leonardo",
-        "lastname": "Rech Ortiz",
-        "age": 26,
-        "birth": {
-          "date": "1996-01-03",
-          "place": "Porto Alegre",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "185 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/9458.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
+            "rating": "7.500000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
-            "bench": 3
+            "out": 2,
+            "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 2,
+            "on": 2
           },
           "goals": {
-            "total": 0,
-            "conceded": null,
+            "total": 2,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 21,
             "key": null,
-            "accuracy": null
+            "accuracy": 7
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 9,
+            "won": 6
           },
           "dribbles": {
-            "attempts": null,
+            "attempts": 1,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 3,
             "committed": null
           },
           "cards": {
@@ -1619,293 +1905,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 10122,
-        "name": "Renan Lodi",
-        "firstname": "Renan Augusto",
-        "lastname": "Lodi dos Santos",
-        "age": 24,
-        "birth": {
-          "date": "1998-04-08",
-          "place": "Serrana",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "173 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/10122.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 7,
-            "lineups": 5,
-            "minutes": 387,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 5,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 2,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 10168,
-        "name": "Éverton Ribeiro",
-        "firstname": "Éverton Augusto",
-        "lastname": "de Barros Ribeiro",
-        "age": 33,
-        "birth": {
-          "date": "1989-04-10",
-          "place": "Arujá",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "171 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/10168.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 5,
-            "lineups": 1,
-            "minutes": 166,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 4,
-            "out": 1,
-            "bench": 6
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 10174,
-        "name": "Gabriel Barbosa",
-        "firstname": "Gabriel",
-        "lastname": "Barbosa Almeida",
-        "age": 26,
-        "birth": {
-          "date": "1996-08-30",
-          "place": "São Bernardo do Campo",
-          "country": "Brazil"
-        },
-        "nationality": "Brazil",
-        "height": "178 cm",
-        "weight": "74 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/10174.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 6,
-            "name": "Brazil",
-            "logo": "https://media.api-sports.io/football/teams/6.png"
-          },
-          "league": {
-            "id": 9,
-            "name": "Copa America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/9.png",
-            "flag": null,
-            "season": 2021
-          },
-          "games": {
-            "appearences": 5,
-            "lineups": 2,
-            "minutes": 188,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 1,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

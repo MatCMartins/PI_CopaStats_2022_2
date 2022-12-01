@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "20"
   },
@@ -8,26 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 4
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 1121,
-        "name": "D. Arzani",
-        "firstname": "Daniel",
-        "lastname": "Arzani",
-        "age": 23,
+        "id": 44843,
+        "name": "M. Boyle",
+        "firstname": "Martin Callie",
+        "lastname": "Boyle",
+        "age": 29,
         "birth": {
-          "date": "1999-01-04",
-          "place": "Chorramabad",
-          "country": "Iran"
+          "date": "1993-04-25",
+          "place": "Aberdeen",
+          "country": "Scotland"
         },
         "nationality": "Australia",
-        "height": "171 cm",
-        "weight": "73 kg",
+        "height": "172 cm",
+        "weight": "66 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1121.png"
+        "photo": "https://media.api-sports.io/football/players/44843.png"
       },
       "statistics": [
         {
@@ -37,10 +38,10 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -50,101 +51,6 @@
             "minutes": 0,
             "number": null,
             "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2745,
-        "name": "M. Jurman",
-        "firstname": "Matthew John",
-        "lastname": "Jurman",
-        "age": 33,
-        "birth": {
-          "date": "1989-12-08",
-          "place": "Sydney",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "190 cm",
-        "weight": "85 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2745.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
             "rating": null,
             "captain": false
           },
@@ -203,21 +109,21 @@
     },
     {
       "player": {
-        "id": 2746,
-        "name": "J. Risdon",
-        "firstname": "Joshua Robert",
-        "lastname": "Risdon",
-        "age": 30,
+        "id": 6820,
+        "name": "A. Redmayne",
+        "firstname": "Andrew James",
+        "lastname": "Redmayne",
+        "age": 33,
         "birth": {
-          "date": "1992-07-27",
-          "place": "Bunbury",
+          "date": "1989-01-13",
+          "place": "Gosford",
           "country": "Australia"
         },
         "nationality": "Australia",
-        "height": "167 cm",
-        "weight": "70 kg",
+        "height": "194 cm",
+        "weight": "87 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2746.png"
+        "photo": "https://media.api-sports.io/football/players/6820.png"
       },
       "statistics": [
         {
@@ -227,10 +133,10 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -239,14 +145,109 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 1
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2741,
+        "name": "Mathew David Ryan",
+        "firstname": "Mathew David",
+        "lastname": "Ryan",
+        "age": 30,
+        "birth": {
+          "date": "1992-04-08",
+          "place": "Plumpton",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "184 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2741.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -298,21 +299,21 @@
     },
     {
       "player": {
-        "id": 2747,
-        "name": "M. Amini",
-        "firstname": "Mohammad Mustafa",
-        "lastname": "Amini Castillo",
-        "age": 29,
+        "id": 1925,
+        "name": "D. Vukovic",
+        "firstname": "Daniel",
+        "lastname": "Vukovic",
+        "age": 37,
         "birth": {
-          "date": "1993-04-20",
+          "date": "1985-03-27",
           "place": "Sydney",
           "country": "Australia"
         },
         "nationality": "Australia",
-        "height": "173 cm",
-        "weight": "71 kg",
+        "height": "187 cm",
+        "weight": "96 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2747.png"
+        "photo": "https://media.api-sports.io/football/players/1925.png"
       },
       "statistics": [
         {
@@ -322,26 +323,121 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2742,
+        "name": "M. Degenek",
+        "firstname": "Miloš",
+        "lastname": "Degenek",
+        "age": 28,
+        "birth": {
+          "date": "1994-04-28",
+          "place": "Knin",
+          "country": "Croatia"
+        },
+        "nationality": "Australia",
+        "height": "187 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2742.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 0,
-            "minutes": 36,
+            "minutes": 20,
             "number": null,
-            "position": "Midfielder",
-            "rating": null,
+            "position": "Defender",
+            "rating": "6.800000",
             "captain": false
           },
           "substitutes": {
             "in": 2,
             "out": 0,
-            "bench": 3
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -349,23 +445,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 12,
             "key": null,
-            "accuracy": null
+            "accuracy": 6
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 6,
+            "won": 5
           },
           "dribbles": {
             "attempts": null,
@@ -373,7 +469,7 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 3,
             "committed": null
           },
           "cards": {
@@ -384,8 +480,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -393,116 +489,21 @@
     },
     {
       "player": {
-        "id": 2748,
-        "name": "C. Ikonomidis",
-        "firstname": "Christopher James",
-        "lastname": "Ikonomidis",
-        "age": 27,
+        "id": 6849,
+        "name": "T. Deng",
+        "firstname": "Thomas Jok",
+        "lastname": "Deng",
+        "age": 25,
         "birth": {
-          "date": "1995-05-04",
-          "place": "Sydney",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "180 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2748.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 0,
-            "minutes": 57,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 4,
-            "out": 0,
-            "bench": 6
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2753,
-        "name": "M. Milligan",
-        "firstname": "Mark",
-        "lastname": "Milligan",
-        "age": 36,
-        "birth": {
-          "date": "1985-08-04",
-          "place": "Sydney",
-          "country": "Australia"
+          "date": "1997-03-20",
+          "place": "Nairobi",
+          "country": "Kenya"
         },
         "nationality": "Australia",
         "height": "178 cm",
-        "weight": "78 kg",
+        "weight": "74 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2753.png"
+        "photo": "https://media.api-sports.io/football/players/6849.png"
       },
       "statistics": [
         {
@@ -512,105 +513,10 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 6804,
-        "name": "M. Špiranović",
-        "firstname": "Matthew Thomas",
-        "lastname": "Špiranović",
-        "age": 34,
-        "birth": {
-          "date": "1988-06-27",
-          "place": "Geelong",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "188 cm",
-        "weight": "87 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6804.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -626,7 +532,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -634,7 +540,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -669,8 +575,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -678,116 +584,21 @@
     },
     {
       "player": {
-        "id": 6828,
-        "name": "J. Brillante",
-        "firstname": "Joshua",
-        "lastname": "Brillante",
-        "age": 29,
+        "id": 6822,
+        "name": "J. King",
+        "firstname": "Joel Bruce",
+        "lastname": "King",
+        "age": 22,
         "birth": {
-          "date": "1993-03-25",
-          "place": "Bundaberg",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "177 cm",
-        "weight": "73 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6828.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 6834,
-        "name": "B. O&apos;Neill",
-        "firstname": "Brandon",
-        "lastname": "O'Neill",
-        "age": 28,
-        "birth": {
-          "date": "1994-04-12",
-          "place": "Perth",
+          "date": "2000-10-30",
+          "place": null,
           "country": "Australia"
         },
         "nationality": "Australia",
         "height": "179 cm",
         "weight": "78 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6834.png"
+        "photo": "https://media.api-sports.io/football/players/6822.png"
       },
       "statistics": [
         {
@@ -797,10 +608,10 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -808,638 +619,110 @@
             "appearences": 0,
             "lineups": 0,
             "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 6845,
-        "name": "L. Thomas",
-        "firstname": "Lawrence Andrew Kingsley",
-        "lastname": "Thomas",
-        "age": 30,
-        "birth": {
-          "date": "1992-05-09",
-          "place": "Sydney",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "191 cm",
-        "weight": "91 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6845.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 7,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 9
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 6854,
-        "name": "T. Antonis",
-        "firstname": "Terry",
-        "lastname": "Antonis",
-        "age": 29,
-        "birth": {
-          "date": "1993-11-26",
-          "place": "Bankstown",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "180 cm",
-        "weight": "74 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6854.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 6870,
-        "name": "P. Izzo",
-        "firstname": "Paul",
-        "lastname": "Izzo",
-        "age": 27,
-        "birth": {
-          "date": "1995-01-06",
-          "place": "Adelaide",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "185 cm",
-        "weight": "81 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6870.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 6918,
-        "name": "B. Fornaroli",
-        "firstname": "Bruno",
-        "lastname": "Fornaroli Mezza",
-        "age": 35,
-        "birth": {
-          "date": "1987-09-07",
-          "place": "Salto",
-          "country": "Uruguay"
-        },
-        "nationality": "Australia",
-        "height": "175 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6918.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 68,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 7009,
-        "name": "R. Tongyik",
-        "firstname": "Ruon",
-        "lastname": "Kuk Tongyik",
-        "age": 26,
-        "birth": {
-          "date": "1996-12-28",
-          "place": null,
-          "country": "South Sudan"
-        },
-        "nationality": "Australia",
-        "height": "185 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/7009.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 0,
-            "minutes": 11,
             "number": null,
             "position": "Defender",
             "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6984,
+        "name": "K. Baccus",
+        "firstname": "Keanu Kole",
+        "lastname": "Baccus",
+        "age": 24,
+        "birth": {
+          "date": "1998-06-07",
+          "place": "Durban",
+          "country": "South Africa"
+        },
+        "nationality": "Australia",
+        "height": "178 cm",
+        "weight": "67 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/6984.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 10,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
             "in": 2,
             "out": 0,
-            "bench": 4
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1447,14 +730,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 13,
             "key": null,
-            "accuracy": null
+            "accuracy": 4
           },
           "tackles": {
             "total": null,
@@ -1462,7 +745,7 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
+            "total": 3,
             "won": null
           },
           "dribbles": {
@@ -1482,8 +765,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1491,21 +774,21 @@
     },
     {
       "player": {
-        "id": 7023,
-        "name": "N. D&apos;Agostino",
-        "firstname": "Nicholas",
-        "lastname": "D'Agostino",
-        "age": 24,
+        "id": 19050,
+        "name": "A. Mooy",
+        "firstname": "Aaron Frank",
+        "lastname": "Mooy",
+        "age": 32,
         "birth": {
-          "date": "1998-02-25",
+          "date": "1990-09-15",
           "place": "Sydney",
           "country": "Australia"
         },
         "nationality": "Australia",
         "height": "175 cm",
-        "weight": "77 kg",
+        "weight": "74 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/7023.png"
+        "photo": "https://media.api-sports.io/football/players/19050.png"
       },
       "statistics": [
         {
@@ -1515,133 +798,59 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 44,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 73,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
+            "position": "Midfielder",
+            "rating": "6.800000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 1,
+            "out": 0,
             "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 114,
+            "key": 1,
+            "accuracy": 46
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 6,
+            "blocks": 4,
+            "interceptions": 2
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 17,
+            "won": 10
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 2,
+            "success": 2,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 1,
+            "committed": 3
           },
           "cards": {
             "yellow": 1,
@@ -1651,8 +860,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1660,211 +869,21 @@
     },
     {
       "player": {
-        "id": 19491,
-        "name": "A. Federici",
-        "firstname": "Adam",
-        "lastname": "Federici",
-        "age": 37,
-        "birth": {
-          "date": "1985-01-31",
-          "place": "Nowra",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "188 cm",
-        "weight": "90 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/19491.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 19676,
-        "name": "R. Williams",
-        "firstname": "Ryan Dale",
-        "lastname": "Williams",
-        "age": 29,
-        "birth": {
-          "date": "1993-10-28",
-          "place": "Subiaco",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "173 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/19676.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 26253,
-        "name": "B. Borello",
-        "firstname": "Brandon Joel Gaetano",
-        "lastname": "Borrello",
+        "id": 19774,
+        "name": "J. Cummings",
+        "firstname": "Jason Steven",
+        "lastname": "Cummings",
         "age": 27,
         "birth": {
-          "date": "1995-07-25",
-          "place": "Adelaide",
-          "country": "Australia"
+          "date": "1995-08-01",
+          "place": "Edinburgh",
+          "country": "Scotland"
         },
         "nationality": "Australia",
         "height": "178 cm",
-        "weight": "79 kg",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/26253.png"
+        "photo": "https://media.api-sports.io/football/players/19774.png"
       },
       "statistics": [
         {
@@ -1874,284 +893,20 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 3,
-            "minutes": 222,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 2,
-            "bench": 6
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 44689,
-        "name": "R. Williams",
-        "firstname": "Rhys",
-        "lastname": "Williams",
-        "age": 34,
-        "birth": {
-          "date": "1988-07-14",
-          "place": "Perth",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "187 cm",
-        "weight": "82 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/44689.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 82014,
-        "name": "Ben Folami",
-        "firstname": "Gbenga Tai",
-        "lastname": "Folami",
-        "age": 23,
-        "birth": {
-          "date": "1999-06-08",
-          "place": "Sydney",
-          "country": "Australia"
-        },
-        "nationality": "Australia",
-        "height": "180 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/82014.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 20,
-            "name": "Australia",
-            "logo": "https://media.api-sports.io/football/teams/20.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 0,
-            "minutes": 0,
+            "minutes": 34,
             "number": null,
             "position": "Attacker",
-            "rating": null,
+            "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
@@ -2165,14 +920,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 6,
             "key": null,
-            "accuracy": null
+            "accuracy": 4
           },
           "tackles": {
             "total": null,
@@ -2180,8 +935,388 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
+            "total": 2,
             "won": null
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6993,
+        "name": "M. Duke",
+        "firstname": "Mitchell Thomas",
+        "lastname": "Duke",
+        "age": 31,
+        "birth": {
+          "date": "1991-01-18",
+          "place": "Sydney",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "186 cm",
+        "weight": "84 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/6993.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 120,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.000000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 27,
+            "key": null,
+            "accuracy": 8
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 19,
+            "won": 10
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6888,
+        "name": "C. Goodwin",
+        "firstname": "Craig Alexander",
+        "lastname": "Goodwin",
+        "age": 31,
+        "birth": {
+          "date": "1991-12-16",
+          "place": "Adelaide",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "180 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/6888.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 158,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.950000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 46,
+            "key": 2,
+            "accuracy": 17
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 17,
+            "won": 5
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2751,
+        "name": "M. Leckie",
+        "firstname": "Mathew Allan",
+        "lastname": "Leckie",
+        "age": 31,
+        "birth": {
+          "date": "1991-02-04",
+          "place": "Melbourne",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "181 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2751.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 175,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.100000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 56,
+            "key": 1,
+            "accuracy": 20
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 33,
+            "won": 14
+          },
+          "dribbles": {
+            "attempts": 5,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2756,
+        "name": "J. Maclaren",
+        "firstname": "Jamie",
+        "lastname": "Maclaren",
+        "age": 29,
+        "birth": {
+          "date": "1993-07-29",
+          "place": "Sunbury",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "179 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2756.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 26,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 8,
+            "key": 2,
+            "accuracy": 5
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 6,
+            "won": 1
           },
           "dribbles": {
             "attempts": null,
@@ -2200,11 +1335,32 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 349987,
+        "name": "G. Kuol",
+        "firstname": "Garang",
+        "lastname": "Mawien Kuol",
+        "age": 18,
+        "birth": {
+          "date": "2004-09-15",
+          "place": null,
+          "country": "Australia"
         },
+        "nationality": "Australia",
+        "height": "175 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/349987.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 20,
@@ -2212,10 +1368,105 @@
             "logo": "https://media.api-sports.io/football/teams/20.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 17,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 3,
+            "key": null,
+            "accuracy": 2
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 3,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 68041,
+        "name": "M. Tilio",
+        "firstname": "Marco",
+        "lastname": "Tilio",
+        "age": 21,
+        "birth": {
+          "date": "2001-08-23",
+          "place": null,
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "170 cm",
+        "weight": null,
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/68041.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -2231,7 +1482,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -2239,7 +1490,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -2274,8 +1525,388 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 225,
+        "name": "A. Behich",
+        "firstname": "Aziz",
+        "lastname": "Eraltay Behich",
+        "age": 32,
+        "birth": {
+          "date": "1990-12-16",
+          "place": "Melbourne",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "170 cm",
+        "weight": "63 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/225.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.600000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 87,
+            "key": null,
+            "accuracy": 35
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": 2,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 15,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2749,
+        "name": "J. Irvine",
+        "firstname": "Jackson Alexander",
+        "lastname": "Irvine",
+        "age": 29,
+        "birth": {
+          "date": "1993-03-07",
+          "place": "Melbourne",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "189 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2749.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 175,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.600000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 65,
+            "key": null,
+            "accuracy": 27
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 26,
+            "won": 9
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 6
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2755,
+        "name": "A. Mabil",
+        "firstname": "Awer",
+        "lastname": "Bul Mabil",
+        "age": 27,
+        "birth": {
+          "date": "1995-09-15",
+          "place": "Kakuma",
+          "country": "Kenya"
+        },
+        "nationality": "Australia",
+        "height": "179 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2755.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 22,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 13,
+            "key": null,
+            "accuracy": 4
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 3,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 38123,
+        "name": "A. Hrustić",
+        "firstname": "Ajdin",
+        "lastname": "Hrustić",
+        "age": 26,
+        "birth": {
+          "date": "1996-07-05",
+          "place": "Melbourne",
+          "country": "Australia"
+        },
+        "nationality": "Australia",
+        "height": "183 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/38123.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 27,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 11,
+            "key": null,
+            "accuracy": 4
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 7,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

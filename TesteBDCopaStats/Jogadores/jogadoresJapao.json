@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "12"
   },
@@ -8,121 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 6
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 2590,
-        "name": "K. Anzai",
-        "firstname": "Koki",
-        "lastname": "Anzai",
-        "age": 27,
+        "id": 41349,
+        "name": "S. Gonda",
+        "firstname": "Shūichi",
+        "lastname": "Gonda",
+        "age": 33,
         "birth": {
-          "date": "1995-05-31",
-          "place": "Kawaguchi",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "172 cm",
-        "weight": "64 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2590.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 32,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2602,
-        "name": "Y. Kobayashi",
-        "firstname": "Yuki",
-        "lastname": "Kobayashi",
-        "age": 30,
-        "birth": {
-          "date": "1992-04-24",
+          "date": "1989-03-03",
           "place": "Tokyo",
           "country": "Japan"
         },
         "nationality": "Japan",
-        "height": "182 cm",
-        "weight": "72 kg",
+        "height": "187 cm",
+        "weight": "84 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2602.png"
+        "photo": "https://media.api-sports.io/football/players/41349.png"
       },
       "statistics": [
         {
@@ -132,474 +38,20 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2606,
-        "name": "H. Yamaguchi",
-        "firstname": "Hotaru",
-        "lastname": "Yamaguchi",
-        "age": 32,
-        "birth": {
-          "date": "1990-10-06",
-          "place": "Mie",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "173 cm",
-        "weight": "72 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2606.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 12,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 18905,
-        "name": "Y. Muto",
-        "firstname": "Yoshinori",
-        "lastname": "Muto",
-        "age": 30,
-        "birth": {
-          "date": "1992-07-15",
-          "place": "Tokyo",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "179 cm",
-        "weight": "72 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/18905.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 25330,
-        "name": "Y. Ōsako",
-        "firstname": "Yūya",
-        "lastname": "Ōsako",
-        "age": 32,
-        "birth": {
-          "date": "1990-05-18",
-          "place": "Kaseda",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "182 cm",
-        "weight": "71 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/25330.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 11,
-            "lineups": 11,
-            "minutes": 890,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 5,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 10,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 32910,
-        "name": "Ryosuke Kojima",
-        "firstname": "Ryosuke",
-        "lastname": "Kojima",
-        "age": 25,
-        "birth": {
-          "date": "1997-01-30",
-          "place": "Toyota",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "183 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/32910.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
             "position": "Goalkeeper",
-            "rating": null,
+            "rating": "6.800000",
             "captain": false
           },
           "substitutes": {
@@ -613,14 +65,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 2,
             "assists": null,
-            "saves": null
+            "saves": 8
           },
           "passes": {
-            "total": null,
+            "total": 48,
             "key": null,
-            "accuracy": null
+            "accuracy": 19
           },
           "tackles": {
             "total": null,
@@ -628,7 +80,7 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
+            "total": 1,
             "won": null
           },
           "dribbles": {
@@ -638,7 +90,7 @@
           },
           "fouls": {
             "drawn": null,
-            "committed": null
+            "committed": 1
           },
           "cards": {
             "yellow": 0,
@@ -648,315 +100,220 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
         }
       ]
     },
     {
       "player": {
-        "id": 32998,
-        "name": "Y. Iwasaki",
+        "id": 440,
+        "name": "Y. Nagatomo",
         "firstname": "Yuto",
-        "lastname": "Iwasaki",
-        "age": 24,
-        "birth": {
-          "date": "1998-06-11",
-          "place": "Hikone",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "173 cm",
-        "weight": "72 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/32998.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 33000,
-        "name": "D. Suga",
-        "firstname": "Daiki",
-        "lastname": "Suga",
-        "age": 24,
-        "birth": {
-          "date": "1998-09-10",
-          "place": "Otaru",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "171 cm",
-        "weight": "69 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33000.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 33085,
-        "name": "Hiroki Abe",
-        "firstname": "Hiroki",
-        "lastname": "Abe",
-        "age": 23,
-        "birth": {
-          "date": "1999-01-28",
-          "place": "Tokyo",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "173 cm",
-        "weight": "64 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33085.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 33093,
-        "name": "S. Nishikawa",
-        "firstname": "Shusaku",
-        "lastname": "Nishikawa",
+        "lastname": "Nagatomo",
         "age": 36,
         "birth": {
-          "date": "1986-06-18",
-          "place": "Usa",
+          "date": "1986-09-12",
+          "place": "Saijo",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "170 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/440.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 103,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.450000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 50,
+            "key": 1,
+            "accuracy": 20
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 9,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1907,
+        "name": "H. Sakai",
+        "firstname": "Hiroki",
+        "lastname": "Sakai",
+        "age": 32,
+        "birth": {
+          "date": "1990-04-12",
+          "place": "Kashiwa",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1907.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 74,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 21,
+            "key": 1,
+            "accuracy": 12
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": 1,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 14,
+            "won": 7
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 32954,
+        "name": "S. Taniguchi",
+        "firstname": "Shogo",
+        "lastname": "Taniguchi",
+        "age": 31,
+        "birth": {
+          "date": "1991-07-15",
+          "place": "Kumamoto",
           "country": "Japan"
         },
         "nationality": "Japan",
         "height": "183 cm",
-        "weight": "81 kg",
+        "weight": "75 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33093.png"
+        "photo": "https://media.api-sports.io/football/players/32954.png"
       },
       "statistics": [
         {
@@ -966,105 +323,10 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 33098,
-        "name": "T. Makino",
-        "firstname": "Tomoaki",
-        "lastname": "Makino",
-        "age": 35,
-        "birth": {
-          "date": "1987-05-11",
-          "place": "Hiroshima",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "182 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33098.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1080,7 +342,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1088,7 +350,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1123,8 +385,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1132,21 +394,401 @@
     },
     {
       "player": {
-        "id": 33131,
-        "name": "D. Sugioka",
-        "firstname": "Daiki",
-        "lastname": "Sugioka",
-        "age": 24,
+        "id": 33144,
+        "name": "M. Yamane",
+        "firstname": "Miki",
+        "lastname": "Yamane",
+        "age": 29,
         "birth": {
-          "date": "1998-09-08",
+          "date": "1993-12-22",
+          "place": "Yokohama",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "178 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/33144.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 62,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 26,
+            "key": 1,
+            "accuracy": 20
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 6,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2604,
+        "name": "G. Shibasaki",
+        "firstname": "Gaku",
+        "lastname": "Shibasaki",
+        "age": 30,
+        "birth": {
+          "date": "1992-05-28",
+          "place": "Aomori",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "175 cm",
+        "weight": "64 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2604.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 106851,
+        "name": "S. Machino",
+        "firstname": "Shuto",
+        "lastname": "Machino",
+        "age": 23,
+        "birth": {
+          "date": "1999-09-30",
+          "place": "Iga",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "185 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/106851.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 33224,
+        "name": "D. Maeda",
+        "firstname": "Daizen",
+        "lastname": "Maeda",
+        "age": 25,
+        "birth": {
+          "date": "1997-10-20",
+          "place": "Taishi",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "173 cm",
+        "weight": "67 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/33224.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 57,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 4,
+            "key": null,
+            "accuracy": 1
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 6,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 32902,
+        "name": "Y. Soma",
+        "firstname": "Yuki",
+        "lastname": "Soma",
+        "age": 25,
+        "birth": {
+          "date": "1997-02-25",
           "place": "Tokyo",
           "country": "Japan"
         },
         "nationality": "Japan",
-        "height": "182 cm",
-        "weight": "75 kg",
+        "height": "166 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33131.png"
+        "photo": "https://media.api-sports.io/football/players/32902.png"
       },
       "statistics": [
         {
@@ -1156,228 +798,59 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 82,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Attacker",
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 33230,
-        "name": "D. Maekawa",
-        "firstname": "Daiya",
-        "lastname": "Maekawa",
-        "age": 28,
-        "birth": {
-          "date": "1994-09-08",
-          "place": "Kobe",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "191 cm",
-        "weight": "86 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33230.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
+            "out": 1,
             "bench": 1
           },
           "shots": {
-            "total": null,
+            "total": 2,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 10,
             "key": null,
-            "accuracy": null
+            "accuracy": 8
           },
           "tackles": {
-            "total": null,
+            "total": 2,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 10,
+            "won": 6
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 2,
+            "success": 1,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 3,
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -1387,8 +860,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1396,21 +869,21 @@
     },
     {
       "player": {
-        "id": 33268,
-        "name": "T. Ominami",
-        "firstname": "Takuma",
-        "lastname": "Ominami",
-        "age": 25,
+        "id": 2601,
+        "name": "D. Kamada",
+        "firstname": "Daichi",
+        "lastname": "Kamada",
+        "age": 26,
         "birth": {
-          "date": "1997-12-13",
-          "place": "Aichi",
+          "date": "1996-08-05",
+          "place": "Ehime",
           "country": "Japan"
         },
         "nationality": "Japan",
         "height": "184 cm",
         "weight": "76 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33268.png"
+        "photo": "https://media.api-sports.io/football/players/2601.png"
       },
       "statistics": [
         {
@@ -1420,17 +893,492 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.650000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 51,
+            "key": 1,
+            "accuracy": 21
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 12,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 38114,
+        "name": "K. Itakura",
+        "firstname": "Ko",
+        "lastname": "Itakura",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-27",
+          "place": "Yokohama",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "186 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/38114.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.050000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 95,
+            "key": 1,
+            "accuracy": 42
+          },
+          "tackles": {
+            "total": 8,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 17,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 32893,
+        "name": "H. Ito",
+        "firstname": "Hiroki",
+        "lastname": "Ito",
+        "age": 23,
+        "birth": {
+          "date": "1999-05-12",
+          "place": "Shizuoka",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "188 cm",
+        "weight": "84 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/32893.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
             "lineups": 0,
-            "minutes": 0,
+            "minutes": 44,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 61,
+            "key": 1,
+            "accuracy": 56
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 8500,
+        "name": "W. Endo",
+        "firstname": "Wataru",
+        "lastname": "Endo",
+        "age": 29,
+        "birth": {
+          "date": "1993-02-09",
+          "place": "Yokohama",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "178 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/8500.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 121,
+            "key": null,
+            "accuracy": 47
+          },
+          "tackles": {
+            "total": 6,
+            "blocks": 2,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 36,
+            "won": 18
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 5,
+            "committed": 6
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 25375,
+        "name": "T. Asano",
+        "firstname": "Takuma",
+        "lastname": "Asano",
+        "age": 28,
+        "birth": {
+          "date": "1994-11-10",
+          "place": "Komono",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "173 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/25375.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 77,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.000000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": 4,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 11,
+            "key": 2,
+            "accuracy": 5
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 7,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 18944,
+        "name": "Maya Yoshida",
+        "firstname": "Maya",
+        "lastname": "Yoshida",
+        "age": 34,
+        "birth": {
+          "date": "1988-08-24",
+          "place": "Nagasaki",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "189 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/18944.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
             "position": "Defender",
             "rating": null,
@@ -1491,21 +1439,21 @@
     },
     {
       "player": {
-        "id": 33289,
-        "name": "Koki Ogawa",
-        "firstname": "Koki",
-        "lastname": "Ogawa",
-        "age": 25,
+        "id": 1942,
+        "name": "J. Ito",
+        "firstname": "Junya",
+        "lastname": "Ito",
+        "age": 29,
         "birth": {
-          "date": "1997-08-08",
-          "place": "Kanagawa",
+          "date": "1993-03-09",
+          "place": "Yokosuka",
           "country": "Japan"
         },
         "nationality": "Japan",
-        "height": "186 cm",
-        "weight": "78 kg",
+        "height": "176 cm",
+        "weight": "66 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33289.png"
+        "photo": "https://media.api-sports.io/football/players/1942.png"
       },
       "statistics": [
         {
@@ -1515,58 +1463,58 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 113,
             "number": null,
             "position": "Attacker",
-            "rating": null,
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
-            "in": 0,
+            "in": 1,
             "out": 0,
-            "bench": 0
+            "bench": 1
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 1,
+            "on": 1
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 19,
+            "key": 2,
+            "accuracy": 3
           },
           "tackles": {
-            "total": null,
+            "total": 2,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 2
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 17,
+            "won": 8
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 5,
+            "success": 2,
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 2,
             "committed": null
           },
           "cards": {
@@ -1577,8 +1525,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1586,21 +1534,21 @@
     },
     {
       "player": {
-        "id": 33294,
-        "name": "K. Tani",
-        "firstname": "Kosei",
-        "lastname": "Tani",
-        "age": 22,
+        "id": 22242,
+        "name": "E. Kawashima",
+        "firstname": "Eiji",
+        "lastname": "Kawashima",
+        "age": 39,
         "birth": {
-          "date": "2000-11-22",
-          "place": "Sakai",
+          "date": "1983-03-20",
+          "place": "Yono",
           "country": "Japan"
         },
         "nationality": "Japan",
-        "height": "190 cm",
-        "weight": "87 kg",
+        "height": "185 cm",
+        "weight": "82 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33294.png"
+        "photo": "https://media.api-sports.io/football/players/22242.png"
       },
       "statistics": [
         {
@@ -1610,84 +1558,10 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 7
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1711,7 +1585,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1746,30 +1620,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
         }
       ]
     },
     {
       "player": {
-        "id": 33595,
-        "name": "T. Koga",
-        "firstname": "Taiyo",
-        "lastname": "Koga",
+        "id": 32966,
+        "name": "A. Tanaka",
+        "firstname": "Ao",
+        "lastname": "Tanaka",
         "age": 24,
         "birth": {
-          "date": "1998-10-28",
-          "place": "Chiba",
+          "date": "1998-09-10",
+          "place": "Kawasaki",
           "country": "Japan"
         },
         "nationality": "Japan",
-        "height": "182 cm",
-        "weight": "76 kg",
+        "height": "180 cm",
+        "weight": "69 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33595.png"
+        "photo": "https://media.api-sports.io/football/players/32966.png"
       },
       "statistics": [
         {
@@ -1779,120 +1653,25 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 33605,
-        "name": "A. Esaka",
-        "firstname": "Ataru",
-        "lastname": "Esaka",
-        "age": 30,
-        "birth": {
-          "date": "1992-05-31",
-          "place": "Sanda",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "175 cm",
-        "weight": "67 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/33605.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 71,
             "number": null,
             "position": "Midfielder",
-            "rating": null,
+            "rating": "6.900000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
+            "out": 1,
             "bench": 1
           },
           "shots": {
@@ -1901,23 +1680,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 27,
             "key": null,
-            "accuracy": null
+            "accuracy": 21
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
+            "total": 3,
+            "blocks": 1,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 6,
+            "won": 4
           },
           "dribbles": {
             "attempts": null,
@@ -1936,8 +1715,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1945,21 +1724,21 @@
     },
     {
       "player": {
-        "id": 182008,
-        "name": "S. Tanaka",
-        "firstname": "Shunta",
-        "lastname": "Tanaka",
-        "age": 25,
+        "id": 72155,
+        "name": "A. Ueda",
+        "firstname": "Ayase",
+        "lastname": "Ueda",
+        "age": 24,
         "birth": {
-          "date": "1997-05-26",
-          "place": "Osaka",
+          "date": "1998-08-28",
+          "place": null,
           "country": "Japan"
         },
         "nationality": "Japan",
-        "height": "183 cm",
-        "weight": "68 kg",
+        "height": "182 cm",
+        "weight": "76 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/182008.png"
+        "photo": "https://media.api-sports.io/football/players/72155.png"
       },
       "statistics": [
         {
@@ -1969,10 +1748,105 @@
             "logo": "https://media.api-sports.io/football/teams/12.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 46,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 12,
+            "key": 1,
+            "accuracy": 7
+          },
+          "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 5,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 36920,
+        "name": "Y. Nakayama",
+        "firstname": "Yūta",
+        "lastname": "Nakayama",
+        "age": 25,
+        "birth": {
+          "date": "1997-02-16",
+          "place": "Ryūgasaki",
+          "country": "Japan"
+        },
+        "nationality": "Japan",
+        "height": "181 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/36920.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1982,101 +1856,6 @@
             "minutes": 0,
             "number": null,
             "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 199578,
-        "name": "Z. Suzuki",
-        "firstname": "Zion",
-        "lastname": "Suzuki",
-        "age": 20,
-        "birth": {
-          "date": "2002-08-21",
-          "place": "Saitama",
-          "country": "Japan"
-        },
-        "nationality": "Japan",
-        "height": "190 cm",
-        "weight": "93 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/199578.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 12,
-            "name": "Japan",
-            "logo": "https://media.api-sports.io/football/teams/12.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },

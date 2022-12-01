@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "3"
   },
@@ -8,178 +9,9 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 3
+    "total": 2
   },
   "response": [
-    {
-      "player": {
-        "id": 287,
-        "name": "D. Lovren",
-        "firstname": "Dejan",
-        "lastname": "Lovren",
-        "age": 33,
-        "birth": {
-          "date": "1989-07-05",
-          "place": "Zenica",
-          "country": "Bosnia and Herzegovina"
-        },
-        "nationality": "Croatia",
-        "height": "188 cm",
-        "weight": "84 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/287.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Defender",
-            "rating": "7.200000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": 1,
-            "on": 1
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 49,
-            "key": null,
-            "accuracy": 44
-          },
-          "tackles": {
-            "total": 1,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 2,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 6,
-            "lineups": 6,
-            "minutes": 527,
-            "number": null,
-            "position": "Defender",
-            "rating": "7.233333",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": 3,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 436,
-            "key": 1,
-            "accuracy": 61
-          },
-          "tackles": {
-            "total": 4,
-            "blocks": 5,
-            "interceptions": 7
-          },
-          "duels": {
-            "total": 47,
-            "won": 32
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 4,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
     {
       "player": {
         "id": 1305,
@@ -206,10 +38,10 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -219,161 +51,13 @@
             "minutes": 180,
             "number": null,
             "position": "Goalkeeper",
-            "rating": "7.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 1,
-            "assists": null,
-            "saves": 5
-          },
-          "passes": {
-            "total": 60,
-            "key": null,
-            "accuracy": 23
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 2,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 2,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 6,
-            "lineups": 6,
-            "minutes": 540,
-            "number": null,
-            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -449,364 +133,26 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 196,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.566666",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 134,
-            "key": null,
-            "accuracy": 39
-          },
-          "tackles": {
-            "total": 3,
-            "blocks": 1,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 17,
-            "won": 8
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 2,
-            "committed": 4
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 5,
-            "lineups": 4,
-            "minutes": 349,
-            "number": null,
-            "position": "Defender",
-            "rating": "7.420000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 5
-          },
-          "shots": {
-            "total": 4,
-            "on": 1
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 231,
-            "key": 5,
-            "accuracy": 42
-          },
-          "tackles": {
-            "total": 10,
-            "blocks": null,
-            "interceptions": 3
-          },
-          "duels": {
-            "total": 30,
-            "won": 21
-          },
-          "dribbles": {
-            "attempts": 3,
-            "success": 3,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 5,
-            "committed": 5
-          },
-          "cards": {
-            "yellow": 2,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 1850,
-        "name": "M. Badelj",
-        "firstname": "Milan",
-        "lastname": "Badelj",
-        "age": 33,
-        "birth": {
-          "date": "1989-02-25",
-          "place": "Zagreb",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "186 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1850.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 54,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.200000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 42,
-            "key": 1,
-            "accuracy": 35
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 7,
-            "won": 1
-          },
-          "dribbles": {
-            "attempts": 2,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2758,
-        "name": "Lovre Kalinić",
-        "firstname": "Lovre",
-        "lastname": "Kalinić",
-        "age": 32,
-        "birth": {
-          "date": "1990-04-03",
-          "place": "Split",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "201 cm",
-        "weight": "96 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2758.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
           },
           "games": {
             "appearences": 0,
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Goalkeeper",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 3
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -814,7 +160,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -849,8 +195,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -858,623 +204,21 @@
     },
     {
       "player": {
-        "id": 2759,
-        "name": "Simon Sluga",
-        "firstname": "Simon",
-        "lastname": "Sluga",
-        "age": 29,
+        "id": 129033,
+        "name": "J. Gvardiol",
+        "firstname": "Joško",
+        "lastname": "Gvardiol",
+        "age": 20,
         "birth": {
-          "date": "1993-03-17",
-          "place": "Rijeka",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "190 cm",
-        "weight": "84 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2759.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 10
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2762,
-        "name": "J. Brekalo",
-        "firstname": "Josip",
-        "lastname": "Brekalo",
-        "age": 24,
-        "birth": {
-          "date": "1998-06-23",
+          "date": "2002-01-23",
           "place": "Zagreb",
           "country": "Croatia"
         },
         "nationality": "Croatia",
-        "height": "175 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2762.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 3,
-            "minutes": 226,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.600000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 2,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 93,
-            "key": 4,
-            "accuracy": 26
-          },
-          "tackles": {
-            "total": 3,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 18,
-            "won": 9
-          },
-          "dribbles": {
-            "attempts": 4,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 5,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 6,
-            "lineups": 1,
-            "minutes": 194,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.866666",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 5,
-            "out": 1,
-            "bench": 5
-          },
-          "shots": {
-            "total": 2,
-            "on": 2
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 119,
-            "key": 6,
-            "accuracy": 14
-          },
-          "tackles": {
-            "total": 3,
-            "blocks": 1,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 24,
-            "won": 9
-          },
-          "dribbles": {
-            "attempts": 9,
-            "success": 4,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 3
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14293,
-        "name": "A. Čolak",
-        "firstname": "Antonio-Mirko",
-        "lastname": "Čolak",
-        "age": 29,
-        "birth": {
-          "date": "1993-09-17",
-          "place": "Ludwigsburg",
-          "country": "Germany"
-        },
-        "nationality": "Croatia",
-        "height": "187 cm",
-        "weight": "83 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/14293.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 59,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.500000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 7,
-            "key": 2,
-            "accuracy": 2
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 7,
-            "won": 1
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 3
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14297,
-        "name": "Ivica Ivušić",
-        "firstname": "Ivica",
-        "lastname": "Ivušić",
-        "age": 27,
-        "birth": {
-          "date": "1995-02-01",
-          "place": "Rijeka",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "195 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/14297.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 180,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": "7.350000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 3,
-            "assists": null,
-            "saves": 11
-          },
-          "passes": {
-            "total": 53,
-            "key": null,
-            "accuracy": 21
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 180,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14302,
-        "name": "Mile Škorić",
-        "firstname": "Mile",
-        "lastname": "Škorić",
-        "age": 31,
-        "birth": {
-          "date": "1991-06-19",
-          "place": "Vinkovci",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "189 cm",
+        "height": "185 cm",
         "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/14302.png"
+        "photo": "https://media.api-sports.io/football/players/129033.png"
       },
       "statistics": [
         {
@@ -1484,100 +228,26 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 6,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 27,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "7.150000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 1,
-            "bench": 1
+            "out": 0,
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -1585,23 +255,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 166,
             "key": null,
-            "accuracy": null
+            "accuracy": 73
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 3,
+            "blocks": 1,
+            "interceptions": 5
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 11,
+            "won": 7
           },
           "dribbles": {
             "attempts": null,
@@ -1609,8 +279,8 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 3,
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -1620,8 +290,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1653,26 +323,26 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 5,
-            "lineups": 5,
-            "minutes": 450,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
             "position": "Defender",
-            "rating": "6.640000",
+            "rating": "7.100000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 1
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -1681,26 +351,26 @@
           "goals": {
             "total": 0,
             "conceded": 0,
-            "assists": null,
+            "assists": 1,
             "saves": null
           },
           "passes": {
-            "total": 217,
-            "key": 3,
-            "accuracy": 35
+            "total": 79,
+            "key": 1,
+            "accuracy": 31
           },
           "tackles": {
-            "total": 8,
-            "blocks": null,
-            "interceptions": 4
+            "total": 3,
+            "blocks": 1,
+            "interceptions": 2
           },
           "duels": {
-            "total": 32,
-            "won": 17
+            "total": 16,
+            "won": 9
           },
           "dribbles": {
-            "attempts": 6,
-            "success": 3,
+            "attempts": 1,
+            "success": 1,
             "past": null
           },
           "fouls": {
@@ -1719,7 +389,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 125171,
+        "name": "J. Stanišić",
+        "firstname": "Josip",
+        "lastname": "Stanišić",
+        "age": 22,
+        "birth": {
+          "date": "2000-04-02",
+          "place": null,
+          "country": "Germany"
         },
+        "nationality": "Croatia",
+        "height": "187 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/125171.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 3,
@@ -1727,25 +418,25 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
-            "appearences": 7,
-            "lineups": 6,
-            "minutes": 569,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
             "position": "Defender",
-            "rating": "7.414285",
+            "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 1,
-            "out": 1,
+            "in": 0,
+            "out": 0,
             "bench": 2
           },
           "shots": {
@@ -1759,27 +450,27 @@
             "saves": null
           },
           "passes": {
-            "total": 316,
-            "key": 15,
-            "accuracy": 38
+            "total": null,
+            "key": null,
+            "accuracy": null
           },
           "tackles": {
-            "total": 6,
-            "blocks": 2,
-            "interceptions": 7
+            "total": null,
+            "blocks": null,
+            "interceptions": null
           },
           "duels": {
-            "total": 41,
-            "won": 27
+            "total": null,
+            "won": null
           },
           "dribbles": {
-            "attempts": 11,
-            "success": 8,
+            "attempts": null,
+            "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": 8,
-            "committed": 1
+            "drawn": null,
+            "committed": null
           },
           "cards": {
             "yellow": 0,
@@ -1793,7 +484,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 14701,
+        "name": "J. Šutalo",
+        "firstname": "Josip",
+        "lastname": "Šutalo",
+        "age": 22,
+        "birth": {
+          "date": "2000-02-28",
+          "place": null,
+          "country": "Croatia"
         },
+        "nationality": "Croatia",
+        "height": "190 cm",
+        "weight": "82 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/14701.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 3,
@@ -1801,17 +513,17 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
             "position": "Defender",
             "rating": null,
@@ -1828,7 +540,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1853,101 +565,6 @@
           },
           "fouls": {
             "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14394,
-        "name": "Luka Ivanušec",
-        "firstname": "Luka",
-        "lastname": "Ivanušec",
-        "age": 24,
-        "birth": {
-          "date": "1998-11-26",
-          "place": "Varaždin",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "175 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/14394.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 46,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.200000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 8,
-            "key": null,
-            "accuracy": 6
-          },
-          "tackles": {
-            "total": 1,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 7,
-            "won": 3
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
             "committed": null
           },
           "cards": {
@@ -1962,7 +579,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1986,
+        "name": "D. Vida",
+        "firstname": "Domagoj",
+        "lastname": "Vida",
+        "age": 33,
+        "birth": {
+          "date": "1989-04-29",
+          "place": "Osijek",
+          "country": "Croatia"
         },
+        "nationality": "Croatia",
+        "height": "184 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1986.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 3,
@@ -1970,26 +608,26 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
-            "appearences": 5,
-            "lineups": 2,
-            "minutes": 141,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
-            "position": "Midfielder",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 3,
-            "out": 2,
-            "bench": 4
+            "in": 0,
+            "out": 0,
+            "bench": 1
           },
           "shots": {
             "total": null,
@@ -1997,7 +635,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -2032,8 +670,103 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2291,
+        "name": "M. Kovačić",
+        "firstname": "Mateo",
+        "lastname": "Kovačić",
+        "age": 28,
+        "birth": {
+          "date": "1994-05-06",
+          "place": "Linz",
+          "country": "Austria"
+        },
+        "nationality": "Croatia",
+        "height": "177 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2291.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 165,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 98,
+            "key": 4,
+            "accuracy": 44
+          },
+          "tackles": {
+            "total": 7,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 21,
+            "won": 14
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -2065,253 +798,10 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 46,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.200000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 21,
-            "key": null,
-            "accuracy": 17
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 2,
-            "won": 1
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 0,
-            "minutes": 50,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "7.100000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 38,
-            "key": null,
-            "accuracy": 15
-          },
-          "tackles": {
-            "total": 2,
-            "blocks": null,
-            "interceptions": 2
-          },
-          "duels": {
-            "total": 8,
-            "won": 6
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14553,
-        "name": "Nediljko Labrović",
-        "firstname": "Nediljko",
-        "lastname": "Labrović",
-        "age": 23,
-        "birth": {
-          "date": "1999-10-10",
-          "place": "Split",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "194 cm",
-        "weight": "88 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/14553.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -2320,14 +810,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Goalkeeper",
+            "position": "Midfielder",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 4
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -2372,28 +862,28 @@
             "commited": null,
             "scored": 0,
             "missed": 0,
-            "saved": 0
+            "saved": null
           }
         }
       ]
     },
     {
       "player": {
-        "id": 14701,
-        "name": "Josip Šutalo",
-        "firstname": "Josip",
-        "lastname": "Šutalo",
-        "age": 22,
+        "id": 207,
+        "name": "I. Perišić",
+        "firstname": "Ivan",
+        "lastname": "Perišić",
+        "age": 33,
         "birth": {
-          "date": "2000-02-28",
-          "place": null,
+          "date": "1989-02-02",
+          "place": "Split",
           "country": "Croatia"
         },
         "nationality": "Croatia",
-        "height": "190 cm",
-        "weight": null,
+        "height": "186 cm",
+        "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/14701.png"
+        "photo": "https://media.api-sports.io/football/players/207.png"
       },
       "statistics": [
         {
@@ -2403,29 +893,124 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 3,
-            "lineups": 3,
-            "minutes": 270,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 176,
             "number": null,
-            "position": "Defender",
-            "rating": "7.033333",
+            "position": "Midfielder",
+            "rating": "7.450000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 3,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 2,
+            "saves": null
+          },
+          "passes": {
+            "total": 66,
+            "key": 3,
+            "accuracy": 25
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": 1,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 24,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 6,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 5
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 611,
+        "name": "M. Livaja",
+        "firstname": "Marko",
+        "lastname": "Livaja",
+        "age": 29,
+        "birth": {
+          "date": "1993-08-26",
+          "place": "Split",
+          "country": "Croatia"
+        },
+        "nationality": "Croatia",
+        "height": "182 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/611.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 19,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
             "out": 0,
             "bench": 1
           },
           "shots": {
-            "total": 1,
+            "total": null,
             "on": null
           },
           "goals": {
@@ -2435,18 +1020,18 @@
             "saves": null
           },
           "passes": {
-            "total": 168,
+            "total": 8,
             "key": null,
-            "accuracy": 51
+            "accuracy": 3
           },
           "tackles": {
             "total": 1,
-            "blocks": 3,
-            "interceptions": 13
+            "blocks": null,
+            "interceptions": null
           },
           "duels": {
-            "total": 15,
-            "won": 5
+            "total": 3,
+            "won": 2
           },
           "dribbles": {
             "attempts": null,
@@ -2455,7 +1040,292 @@
           },
           "fouls": {
             "drawn": 1,
-            "committed": 4
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1330,
+        "name": "M. Oršić",
+        "firstname": "Mislav",
+        "lastname": "Oršić",
+        "age": 30,
+        "birth": {
+          "date": "1992-12-29",
+          "place": "Zagreb",
+          "country": "Croatia"
+        },
+        "nationality": "Croatia",
+        "height": "179 cm",
+        "weight": "69 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1330.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 1,
+            "key": null,
+            "accuracy": 1
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1331,
+        "name": "B. Petković",
+        "firstname": "Bruno",
+        "lastname": "Petković",
+        "age": 28,
+        "birth": {
+          "date": "1994-09-16",
+          "place": "Metković",
+          "country": "Croatia"
+        },
+        "nationality": "Croatia",
+        "height": "193 cm",
+        "weight": "88 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1331.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 726,
+        "name": "A. Kramarić",
+        "firstname": "Andrej",
+        "lastname": "Kramarić",
+        "age": 31,
+        "birth": {
+          "date": "1991-06-19",
+          "place": "Zagreb",
+          "country": "Croatia"
+        },
+        "nationality": "Croatia",
+        "height": "177 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/726.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 144,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.100000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 5,
+            "on": 3
+          },
+          "goals": {
+            "total": 2,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 42,
+            "key": null,
+            "accuracy": 18
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 10,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
           },
           "cards": {
             "yellow": 0,
@@ -2498,612 +1368,10 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 164,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.766666",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": 1,
-            "on": 1
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 104,
-            "key": 2,
-            "accuracy": 30
-          },
-          "tackles": {
-            "total": 2,
-            "blocks": 1,
-            "interceptions": 2
-          },
-          "duels": {
-            "total": 11,
-            "won": 4
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 5,
-            "lineups": 5,
-            "minutes": 450,
-            "number": null,
-            "position": "Defender",
-            "rating": "7.320000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": 5,
-            "on": 3
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 339,
-            "key": 8,
-            "accuracy": 58
-          },
-          "tackles": {
-            "total": 4,
-            "blocks": 1,
-            "interceptions": 5
-          },
-          "duels": {
-            "total": 41,
-            "won": 16
-          },
-          "dribbles": {
-            "attempts": 5,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 2,
-            "committed": 7
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50027,
-        "name": "Dario Melnjak",
-        "firstname": "Dario",
-        "lastname": "Melnjak",
-        "age": 30,
-        "birth": {
-          "date": "1992-10-31",
-          "place": "Varaždin",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "179 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50027.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 57,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 53600,
-        "name": "F. Uremović",
-        "firstname": "Filip",
-        "lastname": "Uremović",
-        "age": 25,
-        "birth": {
-          "date": "1997-02-11",
-          "place": "Požega",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "184 cm",
-        "weight": "81 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/53600.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 8
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 125171,
-        "name": "J. Stanišić",
-        "firstname": "Josip",
-        "lastname": "Stanišić",
-        "age": 22,
-        "birth": {
-          "date": "2000-04-02",
-          "place": null,
-          "country": "Germany"
-        },
-        "nationality": "Croatia",
-        "height": "186 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/125171.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 224,
-            "number": null,
-            "position": "Defender",
-            "rating": "7.233333",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 110,
-            "key": 1,
-            "accuracy": 32
-          },
-          "tackles": {
-            "total": 8,
-            "blocks": 4,
-            "interceptions": 5
-          },
-          "duels": {
-            "total": 22,
-            "won": 15
-          },
-          "dribbles": {
-            "attempts": 5,
-            "success": 5,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 2
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 161,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.900000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 79,
-            "key": 6,
-            "accuracy": 22
-          },
-          "tackles": {
-            "total": 4,
-            "blocks": null,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 11,
-            "won": 7
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 129033,
-        "name": "J. Gvardiol",
-        "firstname": "Joško",
-        "lastname": "Gvardiol",
-        "age": 20,
-        "birth": {
-          "date": "2002-01-23",
-          "place": "Zagreb",
-          "country": "Croatia"
-        },
-        "nationality": "Croatia",
-        "height": "185 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/129033.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -3113,7 +1381,7 @@
             "minutes": 180,
             "number": null,
             "position": "Defender",
-            "rating": "6.950000",
+            "rating": "7.100000",
             "captain": false
           },
           "substitutes": {
@@ -3122,7 +1390,7 @@
             "bench": 0
           },
           "shots": {
-            "total": 1,
+            "total": null,
             "on": null
           },
           "goals": {
@@ -3132,18 +1400,113 @@
             "saves": null
           },
           "passes": {
-            "total": 133,
+            "total": 92,
             "key": 1,
-            "accuracy": 59
+            "accuracy": 37
           },
           "tackles": {
-            "total": null,
-            "blocks": 2,
-            "interceptions": 3
+            "total": 7,
+            "blocks": null,
+            "interceptions": 1
           },
           "duels": {
-            "total": 9,
-            "won": 4
+            "total": 16,
+            "won": 10
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1321,
+        "name": "L. Majer",
+        "firstname": "Lovro",
+        "lastname": "Majer",
+        "age": 24,
+        "birth": {
+          "date": "1998-01-17",
+          "place": "Zagreb",
+          "country": "Croatia"
+        },
+        "nationality": "Croatia",
+        "height": "178 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1321.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 15,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.750000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 14,
+            "key": null,
+            "accuracy": 5
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 3,
+            "won": 1
           },
           "dribbles": {
             "attempts": 1,
@@ -3151,7 +1514,7 @@
             "past": null
           },
           "fouls": {
-            "drawn": 2,
+            "drawn": null,
             "committed": 1
           },
           "cards": {
@@ -3166,7 +1529,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 14297,
+        "name": "Ivica Ivušić",
+        "firstname": "Ivica",
+        "lastname": "Ivušić",
+        "age": 27,
+        "birth": {
+          "date": "1995-02-01",
+          "place": "Rijeka",
+          "country": "Croatia"
         },
+        "nationality": "Croatia",
+        "height": "195 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/14297.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 3,
@@ -3174,100 +1558,26 @@
             "logo": "https://media.api-sports.io/football/teams/3.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 360,
-            "number": null,
-            "position": "Defender",
-            "rating": "7.525000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": 2,
-            "on": 1
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 375,
-            "key": 5,
-            "accuracy": 84
-          },
-          "tackles": {
-            "total": 7,
-            "blocks": 2,
-            "interceptions": 5
-          },
-          "duels": {
-            "total": 33,
-            "won": 20
-          },
-          "dribbles": {
-            "attempts": 3,
-            "success": 3,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 3,
-            "committed": 5
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 3,
-            "name": "Croatia",
-            "logo": "https://media.api-sports.io/football/teams/3.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 1
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -3312,6 +1622,291 @@
             "commited": null,
             "scored": null,
             "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 754,
+        "name": "L. Modrić",
+        "firstname": "Luka",
+        "lastname": "Modrić",
+        "age": 37,
+        "birth": {
+          "date": "1985-09-09",
+          "place": "Zadar",
+          "country": "Croatia"
+        },
+        "nationality": "Croatia",
+        "height": "172 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/754.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 176,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.250000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 134,
+            "key": 2,
+            "accuracy": 59
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 4
+          },
+          "duels": {
+            "total": 21,
+            "won": 9
+          },
+          "dribbles": {
+            "attempts": 4,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 6
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 14382,
+        "name": "I. Grbić",
+        "firstname": "Ivo",
+        "lastname": "Grbić",
+        "age": 26,
+        "birth": {
+          "date": "1996-01-18",
+          "place": "Split",
+          "country": "Croatia"
+        },
+        "nationality": "Croatia",
+        "height": "195 cm",
+        "weight": "83 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/14382.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 46746,
+        "name": "A. Budimir",
+        "firstname": "Ante",
+        "lastname": "Budimir",
+        "age": 31,
+        "birth": {
+          "date": "1991-07-22",
+          "place": "Zenica",
+          "country": "Bosnia and Herzegovina"
+        },
+        "nationality": "Croatia",
+        "height": "190 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/46746.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

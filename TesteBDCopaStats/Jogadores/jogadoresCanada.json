@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "5529"
   },
@@ -13,211 +14,21 @@
   "response": [
     {
       "player": {
-        "id": 509,
-        "name": "A. Davies",
-        "firstname": "Alphonso",
-        "lastname": "Boyle Davies",
-        "age": 22,
-        "birth": {
-          "date": "2000-11-02",
-          "place": "Buduburam",
-          "country": "Ghana"
-        },
-        "nationality": "Canada",
-        "height": "183 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/509.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 150,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 8489,
-        "name": "J. David",
-        "firstname": "Jonathan Christian",
-        "lastname": "David",
-        "age": 22,
-        "birth": {
-          "date": "2000-01-14",
-          "place": "New York",
-          "country": "USA"
-        },
-        "nationality": "Canada",
-        "height": "177 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/8489.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 150,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 11416,
-        "name": "C. Gutiérrez",
-        "firstname": "Cristián Daniel",
-        "lastname": "Gutiérrez Zúñiga",
+        "id": 50778,
+        "name": "J. Pantemis",
+        "firstname": "James",
+        "lastname": "Pantemis",
         "age": 25,
         "birth": {
-          "date": "1997-02-18",
-          "place": "Quebec",
+          "date": "1997-02-21",
+          "place": "Montreal",
           "country": "Canada"
         },
         "nationality": "Canada",
-        "height": "180 cm",
-        "weight": "68 kg",
+        "height": "185 cm",
+        "weight": "77 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/11416.png"
+        "photo": "https://media.api-sports.io/football/players/50778.png"
       },
       "statistics": [
         {
@@ -227,10 +38,10 @@
             "logo": "https://media.api-sports.io/football/teams/5529.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -239,102 +50,7 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 35766,
-        "name": "L. Cavallini",
-        "firstname": "Lucas Daniel",
-        "lastname": "Cavallini",
-        "age": 30,
-        "birth": {
-          "date": "1992-12-28",
-          "place": "Mississauga",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "180 cm",
-        "weight": "86 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/35766.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
@@ -349,7 +65,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -384,30 +100,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
           }
         }
       ]
     },
     {
       "player": {
-        "id": 40440,
-        "name": "S. Vitória",
-        "firstname": "Steven",
-        "lastname": "de Sousa Vitória",
-        "age": 35,
+        "id": 51148,
+        "name": "D. St. Clair",
+        "firstname": "Dayne Tristan",
+        "lastname": "St. Clair",
+        "age": 25,
         "birth": {
-          "date": "1987-01-11",
-          "place": "Toronto",
+          "date": "1997-05-09",
+          "place": "Pickering",
           "country": "Canada"
         },
         "nationality": "Canada",
-        "height": "195 cm",
-        "weight": "88 kg",
+        "height": "191 cm",
+        "weight": "75 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/40440.png"
+        "photo": "https://media.api-sports.io/football/players/51148.png"
       },
       "statistics": [
         {
@@ -417,26 +133,26 @@
             "logo": "https://media.api-sports.io/football/teams/5529.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 169,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 1,
-            "bench": 1
+            "out": 0,
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -444,7 +160,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -470,6 +186,196 @@
           "fouls": {
             "drawn": null,
             "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 51295,
+        "name": "D. Cornelius",
+        "firstname": "Derek Austin",
+        "lastname": "Cornelius",
+        "age": 25,
+        "birth": {
+          "date": "1997-11-25",
+          "place": "Ajax",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "187 cm",
+        "weight": "86 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/51295.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 78547,
+        "name": "A. Johnston",
+        "firstname": "Alistair William",
+        "lastname": "Johnston",
+        "age": 24,
+        "birth": {
+          "date": "1998-10-08",
+          "place": "Vancouver",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "180 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/78547.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 86,
+            "key": 3,
+            "accuracy": 34
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 20,
+            "won": 10
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 3
           },
           "cards": {
             "yellow": 1,
@@ -479,293 +385,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 44798,
-        "name": "L. Millar",
-        "firstname": "Liam Alan",
-        "lastname": "Millar",
-        "age": 23,
-        "birth": {
-          "date": "1999-09-27",
-          "place": "Toronto",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "176 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/44798.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 23,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50779,
-        "name": "Z. Brault-Guillard",
-        "firstname": "Zachary Bichotte Paul",
-        "lastname": "Brault-Guillard",
-        "age": 24,
-        "birth": {
-          "date": "1998-12-30",
-          "place": "Delmas",
-          "country": "Haiti"
-        },
-        "nationality": "Canada",
-        "height": "171 cm",
-        "weight": "66 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50779.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50792,
-        "name": "S. Piette",
-        "firstname": "Samuel",
-        "lastname": "Piette",
-        "age": 28,
-        "birth": {
-          "date": "1994-11-12",
-          "place": "Le Gardeur",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "170 cm",
-        "weight": "79 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50792.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 115,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 2,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -775,8 +396,8 @@
       "player": {
         "id": 50816,
         "name": "R. Laryea",
-        "firstname": "Richmond",
-        "lastname": "Mamah Laryea",
+        "firstname": "Richmond Mamah",
+        "lastname": "Laryea",
         "age": 27,
         "birth": {
           "date": "1995-01-07",
@@ -797,154 +418,59 @@
             "logo": "https://media.api-sports.io/football/teams/5529.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
-            "lineups": 1,
-            "minutes": 90,
+            "lineups": 2,
+            "minutes": 136,
             "number": null,
             "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50817,
-        "name": "J. Osorio",
-        "firstname": "Jonathan",
-        "lastname": "Osorio",
-        "age": 30,
-        "birth": {
-          "date": "1992-06-12",
-          "place": "Toronto",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "175 cm",
-        "weight": "69 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50817.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
+            "rating": "6.800000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
+            "out": 2,
             "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 2,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 37,
+            "key": 4,
+            "accuracy": 14
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
+            "total": 3,
+            "blocks": 1,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 10,
+            "won": 5
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 3,
+            "success": 1,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 1,
+            "committed": 1
           },
           "cards": {
             "yellow": 0,
@@ -954,8 +480,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -970,12 +496,12 @@
         "age": 25,
         "birth": {
           "date": "1997-05-16",
-          "place": null,
+          "place": "Scarborough",
           "country": "Canada"
         },
         "nationality": "Canada",
         "height": "183 cm",
-        "weight": null,
+        "weight": "75 kg",
         "injured": false,
         "photo": "https://media.api-sports.io/football/players/50925.png"
       },
@@ -987,10 +513,10 @@
             "logo": "https://media.api-sports.io/football/teams/5529.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1000,7 +526,7 @@
             "minutes": 180,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "6.900000",
             "captain": false
           },
           "substitutes": {
@@ -1014,7 +540,102 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 112,
+            "key": null,
+            "accuracy": 51
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": 1,
+            "interceptions": 4
+          },
+          "duels": {
+            "total": 17,
+            "won": 13
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 78494,
+        "name": "J. Waterman",
+        "firstname": "Joel Robert",
+        "lastname": "Waterman",
+        "age": 26,
+        "birth": {
+          "date": "1996-01-24",
+          "place": "Langley",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/78494.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1049,8 +670,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1082,118 +703,23 @@
             "logo": "https://media.api-sports.io/football/teams/5529.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
+            "appearences": 0,
             "lineups": 0,
-            "minutes": 16,
+            "minutes": 0,
             "number": null,
             "position": "Midfielder",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51148,
-        "name": "D. St. Clair",
-        "firstname": "Dayne",
-        "lastname": "St. Clair",
-        "age": 25,
-        "birth": {
-          "date": "1997-05-09",
-          "place": "Pickering",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "190 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51148.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
             "in": 0,
             "out": 0,
             "bench": 2
@@ -1204,7 +730,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1239,578 +765,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51274,
-        "name": "M. Crépeau",
-        "firstname": "Maxime",
-        "lastname": "Crépeau",
-        "age": 28,
-        "birth": {
-          "date": "1994-05-11",
-          "place": "Greenfield Park",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "181 cm",
-        "weight": "88 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51274.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51279,
-        "name": "D. Henry",
-        "firstname": "Doneil Jor-Dee Ashley",
-        "lastname": "Henry",
-        "age": 29,
-        "birth": {
-          "date": "1993-04-20",
-          "place": "Brampton",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "188 cm",
-        "weight": "82 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51279.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 67973,
-        "name": "I. Ugbo",
-        "firstname": "Iké Dominique",
-        "lastname": "Ugbo",
-        "age": 24,
-        "birth": {
-          "date": "1998-09-21",
-          "place": "London",
-          "country": "England"
-        },
-        "nationality": "Canada",
-        "height": "184 cm",
-        "weight": "79 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/67973.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 0,
-            "minutes": 47,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 78494,
-        "name": "J. Waterman",
-        "firstname": "Joel Robert",
-        "lastname": "Waterman",
-        "age": 26,
-        "birth": {
-          "date": "1996-01-24",
-          "place": null,
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "188 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/78494.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 78547,
-        "name": "A. Johnston",
-        "firstname": "Alistair",
-        "lastname": "Johnston",
-        "age": 24,
-        "birth": {
-          "date": "1998-10-08",
-          "place": "Vancouver",
-          "country": "Canada"
-        },
-        "nationality": "Canada",
-        "height": "180 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/78547.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 180,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 129788,
-        "name": "Charles-Andreas Brym",
-        "firstname": "Charles-Andreas",
-        "lastname": "Brym",
-        "age": 24,
-        "birth": {
-          "date": "1998-08-08",
-          "place": "Colombes",
-          "country": "France"
-        },
-        "nationality": "Canada",
-        "height": "185 cm",
-        "weight": "68 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/129788.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 5529,
-            "name": "Canada",
-            "logo": "https://media.api-sports.io/football/teams/5529.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 30,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1842,26 +798,1071 @@
             "logo": "https://media.api-sports.io/football/teams/5529.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 0,
-            "minutes": 65,
+            "minutes": 76,
             "number": null,
             "position": "Midfielder",
-            "rating": null,
+            "rating": "6.450000",
             "captain": false
           },
           "substitutes": {
             "in": 2,
             "out": 0,
             "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 73,
+            "key": 1,
+            "accuracy": 35
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 50817,
+        "name": "J. Osorio",
+        "firstname": "Jonathan",
+        "lastname": "Osorio",
+        "age": 30,
+        "birth": {
+          "date": "1992-06-12",
+          "place": "Toronto",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "175 cm",
+        "weight": "69 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/50817.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 53,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.450000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 26,
+            "key": null,
+            "accuracy": 11
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 6,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 50792,
+        "name": "S. Piette",
+        "firstname": "Samuel",
+        "lastname": "Piette",
+        "age": 28,
+        "birth": {
+          "date": "1994-11-12",
+          "place": "Le Gardeur",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "171 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/50792.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44903,
+        "name": "D. Wotherspoon",
+        "firstname": "David Wallace",
+        "lastname": "Wotherspoon",
+        "age": 32,
+        "birth": {
+          "date": "1990-01-16",
+          "place": "Perth",
+          "country": "Scotland"
+        },
+        "nationality": "Canada",
+        "height": "172 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44903.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35766,
+        "name": "L. Cavallini",
+        "firstname": "Lucas Daniel",
+        "lastname": "Cavallini",
+        "age": 30,
+        "birth": {
+          "date": "1992-12-28",
+          "place": "Toronto",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "180 cm",
+        "weight": "86 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35766.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 18,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 1,
+            "key": null,
+            "accuracy": 1
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 2,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 509,
+        "name": "A. Davies",
+        "firstname": "Alphonso Boyle",
+        "lastname": "Davies",
+        "age": 22,
+        "birth": {
+          "date": "2000-11-02",
+          "place": "Buduburam",
+          "country": "Ghana"
+        },
+        "nationality": "Canada",
+        "height": "183 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/509.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 2,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 64,
+            "key": 5,
+            "accuracy": 26
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 32,
+            "won": 12
+          },
+          "dribbles": {
+            "attempts": 14,
+            "success": 6,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 1,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 8489,
+        "name": "J. David",
+        "firstname": "Jonathan Christian",
+        "lastname": "David",
+        "age": 22,
+        "birth": {
+          "date": "2000-01-14",
+          "place": "New York",
+          "country": "USA"
+        },
+        "nationality": "Canada",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/8489.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 162,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.450000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 46,
+            "key": null,
+            "accuracy": 15
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 6,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 67973,
+        "name": "I. Ugbo",
+        "firstname": "Iké Dominique",
+        "lastname": "Ugbo",
+        "age": 24,
+        "birth": {
+          "date": "1998-09-21",
+          "place": "Lewisham",
+          "country": "England"
+        },
+        "nationality": "Canada",
+        "height": "185 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/67973.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 44798,
+        "name": "L. Millar",
+        "firstname": "Liam Alan",
+        "lastname": "Millar",
+        "age": 23,
+        "birth": {
+          "date": "1999-09-27",
+          "place": "Toronto",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "176 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/44798.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 9,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 6,
+            "key": null,
+            "accuracy": 3
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2001,
+        "name": "C. Larin",
+        "firstname": "Cyle Christopher",
+        "lastname": "Larin",
+        "age": 27,
+        "birth": {
+          "date": "1995-04-17",
+          "place": "Brampton",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "188 cm",
+        "weight": "90 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2001.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 78,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.600000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 2,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 17,
+            "key": 1,
+            "accuracy": 7
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 5,
+            "won": 2
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 51016,
+        "name": "T. Buchanan",
+        "firstname": "Tajon Trevor",
+        "lastname": "Buchanan",
+        "age": 23,
+        "birth": {
+          "date": "1999-02-08",
+          "place": "Brampton",
+          "country": "Canada"
+        },
+        "nationality": "Canada",
+        "height": "183 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/51016.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 171,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.250000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 50,
+            "key": 4,
+            "accuracy": 16
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 34,
+            "won": 13
+          },
+          "dribbles": {
+            "attempts": 15,
+            "success": 6,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 5,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 336,
+        "name": "Milan Borjan",
+        "firstname": "Milan",
+        "lastname": "Borjan",
+        "age": 35,
+        "birth": {
+          "date": "1987-10-23",
+          "place": "Knin",
+          "country": "Croatia"
+        },
+        "nationality": "Canada",
+        "height": "195 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/336.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -1897,7 +1898,7 @@
             "committed": null
           },
           "cards": {
-            "yellow": 1,
+            "yellow": 0,
             "yellowred": 0,
             "red": 0
           },

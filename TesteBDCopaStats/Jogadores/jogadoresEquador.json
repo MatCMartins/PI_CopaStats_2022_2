@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "2382"
   },
@@ -8,26 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 4
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 2576,
-        "name": "Beder Julio Caicedo Lastra",
-        "firstname": "Beder Julio",
-        "lastname": "Caicedo Lastra",
-        "age": 30,
+        "id": 2568,
+        "name": "Alexander Domínguez Carabalí",
+        "firstname": "Alexander",
+        "lastname": "Domínguez Carabalí",
+        "age": 35,
         "birth": {
-          "date": "1992-05-13",
-          "place": "San Lorenzo",
+          "date": "1987-06-05",
+          "place": "Tachina",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "180 cm",
-        "weight": "70 kg",
+        "height": "195 cm",
+        "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2576.png"
+        "photo": "https://media.api-sports.io/football/players/2568.png"
       },
       "statistics": [
         {
@@ -37,33 +38,33 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 81,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
+            "in": 0,
+            "out": 0,
+            "bench": 2
           },
           "shots": {
             "total": null,
             "on": null
           },
           "goals": {
-            "total": 1,
+            "total": 0,
             "conceded": null,
             "assists": null,
             "saves": null
@@ -108,21 +109,21 @@
     },
     {
       "player": {
-        "id": 2580,
-        "name": "J. Julio",
-        "firstname": "Jhojan Esmaides",
-        "lastname": "Julio Palacios",
-        "age": 24,
+        "id": 16380,
+        "name": "Hernán Ismael Galíndez",
+        "firstname": "Hernán Ismael",
+        "lastname": "Galíndez",
+        "age": 35,
         "birth": {
-          "date": "1998-02-11",
-          "place": "Quito",
-          "country": "Ecuador"
+          "date": "1987-03-30",
+          "place": "Rosario",
+          "country": "Argentina"
         },
         "nationality": "Ecuador",
-        "height": "168 cm",
-        "weight": "65 kg",
+        "height": "189 cm",
+        "weight": "90 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2580.png"
+        "photo": "https://media.api-sports.io/football/players/16380.png"
       },
       "statistics": [
         {
@@ -132,93 +133,19 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 7,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
-            "position": "Midfielder",
-            "rating": "6.200000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 1,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 1,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
@@ -277,21 +204,21 @@
     },
     {
       "player": {
-        "id": 2584,
-        "name": "L. Campana",
-        "firstname": "Leonardo",
-        "lastname": "Campana Romero",
+        "id": 81224,
+        "name": "Wellington Moisés Ramírez Preciado",
+        "firstname": "Wellington Moisés",
+        "lastname": "Ramírez Preciado",
         "age": 22,
         "birth": {
-          "date": "2000-07-24",
+          "date": "2000-09-09",
           "place": "Guayaquil",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "187 cm",
-        "weight": "79 kg",
+        "height": "185 cm",
+        "weight": "75 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2584.png"
+        "photo": "https://media.api-sports.io/football/players/81224.png"
       },
       "statistics": [
         {
@@ -301,30 +228,125 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
+            "appearences": 0,
             "lineups": 0,
-            "minutes": 5,
+            "minutes": 0,
             "number": null,
-            "position": "Attacker",
-            "rating": "6.700000",
+            "position": "Goalkeeper",
+            "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 1,
+            "in": 0,
             "out": 0,
-            "bench": 4
+            "bench": 2
           },
           "shots": {
-            "total": 1,
-            "on": 1
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2572,
+        "name": "X. Arreaga",
+        "firstname": "Xavier Ricardo",
+        "lastname": "Arreaga Bermello",
+        "age": 28,
+        "birth": {
+          "date": "1994-09-28",
+          "place": "Guayaquil",
+          "country": "Ecuador"
+        },
+        "nationality": "Ecuador",
+        "height": "184 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2572.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
           },
           "goals": {
             "total": 0,
@@ -333,7 +355,292 @@
             "saves": null
           },
           "passes": {
-            "total": 5,
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 36784,
+        "name": "D. Palacios",
+        "firstname": "Diego José",
+        "lastname": "Palacios Espinoza",
+        "age": 23,
+        "birth": {
+          "date": "1999-07-12",
+          "place": "Guayaquil",
+          "country": "Ecuador"
+        },
+        "nationality": "Ecuador",
+        "height": "169 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/36784.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 63964,
+        "name": "F. Torres",
+        "firstname": "Félix Eduardo",
+        "lastname": "Torres Caicedo",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-11",
+          "place": "San Lorenzo",
+          "country": "Ecuador"
+        },
+        "nationality": "Ecuador",
+        "height": "187 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/63964.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 133,
+            "key": null,
+            "accuracy": 55
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 7,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 16776,
+        "name": "J. Cifuentes",
+        "firstname": "José Adoni",
+        "lastname": "Cifuentes Charcopa",
+        "age": 23,
+        "birth": {
+          "date": "1999-03-12",
+          "place": "Esmeraldas",
+          "country": "Ecuador"
+        },
+        "nationality": "Ecuador",
+        "height": "178 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/16776.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 13,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 9,
             "key": null,
             "accuracy": 5
           },
@@ -343,7 +650,197 @@
             "interceptions": null
           },
           "duels": {
-            "total": 4,
+            "total": 3,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 16360,
+        "name": "A. Franco",
+        "firstname": "Alan Steven",
+        "lastname": "Franco Palma",
+        "age": 24,
+        "birth": {
+          "date": "1998-08-21",
+          "place": "Jujan",
+          "country": "Ecuador"
+        },
+        "nationality": "Ecuador",
+        "height": "175 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/16360.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 6,
+            "key": null,
+            "accuracy": 6
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2585,
+        "name": "R. Ibarra",
+        "firstname": "Romario Andrés",
+        "lastname": "Ibarra Mina",
+        "age": 28,
+        "birth": {
+          "date": "1994-09-24",
+          "place": "Atuntaqui",
+          "country": "Ecuador"
+        },
+        "nationality": "Ecuador",
+        "height": "175 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2585.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 68,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 2,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 14,
+            "key": null,
+            "accuracy": 10
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 3,
             "won": 1
           },
           "dribbles": {
@@ -367,100 +864,26 @@
             "missed": 0,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 89,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 6087,
-        "name": "Fernando Vicente Gaibor Orellana",
-        "firstname": "Fernando Vicente",
-        "lastname": "Gaibor Orellana",
-        "age": 31,
+        "id": 2581,
+        "name": "J. Méndez",
+        "firstname": "Jhegson Sebastián",
+        "lastname": "Méndez Carabalí",
+        "age": 25,
         "birth": {
-          "date": "1991-10-08",
-          "place": "Montalvo",
+          "date": "1997-04-26",
+          "place": "Mira",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "180 cm",
-        "weight": "80 kg",
+        "height": "175 cm",
+        "weight": "72 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/6087.png"
+        "photo": "https://media.api-sports.io/football/players/2581.png"
       },
       "statistics": [
         {
@@ -470,121 +893,26 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 2,
-            "minutes": 123,
+            "minutes": 180,
             "number": null,
             "position": "Midfielder",
-            "rating": null,
+            "rating": "6.950000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 2,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 9880,
-        "name": "J. Cazares",
-        "firstname": "Juan Ramón",
-        "lastname": "Cazares Sevillano",
-        "age": 30,
-        "birth": {
-          "date": "1992-04-03",
-          "place": "Quinindé",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "170 cm",
-        "weight": "69 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/9880.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 6,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
             "out": 0,
-            "bench": 1
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -597,9 +925,104 @@
             "saves": null
           },
           "passes": {
-            "total": 5,
+            "total": 137,
+            "key": 2,
+            "accuracy": 64
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 12,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 35786,
+        "name": "Ayrton Preciado",
+        "firstname": "Eduar Ayrton",
+        "lastname": "Preciado García",
+        "age": 28,
+        "birth": {
+          "date": "1994-07-17",
+          "place": "Esmeraldas",
+          "country": "Ecuador"
+        },
+        "nationality": "Ecuador",
+        "height": "181 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/35786.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
             "key": null,
-            "accuracy": 2
+            "accuracy": null
           },
           "tackles": {
             "total": null,
@@ -636,21 +1059,21 @@
     },
     {
       "player": {
-        "id": 10252,
-        "name": "Júnior Nazareno Sornoza Moreira",
-        "firstname": "Júnior Nazareno",
-        "lastname": "Sornoza Moreira",
-        "age": 28,
+        "id": 361966,
+        "name": "K. Rodríguez",
+        "firstname": "Kevin José",
+        "lastname": "Rodríguez Cortez",
+        "age": 22,
         "birth": {
-          "date": "1994-01-28",
-          "place": "Manabí",
+          "date": "2000-03-04",
+          "place": null,
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "179 cm",
-        "weight": "65 kg",
+        "height": "190 cm",
+        "weight": null,
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/10252.png"
+        "photo": "https://media.api-sports.io/football/players/361966.png"
       },
       "statistics": [
         {
@@ -660,220 +1083,30 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 136,
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
             "position": "Midfielder",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 1
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16372,
-        "name": "Luis Geovanny Segovia Vega",
-        "firstname": "Luis Geovanny",
-        "lastname": "Segovia Vega",
-        "age": 25,
-        "birth": {
-          "date": "1997-10-26",
-          "place": "Quito",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "182 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16372.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16375,
-        "name": "W. Corozo",
-        "firstname": "Washington Bryan",
-        "lastname": "Corozo Becerra",
-        "age": 24,
-        "birth": {
-          "date": "1998-07-09",
-          "place": "Guayaquil",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "181 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16375.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 24,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.700000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
+            "in": 2,
             "out": 0,
             "bench": 2
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 2,
+            "on": 1
           },
           "goals": {
             "total": 0,
@@ -882,17 +1115,17 @@
             "saves": null
           },
           "passes": {
-            "total": 11,
+            "total": 1,
             "key": null,
-            "accuracy": 9
+            "accuracy": null
           },
           "tackles": {
-            "total": 2,
+            "total": 1,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": 3,
+            "total": 5,
             "won": 2
           },
           "dribbles": {
@@ -921,116 +1154,21 @@
     },
     {
       "player": {
-        "id": 16385,
-        "name": "Marcos Andrés López Cabrera",
-        "firstname": "Marcos Andrés",
-        "lastname": "López Cabrera",
-        "age": 29,
+        "id": 16432,
+        "name": "M. Estrada",
+        "firstname": "Michael Steveen",
+        "lastname": "Estrada Martínez",
+        "age": 26,
         "birth": {
-          "date": "1993-02-04",
-          "place": "Cuenca",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "167 cm",
-        "weight": "67 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16385.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16414,
-        "name": "Moisés David Corozo Cañizares",
-        "firstname": "Moisés David",
-        "lastname": "Corozo Cañizares",
-        "age": 30,
-        "birth": {
-          "date": "1992-10-25",
+          "date": "1996-04-07",
           "place": "Guayaquil",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "185 cm",
-        "weight": "79 kg",
+        "height": "187 cm",
+        "weight": "86 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16414.png"
+        "photo": "https://media.api-sports.io/football/players/16432.png"
       },
       "statistics": [
         {
@@ -1040,249 +1178,59 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16449,
-        "name": "Pedro Pablo Perlaza Caicedo",
-        "firstname": "Pedro Pablo",
-        "lastname": "Perlaza Caicedo",
-        "age": 31,
-        "birth": {
-          "date": "1991-02-03",
-          "place": "Esmeraldas",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "181 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16449.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 2,
-            "minutes": 133,
+            "minutes": 164,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Attacker",
+            "rating": "7.100000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 2,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16463,
-        "name": "Christian Geovanny Cruz Tapia",
-        "firstname": "Christian Geovanny",
-        "lastname": "Cruz Tapia",
-        "age": 30,
-        "birth": {
-          "date": "1992-08-01",
-          "place": "Guayaquil",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "176 cm",
-        "weight": "71 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16463.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 86,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
             "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 2,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 39,
+            "key": 1,
+            "accuracy": 13
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 32,
+            "won": 19
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 3,
+            "success": 2,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 6,
+            "committed": 3
           },
           "cards": {
             "yellow": 0,
@@ -1292,8 +1240,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1301,21 +1249,21 @@
     },
     {
       "player": {
-        "id": 16470,
-        "name": "J. Alcívar",
-        "firstname": "Jordy José",
-        "lastname": "Alcívar Macías",
-        "age": 23,
+        "id": 2586,
+        "name": "Á. Mena",
+        "firstname": "Ángel Israel",
+        "lastname": "Mena Delgado",
+        "age": 34,
         "birth": {
-          "date": "1999-08-05",
-          "place": "Manta",
+          "date": "1988-01-21",
+          "place": "Guayaquil",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "173 cm",
-        "weight": null,
+        "height": "168 cm",
+        "weight": "62 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16470.png"
+        "photo": "https://media.api-sports.io/football/players/2586.png"
       },
       "statistics": [
         {
@@ -1325,10 +1273,10 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1337,14 +1285,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Midfielder",
+            "position": "Attacker",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 1
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1391,100 +1339,26 @@
             "missed": 0,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 16475,
-        "name": "Franklin Joshua Guerra Cedeño",
-        "firstname": "Franklin Joshua",
-        "lastname": "Guerra Cedeño",
-        "age": 30,
+        "id": 16480,
+        "name": "D. Reasco",
+        "firstname": "Djorkaeff Néicer",
+        "lastname": "Reasco González",
+        "age": 23,
         "birth": {
-          "date": "1992-04-12",
-          "place": "Portoviejo",
+          "date": "1999-01-18",
+          "place": "Pichincha",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "185 cm",
-        "weight": "73 kg",
+        "height": "172 cm",
+        "weight": "71 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16475.png"
+        "photo": "https://media.api-sports.io/football/players/16480.png"
       },
       "statistics": [
         {
@@ -1494,10 +1368,10 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1506,7 +1380,7 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Attacker",
             "rating": null,
             "captain": false
           },
@@ -1521,7 +1395,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1556,8 +1430,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1565,116 +1439,21 @@
     },
     {
       "player": {
-        "id": 16486,
-        "name": "Jacob Israel Murillo Moncada",
-        "firstname": "Jacob Israel",
-        "lastname": "Murillo Moncada",
-        "age": 29,
+        "id": 2577,
+        "name": "C. Gruezo",
+        "firstname": "Carlos Armando",
+        "lastname": "Gruezo Arboleda",
+        "age": 27,
         "birth": {
-          "date": "1993-03-31",
-          "place": "Chambo",
+          "date": "1995-04-19",
+          "place": "Santo Domingo",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "175 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16486.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16524,
-        "name": "Alexander Antonio Alvarado Carriel",
-        "firstname": "Alexander Antonio",
-        "lastname": "Alvarado Carriel",
-        "age": 23,
-        "birth": {
-          "date": "1999-04-21",
-          "place": "Quevedo",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "165 cm",
+        "height": "173 cm",
         "weight": "67 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16524.png"
+        "photo": "https://media.api-sports.io/football/players/2577.png"
       },
       "statistics": [
         {
@@ -1684,10 +1463,10 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1703,7 +1482,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1711,7 +1490,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1746,11 +1525,32 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2575,
+        "name": "J. Porozo",
+        "firstname": "Jackson Gabriel",
+        "lastname": "Porozo Vernaza",
+        "age": 22,
+        "birth": {
+          "date": "2000-08-04",
+          "place": "San Lorenzo",
+          "country": "Ecuador"
         },
+        "nationality": "Ecuador",
+        "height": "191 cm",
+        "weight": "88 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2575.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 2382,
@@ -1758,216 +1558,26 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
-            "lineups": 0,
-            "minutes": 4,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16533,
-        "name": "Jhonny Raúl Quiñónez Ruiz",
-        "firstname": "Jhonny Raúl",
-        "lastname": "Quiñónez Ruiz",
-        "age": 24,
-        "birth": {
-          "date": "1998-06-11",
-          "place": "Quito",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": "182 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16533.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16536,
-        "name": "G. Vallecilla",
-        "firstname": "Exon Gustavo",
-        "lastname": "Vallecilla Godoy",
-        "age": 23,
-        "birth": {
-          "date": "1999-05-28",
-          "place": "Esmeraldas",
-          "country": "Ecuador"
-        },
-        "nationality": "Ecuador",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16536.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "lineups": 1,
+            "minutes": 90,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "6.900000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 1
           },
           "shots": {
             "total": null,
@@ -1975,23 +1585,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 39,
             "key": null,
-            "accuracy": null
+            "accuracy": 35
           },
           "tackles": {
-            "total": null,
+            "total": 2,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 3
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 7,
+            "won": 5
           },
           "dribbles": {
             "attempts": null,
@@ -1999,7 +1609,7 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 2,
             "committed": null
           },
           "cards": {
@@ -2010,8 +1620,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -2019,21 +1629,21 @@
     },
     {
       "player": {
-        "id": 16552,
-        "name": "B. Angulo",
-        "firstname": "Bryan Dennis",
-        "lastname": "Angulo Tenorio",
-        "age": 27,
+        "id": 2583,
+        "name": "Angelo Preciado",
+        "firstname": "Angelo Smit",
+        "lastname": "Preciado Quiñónez",
+        "age": 24,
         "birth": {
-          "date": "1995-11-30",
-          "place": "Guayas",
+          "date": "1998-02-18",
+          "place": "Shushufindi",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": "183 cm",
-        "weight": "70 kg",
+        "height": "174 cm",
+        "weight": "69 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/16552.png"
+        "photo": "https://media.api-sports.io/football/players/2583.png"
       },
       "statistics": [
         {
@@ -2043,29 +1653,29 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 4,
-            "lineups": 0,
-            "minutes": 21,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
-            "position": "Attacker",
-            "rating": "6.600000",
+            "position": "Defender",
+            "rating": "7.300000",
             "captain": false
           },
           "substitutes": {
-            "in": 4,
+            "in": 0,
             "out": 0,
-            "bench": 7
+            "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 2,
             "on": null
           },
           "goals": {
@@ -2075,27 +1685,27 @@
             "saves": null
           },
           "passes": {
-            "total": 6,
-            "key": 1,
-            "accuracy": 1
+            "total": 59,
+            "key": 3,
+            "accuracy": 23
           },
           "tackles": {
-            "total": null,
+            "total": 5,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 5
           },
           "duels": {
-            "total": 5,
-            "won": 2
+            "total": 16,
+            "won": 9
           },
           "dribbles": {
             "attempts": 1,
-            "success": 1,
+            "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 1,
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -2109,100 +1719,26 @@
             "missed": 0,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 2382,
-            "name": "Ecuador",
-            "logo": "https://media.api-sports.io/football/teams/2382.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 63950,
-        "name": "J. Quiñónez",
-        "firstname": "Joshué Jampier",
-        "lastname": "Quiñónez Rodriguez",
-        "age": 21,
+        "id": 46731,
+        "name": "P. Estupiñán",
+        "firstname": "Pervis Josué",
+        "lastname": "Estupiñán Tenorio",
+        "age": 24,
         "birth": {
-          "date": "2001-05-29",
-          "place": "Guayaquil",
+          "date": "1998-01-21",
+          "place": "Esmeraldas",
           "country": "Ecuador"
         },
         "nationality": "Ecuador",
-        "height": null,
-        "weight": null,
+        "height": "175 cm",
+        "weight": "73 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/63950.png"
+        "photo": "https://media.api-sports.io/football/players/46731.png"
       },
       "statistics": [
         {
@@ -2212,20 +1748,20 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 34,
-            "name": "World Cup - Qualification South America",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/34.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "6.900000",
             "captain": false
           },
           "substitutes": {
@@ -2234,37 +1770,37 @@
             "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 1,
+            "on": 1
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 141,
+            "key": 5,
+            "accuracy": 38
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 6,
+            "blocks": 1,
+            "interceptions": 3
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 38,
+            "won": 14
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 7,
+            "success": 2,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 3,
+            "committed": 8
           },
           "cards": {
             "yellow": 0,
@@ -2274,11 +1810,32 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 116117,
+        "name": "M. Caicedo",
+        "firstname": "Moisés Isaac",
+        "lastname": "Caicedo Corozo",
+        "age": 21,
+        "birth": {
+          "date": "2001-11-02",
+          "place": "Santo Domingo",
+          "country": "Ecuador"
         },
+        "nationality": "Ecuador",
+        "height": "178 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/116117.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 2382,
@@ -2286,50 +1843,50 @@
             "logo": "https://media.api-sports.io/football/teams/2382.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Midfielder",
+            "rating": "6.666666",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
+            "out": 1,
             "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 1,
+            "on": 1
           },
           "goals": {
-            "total": 0,
-            "conceded": null,
+            "total": 1,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 153,
             "key": null,
-            "accuracy": null
+            "accuracy": 42
           },
           "tackles": {
-            "total": null,
+            "total": 6,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 2
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 20,
+            "won": 12
           },
           "dribbles": {
             "attempts": null,
@@ -2337,19 +1894,19 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 5,
+            "committed": 4
           },
           "cards": {
-            "yellow": 0,
+            "yellow": 1,
             "yellowred": 0,
             "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

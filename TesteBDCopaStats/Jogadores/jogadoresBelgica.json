@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "1"
   },
@@ -8,26 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 3
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 140,
-        "name": "Thomas Vermaelen",
-        "firstname": "Thomas",
-        "lastname": "Vermaelen",
-        "age": 37,
+        "id": 730,
+        "name": "T. Courtois",
+        "firstname": "Thibaut Nicolas Marc",
+        "lastname": "Courtois",
+        "age": 30,
         "birth": {
-          "date": "1985-11-14",
-          "place": "Kapellen",
+          "date": "1992-05-11",
+          "place": "Bree",
           "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": "183 cm",
-        "weight": "80 kg",
+        "height": "200 cm",
+        "weight": "96 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/140.png"
+        "photo": "https://media.api-sports.io/football/players/730.png"
       },
       "statistics": [
         {
@@ -37,25 +38,25 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 46,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Goalkeeper",
+            "rating": "6.950000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 1,
+            "out": 0,
             "bench": 0
           },
           "shots": {
@@ -64,14 +65,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 2,
             "assists": null,
-            "saves": null
+            "saves": 5
           },
           "passes": {
-            "total": null,
+            "total": 78,
             "key": null,
-            "accuracy": null
+            "accuracy": 33
           },
           "tackles": {
             "total": null,
@@ -79,12 +80,12 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 1,
+            "won": 1
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 1,
+            "success": 1,
             "past": null
           },
           "fouls": {
@@ -99,30 +100,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
           }
         }
       ]
     },
     {
       "player": {
-        "id": 2928,
-        "name": "C. Benteke",
-        "firstname": "Christian",
-        "lastname": "Benteke Liolo",
-        "age": 32,
+        "id": 2920,
+        "name": "T. Castagne",
+        "firstname": "Timothy",
+        "lastname": "Castagne",
+        "age": 27,
         "birth": {
-          "date": "1990-12-03",
-          "place": "Kinshasa",
-          "country": "Congo DR"
+          "date": "1995-12-05",
+          "place": "Arlon",
+          "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": "190 cm",
-        "weight": "83 kg",
+        "height": "185 cm",
+        "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2928.png"
+        "photo": "https://media.api-sports.io/football/players/2920.png"
       },
       "statistics": [
         {
@@ -132,58 +133,58 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
-            "appearences": 4,
-            "lineups": 1,
-            "minutes": 140,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
-            "position": "Attacker",
-            "rating": "7.225000",
+            "position": "Defender",
+            "rating": "6.500000",
             "captain": false
           },
           "substitutes": {
-            "in": 3,
-            "out": 1,
-            "bench": 7
+            "in": 0,
+            "out": 0,
+            "bench": 0
           },
           "shots": {
-            "total": 7,
-            "on": 6
+            "total": null,
+            "on": null
           },
           "goals": {
-            "total": 2,
+            "total": 0,
             "conceded": 0,
-            "assists": 1,
+            "assists": null,
             "saves": null
           },
           "passes": {
-            "total": 46,
-            "key": 2,
-            "accuracy": 10
+            "total": 108,
+            "key": null,
+            "accuracy": 44
           },
           "tackles": {
-            "total": 1,
-            "blocks": 1,
-            "interceptions": null
+            "total": 5,
+            "blocks": null,
+            "interceptions": 2
           },
           "duels": {
-            "total": 14,
-            "won": 8
+            "total": 13,
+            "won": 6
           },
           "dribbles": {
-            "attempts": 1,
+            "attempts": 2,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": 4,
+            "drawn": 1,
             "committed": 2
           },
           "cards": {
@@ -198,100 +199,26 @@
             "missed": 0,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 0,
-            "minutes": 28,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 1408,
-        "name": "S. Bornauw",
-        "firstname": "Sebastiaan",
-        "lastname": "Bornauw",
-        "age": 23,
+        "id": 2922,
+        "name": "L. Dendoncker",
+        "firstname": "Leander",
+        "lastname": "Dendoncker",
+        "age": 27,
         "birth": {
-          "date": "1999-03-22",
-          "place": "Wemmel",
+          "date": "1995-04-15",
+          "place": "Passendale",
           "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": "191 cm",
-        "weight": "81 kg",
+        "height": "188 cm",
+        "weight": "83 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1408.png"
+        "photo": "https://media.api-sports.io/football/players/2922.png"
       },
       "statistics": [
         {
@@ -301,10 +228,10 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -314,7 +241,7 @@
             "minutes": 90,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "7.200000",
             "captain": false
           },
           "substitutes": {
@@ -323,102 +250,7 @@
             "bench": 1
           },
           "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 22000,
-        "name": "T. Foket",
-        "firstname": "Thomas",
-        "lastname": "Foket",
-        "age": 28,
-        "birth": {
-          "date": "1994-09-25",
-          "place": "Brussel",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "177 cm",
-        "weight": "72 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/22000.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 28,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.700000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
@@ -428,96 +260,22 @@
             "saves": null
           },
           "passes": {
-            "total": 8,
+            "total": 75,
             "key": null,
-            "accuracy": 8
+            "accuracy": 73
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
+            "total": 2,
+            "blocks": 2,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 7,
+            "won": 4
           },
           "dribbles": {
             "attempts": null,
             "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 0,
-            "minutes": 64,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.866666",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": 1,
-            "on": 1
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 29,
-            "key": 1,
-            "accuracy": 8
-          },
-          "tackles": {
-            "total": 1,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 6,
-            "won": 3
-          },
-          "dribbles": {
-            "attempts": 2,
-            "success": 2,
             "past": null
           },
           "fouls": {
@@ -536,100 +294,26 @@
             "missed": 0,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 134,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 1422,
-        "name": "J. Doku",
-        "firstname": "Jérémy",
-        "lastname": "Doku",
-        "age": 20,
+        "id": 8694,
+        "name": "W. Faes",
+        "firstname": "Wout Felix Lina",
+        "lastname": "Faes",
+        "age": 24,
         "birth": {
-          "date": "2002-05-27",
-          "place": "Antwerp",
+          "date": "1998-04-03",
+          "place": null,
           "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": "171 cm",
-        "weight": "66 kg",
+        "height": "187 cm",
+        "weight": "84 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1422.png"
+        "photo": "https://media.api-sports.io/football/players/8694.png"
       },
       "statistics": [
         {
@@ -639,84 +323,10 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 77,
-            "number": null,
-            "position": "Attacker",
-            "rating": "8.900000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": 1,
-            "on": 1
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": 2,
-            "saves": null
-          },
-          "passes": {
-            "total": 42,
-            "key": 2,
-            "accuracy": 39
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 16,
-            "won": 9
-          },
-          "dribbles": {
-            "attempts": 11,
-            "success": 6,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 3,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
             "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -725,109 +335,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Attacker",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2918,
-        "name": "K. Casteels",
-        "firstname": "Koen",
-        "lastname": "Casteels",
-        "age": 30,
-        "birth": {
-          "date": "1992-06-25",
-          "place": "Bonheiden",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "197 cm",
-        "weight": "78 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2918.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 4
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -872,9 +387,30 @@
             "commited": null,
             "scored": 0,
             "missed": 0,
-            "saved": 0
+            "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 629,
+        "name": "K. De Bruyne",
+        "firstname": "Kevin",
+        "lastname": "De Bruyne",
+        "age": 31,
+        "birth": {
+          "date": "1991-06-28",
+          "place": "Drongen",
+          "country": "Belgium"
         },
+        "nationality": "Belgium",
+        "height": "181 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/629.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 1,
@@ -882,58 +418,58 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 2,
             "minutes": 180,
             "number": null,
-            "position": "Goalkeeper",
-            "rating": "7.000000",
+            "position": "Midfielder",
+            "rating": "6.950000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 5
+            "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 3,
+            "on": 1
           },
           "goals": {
             "total": 0,
-            "conceded": 1,
+            "conceded": 0,
             "assists": null,
-            "saves": 4
+            "saves": null
           },
           "passes": {
-            "total": 43,
-            "key": null,
-            "accuracy": 16
+            "total": 84,
+            "key": 5,
+            "accuracy": 30
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 13,
+            "won": 7
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 5,
+            "success": 2,
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 2,
             "committed": null
           },
           "cards": {
@@ -946,9 +482,30 @@
             "commited": null,
             "scored": 0,
             "missed": 0,
-            "saved": 0
+            "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 147859,
+        "name": "Charles Marc De Ketelaere",
+        "firstname": "Charles Marc",
+        "lastname": "De Ketelaere",
+        "age": 21,
+        "birth": {
+          "date": "2001-03-10",
+          "place": "Brugge",
+          "country": "Belgium"
         },
+        "nationality": "Belgium",
+        "height": "192 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/147859.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 1,
@@ -956,26 +513,26 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
+            "appearences": 1,
             "lineups": 0,
-            "minutes": 0,
+            "minutes": 15,
             "number": null,
-            "position": "Goalkeeper",
+            "position": "Midfielder",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 0,
+            "in": 1,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1027,21 +584,21 @@
     },
     {
       "player": {
-        "id": 2919,
-        "name": "M. Sels",
-        "firstname": "Matz Willy Els",
-        "lastname": "Sels",
-        "age": 30,
+        "id": 2923,
+        "name": "Y. Carrasco",
+        "firstname": "Yannick",
+        "lastname": "Ferreira Carrasco",
+        "age": 29,
         "birth": {
-          "date": "1992-02-26",
-          "place": "Duffel",
+          "date": "1993-09-04",
+          "place": "Elsene",
           "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": "188 cm",
-        "weight": "75 kg",
+        "height": "181 cm",
+        "weight": "73 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2919.png"
+        "photo": "https://media.api-sports.io/football/players/2923.png"
       },
       "statistics": [
         {
@@ -1051,173 +608,25 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
             "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 1,
-            "minutes": 90,
+            "minutes": 46,
             "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
+            "out": 1,
             "bench": 1
           },
           "shots": {
@@ -1226,43 +635,43 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 13,
             "key": null,
-            "accuracy": null
+            "accuracy": 13
           },
           "tackles": {
-            "total": null,
+            "total": 4,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 9,
+            "won": 5
           },
           "dribbles": {
-            "attempts": null,
+            "attempts": 1,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 1,
+            "committed": 1
           },
           "cards": {
-            "yellow": 0,
+            "yellow": 1,
             "yellowred": 0,
             "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1270,21 +679,21 @@
     },
     {
       "player": {
-        "id": 649,
-        "name": "J. Denayer",
-        "firstname": "Jason Grégory Marianne",
-        "lastname": "Denayer",
-        "age": 27,
+        "id": 20,
+        "name": "A. Witsel",
+        "firstname": "Axel Laurent Angel",
+        "lastname": "Lambert Witsel",
+        "age": 33,
         "birth": {
-          "date": "1995-06-28",
-          "place": "Jette",
+          "date": "1989-01-12",
+          "place": "Liège",
           "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": "184 cm",
-        "weight": "70 kg",
+        "height": "186 cm",
+        "weight": "81 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/649.png"
+        "photo": "https://media.api-sports.io/football/players/20.png"
       },
       "statistics": [
         {
@@ -1294,20 +703,20 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Midfielder",
+            "rating": "7.050000",
             "captain": false
           },
           "substitutes": {
@@ -1321,23 +730,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 124,
+            "key": 1,
+            "accuracy": 60
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 4,
+            "blocks": 1,
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 15,
+            "won": 10
           },
           "dribbles": {
             "attempts": null,
@@ -1345,82 +754,8 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 7,
-            "lineups": 6,
-            "minutes": 540,
-            "number": null,
-            "position": "Defender",
-            "rating": "7.042857",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": 1,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 446,
-            "key": 1,
-            "accuracy": 60
-          },
-          "tackles": {
-            "total": 7,
-            "blocks": 4,
-            "interceptions": 5
-          },
-          "duels": {
-            "total": 30,
-            "won": 19
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 5,
-            "committed": 4
+            "drawn": 2,
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -1432,80 +767,6 @@
             "commited": null,
             "scored": 0,
             "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 136,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
             "saved": null
           }
         }
@@ -1515,7 +776,7 @@
       "player": {
         "id": 264,
         "name": "T. Meunier",
-        "firstname": "Thomas",
+        "firstname": "Thomas Andre",
         "lastname": "Meunier",
         "age": 31,
         "birth": {
@@ -1537,29 +798,124 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 293,
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 125,
             "number": null,
             "position": "Defender",
-            "rating": "6.533333",
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
-            "in": 0,
-            "out": 2,
+            "in": 1,
+            "out": 1,
             "bench": 1
           },
           "shots": {
             "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 63,
+            "key": 1,
+            "accuracy": 23
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 11,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 162714,
+        "name": "A. Onana",
+        "firstname": "Amadou Ba Zeund Georges",
+        "lastname": "Mvom Onana",
+        "age": 21,
+        "birth": {
+          "date": "2001-08-16",
+          "place": "Dakar",
+          "country": "Senegal"
+        },
+        "nationality": "Belgium",
+        "height": "192 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/162714.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1,
+            "name": "Belgium",
+            "logo": "https://media.api-sports.io/football/teams/1.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 104,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.550000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 2,
             "on": null
           },
           "goals": {
@@ -1569,27 +925,122 @@
             "saves": null
           },
           "passes": {
-            "total": 101,
+            "total": 63,
             "key": null,
             "accuracy": 29
           },
           "tackles": {
             "total": 4,
             "blocks": null,
-            "interceptions": 1
+            "interceptions": null
           },
           "duels": {
-            "total": 15,
-            "won": 6
+            "total": 16,
+            "won": 10
           },
           "dribbles": {
             "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2926,
+        "name": "Y. Tielemans",
+        "firstname": "Youri Marion",
+        "lastname": "Tielemans",
+        "age": 25,
+        "birth": {
+          "date": "1997-05-07",
+          "place": "Ukkel",
+          "country": "Belgium"
+        },
+        "nationality": "Belgium",
+        "height": "176 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2926.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1,
+            "name": "Belgium",
+            "logo": "https://media.api-sports.io/football/teams/1.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 76,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 48,
+            "key": 1,
+            "accuracy": 20
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": 1,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 7,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": null,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": 2
+            "drawn": 1,
+            "committed": null
           },
           "cards": {
             "yellow": 0,
@@ -1603,7 +1054,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2927,
+        "name": "M. Batshuayi",
+        "firstname": "Michy",
+        "lastname": "Batshuayi-Atunga",
+        "age": 29,
+        "birth": {
+          "date": "1993-10-02",
+          "place": "Brussel",
+          "country": "Belgium"
         },
+        "nationality": "Belgium",
+        "height": "185 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2927.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 1,
@@ -1611,20 +1083,115 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 328,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 153,
             "number": null,
-            "position": "Defender",
-            "rating": "7.100000",
+            "position": "Attacker",
+            "rating": "6.650000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 24,
+            "key": 1,
+            "accuracy": 8
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 16,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 5
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2296,
+        "name": "E. Hazard",
+        "firstname": "Eden Michael",
+        "lastname": "Hazard",
+        "age": 31,
+        "birth": {
+          "date": "1991-01-07",
+          "place": "La Louvière",
+          "country": "Belgium"
+        },
+        "nationality": "Belgium",
+        "height": "175 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2296.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1,
+            "name": "Belgium",
+            "logo": "https://media.api-sports.io/football/teams/1.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 122,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.600000",
             "captain": false
           },
           "substitutes": {
@@ -1639,31 +1206,31 @@
           "goals": {
             "total": 0,
             "conceded": 0,
-            "assists": 2,
+            "assists": null,
             "saves": null
           },
           "passes": {
-            "total": 246,
-            "key": 5,
-            "accuracy": 51
+            "total": 55,
+            "key": 1,
+            "accuracy": 22
           },
           "tackles": {
-            "total": 3,
+            "total": null,
             "blocks": null,
-            "interceptions": 3
+            "interceptions": 1
           },
           "duels": {
-            "total": 28,
+            "total": 21,
             "won": 12
           },
           "dribbles": {
-            "attempts": 10,
-            "success": 8,
+            "attempts": 7,
+            "success": 4,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": 6
+            "drawn": 7,
+            "committed": null
           },
           "cards": {
             "yellow": 0,
@@ -1677,100 +1244,26 @@
             "missed": 0,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 204043,
-        "name": "A. Theate",
-        "firstname": "Arthur Nicolas",
-        "lastname": "Theate",
-        "age": 22,
+        "id": 907,
+        "name": "R. Lukaku",
+        "firstname": "Romelu",
+        "lastname": "Lukaku Bolingoli",
+        "age": 29,
         "birth": {
-          "date": "2000-05-25",
-          "place": null,
+          "date": "1993-05-13",
+          "place": "Antwerpen",
           "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": null,
-        "weight": null,
+        "height": "191 cm",
+        "weight": "93 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/204043.png"
+        "photo": "https://media.api-sports.io/football/players/907.png"
       },
       "statistics": [
         {
@@ -1780,99 +1273,25 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
+            "lineups": 0,
+            "minutes": 9,
             "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 85,
-            "number": null,
-            "position": "Defender",
+            "position": "Attacker",
             "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
-            "in": 0,
-            "out": 1,
+            "in": 1,
+            "out": 0,
             "bench": 1
           },
           "shots": {
@@ -1886,83 +1305,9 @@
             "saves": null
           },
           "passes": {
-            "total": 100,
+            "total": 1,
             "key": null,
-            "accuracy": 89
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": 2
-          },
-          "duels": {
-            "total": 7,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 2,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 75,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "accuracy": 1
           },
           "tackles": {
             "total": null,
@@ -1970,7 +1315,7 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
+            "total": 1,
             "won": null
           },
           "dribbles": {
@@ -1990,8 +1335,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -2023,272 +1368,29 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 1,
-            "minutes": 97,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.800000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 1,
-            "bench": 3
-          },
-          "shots": {
-            "total": 1,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 42,
-            "key": 1,
-            "accuracy": 18
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 9,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 2
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
             "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 3,
-            "minutes": 292,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "7.500000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": 6,
-            "on": 3
-          },
-          "goals": {
-            "total": 2,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 220,
-            "key": 3,
-            "accuracy": 48
-          },
-          "tackles": {
-            "total": 8,
-            "blocks": 1,
-            "interceptions": 3
-          },
-          "duels": {
-            "total": 26,
-            "won": 12
-          },
-          "dribbles": {
-            "attempts": 5,
-            "success": 2,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 4
-          },
-          "cards": {
-            "yellow": 2,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 1,
-            "minutes": 90,
+            "minutes": 75,
             "number": null,
             "position": "Midfielder",
-            "rating": null,
+            "rating": "7.200000",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 25458,
-        "name": "D. Lukébakio",
-        "firstname": "Dodi",
-        "lastname": "Lukébakio Ngandoli",
-        "age": 25,
-        "birth": {
-          "date": "1997-09-24",
-          "place": "Asse",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "187 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/25458.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 8,
-            "number": null,
-            "position": "Attacker",
-            "rating": "7.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
+            "out": 1,
             "bench": 1
           },
           "shots": {
-            "total": 1,
+            "total": null,
             "on": null
           },
           "goals": {
@@ -2298,196 +1400,27 @@
             "saves": null
           },
           "passes": {
-            "total": 7,
-            "key": null,
-            "accuracy": 7
+            "total": 36,
+            "key": 4,
+            "accuracy": 26
           },
           "tackles": {
-            "total": 1,
+            "total": 2,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": 2,
-            "won": 2
+            "total": 10,
+            "won": 4
           },
           "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 1,
-            "minutes": 92,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.700000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": 1,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 57,
-            "key": 2,
-            "accuracy": 16
-          },
-          "tackles": {
-            "total": 3,
-            "blocks": null,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 14,
-            "won": 8
-          },
-          "dribbles": {
-            "attempts": 4,
-            "success": 2,
+            "attempts": 2,
+            "success": null,
             "past": null
           },
           "fouls": {
             "drawn": 2,
-            "committed": 1
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 86,
-        "name": "L. Openda",
-        "firstname": "Ikoma Loïs",
-        "lastname": "Openda",
-        "age": 22,
-        "birth": {
-          "date": "2000-02-16",
-          "place": "Liège",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "175 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/86.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 0,
-            "minutes": 54,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.533333",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 4,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": 2,
-            "on": 2
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 8,
-            "key": null,
-            "accuracy": 1
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 5,
-            "won": 1
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": null
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -2530,29 +1463,29 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 3,
-            "lineups": 1,
-            "minutes": 149,
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 30,
             "number": null,
             "position": "Attacker",
-            "rating": "6.600000",
+            "rating": "6.900000",
             "captain": false
           },
           "substitutes": {
-            "in": 2,
-            "out": 1,
-            "bench": 3
+            "in": 1,
+            "out": 0,
+            "bench": 2
           },
           "shots": {
-            "total": 3,
+            "total": 1,
             "on": 1
           },
           "goals": {
@@ -2562,252 +1495,9 @@
             "saves": null
           },
           "passes": {
-            "total": 79,
-            "key": 2,
-            "accuracy": 21
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": 2
-          },
-          "duels": {
-            "total": 10,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": 4,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 3
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 165,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.866666",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 2,
-            "bench": 3
-          },
-          "shots": {
-            "total": 4,
-            "on": 2
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 78,
-            "key": 2,
-            "accuracy": 21
-          },
-          "tackles": {
-            "total": 1,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 6,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2927,
-        "name": "M. Batshuayi-Atunga",
-        "firstname": "Michy",
-        "lastname": "Batshuayi-Atunga",
-        "age": 29,
-        "birth": {
-          "date": "1993-10-02",
-          "place": "Brussel",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "184 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2927.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 6,
-            "lineups": 5,
-            "minutes": 375,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.920000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 4,
-            "bench": 1
-          },
-          "shots": {
-            "total": 7,
-            "on": 4
-          },
-          "goals": {
-            "total": 3,
-            "conceded": 0,
-            "assists": 2,
-            "saves": null
-          },
-          "passes": {
-            "total": 57,
-            "key": 4,
-            "accuracy": 8
+            "total": 14,
+            "key": 1,
+            "accuracy": 9
           },
           "tackles": {
             "total": 2,
@@ -2815,503 +1505,17 @@
             "interceptions": null
           },
           "duels": {
-            "total": 24,
-            "won": 11
-          },
-          "dribbles": {
-            "attempts": 8,
-            "success": 4,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 3,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 2,
-            "minutes": 157,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.933333",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 2,
-            "bench": 4
-          },
-          "shots": {
-            "total": 6,
-            "on": 4
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 41,
-            "key": 3,
-            "accuracy": 11
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 13,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": 5,
-            "success": 2,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 2
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 152,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 2,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 1417,
-        "name": "A. Saelemaekers",
-        "firstname": "Alexis Jesse",
-        "lastname": "Saelemaekers",
-        "age": 23,
-        "birth": {
-          "date": "1999-06-27",
-          "place": "Berchem-Sainte-Agathe",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "180 cm",
-        "weight": "72 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1417.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 5,
-            "lineups": 2,
-            "minutes": 242,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "7.080000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 2,
-            "bench": 5
-          },
-          "shots": {
             "total": 4,
-            "on": 2
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 174,
-            "key": 6,
-            "accuracy": 29
-          },
-          "tackles": {
-            "total": 8,
-            "blocks": null,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 36,
-            "won": 23
-          },
-          "dribbles": {
-            "attempts": 11,
-            "success": 8,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 6,
-            "committed": 3
-          },
-          "cards": {
-            "yellow": 2,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 83,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 147859,
-        "name": "C. De Ketelaere",
-        "firstname": "Charles",
-        "lastname": "De Ketelaere",
-        "age": 21,
-        "birth": {
-          "date": "2001-03-10",
-          "place": "Brugge",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "192 cm",
-        "weight": "74 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/147859.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 0,
-            "minutes": 69,
-            "number": null,
-            "position": "Midfielder",
-            "rating": "6.633333",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 4,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 35,
-            "key": 1,
-            "accuracy": 8
-          },
-          "tackles": {
-            "total": 4,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 16,
-            "won": 6
+            "won": 3
           },
           "dribbles": {
             "attempts": 1,
-            "success": null,
+            "success": 1,
             "past": null
           },
           "fouls": {
-            "drawn": 1,
-            "committed": 2
+            "drawn": null,
+            "committed": null
           },
           "cards": {
             "yellow": 0,
@@ -3325,7 +1529,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1946,
+        "name": "L. Trossard",
+        "firstname": "Leandro",
+        "lastname": "Trossard",
+        "age": 28,
+        "birth": {
+          "date": "1994-12-04",
+          "place": "Waterschei",
+          "country": "Belgium"
         },
+        "nationality": "Belgium",
+        "height": "172 cm",
+        "weight": "61 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1946.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 1,
@@ -3333,25 +1558,25 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
             "appearences": 2,
-            "lineups": 1,
-            "minutes": 65,
+            "lineups": 0,
+            "minutes": 43,
             "number": null,
-            "position": "Midfielder",
-            "rating": "6.950000",
+            "position": "Attacker",
+            "rating": "6.250000",
             "captain": false
           },
           "substitutes": {
-            "in": 1,
-            "out": 1,
+            "in": 2,
+            "out": 0,
             "bench": 2
           },
           "shots": {
@@ -3366,25 +1591,25 @@
           },
           "passes": {
             "total": 24,
-            "key": 2,
-            "accuracy": 9
+            "key": 1,
+            "accuracy": 10
           },
           "tackles": {
-            "total": 3,
+            "total": 1,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": 11,
-            "won": 7
+            "total": 6,
+            "won": 2
           },
           "dribbles": {
-            "attempts": 2,
-            "success": 2,
+            "attempts": 3,
+            "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": 2,
+            "drawn": 1,
             "committed": null
           },
           "cards": {
@@ -3399,7 +1624,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2918,
+        "name": "K. Casteels",
+        "firstname": "Koen",
+        "lastname": "Casteels",
+        "age": 30,
+        "birth": {
+          "date": "1992-06-25",
+          "place": "Bonheiden",
+          "country": "Belgium"
         },
+        "nationality": "Belgium",
+        "height": "197 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2918.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 1,
@@ -3407,26 +1653,26 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 129,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
-            "position": "Midfielder",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 2,
-            "bench": 0
+            "out": 0,
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -3434,7 +1680,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -3469,30 +1715,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
           }
         }
       ]
     },
     {
       "player": {
-        "id": 305,
-        "name": "D. Origi",
-        "firstname": "Divock",
-        "lastname": "Okoth Origi",
-        "age": 27,
+        "id": 86,
+        "name": "L. Openda",
+        "firstname": "Ikoma-Loïs",
+        "lastname": "Openda",
+        "age": 22,
         "birth": {
-          "date": "1995-04-18",
-          "place": "Oostende",
+          "date": "2000-02-16",
+          "place": "Liège",
           "country": "Belgium"
         },
         "nationality": "Belgium",
-        "height": "185 cm",
+        "height": "177 cm",
         "weight": "75 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/305.png"
+        "photo": "https://media.api-sports.io/football/players/86.png"
       },
       "statistics": [
         {
@@ -3502,84 +1748,10 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 65,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.700000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": 3,
-            "on": 2
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 16,
-            "key": null,
-            "accuracy": 6
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 13,
-            "won": 4
-          },
-          "dribbles": {
-            "attempts": 2,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
             "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -3589,108 +1761,13 @@
             "minutes": 12,
             "number": null,
             "position": "Attacker",
-            "rating": null,
+            "rating": "6.900000",
             "captain": false
           },
           "substitutes": {
             "in": 1,
             "out": 0,
             "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 907,
-        "name": "R. Lukaku",
-        "firstname": "Romelu",
-        "lastname": "Lukaku Menama",
-        "age": 29,
-        "birth": {
-          "date": "1993-05-13",
-          "place": "Antwerpen",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "190 cm",
-        "weight": "93 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/907.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 27,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 0
           },
           "shots": {
             "total": null,
@@ -3705,255 +1782,12 @@
           "passes": {
             "total": 4,
             "key": null,
-            "accuracy": 4
+            "accuracy": 3
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
             "interceptions": null
-          },
-          "duels": {
-            "total": 3,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 4,
-            "lineups": 4,
-            "minutes": 335,
-            "number": null,
-            "position": "Attacker",
-            "rating": "7.550000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 2,
-            "bench": 1
-          },
-          "shots": {
-            "total": 14,
-            "on": 8
-          },
-          "goals": {
-            "total": 5,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 88,
-            "key": 6,
-            "accuracy": 16
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 33,
-            "won": 14
-          },
-          "dribbles": {
-            "attempts": 8,
-            "success": 4,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 2,
-            "committed": 4
-          },
-          "cards": {
-            "yellow": 2,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 1,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 730,
-        "name": "T. Courtois",
-        "firstname": "Thibaut Nicolas Marc",
-        "lastname": "Courtois",
-        "age": 30,
-        "birth": {
-          "date": "1992-05-11",
-          "place": "Bree",
-          "country": "Belgium"
-        },
-        "nationality": "Belgium",
-        "height": "200 cm",
-        "weight": "96 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/730.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 2,
-            "minutes": 180,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": "7.100000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 2,
-            "assists": null,
-            "saves": 6
-          },
-          "passes": {
-            "total": 57,
-            "key": null,
-            "accuracy": 26
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 2,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 1,
-            "name": "Belgium",
-            "logo": "https://media.api-sports.io/football/teams/1.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 5,
-            "lineups": 5,
-            "minutes": 450,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": "6.840000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 5,
-            "assists": null,
-            "saves": 13
-          },
-          "passes": {
-            "total": 145,
-            "key": null,
-            "accuracy": 23
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": 1
           },
           "duels": {
             "total": 4,
@@ -3978,9 +1812,30 @@
             "commited": null,
             "scored": 0,
             "missed": 0,
-            "saved": 0
+            "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 204043,
+        "name": "A. Theate",
+        "firstname": "Arthur Nicolas",
+        "lastname": "Theate",
+        "age": 22,
+        "birth": {
+          "date": "2000-05-25",
+          "place": null,
+          "country": "Belgium"
         },
+        "nationality": "Belgium",
+        "height": "185 cm",
+        "weight": "81 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/204043.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 1,
@@ -3988,10 +1843,10 @@
             "logo": "https://media.api-sports.io/football/teams/1.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -4000,14 +1855,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Goalkeeper",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -4015,7 +1870,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -4050,8 +1905,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

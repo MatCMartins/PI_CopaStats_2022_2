@@ -12,3 +12,4 @@ function ShowSelecao(){
     document.getElementById("proximo_jogo").style.display = "block";
     document.getElementById("jogadores_selecao").style.display = "block";
 }
+

@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "13"
   },
@@ -8,121 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 5
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 141,
-        "name": "Moussa Wagué",
-        "firstname": "Moussa",
-        "lastname": "Wagué",
-        "age": 24,
+        "id": 7,
+        "name": "A. Diallo",
+        "firstname": "Abdou-Lakhad",
+        "lastname": "Diallo",
+        "age": 26,
         "birth": {
-          "date": "1998-10-04",
-          "place": "Bignona",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "177 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/141.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 406,
-        "name": "Salif Sané",
-        "firstname": "Salif",
-        "lastname": "Sané",
-        "age": 32,
-        "birth": {
-          "date": "1990-08-25",
-          "place": "Lormont",
+          "date": "1996-05-04",
+          "place": "Tours",
           "country": "France"
         },
         "nationality": "Senegal",
-        "height": "196 cm",
-        "weight": "85 kg",
+        "height": "187 cm",
+        "weight": "79 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/406.png"
+        "photo": "https://media.api-sports.io/football/players/7.png"
       },
       "statistics": [
         {
@@ -132,115 +38,20 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 242,
             "number": null,
             "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 1915,
-        "name": "B. Sarr",
-        "firstname": "Bouna Junior",
-        "lastname": "Sarr",
-        "age": 30,
-        "birth": {
-          "date": "1992-01-31",
-          "place": "Lyon",
-          "country": "France"
-        },
-        "nationality": "Senegal",
-        "height": "177 cm",
-        "weight": "69 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1915.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 6,
-            "lineups": 6,
-            "minutes": 518,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
@@ -249,28 +60,28 @@
             "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 121,
+            "key": 1,
+            "accuracy": 30
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 2,
+            "blocks": 1,
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 16,
+            "won": 7
           },
           "dribbles": {
             "attempts": null,
@@ -279,7 +90,7 @@
           },
           "fouls": {
             "drawn": null,
-            "committed": null
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -289,82 +100,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -372,21 +109,21 @@
     },
     {
       "player": {
-        "id": 2994,
-        "name": "Pape Moussa Konaté",
-        "firstname": "Pape Moussa",
-        "lastname": "Konaté",
-        "age": 29,
+        "id": 20696,
+        "name": "P. Gueye",
+        "firstname": "Pape Alassane",
+        "lastname": "Gueye",
+        "age": 23,
         "birth": {
-          "date": "1993-04-03",
-          "place": "Mbour",
-          "country": "Senegal"
+          "date": "1999-01-24",
+          "place": "Montreuil",
+          "country": "France"
         },
         "nationality": "Senegal",
-        "height": "181 cm",
-        "weight": "78 kg",
+        "height": "189 cm",
+        "weight": "79 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2994.png"
+        "photo": "https://media.api-sports.io/football/players/20696.png"
       },
       "statistics": [
         {
@@ -396,145 +133,50 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 8450,
-        "name": "Abdoulaye Seck",
-        "firstname": "Abdoulaye",
-        "lastname": "Seck",
-        "age": 30,
-        "birth": {
-          "date": "1992-06-04",
-          "place": "M'Bour",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "192 cm",
-        "weight": "95 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/8450.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 0,
-            "minutes": 1,
+            "minutes": 17,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Midfielder",
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
             "in": 1,
             "out": 0,
-            "bench": 7
+            "bench": 2
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 1,
+            "on": 1
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 14,
             "key": null,
-            "accuracy": null
+            "accuracy": 9
           },
           "tackles": {
             "total": null,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 2
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 1,
+            "won": 1
           },
           "dribbles": {
             "attempts": null,
@@ -553,82 +195,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -636,306 +204,21 @@
     },
     {
       "player": {
-        "id": 15470,
-        "name": "Alioune Badara Samb",
-        "firstname": "Alioune",
-        "lastname": "Badara Samb",
-        "age": 33,
+        "id": 284072,
+        "name": "B. Dieng",
+        "firstname": "Cheikh Ahmadou Bamba",
+        "lastname": "Mbacké Dieng",
+        "age": 22,
         "birth": {
-          "date": "1989-10-01",
-          "place": "Dakar",
+          "date": "2000-03-23",
+          "place": "Pikine",
           "country": "Senegal"
         },
         "nationality": "Senegal",
-        "height": "190 cm",
-        "weight": "83 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/15470.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 20533,
-        "name": "O. Nguette",
-        "firstname": "Opa",
-        "lastname": "Nguette",
-        "age": 28,
-        "birth": {
-          "date": "1994-07-08",
-          "place": "Mantes-la-Jolie",
-          "country": "France"
-        },
-        "nationality": "Senegal",
-        "height": "182 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/20533.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 20659,
-        "name": "A. Mendy",
-        "firstname": "Arial Benabent",
-        "lastname": "Mendy",
-        "age": 28,
-        "birth": {
-          "date": "1994-11-07",
-          "place": "Ziguinchor",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "180 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/20659.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 20878,
-        "name": "Saliou Ciss",
-        "firstname": "Saliou",
-        "lastname": "Ciss",
-        "age": 33,
-        "birth": {
-          "date": "1989-06-15",
-          "place": "Kholpa",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "174 cm",
+        "height": "178 cm",
         "weight": "72 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/20878.png"
+        "photo": "https://media.api-sports.io/football/players/284072.png"
       },
       "statistics": [
         {
@@ -945,763 +228,309 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 8,
-            "lineups": 7,
-            "minutes": 667,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 2,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 22162,
-        "name": "R. Coly",
-        "firstname": "Racine",
-        "lastname": "Coly",
-        "age": 27,
-        "birth": {
-          "date": "1995-12-08",
-          "place": "Dakar",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "185 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/22162.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50777,
-        "name": "C. Diop",
-        "firstname": "Clément",
-        "lastname": "Diop Degoud",
-        "age": 29,
-        "birth": {
-          "date": "1993-10-13",
-          "place": "Paris",
-          "country": "France"
-        },
-        "nationality": "Senegal",
-        "height": "185 cm",
-        "weight": "76 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50777.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 104059,
-        "name": "Pape Seydou N’Diaye",
-        "firstname": "Pape Seydou",
-        "lastname": "N’Diaye",
-        "age": 29,
-        "birth": {
-          "date": "1993-02-11",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/104059.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 144730,
-        "name": "Alpha Richard Diounkou Tecagne",
-        "firstname": "Alpha Richard",
-        "lastname": "Diounkou Tecagne",
-        "age": 21,
-        "birth": {
-          "date": "2001-10-10",
-          "place": "Sindone",
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "183 cm",
-        "weight": "70 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/144730.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 203468,
-        "name": "D. Lopy",
-        "firstname": "Dion",
-        "lastname": "Lopy",
-        "age": 20,
-        "birth": {
-          "date": "2002-02-02",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": "186 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/203468.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 18,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 293023,
-        "name": "Jean Rémi Bocandé",
-        "firstname": "Jean Rémi",
-        "lastname": "Bocandé",
-        "age": 34,
-        "birth": {
-          "date": "1988-12-29",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/293023.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 293986,
-        "name": "El Hadji Moutarou Baldé",
-        "firstname": "El Hadji Moutarou",
-        "lastname": "Baldé",
-        "age": 29,
-        "birth": {
-          "date": "1993-10-05",
-          "place": null,
-          "country": "Senegal"
-        },
-        "nationality": "Senegal",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/293986.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 13,
-            "name": "Senegal",
-            "logo": "https://media.api-sports.io/football/teams/13.png"
-          },
-          "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 0,
-            "minutes": 17,
+            "minutes": 37,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.000000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": 3,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 4,
+            "key": null,
+            "accuracy": 3
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 7,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 162236,
+        "name": "F. Mendy",
+        "firstname": "Formose",
+        "lastname": "Mendy",
+        "age": 21,
+        "birth": {
+          "date": "2001-01-02",
+          "place": null,
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "191 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/162236.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
             "position": "Defender",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 2,
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 18785,
+        "name": "N. Mendy",
+        "firstname": "Nampalys",
+        "lastname": "Mendy",
+        "age": 30,
+        "birth": {
+          "date": "1992-06-23",
+          "place": "La Seyne-sur-Mer",
+          "country": "France"
+        },
+        "nationality": "Senegal",
+        "height": "167 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/18785.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 2,
+            "minutes": 183,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.933333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 107,
+            "key": 1,
+            "accuracy": 30
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 12,
+            "won": 7
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 23129,
+        "name": "Moustapha Name",
+        "firstname": "Moustapha",
+        "lastname": "Name",
+        "age": 27,
+        "birth": {
+          "date": "1995-05-05",
+          "place": "Dakar",
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "183 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/23129.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
             "out": 0,
             "bench": 2
           },
@@ -1750,7 +579,28 @@
             "missed": null,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 105,
+        "name": "F. Ballo",
+        "firstname": "Fodé",
+        "lastname": "Ballo-Touré",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-03",
+          "place": "Conflans-Sainte-Honorine",
+          "country": "France"
         },
+        "nationality": "Senegal",
+        "height": "182 cm",
+        "weight": "70 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/105.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 13,
@@ -1758,10 +608,10 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1777,7 +627,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -1785,7 +635,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1820,8 +670,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1829,21 +679,21 @@
     },
     {
       "player": {
-        "id": 321625,
-        "name": "Mohamed Rassoul Ba",
-        "firstname": "Mohamed Rassoul",
-        "lastname": "Ba",
-        "age": 21,
+        "id": 22015,
+        "name": "B. Dia",
+        "firstname": "Boulaye",
+        "lastname": "Dia",
+        "age": 26,
         "birth": {
-          "date": "2001-02-12",
-          "place": null,
-          "country": "Senegal"
+          "date": "1996-11-16",
+          "place": "Oyonnax",
+          "country": "France"
         },
         "nationality": "Senegal",
-        "height": null,
-        "weight": null,
+        "height": "180 cm",
+        "weight": "75 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/321625.png"
+        "photo": "https://media.api-sports.io/football/players/22015.png"
       },
       "statistics": [
         {
@@ -1853,20 +703,115 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 249,
             "number": null,
             "position": "Attacker",
-            "rating": null,
+            "rating": "6.733333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 5,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 42,
+            "key": 1,
+            "accuracy": 10
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 26,
+            "won": 10
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2986,
+        "name": "É. Mendy",
+        "firstname": "Édouard Osoque",
+        "lastname": "Mendy",
+        "age": 30,
+        "birth": {
+          "date": "1992-03-01",
+          "place": "Montivilliers",
+          "country": "France"
+        },
+        "nationality": "Senegal",
+        "height": "194 cm",
+        "weight": "86 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2986.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": "6.466666",
             "captain": false
           },
           "substitutes": {
@@ -1880,14 +825,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 4,
             "assists": null,
-            "saves": null
+            "saves": 6
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 83,
+            "key": 1,
+            "accuracy": 19
           },
           "tackles": {
             "total": null,
@@ -1895,8 +840,8 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 4,
+            "won": 3
           },
           "dribbles": {
             "attempts": null,
@@ -1915,30 +860,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
         }
       ]
     },
     {
       "player": {
-        "id": 321627,
-        "name": "Serigne Saliou Gueye",
-        "firstname": "Serigne Saliou",
-        "lastname": "Gueye",
-        "age": 23,
+        "id": 318,
+        "name": "K. Koulibaly",
+        "firstname": "Kalidou",
+        "lastname": "Koulibaly",
+        "age": 31,
         "birth": {
-          "date": "1999-01-10",
-          "place": null,
-          "country": "Senegal"
+          "date": "1991-06-20",
+          "place": "Saint-Dié-des-Vosges",
+          "country": "France"
         },
         "nationality": "Senegal",
-        "height": null,
-        "weight": null,
+        "height": "195 cm",
+        "weight": "89 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/321627.png"
+        "photo": "https://media.api-sports.io/football/players/318.png"
       },
       "statistics": [
         {
@@ -1948,20 +893,20 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 29,
-            "name": "World Cup - Qualification Africa",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/29.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
             "number": null,
-            "position": "Attacker",
-            "rating": null,
+            "position": "Defender",
+            "rating": "7.133333",
             "captain": false
           },
           "substitutes": {
@@ -1970,28 +915,28 @@
             "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
+            "total": 2,
+            "on": 1
           },
           "goals": {
-            "total": 0,
-            "conceded": null,
+            "total": 1,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 151,
+            "key": 1,
+            "accuracy": 40
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 8,
+            "blocks": 1,
+            "interceptions": 2
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 28,
+            "won": 19
           },
           "dribbles": {
             "attempts": null,
@@ -1999,8 +944,8 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 3,
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -2010,8 +955,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -2019,21 +964,21 @@
     },
     {
       "player": {
-        "id": 339419,
-        "name": "Elhadj Mané",
-        "firstname": "Elhadj",
-        "lastname": "Mané",
-        "age": 21,
+        "id": 237129,
+        "name": "P. Sarr",
+        "firstname": "Pape Matar",
+        "lastname": "Sarr",
+        "age": 20,
         "birth": {
-          "date": "2001-06-08",
+          "date": "2002-09-14",
           "place": null,
           "country": "Senegal"
         },
         "nationality": "Senegal",
-        "height": null,
-        "weight": null,
+        "height": "185 cm",
+        "weight": "70 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/339419.png"
+        "photo": "https://media.api-sports.io/football/players/237129.png"
       },
       "statistics": [
         {
@@ -2043,10 +988,105 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 13,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 11,
+            "key": 1,
+            "accuracy": 10
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 175415,
+        "name": "M. N&apos;Diaye",
+        "firstname": "Moussa",
+        "lastname": "N'Diaye",
+        "age": 20,
+        "birth": {
+          "date": "2002-06-18",
+          "place": "Dakar",
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "178 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/175415.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -2055,14 +1095,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Attacker",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -2070,7 +1110,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -2105,8 +1145,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -2114,21 +1154,211 @@
     },
     {
       "player": {
-        "id": 374070,
-        "name": "Abdoulaye Diedhiou",
-        "firstname": "Abdoulaye",
-        "lastname": "Diedhiou",
+        "id": 45021,
+        "name": "S. Dieng",
+        "firstname": "Seny Timothy",
+        "lastname": "Dieng",
+        "age": 28,
+        "birth": {
+          "date": "1994-11-23",
+          "place": "Zürich",
+          "country": "Switzerland"
+        },
+        "nationality": "Senegal",
+        "height": "193 cm",
+        "weight": "90 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/45021.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2991,
+        "name": "C. Kouyaté",
+        "firstname": "Cheikhou",
+        "lastname": "Kouyaté",
+        "age": 33,
+        "birth": {
+          "date": "1989-12-21",
+          "place": "Dakar",
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "189 cm",
+        "weight": "83 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2991.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 73,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 21,
+            "key": 1,
+            "accuracy": 18
+          },
+          "tackles": {
+            "total": null,
+            "blocks": 1,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 6,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 18592,
+        "name": "Iliman Cheikh Baroy Ndiaye",
+        "firstname": "Iliman Cheikh",
+        "lastname": "Baroy Ndiaye",
         "age": 22,
         "birth": {
-          "date": "2000-07-12",
-          "place": null,
-          "country": "Senegal"
+          "date": "2000-03-06",
+          "place": "Rouen",
+          "country": "France"
         },
         "nationality": "Senegal",
-        "height": "175 cm",
-        "weight": null,
+        "height": "180 cm",
+        "weight": "70 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/374070.png"
+        "photo": "https://media.api-sports.io/football/players/18592.png"
       },
       "statistics": [
         {
@@ -2138,26 +1368,26 @@
             "logo": "https://media.api-sports.io/football/teams/13.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
+            "appearences": 1,
             "lineups": 0,
-            "minutes": 0,
+            "minutes": 16,
             "number": null,
-            "position": "Defender",
+            "position": "Midfielder",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 0,
+            "in": 1,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -2202,6 +1432,481 @@
             "commited": null,
             "scored": null,
             "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2990,
+        "name": "I. Gueye",
+        "firstname": "Idrissa Gana",
+        "lastname": "Gueye",
+        "age": 33,
+        "birth": {
+          "date": "1989-09-26",
+          "place": "Dakar",
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "174 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2990.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.833333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 3,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 113,
+            "key": 1,
+            "accuracy": 34
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 5
+          },
+          "duels": {
+            "total": 19,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 384,
+        "name": "M. Loum",
+        "firstname": "Mamadou",
+        "lastname": "Loum N'Diaye",
+        "age": 26,
+        "birth": {
+          "date": "1996-12-30",
+          "place": "Dakar",
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "193 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/384.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2218,
+        "name": "I. Sarr",
+        "firstname": "Ismaïla",
+        "lastname": "Sarr",
+        "age": 24,
+        "birth": {
+          "date": "1998-02-25",
+          "place": "Saint-Louis",
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "185 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2218.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 164,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 28,
+            "key": 5,
+            "accuracy": 9
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 29,
+            "won": 19
+          },
+          "dribbles": {
+            "attempts": 7,
+            "success": 5,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 5,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2985,
+        "name": "A. Gomis",
+        "firstname": "Amigo Alfred Benjamin Junior",
+        "lastname": "Gomis",
+        "age": 29,
+        "birth": {
+          "date": "1993-09-05",
+          "place": "Ziguinchor",
+          "country": "Senegal"
+        },
+        "nationality": "Senegal",
+        "height": "196 cm",
+        "weight": "83 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2985.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1264,
+        "name": "Y. Sabaly",
+        "firstname": "Youssouf",
+        "lastname": "Sabaly",
+        "age": 29,
+        "birth": {
+          "date": "1993-03-05",
+          "place": "Chesnay",
+          "country": "France"
+        },
+        "nationality": "Senegal",
+        "height": "174 cm",
+        "weight": "67 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1264.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.233333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 153,
+            "key": 7,
+            "accuracy": 44
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 24,
+            "won": 16
+          },
+          "dribbles": {
+            "attempts": 5,
+            "success": 3,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 7,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }

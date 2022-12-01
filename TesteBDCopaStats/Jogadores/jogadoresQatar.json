@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "1569"
   },
@@ -8,26 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 3
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 2524,
-        "name": "Mohammed Al Bakri",
-        "firstname": "Mohammed",
-        "lastname": "Al Bakri",
-        "age": 25,
+        "id": 2528,
+        "name": "Salem Al Hajri",
+        "firstname": "Salem Ali",
+        "lastname": "Al Hajri",
+        "age": 26,
         "birth": {
-          "date": "1997-03-28",
+          "date": "1996-04-10",
           "place": null,
           "country": "Qatar"
         },
         "nationality": "Qatar",
-        "height": "178 cm",
-        "weight": "73 kg",
+        "height": "183 cm",
+        "weight": "70 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2524.png"
+        "photo": "https://media.api-sports.io/football/players/2528.png"
       },
       "statistics": [
         {
@@ -37,10 +38,865 @@
             "logo": "https://media.api-sports.io/football/teams/1569.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 200981,
+        "name": "Jassem Gaber",
+        "firstname": "Jassem Gaber",
+        "lastname": "Abdulsallam",
+        "age": 20,
+        "birth": {
+          "date": "2002-02-20",
+          "place": null,
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "182 cm",
+        "weight": "65 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/200981.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 42087,
+        "name": "Khalid Muneer",
+        "firstname": "Khalid Muneer",
+        "lastname": "Mazeed",
+        "age": 24,
+        "birth": {
+          "date": "1998-02-24",
+          "place": null,
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "174 cm",
+        "weight": "56 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/42087.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2536,
+        "name": "Bassam Al Rawi",
+        "firstname": "Bassam Husham",
+        "lastname": "Al Rawi",
+        "age": 25,
+        "birth": {
+          "date": "1997-12-16",
+          "place": null,
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "175 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2536.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 57,
+            "key": 1,
+            "accuracy": 47
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 7,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 42088,
+        "name": "Ismaeel Mohammad",
+        "firstname": "Ismaeel Mohammad",
+        "lastname": "Mohammad",
+        "age": 32,
+        "birth": {
+          "date": "1990-04-05",
+          "place": "Doha",
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "172 cm",
+        "weight": "64 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/42088.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.700000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 25,
+            "key": 1,
+            "accuracy": 17
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 10,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2537,
+        "name": "Karim Boudiaf",
+        "firstname": "Karim",
+        "lastname": "Boudiaf",
+        "age": 32,
+        "birth": {
+          "date": "1990-09-16",
+          "place": "Rueil-Malmaison",
+          "country": "France"
+        },
+        "nationality": "Qatar",
+        "height": "190 cm",
+        "weight": "87 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2537.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 159,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.250000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 83,
+            "key": null,
+            "accuracy": 36
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 22,
+            "won": 8
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2535,
+        "name": "Assim Madibo",
+        "firstname": "Assim Omer",
+        "lastname": "Al Haj Madibo",
+        "age": 26,
+        "birth": {
+          "date": "1996-10-22",
+          "place": null,
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "168 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2535.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 42,
+            "key": 1,
+            "accuracy": 36
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 8,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2543,
+        "name": "Almoez Ali",
+        "firstname": "Almoez Ali Zainalabiddin",
+        "lastname": "Abdulla",
+        "age": 26,
+        "birth": {
+          "date": "1996-08-19",
+          "place": "Khartoum",
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "180 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2543.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 162,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 3,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 32,
+            "key": null,
+            "accuracy": 10
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 15,
+            "won": 5
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 2
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 42089,
+        "name": "Mohammed Muntari",
+        "firstname": "Mohammed",
+        "lastname": "Muntari",
+        "age": 29,
+        "birth": {
+          "date": "1993-12-20",
+          "place": null,
+          "country": "Ghana"
+        },
+        "nationality": "Qatar",
+        "height": "192 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/42089.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 0,
+            "minutes": 34,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.100000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": 2,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 6,
+            "key": null,
+            "accuracy": 2
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2526,
+        "name": "Yousef Hassan Mohamed Ali",
+        "firstname": "Yousef Hassan Mohamed",
+        "lastname": "Ali",
+        "age": 26,
+        "birth": {
+          "date": "1996-05-24",
+          "place": null,
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "186 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2526.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -55,175 +911,6 @@
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2528,
-        "name": "Salem Ali Al Hajri",
-        "firstname": "Salem Ali",
-        "lastname": "Al Hajri",
-        "age": 26,
-        "birth": {
-          "date": "1996-04-10",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "180 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2528.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 1,
-            "minutes": 118,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 13,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
             "out": 0,
             "bench": 2
           },
@@ -277,21 +964,21 @@
     },
     {
       "player": {
-        "id": 2529,
-        "name": "Tameem Mohammed Al Muhaza",
-        "firstname": "Tameem Mohammed",
-        "lastname": "Al Muhaza",
-        "age": 26,
+        "id": 175439,
+        "name": "Homam Ahmed",
+        "firstname": "Homam Al Amin",
+        "lastname": "Ahmed",
+        "age": 23,
         "birth": {
-          "date": "1996-07-21",
-          "place": null,
+          "date": "1999-08-25",
+          "place": "Doha",
           "country": "Qatar"
         },
         "nationality": "Qatar",
-        "height": "177 cm",
-        "weight": "69 kg",
+        "height": "188 cm",
+        "weight": "71 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2529.png"
+        "photo": "https://media.api-sports.io/football/players/175439.png"
       },
       "statistics": [
         {
@@ -301,216 +988,216 @@
             "logo": "https://media.api-sports.io/football/teams/1569.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2531,
-        "name": "Hamid Ismaeil Hassan Khaleefa Hamid",
-        "firstname": "Hamid Ismaeil Hassan Khaleefa",
-        "lastname": "Hamid",
-        "age": 36,
-        "birth": {
-          "date": "1986-06-16",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2531.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2535,
-        "name": "Assim Omer Al Haj Madibo",
-        "firstname": "Assim Omer",
-        "lastname": "Al Haj Madibo",
-        "age": 26,
-        "birth": {
-          "date": "1996-10-22",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "168 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2535.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 2,
             "lineups": 2,
-            "minutes": 180,
+            "minutes": 173,
             "number": null,
-            "position": "Midfielder",
+            "position": "Defender",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 54,
+            "key": 2,
+            "accuracy": 18
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 23,
+            "won": 13
+          },
+          "dribbles": {
+            "attempts": 5,
+            "success": 3,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2542,
+        "name": "Ahmed Alaa",
+        "firstname": "Ahmed Alaaeldin",
+        "lastname": "Abdelmotaal",
+        "age": 29,
+        "birth": {
+          "date": "1993-01-31",
+          "place": "Doha",
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "176 cm",
+        "weight": "73 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2542.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Attacker",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2525,
+        "name": "Saad Abdullah Al Sheeb",
+        "firstname": "Saad Abdullah",
+        "lastname": "Al Sheeb",
+        "age": 32,
+        "birth": {
+          "date": "1990-02-19",
+          "place": null,
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "188 cm",
+        "weight": "83 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2525.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
           },
           "shots": {
             "total": null,
@@ -557,290 +1244,26 @@
             "missed": null,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 0,
-            "minutes": 52,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 2539,
-        "name": "Ahmed Fathy",
-        "firstname": "Ahmed",
-        "lastname": "Fathy",
-        "age": 29,
+        "id": 42021,
+        "name": "Meshaal Aissa Barsham",
+        "firstname": "Meshaal Aissa",
+        "lastname": "Barsham",
+        "age": 24,
         "birth": {
-          "date": "1993-01-25",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "171 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2539.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 16,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 6
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2546,
-        "name": "Ali Hassan Afif Yahya",
-        "firstname": "Ali Hassan Afif",
-        "lastname": "Yahya",
-        "age": 34,
-        "birth": {
-          "date": "1988-01-20",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "172 cm",
-        "weight": "67 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2546.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 10,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42060,
-        "name": "Sultan Hussain Al-Braik",
-        "firstname": "Sultan Hussain",
-        "lastname": "Al-Braik",
-        "age": 26,
-        "birth": {
-          "date": "1996-04-07",
+          "date": "1998-02-14",
           "place": null,
           "country": "Qatar"
         },
         "nationality": "Qatar",
         "height": "180 cm",
-        "weight": "62 kg",
+        "weight": "66 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42060.png"
+        "photo": "https://media.api-sports.io/football/players/42021.png"
       },
       "statistics": [
         {
@@ -850,566 +1273,17 @@
             "logo": "https://media.api-sports.io/football/teams/1569.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42062,
-        "name": "Mohammed Musa Abbas Ali",
-        "firstname": "Mohammed Musa Abbas",
-        "lastname": "Ali",
-        "age": 36,
-        "birth": {
-          "date": "1986-03-23",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "181 cm",
-        "weight": "77 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42062.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42073,
-        "name": "Abdullah Abdulsalam Alahrak",
-        "firstname": "Abdullah Abdulsalam",
-        "lastname": "Alahrak",
-        "age": 25,
-        "birth": {
-          "date": "1997-05-10",
-          "place": "Doha",
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "175 cm",
-        "weight": "71 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42073.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 0,
-            "minutes": 76,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 0,
-            "bench": 8
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
-            "lineups": 0,
-            "minutes": 13,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42081,
-        "name": "Hazem Ahmed Shehata",
-        "firstname": "Hazem Ahmed",
-        "lastname": "Shehata",
-        "age": 24,
-        "birth": {
-          "date": "1998-02-02",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42081.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42148,
-        "name": "Mohammed Alaa Eldin Abdelmotaal",
-        "firstname": "Mohammed Alaa Eldin",
-        "lastname": "Abdelmotaal",
-        "age": 28,
-        "birth": {
-          "date": "1994-01-24",
-          "place": null,
-          "country": "Egypt"
-        },
-        "nationality": "Qatar",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42148.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42207,
-        "name": "Mahmud Ibrahim Abunada",
-        "firstname": "Mahmud",
-        "lastname": "Ibrahim Abunada",
-        "age": 22,
-        "birth": {
-          "date": "2000-02-05",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": null,
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42207.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "lineups": 1,
+            "minutes": 90,
             "number": null,
             "position": "Goalkeeper",
             "rating": null,
@@ -1418,7 +1292,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 3
+            "bench": 1
           },
           "shots": {
             "total": null,
@@ -1470,21 +1344,21 @@
     },
     {
       "player": {
-        "id": 42226,
-        "name": "Mohamed Salah Elneel",
-        "firstname": "Mohamed Salah",
-        "lastname": "Elneel",
-        "age": 31,
+        "id": 2530,
+        "name": "Pedro Miguel",
+        "firstname": "Pedro Miguel",
+        "lastname": "Carvalho Deus Correia",
+        "age": 32,
         "birth": {
-          "date": "1991-04-20",
-          "place": null,
-          "country": "Qatar"
+          "date": "1990-08-06",
+          "place": "Algueirão – Mem Martins",
+          "country": "Portugal"
         },
         "nationality": "Qatar",
-        "height": "174 cm",
-        "weight": null,
+        "height": "180 cm",
+        "weight": "73 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42226.png"
+        "photo": "https://media.api-sports.io/football/players/2530.png"
       },
       "statistics": [
         {
@@ -1494,20 +1368,305 @@
             "logo": "https://media.api-sports.io/football/teams/1569.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 173,
             "number": null,
-            "position": "Midfielder",
-            "rating": null,
+            "position": "Defender",
+            "rating": "6.450000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 56,
+            "key": null,
+            "accuracy": 19
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": 3
+          },
+          "duels": {
+            "total": 22,
+            "won": 13
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2527,
+        "name": "Abdelkarim Hassan",
+        "firstname": "Abdelkarim Hassan",
+        "lastname": "Al Haj Fadlalla",
+        "age": 29,
+        "birth": {
+          "date": "1993-08-28",
+          "place": "Doha",
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "185 cm",
+        "weight": "82 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2527.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.600000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 4,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 110,
+            "key": 1,
+            "accuracy": 43
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": 1,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 14,
+            "won": 11
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2541,
+        "name": "Tarek Salman",
+        "firstname": "Tarek Salman Suleiman",
+        "lastname": "Odeh",
+        "age": 25,
+        "birth": {
+          "date": "1997-12-05",
+          "place": null,
+          "country": "Qatar"
+        },
+        "nationality": "Qatar",
+        "height": "179 cm",
+        "weight": "71 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2541.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 7,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 9,
+            "key": null,
+            "accuracy": 7
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 1,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2532,
+        "name": "Boualem Khoukhi",
+        "firstname": "Boualem",
+        "lastname": "Khoukhi",
+        "age": 32,
+        "birth": {
+          "date": "1990-07-09",
+          "place": "Bou Ismaïl",
+          "country": "Algeria"
+        },
+        "nationality": "Qatar",
+        "height": "185 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2532.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
@@ -1521,23 +1680,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 140,
             "key": null,
-            "accuracy": null
+            "accuracy": 62
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 1,
+            "blocks": 1,
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 15,
+            "won": 7
           },
           "dribbles": {
             "attempts": null,
@@ -1545,8 +1704,8 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 3,
+            "committed": 1
           },
           "cards": {
             "yellow": 0,
@@ -1556,8 +1715,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1565,21 +1724,21 @@
     },
     {
       "player": {
-        "id": 42232,
-        "name": "Abdullah Marafee",
-        "firstname": "Abdullah",
-        "lastname": "Marafee",
-        "age": 30,
+        "id": 42215,
+        "name": "Musaab Khidir",
+        "firstname": "Musaab Khidir Kamal",
+        "lastname": "Djebril Mohamed",
+        "age": 29,
         "birth": {
-          "date": "1992-04-13",
+          "date": "1993-09-26",
           "place": null,
           "country": "Qatar"
         },
         "nationality": "Qatar",
-        "height": "165 cm",
+        "height": "176 cm",
         "weight": "60 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42232.png"
+        "photo": "https://media.api-sports.io/football/players/42215.png"
       },
       "statistics": [
         {
@@ -1589,10 +1748,10 @@
             "logo": "https://media.api-sports.io/football/teams/1569.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1601,7 +1760,7 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Midfielder",
+            "position": "Defender",
             "rating": null,
             "captain": false
           },
@@ -1616,7 +1775,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -1651,8 +1810,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1660,21 +1819,21 @@
     },
     {
       "player": {
-        "id": 42290,
-        "name": "Almahdi Ali Mukhtar",
-        "firstname": "Almahdi Ali",
-        "lastname": "Mukhtar",
-        "age": 30,
+        "id": 42180,
+        "name": "Mohammed Waad Abdulwahhab Jadoua Al Bayati",
+        "firstname": "Mohammed Waad Abdulwahhab",
+        "lastname": "Jadoua Al Bayati",
+        "age": 23,
         "birth": {
-          "date": "1992-03-02",
+          "date": "1999-09-18",
           "place": null,
           "country": "Qatar"
         },
         "nationality": "Qatar",
-        "height": null,
-        "weight": null,
+        "height": "183 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42290.png"
+        "photo": "https://media.api-sports.io/football/players/42180.png"
       },
       "statistics": [
         {
@@ -1684,405 +1843,25 @@
             "logo": "https://media.api-sports.io/football/teams/1569.png"
           },
           "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
+            "appearences": 2,
             "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42313,
-        "name": "Moayed Hassan Fedaily",
-        "firstname": "Moayed Hassan",
-        "lastname": "Fedaily",
-        "age": 30,
-        "birth": {
-          "date": "1992-01-28",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "170 cm",
-        "weight": "62 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42313.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 25,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42422,
-        "name": "Ahmed Moein Doozandeh",
-        "firstname": "Ahmed Moein",
-        "lastname": "Doozandeh",
-        "age": 27,
-        "birth": {
-          "date": "1995-10-20",
-          "place": "Doha",
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "172 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42422.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "minutes": 26,
             "number": null,
             "position": "Midfielder",
             "rating": null,
             "captain": false
           },
           "substitutes": {
-            "in": 0,
+            "in": 2,
             "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 42469,
-        "name": "Abdulaziz Rashid Al Ansari",
-        "firstname": "Abdulaziz Rashid",
-        "lastname": "Al Ansari",
-        "age": 30,
-        "birth": {
-          "date": "1992-02-19",
-          "place": null,
-          "country": "Qatar"
-        },
-        "nationality": "Qatar",
-        "height": "173 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/42469.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 79091,
-        "name": "Fahad Ali Shonain Al Abdulrahman",
-        "firstname": "Fahad Ali Shonain",
-        "lastname": "Al Abdulrahman",
-        "age": 27,
-        "birth": {
-          "date": "1995-04-06",
-          "place": null,
-          "country": "Bahrain"
-        },
-        "nationality": "Qatar",
-        "height": "164 cm",
-        "weight": null,
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/79091.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1569,
-            "name": "Qatar",
-            "logo": "https://media.api-sports.io/football/teams/1569.png"
-          },
-          "league": {
-            "id": 30,
-            "name": "World Cup - Qualification Asia",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/30.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 80,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
             "bench": 2
           },
           "shots": {

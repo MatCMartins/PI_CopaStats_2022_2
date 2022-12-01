@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "15"
   },
@@ -8,1773 +9,9 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 3
+    "total": 2
   },
   "response": [
-    {
-      "player": {
-        "id": 939,
-        "name": "D. von Ballmoos",
-        "firstname": "David",
-        "lastname": "von Ballmoos",
-        "age": 28,
-        "birth": {
-          "date": "1994-12-30",
-          "place": "Burgdorf",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "192 cm",
-        "weight": "90 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/939.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 1
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 941,
-        "name": "L. Benito",
-        "firstname": "Loris",
-        "lastname": "Benito Souto",
-        "age": 30,
-        "birth": {
-          "date": "1992-01-07",
-          "place": "Aarau",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "184 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/941.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 943,
-        "name": "U. Garcia",
-        "firstname": "Ulisses Alexandre",
-        "lastname": "Garcia Lopes",
-        "age": 26,
-        "birth": {
-          "date": "1996-01-11",
-          "place": "Almada",
-          "country": "Portugal"
-        },
-        "nationality": "Switzerland",
-        "height": "183 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/943.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 0,
-            "minutes": 93,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.333333",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 0,
-            "bench": 6
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 44,
-            "key": 1,
-            "accuracy": 11
-          },
-          "tackles": {
-            "total": 3,
-            "blocks": null,
-            "interceptions": 1
-          },
-          "duels": {
-            "total": 17,
-            "won": 8
-          },
-          "dribbles": {
-            "attempts": 4,
-            "success": 2,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 4
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 945,
-        "name": "J. Lotomba",
-        "firstname": "Mvula Jordan",
-        "lastname": "Lotomba",
-        "age": 24,
-        "birth": {
-          "date": "1998-09-29",
-          "place": null,
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "177 cm",
-        "weight": "71 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/945.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 93,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.500000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 31,
-            "key": null,
-            "accuracy": 12
-          },
-          "tackles": {
-            "total": null,
-            "blocks": 1,
-            "interceptions": 2
-          },
-          "duels": {
-            "total": 6,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": 3,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 4,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 12,
-            "key": 1,
-            "accuracy": 10
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 3,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": 3,
-            "success": 2,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 1,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 946,
-        "name": "K. Mbabu",
-        "firstname": "Melingo Kevin",
-        "lastname": "Mbabu",
-        "age": 27,
-        "birth": {
-          "date": "1995-04-19",
-          "place": null,
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "184 cm",
-        "weight": "83 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/946.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 32,
-            "key": null,
-            "accuracy": 28
-          },
-          "tackles": {
-            "total": 3,
-            "blocks": 1,
-            "interceptions": 3
-          },
-          "duels": {
-            "total": 14,
-            "won": 6
-          },
-          "dribbles": {
-            "attempts": 5,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 3
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 3,
-            "minutes": 260,
-            "number": null,
-            "position": "Defender",
-            "rating": "6.966666",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 1,
-            "bench": 2
-          },
-          "shots": {
-            "total": 2,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 110,
-            "key": 4,
-            "accuracy": 30
-          },
-          "tackles": {
-            "total": 6,
-            "blocks": null,
-            "interceptions": 5
-          },
-          "duels": {
-            "total": 37,
-            "won": 15
-          },
-          "dribbles": {
-            "attempts": 12,
-            "success": 2,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": 8
-          },
-          "cards": {
-            "yellow": 1,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 116,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 1,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 954,
-        "name": "S. Lauper",
-        "firstname": "Sandro Mike",
-        "lastname": "Lauper",
-        "age": 26,
-        "birth": {
-          "date": "1996-10-25",
-          "place": "Oberdiessbach",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "185 cm",
-        "weight": "73 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/954.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 1142,
-        "name": "Y. Mvogo",
-        "firstname": "Yvon Landry",
-        "lastname": "Mvogo Nganoma",
-        "age": 28,
-        "birth": {
-          "date": "1994-06-06",
-          "place": "Yaounde",
-          "country": "Cameroon"
-        },
-        "nationality": "Switzerland",
-        "height": "188 cm",
-        "weight": "88 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/1142.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 5
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 1
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 2
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2801,
-        "name": "J. Omlin",
-        "firstname": "Jonas",
-        "lastname": "Omlin",
-        "age": 28,
-        "birth": {
-          "date": "1994-01-10",
-          "place": "Sarnen",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "189 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2801.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": "9.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 3
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": 8
-          },
-          "passes": {
-            "total": 52,
-            "key": null,
-            "accuracy": 36
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 2,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": 1,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": 1,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 2,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 6
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2812,
-        "name": "A. Ajeti",
-        "firstname": "Albian Afrim",
-        "lastname": "Ajeti",
-        "age": 25,
-        "birth": {
-          "date": "1997-02-26",
-          "place": "Basel",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "183 cm",
-        "weight": "78 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2812.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 7313,
-        "name": "P. Köhn",
-        "firstname": "Philipp François",
-        "lastname": "Köhn",
-        "age": 24,
-        "birth": {
-          "date": "1998-04-02",
-          "place": "Dinslaken",
-          "country": "Germany"
-        },
-        "nationality": "Switzerland",
-        "height": "191 cm",
-        "weight": "80 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/7313.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 0
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
     {
       "player": {
         "id": 25282,
@@ -1801,20 +38,20 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 1,
-            "minutes": 90,
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
             "number": null,
             "position": "Goalkeeper",
-            "rating": "6.700000",
+            "rating": null,
             "captain": false
           },
           "substitutes": {
@@ -1828,14 +65,109 @@
           },
           "goals": {
             "total": 0,
-            "conceded": 4,
+            "conceded": 0,
             "assists": null,
-            "saves": 6
+            "saves": null
           },
           "passes": {
-            "total": 15,
+            "total": null,
             "key": null,
-            "accuracy": 13
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2802,
+        "name": "Y. Sommer",
+        "firstname": "Yann",
+        "lastname": "Sommer",
+        "age": 34,
+        "birth": {
+          "date": "1988-12-17",
+          "place": "Morges",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "183 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2802.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": "7.750000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 1,
+            "assists": null,
+            "saves": 9
+          },
+          "passes": {
+            "total": 70,
+            "key": null,
+            "accuracy": 32
           },
           "tackles": {
             "total": null,
@@ -1867,7 +199,28 @@
             "missed": 0,
             "saved": 0
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2803,
+        "name": "N. Elvedi",
+        "firstname": "Nico",
+        "lastname": "Elvedi",
+        "age": 26,
+        "birth": {
+          "date": "1996-09-30",
+          "place": "Zürich",
+          "country": "Switzerland"
         },
+        "nationality": "Switzerland",
+        "height": "187 cm",
+        "weight": "81 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2803.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 15,
@@ -1875,84 +228,10 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": 2
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -1961,441 +240,8 @@
             "lineups": 1,
             "minutes": 90,
             "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 48413,
-        "name": "M. Bottani",
-        "firstname": "Mattia",
-        "lastname": "Bottani",
-        "age": 31,
-        "birth": {
-          "date": "1991-05-24",
-          "place": null,
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "170 cm",
-        "weight": "64 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/48413.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 20,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 7,
-            "key": null,
-            "accuracy": 6
-          },
-          "tackles": {
-            "total": 1,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 6,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": 2,
-            "success": 1,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 48481,
-        "name": "L. Stergiou",
-        "firstname": "Leonidas",
-        "lastname": "Stergiou",
-        "age": 20,
-        "birth": {
-          "date": "2002-03-03",
-          "place": "St. Gallen",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "180 cm",
-        "weight": "75 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/48481.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 11,
-            "number": null,
             "position": "Defender",
-            "rating": "6.700000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 1
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": 4,
-            "key": null,
-            "accuracy": 4
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 48497,
-        "name": "C. Itten",
-        "firstname": "Cedric Jan",
-        "lastname": "Itten",
-        "age": 26,
-        "birth": {
-          "date": "1996-12-27",
-          "place": "Basel",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "189 cm",
-        "weight": "81 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/48497.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": 0,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 3,
-            "lineups": 0,
-            "minutes": 23,
-            "number": null,
-            "position": "Attacker",
             "rating": "7.300000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 3,
-            "out": 0,
-            "bench": 4
-          },
-          "shots": {
-            "total": 2,
-            "on": 1
-          },
-          "goals": {
-            "total": 1,
-            "conceded": 0,
-            "assists": 1,
-            "saves": null
-          },
-          "passes": {
-            "total": 5,
-            "key": 1,
-            "accuracy": 2
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": 5,
-            "won": 2
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": 2
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": 0,
-            "missed": 0,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
             "captain": false
           },
           "substitutes": {
@@ -2404,102 +250,7 @@
             "bench": 0
           },
           "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 48574,
-        "name": "C. Zesiger",
-        "firstname": "Cédric",
-        "lastname": "Zesiger",
-        "age": 24,
-        "birth": {
-          "date": "1998-06-24",
-          "place": "Meyriez FR",
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "194 cm",
-        "weight": "90 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/48574.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
@@ -2509,18 +260,18 @@
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 71,
             "key": null,
-            "accuracy": null
+            "accuracy": 65
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
+            "total": 2,
+            "blocks": 1,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 8,
+            "won": 4
           },
           "dribbles": {
             "attempts": null,
@@ -2528,7 +279,102 @@
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 307,
+        "name": "X. Shaqiri",
+        "firstname": "Xherdan",
+        "lastname": "Shaqiri",
+        "age": 31,
+        "birth": {
+          "date": "1991-10-10",
+          "place": "Gjilan",
+          "country": "Kosovo"
+        },
+        "nationality": "Switzerland",
+        "height": "169 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/307.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 72,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.000000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 31,
+            "key": 1,
+            "accuracy": 23
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 3
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
             "committed": null
           },
           "cards": {
@@ -2548,21 +394,21 @@
     },
     {
       "player": {
-        "id": 48612,
-        "name": "K. Imeri",
-        "firstname": "Kastriot",
-        "lastname": "Imeri",
-        "age": 22,
+        "id": 957,
+        "name": "D. Sow",
+        "firstname": "Mohameth Djibril Ibrahima",
+        "lastname": "Sow",
+        "age": 25,
         "birth": {
-          "date": "2000-06-27",
-          "place": "Genf",
+          "date": "1997-02-06",
+          "place": "Zürich",
           "country": "Switzerland"
         },
         "nationality": "Switzerland",
-        "height": "178 cm",
-        "weight": "73 kg",
+        "height": "183 cm",
+        "weight": "76 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/48612.png"
+        "photo": "https://media.api-sports.io/football/players/957.png"
       },
       "statistics": [
         {
@@ -2572,26 +418,26 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 21,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 147,
             "number": null,
             "position": "Midfielder",
-            "rating": "6.700000",
+            "rating": "6.800000",
             "captain": false
           },
           "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
+            "in": 0,
+            "out": 2,
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -2604,26 +450,26 @@
             "saves": null
           },
           "passes": {
-            "total": 2,
-            "key": null,
-            "accuracy": 1
+            "total": 53,
+            "key": 2,
+            "accuracy": 24
           },
           "tackles": {
-            "total": null,
+            "total": 2,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 1
           },
           "duels": {
-            "total": 2,
-            "won": 1
+            "total": 10,
+            "won": 5
           },
           "dribbles": {
-            "attempts": null,
+            "attempts": 1,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 3,
             "committed": 1
           },
           "cards": {
@@ -2638,7 +484,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 48378,
+        "name": "S. Widmer",
+        "firstname": "Silvan Dominic",
+        "lastname": "Widmer",
+        "age": 29,
+        "birth": {
+          "date": "1993-03-05",
+          "place": "Aarau",
+          "country": "Switzerland"
         },
+        "nationality": "Switzerland",
+        "height": "183 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/48378.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 15,
@@ -2646,20 +513,20 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 90,
             "number": null,
-            "position": "Midfielder",
-            "rating": null,
+            "position": "Defender",
+            "rating": "7.200000",
             "captain": false
           },
           "substitutes": {
@@ -2673,121 +540,26 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 48648,
-        "name": "D. Ndoye",
-        "firstname": "Dan Assane",
-        "lastname": "Ndoye",
-        "age": 22,
-        "birth": {
-          "date": "2000-10-25",
-          "place": null,
-          "country": "Switzerland"
-        },
-        "nationality": "Switzerland",
-        "height": "181 cm",
-        "weight": "74 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/48648.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 1,
-            "lineups": 0,
-            "minutes": 22,
-            "number": null,
-            "position": "Attacker",
-            "rating": "6.200000",
-            "captain": false
-          },
-          "substitutes": {
-            "in": 1,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
             "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": 5,
-            "key": null,
-            "accuracy": 3
+            "total": 42,
+            "key": 1,
+            "accuracy": 33
           },
           "tackles": {
-            "total": null,
+            "total": 4,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 1
           },
           "duels": {
-            "total": 2,
-            "won": 1
+            "total": 10,
+            "won": 6
           },
           "dribbles": {
-            "attempts": 1,
+            "attempts": null,
             "success": null,
             "past": null
           },
@@ -2807,7 +579,28 @@
             "missed": 0,
             "saved": null
           }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 30405,
+        "name": "E. Fernandes",
+        "firstname": "Edimilson",
+        "lastname": "Fernandes Ribeiro",
+        "age": 26,
+        "birth": {
+          "date": "1996-04-15",
+          "place": "Sion",
+          "country": "Switzerland"
         },
+        "nationality": "Switzerland",
+        "height": "190 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/30405.png"
+      },
+      "statistics": [
         {
           "team": {
             "id": 15,
@@ -2815,19 +608,19 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
             "appearences": 0,
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Attacker",
+            "position": "Midfielder",
             "rating": null,
             "captain": false
           },
@@ -2886,21 +679,21 @@
     },
     {
       "player": {
-        "id": 48649,
-        "name": "A. Zeqiri",
-        "firstname": "Andi Avdi",
-        "lastname": "Zeqiri",
-        "age": 23,
+        "id": 48471,
+        "name": "R. Vargas",
+        "firstname": "Rubén Estephan",
+        "lastname": "Vargas Martínez",
+        "age": 24,
         "birth": {
-          "date": "1999-06-22",
-          "place": "Lausanne",
+          "date": "1998-08-05",
+          "place": "Adligenswil",
           "country": "Switzerland"
         },
         "nationality": "Switzerland",
-        "height": "181 cm",
-        "weight": "72 kg",
+        "height": "179 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/48649.png"
+        "photo": "https://media.api-sports.io/football/players/48471.png"
       },
       "statistics": [
         {
@@ -2910,30 +703,30 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
-            "season": "2022"
+            "season": 2022
           },
           "games": {
-            "appearences": 4,
-            "lineups": 0,
-            "minutes": 31,
+            "appearences": 1,
+            "lineups": 1,
+            "minutes": 81,
             "number": null,
-            "position": "Attacker",
-            "rating": "6.200000",
+            "position": "Midfielder",
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
-            "in": 4,
-            "out": 0,
-            "bench": 4
+            "in": 0,
+            "out": 1,
+            "bench": 0
           },
           "shots": {
             "total": 1,
-            "on": null
+            "on": 1
           },
           "goals": {
             "total": 0,
@@ -2942,18 +735,18 @@
             "saves": null
           },
           "passes": {
-            "total": 5,
-            "key": null,
-            "accuracy": 2
+            "total": 28,
+            "key": 2,
+            "accuracy": 20
           },
           "tackles": {
             "total": null,
             "blocks": null,
-            "interceptions": 1
+            "interceptions": null
           },
           "duels": {
-            "total": 9,
-            "won": 1
+            "total": 7,
+            "won": 2
           },
           "dribbles": {
             "attempts": 1,
@@ -2976,100 +769,26 @@
             "missed": 0,
             "saved": null
           }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 0,
-            "minutes": 37,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 2,
-            "out": 0,
-            "bench": 2
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
         }
       ]
     },
     {
       "player": {
-        "id": 115588,
-        "name": "B. Okoh",
-        "firstname": "Bryan Ikemefuna",
-        "lastname": "Okoh",
-        "age": 19,
+        "id": 2801,
+        "name": "J. Omlin",
+        "firstname": "Jonas",
+        "lastname": "Omlin",
+        "age": 28,
         "birth": {
-          "date": "2003-05-16",
-          "place": "Houston, Texas",
-          "country": "USA"
+          "date": "1994-01-10",
+          "place": "Sarnen",
+          "country": "Switzerland"
         },
         "nationality": "Switzerland",
-        "height": "187 cm",
-        "weight": "91 kg",
+        "height": "190 cm",
+        "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/115588.png"
+        "photo": "https://media.api-sports.io/football/players/2801.png"
       },
       "statistics": [
         {
@@ -3079,84 +798,10 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": null,
-            "name": "WC Qualification Europe",
-            "country": null,
-            "logo": null,
-            "flag": null,
-            "season": "2022"
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        },
-        {
-          "team": {
-            "id": 15,
-            "name": "Switzerland",
-            "logo": "https://media.api-sports.io/football/teams/15.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -3165,14 +810,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Defender",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 1
           },
           "shots": {
             "total": null,
@@ -3180,7 +825,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -3215,30 +860,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
         }
       ]
     },
     {
       "player": {
-        "id": 123469,
-        "name": "Z. Amdouni",
-        "firstname": "Mohamed Zeki",
-        "lastname": "Amdouni",
-        "age": 22,
+        "id": 48372,
+        "name": "E. Cömert",
+        "firstname": "Eray Ervin",
+        "lastname": "Cömert",
+        "age": 24,
         "birth": {
-          "date": "2000-12-04",
-          "place": "Genève",
+          "date": "1998-02-04",
+          "place": "Rheinfelden",
           "country": "Switzerland"
         },
         "nationality": "Switzerland",
         "height": "183 cm",
         "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/123469.png"
+        "photo": "https://media.api-sports.io/football/players/48372.png"
       },
       "statistics": [
         {
@@ -3248,20 +893,20 @@
             "logo": "https://media.api-sports.io/football/teams/15.png"
           },
           "league": {
-            "id": 5,
-            "name": "UEFA Nations League",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/5.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 0,
-            "minutes": 11,
+            "minutes": 0,
             "number": null,
-            "position": "Attacker",
-            "rating": "6.300000",
+            "position": "Defender",
+            "rating": null,
             "captain": false
           },
           "substitutes": {
@@ -3285,7 +930,862 @@
             "accuracy": 2
           },
           "tackles": {
-            "total": 1,
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1631,
+        "name": "R. Rodríguez",
+        "firstname": "Ricardo Iván",
+        "lastname": "Rodríguez Araya",
+        "age": 30,
+        "birth": {
+          "date": "1992-08-25",
+          "place": "Zürich",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "180 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1631.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 91,
+            "key": 1,
+            "accuracy": 36
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 18,
+            "won": 10
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 5
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 951,
+        "name": "M. Aebischer",
+        "firstname": "Michel",
+        "lastname": "Aebischer",
+        "age": 25,
+        "birth": {
+          "date": "1997-01-06",
+          "place": "Fribourg",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "183 cm",
+        "weight": "76 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/951.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 14,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 4,
+            "key": null,
+            "accuracy": 2
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 2,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 5,
+        "name": "M. Akanji",
+        "firstname": "Manuel Obafemi",
+        "lastname": "Akanji",
+        "age": 27,
+        "birth": {
+          "date": "1995-07-19",
+          "place": "Neftenbach",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "186 cm",
+        "weight": "91 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/5.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": 2,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 143,
+            "key": null,
+            "accuracy": 62
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": 1,
+            "interceptions": 2
+          },
+          "duels": {
+            "total": 12,
+            "won": 7
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2810,
+        "name": "D. Zakaria",
+        "firstname": "Denis Lemi",
+        "lastname": "Zakaria Lako Lado",
+        "age": 26,
+        "birth": {
+          "date": "1996-11-20",
+          "place": "Genève",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "189 cm",
+        "weight": "81 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2810.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2807,
+        "name": "R. Freuler",
+        "firstname": "Remo Marco",
+        "lastname": "Freuler",
+        "age": 30,
+        "birth": {
+          "date": "1992-04-15",
+          "place": "Ennenda",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "181 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2807.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 104,
+            "key": null,
+            "accuracy": 46
+          },
+          "tackles": {
+            "total": 6,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 14,
+            "won": 7
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2806,
+        "name": "F. Schär",
+        "firstname": "Fabian Lukas",
+        "lastname": "Schär",
+        "age": 31,
+        "birth": {
+          "date": "1991-12-20",
+          "place": "Wil",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "186 cm",
+        "weight": "84 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2806.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 952,
+        "name": "C. Fassnacht",
+        "firstname": "Christian Andreas",
+        "lastname": "Fassnacht",
+        "age": 29,
+        "birth": {
+          "date": "1993-11-11",
+          "place": "Zürich",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "185 cm",
+        "weight": "77 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/952.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 163032,
+        "name": "F. Rieder",
+        "firstname": "Fabian",
+        "lastname": "Rieder",
+        "age": 20,
+        "birth": {
+          "date": "2002-02-16",
+          "place": "Bern",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "181 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/163032.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 68,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.500000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 25,
+            "key": 1,
+            "accuracy": 6
+          },
+          "tackles": {
+            "total": 3,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 14,
+            "won": 6
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 4
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 2809,
+        "name": "R. Steffen",
+        "firstname": "Renato",
+        "lastname": "Steffen",
+        "age": 31,
+        "birth": {
+          "date": "1991-11-03",
+          "place": "Aarau",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "170 cm",
+        "weight": "65 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/2809.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 31,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 14,
+            "key": null,
+            "accuracy": 12
+          },
+          "tackles": {
+            "total": null,
             "blocks": null,
             "interceptions": null
           },
@@ -3294,7 +1794,102 @@
             "won": 1
           },
           "dribbles": {
-            "attempts": 1,
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 264705,
+        "name": "A. Jashari",
+        "firstname": "Ardon",
+        "lastname": "Jashari",
+        "age": 20,
+        "birth": {
+          "date": "2002-07-30",
+          "place": "Cham",
+          "country": "Switzerland"
+        },
+        "nationality": "Switzerland",
+        "height": "181 cm",
+        "weight": "82 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/264705.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
             "success": null,
             "past": null
           },

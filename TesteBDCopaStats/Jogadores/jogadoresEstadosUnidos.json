@@ -1,6 +1,7 @@
 {
   "get": "players",
   "parameters": {
+    "league": "1",
     "season": "2022",
     "team": "2384"
   },
@@ -8,26 +9,26 @@
   "results": 20,
   "paging": {
     "current": 1,
-    "total": 3
+    "total": 2
   },
   "response": [
     {
       "player": {
-        "id": 2219,
-        "name": "J. Siebatcheu",
-        "firstname": "Theoson-Jordan",
-        "lastname": "Siebatcheu Pefok",
-        "age": 26,
+        "id": 50848,
+        "name": "S. Johnson",
+        "firstname": "Sean Everet",
+        "lastname": "Johnson",
+        "age": 33,
         "birth": {
-          "date": "1996-04-26",
-          "place": "Washington",
+          "date": "1989-05-31",
+          "place": "Atlanta",
           "country": "USA"
         },
         "nationality": "USA",
         "height": "191 cm",
-        "weight": "86 kg",
+        "weight": "98 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/2219.png"
+        "photo": "https://media.api-sports.io/football/players/50848.png"
       },
       "statistics": [
         {
@@ -37,10 +38,10 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -49,14 +50,14 @@
             "lineups": 0,
             "minutes": 0,
             "number": null,
-            "position": "Attacker",
+            "position": "Goalkeeper",
             "rating": null,
             "captain": false
           },
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -64,7 +65,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -99,30 +100,30 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
           }
         }
       ]
     },
     {
       "player": {
-        "id": 38692,
-        "name": "E. Palmer-Brown",
-        "firstname": "Erik Ross",
-        "lastname": "Palmer-Brown",
+        "id": 19314,
+        "name": "C. Carter-Vickers",
+        "firstname": "Cameron Robert",
+        "lastname": "Carter-Vickers",
         "age": 25,
         "birth": {
-          "date": "1997-04-24",
-          "place": "Napoleon",
-          "country": "USA"
+          "date": "1997-12-31",
+          "place": "Southend-on-Sea",
+          "country": "England"
         },
         "nationality": "USA",
-        "height": "187 cm",
-        "weight": "88 kg",
+        "height": "183 cm",
+        "weight": "92 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/38692.png"
+        "photo": "https://media.api-sports.io/football/players/19314.png"
       },
       "statistics": [
         {
@@ -132,26 +133,216 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 50952,
+        "name": "A. Long",
+        "firstname": "Aaron Ray",
+        "lastname": "Long",
+        "age": 30,
+        "birth": {
+          "date": "1992-10-12",
+          "place": "Oak Hills",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "186 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/50952.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 64310,
+        "name": "S. Moore",
+        "firstname": "Shaquell Kwame",
+        "lastname": "Moore",
+        "age": 26,
+        "birth": {
+          "date": "1996-11-02",
+          "place": "Powder Springs",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "180 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/64310.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 1,
             "lineups": 0,
-            "minutes": 44,
+            "minutes": 12,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "6.300000",
             "captain": false
           },
           "substitutes": {
             "in": 1,
             "out": 0,
-            "bench": 4
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -159,14 +350,14 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 13,
             "key": null,
-            "accuracy": null
+            "accuracy": 11
           },
           "tackles": {
             "total": null,
@@ -174,8 +365,103 @@
             "interceptions": null
           },
           "duels": {
-            "total": null,
+            "total": 3,
             "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 18897,
+        "name": "D. Yedlin",
+        "firstname": "DeAndre Roselle",
+        "lastname": "Yedlin",
+        "age": 29,
+        "birth": {
+          "date": "1993-07-09",
+          "place": "Seattle",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "172 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/18897.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 16,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.300000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 10,
+            "key": null,
+            "accuracy": 8
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": 1
           },
           "dribbles": {
             "attempts": null,
@@ -194,8 +480,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -203,21 +489,21 @@
     },
     {
       "player": {
-        "id": 50737,
-        "name": "A. Trusty",
-        "firstname": "Auston Levi-Jesaiah",
-        "lastname": "Trusty",
-        "age": 24,
+        "id": 51032,
+        "name": "W. Zimmerman",
+        "firstname": "Walker Dwain",
+        "lastname": "Zimmerman",
+        "age": 29,
         "birth": {
-          "date": "1998-08-12",
-          "place": "Media",
+          "date": "1993-05-19",
+          "place": "Lawrenceville",
           "country": "USA"
         },
         "nationality": "USA",
-        "height": "191 cm",
-        "weight": "84 kg",
+        "height": "188 cm",
+        "weight": "89 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50737.png"
+        "photo": "https://media.api-sports.io/football/players/51032.png"
       },
       "statistics": [
         {
@@ -227,20 +513,20 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 180,
             "number": null,
             "position": "Defender",
-            "rating": null,
+            "rating": "6.550000",
             "captain": false
           },
           "substitutes": {
@@ -254,23 +540,23 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 162,
             "key": null,
-            "accuracy": null
+            "accuracy": 74
           },
           "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
+            "total": 1,
+            "blocks": 1,
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 10,
+            "won": 4
           },
           "dribbles": {
             "attempts": null,
@@ -279,7 +565,7 @@
           },
           "fouls": {
             "drawn": null,
-            "committed": null
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -289,8 +575,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -298,21 +584,21 @@
     },
     {
       "player": {
-        "id": 50772,
-        "name": "P. Arriola",
-        "firstname": "Paul Joseph",
-        "lastname": "Arriola Hendricks",
+        "id": 51310,
+        "name": "K. Acosta",
+        "firstname": "Kellyn Kai",
+        "lastname": "Perry-Acosta",
         "age": 27,
         "birth": {
-          "date": "1995-02-05",
-          "place": "Chula Vista",
+          "date": "1995-07-24",
+          "place": "Plano",
           "country": "USA"
         },
         "nationality": "USA",
-        "height": "167 cm",
-        "weight": "66 kg",
+        "height": "175 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50772.png"
+        "photo": "https://media.api-sports.io/football/players/51310.png"
       },
       "statistics": [
         {
@@ -322,26 +608,26 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 2,
+            "appearences": 1,
             "lineups": 0,
-            "minutes": 104,
+            "minutes": 15,
             "number": null,
             "position": "Midfielder",
-            "rating": null,
+            "rating": "6.200000",
             "captain": false
           },
           "substitutes": {
-            "in": 2,
+            "in": 1,
             "out": 0,
-            "bench": 4
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -349,7 +635,102 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 8,
+            "key": null,
+            "accuracy": 7
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 2,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 51114,
+        "name": "C. Roldán",
+        "firstname": "Cristian",
+        "lastname": "Roldán",
+        "age": 27,
+        "birth": {
+          "date": "1995-06-03",
+          "place": "Artesia",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "173 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/51114.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -384,8 +765,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -393,21 +774,21 @@
     },
     {
       "player": {
-        "id": 50846,
-        "name": "G. Zardes",
-        "firstname": "Gyasi",
-        "lastname": "Zardes",
-        "age": 31,
+        "id": 51142,
+        "name": "J. Ferreira",
+        "firstname": "Jesús David",
+        "lastname": "Ferreira Castro",
+        "age": 22,
         "birth": {
-          "date": "1991-09-02",
-          "place": "Hawthorne",
-          "country": "USA"
+          "date": "2000-12-24",
+          "place": "Santa Marta",
+          "country": "Colombia"
         },
         "nationality": "USA",
-        "height": "188 cm",
-        "weight": "80 kg",
+        "height": "173 cm",
+        "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50846.png"
+        "photo": "https://media.api-sports.io/football/players/51142.png"
       },
       "statistics": [
         {
@@ -417,10 +798,10 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
@@ -436,7 +817,7 @@
           "substitutes": {
             "in": 0,
             "out": 0,
-            "bench": 0
+            "bench": 2
           },
           "shots": {
             "total": null,
@@ -444,7 +825,7 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -479,8 +860,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -488,21 +869,21 @@
     },
     {
       "player": {
-        "id": 50863,
-        "name": "J. Sands",
-        "firstname": "James",
-        "lastname": "Hoban Sands",
-        "age": 22,
+        "id": 51118,
+        "name": "J. Morris",
+        "firstname": "Jordan Perry",
+        "lastname": "Morris",
+        "age": 28,
         "birth": {
-          "date": "2000-07-06",
-          "place": "Rye",
+          "date": "1994-10-26",
+          "place": "Mercer Island",
           "country": "USA"
         },
         "nationality": "USA",
-        "height": "186 cm",
+        "height": "183 cm",
         "weight": "84 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50863.png"
+        "photo": "https://media.api-sports.io/football/players/51118.png"
       },
       "statistics": [
         {
@@ -512,400 +893,115 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
+            "appearences": 1,
             "lineups": 0,
-            "minutes": 0,
+            "minutes": 2,
+            "number": null,
+            "position": "Attacker",
+            "rating": "6.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 1,
+            "key": null,
+            "accuracy": 1
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 161921,
+        "name": "G. Reyna",
+        "firstname": "Giovanni Alejandro",
+        "lastname": "Reyna",
+        "age": 20,
+        "birth": {
+          "date": "2002-11-13",
+          "place": "Durham",
+          "country": "England"
+        },
+        "nationality": "USA",
+        "height": "185 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/161921.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 7,
             "number": null,
             "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50879,
-        "name": "M. Robinson",
-        "firstname": "Miles",
-        "lastname": "Gordon Robinson",
-        "age": 25,
-        "birth": {
-          "date": "1997-03-14",
-          "place": "Arlington",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "188 cm",
-        "weight": "84 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50879.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50913,
-        "name": "D. Mihailovic",
-        "firstname": "Djordje Aleksandar",
-        "lastname": "Mihailovic",
-        "age": 24,
-        "birth": {
-          "date": "1998-11-10",
-          "place": "Lemont",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "178 cm",
-        "weight": "69 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/50913.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51066,
-        "name": "S. Lletget",
-        "firstname": "Sebastian Francisco",
-        "lastname": "Lletget",
-        "age": 30,
-        "birth": {
-          "date": "1992-09-03",
-          "place": "San Francisco",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "178 cm",
-        "weight": "69 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51066.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51123,
-        "name": "R. Cannon",
-        "firstname": "Reginald Jacob",
-        "lastname": "Cannon",
-        "age": 24,
-        "birth": {
-          "date": "1998-06-11",
-          "place": "Chicago",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "181 cm",
-        "weight": "74 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51123.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 2,
-            "lineups": 1,
-            "minutes": 134,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
@@ -919,7 +1015,102 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 4,
+            "key": null,
+            "accuracy": 2
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 50852,
+        "name": "J. Scally",
+        "firstname": "Joseph Michael",
+        "lastname": "Scally",
+        "age": 20,
+        "birth": {
+          "date": "2002-12-31",
+          "place": "Lake Grove",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "184 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/50852.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
@@ -945,6 +1136,386 @@
           "fouls": {
             "drawn": null,
             "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 1138,
+        "name": "T. Weah",
+        "firstname": "Timothy Tarpeh",
+        "lastname": "Weah",
+        "age": 22,
+        "birth": {
+          "date": "2000-02-22",
+          "place": "New York",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "183 cm",
+        "weight": "66 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/1138.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 2,
+            "lineups": 2,
+            "minutes": 171,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.150000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 0
+          },
+          "shots": {
+            "total": 1,
+            "on": 1
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 48,
+            "key": 3,
+            "accuracy": 19
+          },
+          "tackles": {
+            "total": 1,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 9,
+            "won": 4
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": 1,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 162106,
+        "name": "Y. Musah",
+        "firstname": "Yunus Dimoara",
+        "lastname": "Musah",
+        "age": 20,
+        "birth": {
+          "date": "2002-11-29",
+          "place": "New York",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "178 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/162106.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 255,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.766666",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": 3,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 127,
+            "key": 3,
+            "accuracy": 37
+          },
+          "tackles": {
+            "total": 6,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 33,
+            "won": 15
+          },
+          "dribbles": {
+            "attempts": 8,
+            "success": 3,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 9
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19026,
+        "name": "L. de la Torre",
+        "firstname": "Lucas Daniel",
+        "lastname": "de la Torre",
+        "age": 24,
+        "birth": {
+          "date": "1998-05-23",
+          "place": "San Diego",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "178 cm",
+        "weight": "63 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/19026.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19023,
+        "name": "T. Ream",
+        "firstname": "Timothy Michael",
+        "lastname": "Ream",
+        "age": 35,
+        "birth": {
+          "date": "1987-10-05",
+          "place": "St. Louis",
+          "country": "USA"
+        },
+        "nationality": "USA",
+        "height": "183 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media.api-sports.io/football/players/19023.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "league": {
+            "id": 1,
+            "name": "World Cup",
+            "country": "World",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "flag": null,
+            "season": 2022
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 270,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.166666",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 187,
+            "key": null,
+            "accuracy": 56
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": 1,
+            "interceptions": 3
+          },
+          "duels": {
+            "total": 16,
+            "won": 9
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
           },
           "cards": {
             "yellow": 1,
@@ -954,8 +1525,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -963,21 +1534,21 @@
     },
     {
       "player": {
-        "id": 51185,
-        "name": "J. Yueill",
-        "firstname": "Jackson William",
-        "lastname": "Yueill",
+        "id": 19549,
+        "name": "A. Robinson",
+        "firstname": "Antonee",
+        "lastname": "Robinson",
         "age": 25,
         "birth": {
-          "date": "1997-03-19",
-          "place": "Bloomington",
-          "country": "USA"
+          "date": "1997-08-08",
+          "place": "Milton Keynes",
+          "country": "England"
         },
         "nationality": "USA",
-        "height": "175 cm",
-        "weight": "76 kg",
+        "height": "183 cm",
+        "weight": "70 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51185.png"
+        "photo": "https://media.api-sports.io/football/players/19549.png"
       },
       "statistics": [
         {
@@ -987,596 +1558,26 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51186,
-        "name": "C. Cowell",
-        "firstname": "Cade Dylan",
-        "lastname": "Cowell",
-        "age": 19,
-        "birth": {
-          "date": "2003-10-14",
-          "place": "Ceres",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "175 cm",
-        "weight": "79 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51186.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Attacker",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51218,
-        "name": "B. Lennon",
-        "firstname": "Brooks Howard",
-        "lastname": "Lennon",
-        "age": 25,
-        "birth": {
-          "date": "1997-09-22",
-          "place": "Paradise Valley",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "178 cm",
-        "weight": "71 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51218.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Defender",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 51266,
-        "name": "G. Busio",
-        "firstname": "Gianluca Cristiano",
-        "lastname": "Busio",
-        "age": 20,
-        "birth": {
-          "date": "2002-05-28",
-          "place": "Greensboro",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "170 cm",
-        "weight": "65 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/51266.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Midfielder",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 64167,
-        "name": "G. Słonina",
-        "firstname": "Gabriel Paweł",
-        "lastname": "Słonina",
-        "age": 18,
-        "birth": {
-          "date": "2004-05-15",
-          "place": "Addison, IL",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "193 cm",
-        "weight": "88 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/64167.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 102682,
-        "name": "J. Pulskamp",
-        "firstname": "John",
-        "lastname": "Pulskamp",
-        "age": 21,
-        "birth": {
-          "date": "2001-04-19",
-          "place": "Bakersfield",
-          "country": "USA"
-        },
-        "nationality": "USA",
-        "height": "178 cm",
-        "weight": "86 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/102682.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
-            "flag": null,
-            "season": 2022
-          },
-          "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
-            "number": null,
-            "position": "Goalkeeper",
-            "rating": null,
-            "captain": false
-          },
-          "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
-          },
-          "shots": {
-            "total": null,
-            "on": null
-          },
-          "goals": {
-            "total": 0,
-            "conceded": null,
-            "assists": null,
-            "saves": null
-          },
-          "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
-          },
-          "tackles": {
-            "total": null,
-            "blocks": null,
-            "interceptions": null
-          },
-          "duels": {
-            "total": null,
-            "won": null
-          },
-          "dribbles": {
-            "attempts": null,
-            "success": null,
-            "past": null
-          },
-          "fouls": {
-            "drawn": null,
-            "committed": null
-          },
-          "cards": {
-            "yellow": 0,
-            "yellowred": 0,
-            "red": 0
-          },
-          "penalty": {
-            "won": null,
-            "commited": null,
-            "scored": null,
-            "missed": null,
-            "saved": null
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 162037,
-        "name": "M. Tillman",
-        "firstname": "Malik Leon",
-        "lastname": "Tillman",
-        "age": 20,
-        "birth": {
-          "date": "2002-05-28",
-          "place": "Nürnberg",
-          "country": "Germany"
-        },
-        "nationality": "USA",
-        "height": "187 cm",
-        "weight": "71 kg",
-        "injured": false,
-        "photo": "https://media.api-sports.io/football/players/162037.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 2384,
-            "name": "USA",
-            "logo": "https://media.api-sports.io/football/teams/2384.png"
-          },
-          "league": {
-            "id": 10,
-            "name": "Friendlies",
-            "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
             "appearences": 3,
-            "lineups": 0,
-            "minutes": 62,
+            "lineups": 3,
+            "minutes": 270,
             "number": null,
-            "position": "Attacker",
-            "rating": null,
+            "position": "Defender",
+            "rating": "7.000000",
             "captain": false
           },
           "substitutes": {
-            "in": 3,
+            "in": 0,
             "out": 0,
-            "bench": 4
+            "bench": 0
           },
           "shots": {
             "total": null,
@@ -1584,32 +1585,32 @@
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 123,
+            "key": 3,
+            "accuracy": 33
           },
           "tackles": {
-            "total": null,
+            "total": 3,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 3
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 22,
+            "won": 11
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 3,
+            "success": 3,
             "past": null
           },
           "fouls": {
             "drawn": null,
-            "committed": null
+            "committed": 2
           },
           "cards": {
             "yellow": 0,
@@ -1619,8 +1620,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1628,21 +1629,21 @@
     },
     {
       "player": {
-        "id": 194846,
-        "name": "H. Kessler",
-        "firstname": "Frederick Henry",
-        "lastname": "Kessler",
+        "id": 427,
+        "name": "H. Wright",
+        "firstname": "Haji Amir",
+        "lastname": "Wright",
         "age": 24,
         "birth": {
-          "date": "1998-06-25",
-          "place": "New York City",
+          "date": "1998-03-27",
+          "place": "Los Angeles",
           "country": "USA"
         },
         "nationality": "USA",
         "height": "193 cm",
-        "weight": "84 kg",
+        "weight": "80 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/194846.png"
+        "photo": "https://media.api-sports.io/football/players/427.png"
       },
       "statistics": [
         {
@@ -1652,58 +1653,58 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 2,
+            "lineups": 1,
+            "minutes": 99,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Attacker",
+            "rating": "6.700000",
             "captain": false
           },
           "substitutes": {
-            "in": 0,
-            "out": 0,
-            "bench": 0
+            "in": 1,
+            "out": 1,
+            "bench": 1
           },
           "shots": {
-            "total": null,
+            "total": 2,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
+            "total": 13,
             "key": null,
-            "accuracy": null
+            "accuracy": 5
           },
           "tackles": {
-            "total": null,
+            "total": 1,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 10,
+            "won": 5
           },
           "dribbles": {
-            "attempts": null,
+            "attempts": 1,
             "success": null,
             "past": null
           },
           "fouls": {
-            "drawn": null,
+            "drawn": 2,
             "committed": null
           },
           "cards": {
@@ -1714,8 +1715,8 @@
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1723,21 +1724,21 @@
     },
     {
       "player": {
-        "id": 207781,
-        "name": "C. Clark",
-        "firstname": "Caden Christopher",
-        "lastname": "Clark",
-        "age": 19,
+        "id": 38735,
+        "name": "S. Dest",
+        "firstname": "Sergiño Gianni",
+        "lastname": "Dest",
+        "age": 22,
         "birth": {
-          "date": "2003-05-27",
-          "place": "Medina",
-          "country": "USA"
+          "date": "2000-11-03",
+          "place": "Almere",
+          "country": "Netherlands"
         },
         "nationality": "USA",
-        "height": "180 cm",
+        "height": "173 cm",
         "weight": "68 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/207781.png"
+        "photo": "https://media.api-sports.io/football/players/38735.png"
       },
       "statistics": [
         {
@@ -1747,70 +1748,70 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 234,
             "number": null,
-            "position": "Midfielder",
-            "rating": null,
+            "position": "Defender",
+            "rating": "6.766666",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
+            "out": 3,
             "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 1,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
-            "assists": null,
+            "conceded": 0,
+            "assists": 1,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 142,
+            "key": 3,
+            "accuracy": 42
           },
           "tackles": {
-            "total": null,
+            "total": 2,
             "blocks": null,
-            "interceptions": null
+            "interceptions": 1
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 23,
+            "won": 9
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 5,
+            "success": 4,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 2,
+            "committed": 4
           },
           "cards": {
-            "yellow": 0,
+            "yellow": 1,
             "yellowred": 0,
             "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
@@ -1818,21 +1819,21 @@
     },
     {
       "player": {
-        "id": 265865,
-        "name": "Kobi Joseph Henry",
-        "firstname": "Kobi Joseph",
-        "lastname": "Henry",
-        "age": 18,
+        "id": 415,
+        "name": "W. McKennie",
+        "firstname": "Weston James Earl",
+        "lastname": "McKennie",
+        "age": 24,
         "birth": {
-          "date": "2004-04-26",
-          "place": null,
+          "date": "1998-08-28",
+          "place": "Little Elm",
           "country": "USA"
         },
         "nationality": "USA",
-        "height": "188 cm",
-        "weight": "77 kg",
+        "height": "183 cm",
+        "weight": "84 kg",
         "injured": false,
-        "photo": "https://media.api-sports.io/football/players/265865.png"
+        "photo": "https://media.api-sports.io/football/players/415.png"
       },
       "statistics": [
         {
@@ -1842,70 +1843,70 @@
             "logo": "https://media.api-sports.io/football/teams/2384.png"
           },
           "league": {
-            "id": 10,
-            "name": "Friendlies",
+            "id": 1,
+            "name": "World Cup",
             "country": "World",
-            "logo": "https://media.api-sports.io/football/leagues/10.png",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
             "flag": null,
             "season": 2022
           },
           "games": {
-            "appearences": 0,
-            "lineups": 0,
-            "minutes": 0,
+            "appearences": 3,
+            "lineups": 3,
+            "minutes": 208,
             "number": null,
-            "position": "Defender",
-            "rating": null,
+            "position": "Midfielder",
+            "rating": "6.466666",
             "captain": false
           },
           "substitutes": {
             "in": 0,
-            "out": 0,
+            "out": 3,
             "bench": 0
           },
           "shots": {
-            "total": null,
+            "total": 2,
             "on": null
           },
           "goals": {
             "total": 0,
-            "conceded": null,
+            "conceded": 0,
             "assists": null,
             "saves": null
           },
           "passes": {
-            "total": null,
-            "key": null,
-            "accuracy": null
+            "total": 100,
+            "key": 3,
+            "accuracy": 26
           },
           "tackles": {
-            "total": null,
+            "total": 2,
             "blocks": null,
             "interceptions": null
           },
           "duels": {
-            "total": null,
-            "won": null
+            "total": 18,
+            "won": 6
           },
           "dribbles": {
-            "attempts": null,
-            "success": null,
+            "attempts": 2,
+            "success": 1,
             "past": null
           },
           "fouls": {
-            "drawn": null,
-            "committed": null
+            "drawn": 2,
+            "committed": 6
           },
           "cards": {
-            "yellow": 0,
+            "yellow": 1,
             "yellowred": 0,
             "red": 0
           },
           "penalty": {
             "won": null,
             "commited": null,
-            "scored": null,
-            "missed": null,
+            "scored": 0,
+            "missed": 0,
             "saved": null
           }
         }
