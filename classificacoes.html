@@ -9,6 +9,55 @@
 </head>
 <body>
     <header>
+        <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-4 modal-dialog-centered">Cadastro</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-none alert alert-dismissable fade alert-modal-cadastro" role="alert"></div>
+                        <div class="mb-3">
+                            <label for="usuarioCadastro" class="col-form-label">User</label>
+                            <input id="usuarioCadastro" class="form-control" type="text"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senhaCadastro" class="col-form-label" >Senha</label>
+                            <input id="senhaCadastro"  class="form-control" type="password"></input>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalLogin" aria-labelledby="modalLogin" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-4 modal-dialog-centered">Login</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-none alert alert-dismissable fade alert-modal-cadastro" role="alert"></div>
+                        <div class="mb-3">
+                            <label for="usuarioLogin" class="col-form-label">User</label>
+                            <input id="usuarioLogin" class="form-control" type="text"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senhaLogin" class="col-form-label" >Senha</label>
+                            <input id="senhaLogin"  class="form-control" type="password"></input>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Logar</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="cabecalho col-lg-12 p-0">
@@ -31,8 +80,13 @@
                             <a href="classificacoes.html" class="nav-item nav-link cat">Classificações</a>
                             <a href="jogadores.html" class="nav-item nav-link cat">Jogadores</a>
                             <a href="forum.html" class="nav-item nav-link cat">Fórum</a>
-                            <a href="simulador.html" class="nav-item nav-link cat">Simulador</a>
-                            <a href="#" class="img me-lg-5 cat"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
+                            <div class="dropup-center dropup">
+                                <a href="#" class="img me-lg-5 cat dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" data-bs-target="#modalCadastro" data-bs-toggle="modal" class="dropdown-item">Cadastro</a></li>
+                                    <li><a href="#" data-bs-target="#modalLogin" data-bs-toggle="modal" class="dropdown-item">Login</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -41,1032 +95,1451 @@
     </header>
     <main>
         <article>
-            <div class="container  bg-white">
+            <div class="container bg-white mt-2">
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo A</h2>
                     </div>
                     <div class="col-xxl-9 col-xl-10 tabela p-0">
-                            <table class="topicos d-inline-block">
-                               <thead>
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Catar</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Equador</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Holanda</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Senegal</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
                                 <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Catar</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Equador</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Holanda</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Senegal</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    <div class="col-xxl-3 col-xl-2 tabela border p-0">
-                        <span>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                        <div class="mb-5">
                             <h2>Jogos</h2>
-                        </span>
-                        <div class="bg-white mt-2 border-bottom pb-4 text-center">
-                            <span class="me-5"> <img src="imgs/brasao_brasil.png" alt="Brasao - Time Adversario" width="30"></span>
-                            <span>x</span>
-                            <span class="ms-5"><img src="imgs/brasao_servia.png" alt="Brasao - Time Adversario " width="30"></span>
                         </div>
-                        <div class="bg-white mt-4  text-center">
-                            <span class="me-5"> <img src="imgs/brasao_brasil.png" alt="Brasao - Time Adversario" width="30"></span>
-                            <span>x</span>
-                            <span class="ms-5"><img src="imgs/brasao_servia.png" alt="Brasao - Time Adversario " width="30"></span>
+                        <div id="carousel_grupo_A" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_A" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_A" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
-                    </div>
                 </div>
             </div>
         </article>
         <article>
-            <div class="container">
+            <div class="container bg-white mt-2">    
                 <div class="row">
-                    <div class="col-12 bg-white border-top mt-0">
-                        <h2 class="grupo m-auto">Grupo B</h2>
-                        <div class="col-xxl-9 col-12 tabela">
-                            <table class="topicos d-inline-block">
-                               <thead>
+                    <div class="d-inline">
+                        <h2 class="grupo mt-2">Grupo B</h2>
+                    </div>
+                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Estados Unidos</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Inglaterra</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Irã</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>País de Gales</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
                                 <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Estados Unidos</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Inglaterra</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Irã</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>País de Gales</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>   
-                       </div>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela mt-5 p-0">
+                        <div class="mb-5">
+                            <h2>Jogos</h2>
+                        </div>
+                        <div id="carousel_grupo_B" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_B" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_B" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
         <article>
-            <div class="container">
+            <div class="container bg-white mt-2">    
                 <div class="row">
-                    <div class="col-12 bg-white border-top mt-0">
-                        <h2 class="grupo m-auto">Grupo C</h2>
-                        <div class="col-xxl-9 col-12 tabela">
-                            <table class="topicos d-inline-block">
-                               <thead>
+                    <div class="d-inline">
+                        <h2 class="grupo mt-2">Grupo C</h2>
+                    </div>
+                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Argentina</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Arábia Saudita</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>México</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Polônia</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
                                 <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Argentina</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Arábia Saudita</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>México</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Polônia</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table> 
-                       </div>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                        <div class="mb-5">
+                            <h2>Jogos</h2>
+                        </div>
+                        <div id="carousel_grupo_C" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_C" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_C" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
         <article>
-            <div class="container">
+            <div class="container bg-white mt-2">    
                 <div class="row">
-                    <div class="col-12 bg-white border-top mt-0">
-                        <h2 class="grupo m-auto">Grupo D</h2>
-                        <div class="col-xxl-9 col-12 tabela">
-                            <table class="topicos d-inline-block">
-                               <thead>
+                    <div class="d-inline">
+                        <h2 class="grupo mt-2">Grupo D</h2>
+                    </div>
+                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Austrália</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Dinamarca</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>França</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Tunísia</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
                                 <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Austrália</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Dinamarca</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>França</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Tunísia</span>
-                                        </div>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
                                     </td>
                                 </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>    
-                       </div>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                        <div class="mb-5">
+                            <h2>Jogos</h2>
+                        </div>
+                        <div id="carousel_grupo_D" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_D" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_D" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
         <article>
-            <div class="container">
-                <div class="row">    
-                    <div class="col-12 bg-white border-top mt-0">
-                        <h2 class="grupo m-auto">Grupo E</h2>
-                        <div class="col-xxl-9 col-12 tabela">
-                            <table class="topicos d-inline-block">
-                               <thead>
-                                <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Alemanha</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Costa Rica</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Espanha</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Japão</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>    
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article>
-            <div class="container">
-                <div class="row">  
-                    <div class="col-12 bg-white border-top mt-0">
-                        <h2 class="grupo m-auto">Grupo F</h2>
-                        <div class="col-xxl-9 col-12 tabela">
-                            <table class="topicos d-inline-block">
-                               <thead>
-                                <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Bélgica</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Canadá</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Croácia</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Marrocos</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>    
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article>
-            <div class="container">
-                <div class="row">  
-                    <div class="col-12 bg-white border-top mt-0">
-                        <h2 class="grupo m-auto">Grupo G</h2>
-                        <div class="col-xxl-9 col-12 tabela">
-                            <table class="topicos d-inline-block">
-                               <thead>
-                                <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Brasil</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Camarões</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Suiça</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Sérvia</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>   
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article>
-            <div class="container">
+            <div class="container bg-white mt-2">    
                 <div class="row">
-                    <div class="col-12 bg-white border-top mt-0">
-                        <h2 class="grupo m-auto">Grupo H</h2>
-                        <div class="tabela">
-                            <table class="topicos d-inline-block">
-                               <thead>
-                                <tr>
-                                    <th class="p-3">Classificação</th>
-                                </tr>
-                               </thead>
-                               <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>1°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Coreia do Sul</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela"> 
-                                            <span>2°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Gana</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>3°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Portugal</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="times_tabela">
-                                            <span>4°</span>
-                                            <span><img src="" alt=""></span>
-                                            <span>Uruguai</span>
-                                        </div>
-                                    </td>
-                                </tr>
-                               </tbody>
-                            </table>
-                            <table class="pontos d-inline-block">
-                                <thead>
-                                    <th class="p-3">J</th>
-                                    <th class="p-3">V</th>
-                                    <th class="p-3 d-none d-md-table-cell">E</th>
-                                    <th class="p-3 d-none d-md-table-cell">D</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GP</th>
-                                    <th class="p-3 d-none d-lg-table-cell">GC</th>
-                                    <th class="p-3">SG</th>
-                                    <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                        <td class="dados_tabela">0</td>
-                                        <td class="passado d-none d-lg-table-cell">
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                            <span class="bolas_passados m-1"></span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>    
-                       </div>
+                    <div class="d-inline">
+                        <h2 class="grupo mt-2">Grupo E</h2>
                     </div>
-                </div>        
+                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Alemanha</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Costa Rica</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Espanha</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Japão</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                        <div class="mb-5">
+                            <h2>Jogos</h2>
+                        </div>
+                        <div id="carousel_grupo_E" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_E" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_E" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="container bg-white mt-2">    
+                <div class="row">
+                    <div class="d-inline">
+                        <h2 class="grupo mt-2">Grupo F</h2>
+                    </div>
+                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Bélgica</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Canadá</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Croácia</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Marrocos</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                        <div class="mb-5">
+                            <h2>Jogos</h2>
+                        </div>
+                        <div id="carousel_grupo_F" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_F" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_F" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="container bg-white mt-2">    
+                <div class="row">
+                    <div class="d-inline">
+                        <h2 class="grupo mt-2">Grupo G</h2>
+                    </div>
+                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Brasil</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Camarões</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Suiça</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Sérvia</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                        <div class="mb-5">
+                            <h2>Jogos</h2>
+                        </div>
+                        <div id="carousel_grupo_G" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_G" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_G" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="container bg-white mt-2">    
+                <div class="row">
+                    <div class="d-inline">
+                        <h2 class="grupo mt-2">Grupo H</h2>
+                    </div>
+                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                        <table class="topicos d-inline-block">
+                            <thead>
+                            <tr>
+                                <th class="p-3">Classificação</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>1°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Coreia do Sul</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela"> 
+                                        <span>2°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Gana</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>3°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Portugal</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="times_tabela">
+                                        <span>4°</span>
+                                        <span><img src="" alt=""></span>
+                                        <span>Uruguai</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table class="pontos d-inline-block">
+                            <thead>
+                                <th class="p-3 d-none d-sm-table-cell">J</th>
+                                <th class="p-3">V</th>
+                                <th class="p-3 d-none d-md-table-cell">E</th>
+                                <th class="p-3 d-none d-md-table-cell">D</th>
+                                <th class="p-3 d-none d-lg-table-cell">GP</th>
+                                <th class="p-3 d-none d-lg-table-cell">GC</th>
+                                <th class="p-3">SG</th>
+                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
+                                    <td class="dados_tabela">0</td>
+                                    <td class="passado d-none d-lg-table-cell">
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                        <div class="mb-5">
+                            <h2>Jogos</h2>
+                        </div>
+                        <div id="carousel_grupo_H" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="bg-white mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                                <div class="bg-white mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                    <span>x</span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_H" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next me-1" type="button" data-bs-target="#carousel_grupo_H" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </article>
         
     </main>
+    <script src="frontend.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
-</html>
+</html> 

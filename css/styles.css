@@ -1,9 +1,6 @@
 body{
     background-color: #D9D9D9;
 }
-.tela_inicial{
-    background-color: #061329;
-}
 .cabecalho_titulo{
     background: #000F90;  
     border: 1px solid #000F90;
@@ -27,7 +24,14 @@ a{
 .cat:hover{
     color: #FAFF00;
 }
-
+.btn-outline-light:hover, .btn-outline-light:focus{
+    background-color: #FAFF00 !important;
+    color: black;
+}
+.btn-outline-dark:hover{
+    background-color: #0000A6 !important;
+    color: #FAFF00 !important;
+}
 #titulo_tela{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -79,8 +83,8 @@ a{
     .classJogador ,.classTecnico{
         margin: auto; 
         position: relative;
-        width: 180px;
-        height: 195px;
+        width: 150px;
+        height: 165px;
         overflow: hidden;
         border-radius: 50%; 
     }
@@ -213,5 +217,31 @@ div.carousel-item ul{
 .jogador{
     display: flex;
     align-items: center;
-    justify-content:;
+}
+
+.container,#selecao_intro, #tecnico, #estatisticas_selecao, #proximo_jogo, #jogadores_selecao{
+    border-radius: 20px;
+    border: 1px solid #F6F6F6;
+    background-color: #F6F6F6;
+}
+
+.carousel-inner>.carousel-item{
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+ }
+
+#DataDoJogo{
+    background-color: #F6F6F6;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }

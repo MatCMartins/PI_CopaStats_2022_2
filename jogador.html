@@ -9,7 +9,56 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid p-0 m-0">
+        <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-4 modal-dialog-centered">Cadastro</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-none alert alert-dismissable fade alert-modal-cadastro" role="alert"></div>
+                        <div class="mb-3">
+                            <label for="usuarioCadastro" class="col-form-label">User</label>
+                            <input id="usuarioCadastro" class="form-control" type="text"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senhaCadastro" class="col-form-label" >Senha</label>
+                            <input id="senhaCadastro"  class="form-control" type="password"></input>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Logar</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalLogin" aria-labelledby="modalLogin" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-4 modal-dialog-centered">Login</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-none alert alert-dismissable fade alert-modal-cadastro" role="alert"></div>
+                        <div class="mb-3">
+                            <label for="usuarioLogin" class="col-form-label">User</label>
+                            <input id="usuarioLogin" class="form-control" type="text"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senhaLogin" class="col-form-label" >Senha</label>
+                            <input id="senhaLogin"  class="form-control" type="password"></input>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="container-fluid">
             <div class="row">
                 <div class="cabecalho col-lg-12 p-0">
                     <div class="cabecalho_titulo">
@@ -21,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-0 m-0">
+        <div class="container-fluid">
             <div class="row">
                 <nav class="navbar-expand-lg p-0">
                     <div class="collapse navbar-collapse " id="barraNav">
@@ -31,8 +80,13 @@
                             <a href="classificacoes.html" class="nav-item nav-link cat">Classificações</a>
                             <a href="jogadores.html" class="nav-item nav-link cat">Jogadores</a>
                             <a href="forum.html" class="nav-item nav-link cat">Fórum</a>
-                            <a href="simulador.html" class="nav-item nav-link cat">Simulador</a>
-                            <a href="#" class="img me-lg-5 cat"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
+                            <div class="dropup-center dropup">
+                                <a href="#" class="img me-lg-5 cat dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" data-bs-target="#modalCadastro" data-bs-toggle="modal" class="dropdown-item">Cadastro</a></li>
+                                    <li><a href="#" data-bs-target="#modalLogin" data-bs-toggle="modal" class="dropdown-item">Login</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -43,25 +97,28 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
-                    <section class="jogador_geral  bg-white">
-                        <div class="classJogador mt-3">
-                            <img class="jogador" src="imgs/neymar.jpeg" alt="foto_jogador">
+                    <section class="jogador_geral mt-3 bg-white">
+                        <div class="text-center pt-2">
+                            <div class="classJogador">
+                                <img class="jogador" src="imgs/neymar.jpeg" alt="foto_jogador">
+                            </div>
+                            <p class="border-bottom mt-3 pb-3">Neymar</p>
                         </div>
-                        <p class="border-bottom">Neymar</p>
                         <div>
                             <h2 class="text-center">Dados Gerais</h2>
                             <ul class="dadosgerais_jogador">
-                                <li class="mb-3">Idade: 30</li>
-                                <li class="mb-3">Altura: 1.75 m</li>
-                                <li class="mb-3">Peso: 68 kg</li>
-                                <li class="mb-3">Time atual: Paris-Saint German</li>
-                                <li class="mb-3">Nacionalidade: Brasileira</li>
+                                <li class="mb-3"><b>Idade</b>: 30 </li>
+                                <li class="mb-3"><b>Altura</b>: 1.75 m</li>
+                                <li class="mb-3"> <b>Peso</b>: 68 kg</li>
+                                <li class="mb-3"><b>Time atual</b>: Paris-Saint German</li>
+                                <li class="mb-3"><b>Nacionalidade</b>: Brasileira</li>
+                                <li class="mb-3"><b>Posição</b>: Meia-Atacante</li>
                             </ul>
                         </div>
                     </section>
                 </div>
                 <div class="col-lg-9">
-                    <section class="jogador_estatisticas bg-white">
+                    <section class="jogador_estatisticas mt-3 bg-white">
                         <h2 class="ms-2">Estatísticas</h2>
                         <div class="ms-2 mb-5 dado">
                             <span>Gols</span> <span class="me-2">0</span>
@@ -95,7 +152,18 @@
             </div>
         </div>
     </main>
-    <script src="backend.js"></script>
+    <script src="frontend.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
+</html>
