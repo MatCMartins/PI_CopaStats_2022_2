@@ -24,8 +24,9 @@ a{
 .cat:hover{
     color: #FAFF00;
 }
-.btn-outline-light:hover{
+.btn-outline-light:hover, .btn-outline-light:focus{
     background-color: #FAFF00 !important;
+    color: black;
 }
 .btn-outline-dark:hover{
     background-color: #0000A6 !important;
@@ -232,4 +233,15 @@ div.carousel-item ul{
 
 #DataDoJogo{
     background-color: #F6F6F6;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
