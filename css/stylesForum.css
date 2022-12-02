@@ -1,7 +1,7 @@
 body{
     background-color: #D9D9D9;
 }
-.container{
+.nova_postagem{
     border-radius: 20px;
     border: 1px solid #F6F6F6;
     background-color: #F6F6F6;
@@ -19,4 +19,20 @@ body{
     font-size: 30px;
     font-weight: bold;
     padding-top: 255px;
+}
+
+.usuarioCat{
+    font-weight: bold;
+}
+
+.usuarioCat, .textoPost{
+    margin-left: 10px;
+}
+
+.postagem{
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    border: 1px solid #F6F6F6;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

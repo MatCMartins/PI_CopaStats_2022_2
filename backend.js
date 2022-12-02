@@ -12,9 +12,9 @@ app.use(express.json())
 app.use(cors())
 
 
-// async function conectarAoMongoDB(){
-//     await mongoose.connect('mongodb+srv://MateusCMartins:@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
-//   }
+async function conectarAoMongoDB(){
+    await mongoose.connect('mongodb+srv://MateusCMartins:@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
+  }
 
 //Cadastro
 
@@ -68,20 +68,27 @@ app.post('/login', async (req,res) =>{
 
 const forumSchema = mongoose.Schema({
     texto: {type: String, required: true},
-    autor: {type: String, required: true},
-    categoria: {type: String, required: true}
+    categoria: {type: String, required: true},
+    usuario: {type: String, required: true}
   })
 const Forum = mongoose.model("Forum", forumSchema)
+
+app.get('/forum', async (req, res) => {
+  const posts = await Forum.find()
+  res.json(posts)
+})
+
 
 app.post('/forum', async (req,res) =>{
   try{
     const texto = req.body.texto
     const categoria = req.body.categoria
     const usuario = req.body.usuario
-    const forum = new Forum({texto, categoria, autor: usuario})
+    const forum = new Forum({texto, categoria, usuario})
     const respMongo = await forum.save()
     console.log(respMongo)
-    res.status(201).end()
+    const postagem = await Forum.find()
+    res.json(postagem)
 
   }
   catch(error){

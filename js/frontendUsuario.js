@@ -1,7 +1,4 @@
-const protocolo = "http"
-const host = "localhost:3000"
-const cadastroEndpoint = "/signup"
-const loginEndpoint = "/login"
+
 
 function ShowDiv() {
     document.getElementById("jogadores1").style.display = "block";
@@ -27,6 +24,10 @@ async function cadastrarUsuario(){
     const senha = document.querySelector('#senhaCadastro')
     const login = username.value
     const password = senha.value
+
+    const protocolo = "http"
+    const host = "localhost:3000"
+    const cadastroEndpoint = "/signup"
     if (login && password){
         try{
             const URL = `${protocolo}://${host}${cadastroEndpoint}`
@@ -54,6 +55,9 @@ async function login(){
     const password = senha.value
     const cadastroLink = document.querySelector('#cadastroLink')
     const loginLink = document.querySelector('#loginLink')
+    const protocolo = "http"
+    const host = "localhost:3000"
+    const loginEndpoint = "/login"
     let logado = false
     if ((login && password)){
         try{
@@ -87,8 +91,10 @@ async function login(){
     if (logado==true){
         habilitarForum()
     }
-    return login
 }
+
+
+
 
 // async function logoff(){
 //     const cadastroLink = document.querySelector('#loginLink')
