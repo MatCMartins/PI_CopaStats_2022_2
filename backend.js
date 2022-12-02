@@ -13,7 +13,7 @@ app.use(cors())
 
 
 async function conectarAoMongoDB(){
-    await mongoose.connect('mongodb+srv://MateusCMartins:BO2luRIYN7QuA6Og@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
+    await mongoose.connect('mongodb+srv://MateusCMartins:@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
   }
 
 const usuarioSchema = mongoose.Schema({
