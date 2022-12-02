@@ -12,9 +12,9 @@ app.use(express.json())
 app.use(cors())
 
 
-async function conectarAoMongoDB(){
-    await mongoose.connect('mongodb+srv://MateusCMartins:9sGXgSsN1KXv3zEn@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
-  }
+// async function conectarAoMongoDB(){
+//     await mongoose.connect('mongodb+srv://MateusCMartins:@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
+//   }
 
 //Cadastro
 
