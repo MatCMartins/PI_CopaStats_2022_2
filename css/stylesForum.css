@@ -10,3 +10,13 @@ body{
     background-color: #0000A6 !important;
     color: #FAFF00 !important;
 }
+.tela_bloqueio{
+    background-color: #3c3c3d;
+    opacity: 75%;
+}
+.texto_alerta{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 255px;
+}

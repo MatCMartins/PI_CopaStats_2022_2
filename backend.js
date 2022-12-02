@@ -13,8 +13,10 @@ app.use(cors())
 
 
 async function conectarAoMongoDB(){
-    await mongoose.connect('mongodb+srv://MateusCMartins:BO2luRIYN7QuA6Og@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
+    await mongoose.connect('mongodb+srv://MateusCMartins:9sGXgSsN1KXv3zEn@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
   }
+
+//Cadastro
 
 const usuarioSchema = mongoose.Schema({
     login: {type: String, required: true, unique: true},
@@ -22,6 +24,7 @@ const usuarioSchema = mongoose.Schema({
   })
 usuarioSchema.plugin(uniqueValidator)
 const Usuario = mongoose.model("Usuario", usuarioSchema)
+
 
 
 
@@ -43,6 +46,8 @@ app.post('/signup', async (req,res) =>{
       }
   })
 
+
+  
 app.post('/login', async (req,res) =>{
     const {login, password} = req.body
     const usuario = await Usuario.findOne({login})
@@ -59,7 +64,31 @@ app.post('/login', async (req,res) =>{
     
 })
 
+//Fórum
 
+const forumSchema = mongoose.Schema({
+    texto: {type: String, required: true},
+    autor: {type: String, required: true},
+    categoria: {type: String, required: true}
+  })
+const Forum = mongoose.model("Forum", forumSchema)
+
+app.post('/forum', async (req,res) =>{
+  try{
+    const texto = req.body.texto
+    const categoria = req.body.categoria
+    const usuario = req.body.usuario
+    const forum = new Forum({texto, categoria, autor: usuario})
+    const respMongo = await forum.save()
+    console.log(respMongo)
+    res.status(201).end()
+
+  }
+  catch(error){
+    console.log(error)
+    res.status(409).end()
+  }
+})
 
 app.listen(3000, () => {
     try{

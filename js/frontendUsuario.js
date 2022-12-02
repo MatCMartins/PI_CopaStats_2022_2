@@ -54,8 +54,10 @@ async function login(){
     const password = senha.value
     const cadastroLink = document.querySelector('#cadastroLink')
     const loginLink = document.querySelector('#loginLink')
+    let logado = false
     if ((login && password)){
         try{
+            logado = true
             const URL = `${protocolo}://${host}${loginEndpoint}`
             const resp = await axios.post(URL, {login, password
             })
@@ -73,11 +75,19 @@ async function login(){
         }
         catch(e){
             exibirAlerta('.alert-modal-login', 'Erro ao fazer login', ['alert-danger','show'], ['d-none'], 1000)
+            console.log(e)
         }
+    
     }
     else{
         exibirAlerta('.alert-modal-login', 'Preencha todos os campos', ['alert-danger','show'], ['d-none'], 1000)
+        console.log(login)
+        console.log(password)
     }
+    if (logado==true){
+        habilitarForum()
+    }
+    return login
 }
 
 // async function logoff(){
@@ -108,3 +118,4 @@ const ocultarModal = (seletor, timeout) => {
       modal.hide()
     },timeout)
   }
+
