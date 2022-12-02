@@ -203,7 +203,8 @@ div.carousel-item ul{
     border-radius: 25px;
 }
 .carousel-control-prev,.carousel-control-next    {
-    width: 4%
+    width: 4%;
+   
 }
 
 #jogadores1,#jogadores2,#jogadores3,#jogadores4,#jogadores5, #tecnico, #selecao_intro,#estatisticas_selecao, #proximo_jogo,#jogadores_selecao{
@@ -237,5 +238,32 @@ div.carousel-item ul{
 
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(100%);
+    filter: sepia(100%) brightness(100%) contrast(100%);
 }
+
+.logo-footer{
+filter: invert(100%);
+}
+
+html{
+height: 100%;
+}
+
+.footer-bottom-relative{
+ 
+position: relative;
+left: 0;
+bottom: 0;
+width: 100%;
+
+
+}
+.footer-bottom-fixed{
+ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    
+    }
