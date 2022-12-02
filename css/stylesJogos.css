@@ -1,0 +1,17 @@
+body{
+    background-color: #D9D9D9;
+}
+
+.container{
+    border-radius: 20px;
+    border: 1px solid #F6F6F6;
+    background-color: #F6F6F6;
+}
+
+.elemento_area_pontuacao{
+    font-size: 120%;
+}
+
+#DataDoJogo{
+    background-color: #F6F6F6;
+}

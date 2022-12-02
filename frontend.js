@@ -34,16 +34,14 @@ async function cadastrarUsuario(){
             username.value = ""
             senha.value = ""
             exibirAlerta('.alert-modal-cadastro', 'Usuário cadastrado com sucesso! Faça login para acessar o fórum!', ['alert-success','show'], ['d-none', 'alert-danger'], 3000)
-            ocultarModal('#modalCadastro', 3000)
-            
+            ocultarModal('#modalCadastro', 1000)      
         }
         catch(e){
-            exibirAlerta('.alert-modal-cadastro', 'Erro ao cadastrar usuário', ['alert-danger','show'], ['d-none'], 3000)
-            
+            exibirAlerta('.alert-modal-cadastro', 'Erro ao cadastrar usuário', ['alert-danger','show'], ['d-none'], 1000)    
         }
     }
     else{
-        exibirAlerta('.alert-modal-cadastro', 'Preencha todos os campos', ['alert-danger','show'], ['d-none'], 3000)
+        exibirAlerta('.alert-modal-cadastro', 'Preencha todos os campos', ['alert-danger','show'], ['d-none'], 1000)
     }   
         
 
@@ -54,29 +52,45 @@ async function login(){
     const senha = document.querySelector('#senhaLogin')
     const login = username.value
     const password = senha.value
-    if (login && password){
+    const cadastroLink = document.querySelector('#cadastroLink')
+    const loginLink = document.querySelector('#loginLink')
+    if ((login && password)){
         try{
             const URL = `${protocolo}://${host}${loginEndpoint}`
             const resp = await axios.post(URL, {login, password
             })
             username.value = ""
             senha.value = ""
-            exibirAlerta('.alert-modal-login', 'Login efetuado com sucesso!', ['alert-success','show'], ['d-none', 'alert-danger'], 3000)
-            ocultarModal('#modalLogin', 3000)
-            const cadastroLink = document.querySelector('#cadastroLink')
-            const loginLink = document.querySelector('#loginLink')
+            exibirAlerta('.alert-modal-login', 'Login efetuado com sucesso!', ['alert-success','show'], ['d-none', 'alert-danger'], 1000)
+            ocultarModal('#modalLogin', 1000)
             cadastroLink.innerHTML = login
             loginLink.innerHTML = "Logout"
+            cadastroLink.classList.add('disabled')
+            console.log(resp.data)
+            
+            
 
         }
         catch(e){
-            exibirAlerta('.alert-modal-login', 'Erro ao fazer login', ['alert-danger','show'], ['d-none'], 3000)
+            exibirAlerta('.alert-modal-login', 'Erro ao fazer login', ['alert-danger','show'], ['d-none'], 1000)
         }
     }
     else{
-        exibirAlerta('.alert-modal-login', 'Preencha todos os campos', ['alert-danger','show'], ['d-none'], 3000)
+        exibirAlerta('.alert-modal-login', 'Preencha todos os campos', ['alert-danger','show'], ['d-none'], 1000)
     }
 }
+
+// async function logoff(){
+//     const cadastroLink = document.querySelector('#loginLink')
+//     const loginLink = document.querySelector('#loginLink')
+//     if (loginLink.innerHTML == "Logout"){
+//         resp.data.delete()
+//         loginLink.innerHTML = "Login"
+//         cadastroLink.innerHTML = "Cadastro"
+//         cadastroLink.classList.remove('disabled')
+//         loginLink.innerHTML = "Login"
+//     }
+// }
 
 function exibirAlerta(seletor, conteudo, classesAAdicionar, classeARemover, timeout){
     let alert = document.querySelector(seletor)

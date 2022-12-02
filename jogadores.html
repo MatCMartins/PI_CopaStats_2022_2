@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CopaStats - Jogadores</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">   
+    <link rel="stylesheet" href="css/stylesFooter.css">
+    <link rel="stylesheet" href="css/stylesNavbar.css"> 
+    <link rel="stylesheet" href="css/stylesBarraDeSelecoes.css">
+    <link rel="stylesheet" href="css/stylesJogadores.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -384,18 +387,22 @@
             </div>
         </div>
     </main>
-        <footer class="bg-dark text-center text-white footer-bottom-fixed">
-        <div class="text-center p-3" style="background-color: #000F90;">
-            <h4 class="text-white">Entre em contato conosco!</h4>
-            <section class="mb-4">
-                <a class="btn btn-outline-dark btn-floating m-1 logo-footer" href="" role="button"><img
-                        src="/imgs/whatsapp.svg" alt="whatsapp logo"></i></a>
-                <a class="btn btn-outline-dark btn-floating m-1 logo-footer"
-                    href="https://github.com/MateusCMartins724/PI_CopaStats_2022_2" role="button"><img
-                        src="/imgs/github.svg" alt="github logo"></i></a>
-                <a class="btn btn-outline-dark btn-floating m-1 logo-footer" href="" role="button"><img
-                        src="/imgs/envelope-at-fill.svg" alt="email logo"></i></a>
-            </section>
+    <footer class="modal-footer mt-auto text-center mt-5" style="background-color: #000F90;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center justify-content-center d-flex col-12 p-3">
+                    <h4 class="text-white">Entre em contato conosco!</h4>
+                </div>
+                <div class="mb-4 col-12">
+                    <a class="btn btn-outline-dark btn-floating m-1 logo-footer" href="#" role="button"><img
+                            src="/imgs/whatsapp.svg" alt="whatsapp logo"></i></a>
+                    <a class="btn btn-outline-dark btn-floating m-1 logo-footer"
+                        href="https://github.com/MateusCMartins724/PI_CopaStats_2022_2" role="button"><img
+                            src="/imgs/github.svg" alt="github logo"></i></a>
+                    <a class="btn btn-outline-dark btn-floating m-1 logo-footer" href="#" role="button"><img
+                            src="/imgs/envelope-at-fill.svg" alt="email logo"></i></a>
+                </div>
+            </div>  
         </div>
     </footer>
     <script src="frontend.js"></script>

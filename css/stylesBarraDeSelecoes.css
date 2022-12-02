@@ -1,0 +1,15 @@
+.btn-outline-light:hover, .btn-outline-light:focus{
+    background-color: #FAFF00 !important;
+    color: black;
+}
+div.carousel-item ul{
+    list-style-type: none;
+    color: #FFFFFF;
+}
+.carousel{
+    border-radius: 25px;
+}
+.carousel-control-prev,.carousel-control-next {
+    width: 4%;
+   
+}

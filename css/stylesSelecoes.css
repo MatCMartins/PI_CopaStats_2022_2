@@ -1,0 +1,47 @@
+body{
+    background-color: #D9D9D9;
+}
+#tecnico, #selecao_intro,#estatisticas_selecao, #proximo_jogo,#jogadores_selecao{
+    display: none;
+    border-radius: 20px;
+    border: 1px solid #F6F6F6;
+    background-color: #F6F6F6;
+    
+}
+.dado{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.jogador{
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 992px){
+    .classTecnico{
+        margin: auto; 
+        position: relative;
+        width: 150px;
+        height: 165px;
+        overflow: hidden;
+        border-radius: 50%; 
+    }
+    .tecnico{
+        width: 100%; 
+        height: auto;
+    }
+    .jogadorSelecao{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50%; 
+    }
+    .jogadorS{
+        width: 100%; 
+        height: auto; 
+    }
+}
