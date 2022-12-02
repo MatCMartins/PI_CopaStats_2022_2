@@ -1,17 +1,5 @@
-{
-  "get": "players",
-  "parameters": {
-    "league": "1",
-    "season": "2022",
-    "team": "25"
-  },
-  "errors": [],
-  "results": 20,
-  "paging": {
-    "current": 1,
-    "total": 2
-  },
-  "response": [
+
+{"Alemanha": [
     {
       "player": {
         "id": 497,

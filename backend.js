@@ -97,6 +97,8 @@ app.post('/forum', async (req,res) =>{
   }
 })
 
+
+
 app.listen(3000, () => {
     try{
       conectarAoMongoDB()

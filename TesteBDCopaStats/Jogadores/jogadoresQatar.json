@@ -1,16 +1,5 @@
 {
-  "get": "players",
-  "parameters": {
-    "league": "1",
-    "season": "2022",
-    "team": "1569"
-  },
-  "errors": [],
-  "results": 20,
-  "paging": {
-    "current": 1,
-    "total": 2
-  },
+
   "response": [
     {
       "player": {
