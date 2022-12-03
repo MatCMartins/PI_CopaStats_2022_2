@@ -73,7 +73,7 @@ const forumSchema = mongoose.Schema({
   })
 const Forum = mongoose.model("Forum", forumSchema)
 
-app.get('/forum', async (req, res) => {
+app.get('/foru', async (req, res) => {
   const posts = await Forum.find()
   res.json(posts)
 })
@@ -98,6 +98,50 @@ app.post('/forum', async (req,res) =>{
 })
 
 
+//Jogadores	
+const jogadorSchema = mongoose.Schema({
+    Selecao:[
+      {
+        player:{
+          name: {type: String, required: true},
+          age: {type: Number, required: true},
+          nationality: {type: String, required: true},
+          height: {type: String, required: true},
+          weight: {type: String, required: true},
+          photo: {type: String, required: true},
+        },
+        statistics: {
+          shots: {
+            total: {type: Number, required: true}
+          },
+          goals: {
+            total: {type: Number, required: true},
+            assists: {type: Number, required: true}
+          },
+          passes:{
+            total: {type: Number, required: true},
+          },
+          dribbles:{
+            attempts: {type: Number, required: true},
+          },
+          fouls:{
+            drawn: {type: Number, required: true},
+            committed: {type: Number, required: true}
+          },
+          cards:{
+            yellow: {type: Number, required: true},
+            red: {type: Number, required: true},
+          }
+        }
+      }
+    ]
+  })
+
+const Jogador = mongoose.model("Jogadore", jogadorSchema)
+app.get('/jogadores', async (req,res) =>{
+    const jogadores = await Jogador.find()
+    res.json(jogadores)
+})
 
 app.listen(3000, () => {
     try{
