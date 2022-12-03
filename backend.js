@@ -73,7 +73,7 @@ const forumSchema = mongoose.Schema({
   })
 const Forum = mongoose.model("Forum", forumSchema)
 
-app.get('/foru', async (req, res) => {
+app.get('/forum', async (req, res) => {
   const posts = await Forum.find()
   res.json(posts)
 })
@@ -141,6 +141,37 @@ const Jogador = mongoose.model("Jogadore", jogadorSchema)
 app.get('/jogadores', async (req,res) =>{
     const jogadores = await Jogador.find()
     res.json(jogadores)
+})
+
+
+//Classificações
+const classificacaoSchema = mongoose.Schema({
+      standings:[
+        {
+          team:{
+            name: {type: String, required: true},
+            logo: {type: String, required: true},
+          },
+          points: {type: Number, required: true},
+          goalsDiff: {type: Number, required: true},
+          group: {type: String, required: true},
+          all:{
+            played: {type: Number, required: true},
+            win: {type: Number, required: true},
+            draw: {type: Number, required: true},
+            lose: {type: Number, required: true},
+            goals:{
+              for: {type: Number, required: true},
+              against: {type: Number, required: true}
+            }
+          }
+        }
+      ]
+    })
+const Classificacao = mongoose.model("Classificacoes", classificacaoSchema)
+app.get('/classificacoes', async (req,res) =>{
+    const classificacoes = await Classificacao.find()
+    res.json(classificacoes)
 })
 
 app.listen(3000, () => {

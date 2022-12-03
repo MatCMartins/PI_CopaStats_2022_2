@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/stylesNavbar.css">
     <link rel="stylesheet" href="css/stylesClassificacoes.css">  
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100" onload="pegarClassificacoes()">
     <header>
         <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -115,7 +115,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Catar</span>
+                                        <span id="A1">Catar</span>
                                     </div>
                                 </td>
                             </tr>
@@ -124,7 +124,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Equador</span>
+                                        <span id="A2">Equador</span>
                                     </div>
                                 </td>
                             </tr>
@@ -133,7 +133,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Holanda</span>
+                                        <span id="A3">Holanda</span>
                                     </div>
                                 </td>
                             </tr>
@@ -142,7 +142,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Senegal</span>
+                                        <span id="A4">Senegal</span>
                                     </div>
                                 </td>
                             </tr>
@@ -161,59 +161,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="AJ1">0</td>
+                                    <td class="dados_tabela" id="AV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AD1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGP1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGC1">0</td>
+                                    <td class="dados_tabela" id="ASG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="AP11"></span>
+                                        <span class="bolas_passados m-1" id="AP12"></span>
+                                        <span class="bolas_passados m-1" id="AP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="AJ2">0</td>
+                                    <td class="dados_tabela" id="AV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AD2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGP2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGC2">0</td>
+                                    <td class="dados_tabela" id="ASG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="AP21"></span>
+                                        <span class="bolas_passados m-1" id="AP22"></span>
+                                        <span class="bolas_passados m-1" id="AP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="AJ3">0</td>
+                                    <td class="dados_tabela" id="AV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AE3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AD3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGP3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGC3">0</td>
+                                    <td class="dados_tabela" id="ASG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="AP31"></span>
+                                        <span class="bolas_passados m-1" id="AP32"></span>
+                                        <span class="bolas_passados m-1" id="AP33"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="AJ4">0</td>
+                                    <td class="dados_tabela" id="AV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="AD4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGP4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="AGC4">0</td>
+                                    <td class="dados_tabela" id="ASG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="AP41"></span>
+                                        <span class="bolas_passados m-1" id="AP42"></span>
+                                        <span class="bolas_passados m-1" id="AP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -294,7 +294,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Estados Unidos</span>
+                                        <span id="B1">Estados Unidos</span>
                                     </div>
                                 </td>
                             </tr>
@@ -303,7 +303,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Inglaterra</span>
+                                        <span id="B2">Inglaterra</span>
                                     </div>
                                 </td>
                             </tr>
@@ -312,7 +312,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Irã</span>
+                                        <span id="B3">Irã</span>
                                     </div>
                                 </td>
                             </tr>
@@ -321,7 +321,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>País de Gales</span>
+                                        <span id="B4">País de Gales</span>
                                     </div>
                                 </td>
                             </tr>
@@ -340,59 +340,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="BJ1">0</td>
+                                    <td class="dados_tabela" id="BV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="BE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="BD1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGP1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGC1">0</td>
+                                    <td class="dados_tabela" id="BSG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="BP11"></span>
+                                        <span class="bolas_passados m-1" id="BP12"></span>
+                                        <span class="bolas_passados m-1" id="BP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="BJ2">0</td>
+                                    <td class="dados_tabela" id="BV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="BE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="BD2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGP2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGC2">0</td>
+                                    <td class="dados_tabela" id="BSG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="BP21"></span>
+                                        <span class="bolas_passados m-1" id="BP22"></span>
+                                        <span class="bolas_passados m-1" id="BP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="BJ3">0</td>
+                                    <td class="dados_tabela" id="BV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell"id=BE3>0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="BD3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGP3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGC3">0</td>
+                                    <td class="dados_tabela" id="BSG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="BP31"></span>
+                                        <span class="bolas_passados m-1" id="BP32"></span>
+                                        <span class="bolas_passados m-1" id="BP33"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="BJ4">0</td>
+                                    <td class="dados_tabela" id="BV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="BE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="BD4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGP4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="BGC4">0</td>
+                                    <td class="dados_tabela" id="BSG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="BP41"></span>
+                                        <span class="bolas_passados m-1" id="BP42"></span>
+                                        <span class="bolas_passados m-1" id="BP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -473,7 +473,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Argentina</span>
+                                        <span id="C1">Argentina</span>
                                     </div>
                                 </td>
                             </tr>
@@ -482,7 +482,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Arábia Saudita</span>
+                                        <span id="C2">Arábia Saudita</span>
                                     </div>
                                 </td>
                             </tr>
@@ -491,7 +491,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>México</span>
+                                        <span id="C3">México</span>
                                     </div>
                                 </td>
                             </tr>
@@ -500,7 +500,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Polônia</span>
+                                        <span id="C4">Polônia</span>
                                     </div>
                                 </td>
                             </tr>
@@ -519,59 +519,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="CJ1">0</td>
+                                    <td class="dados_tabela" id="CV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CD1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGC1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGP1">0</td>
+                                    <td class="dados_tabela" id="CSG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="CP11"></span>
+                                        <span class="bolas_passados m-1" id="CP12"></span>
+                                        <span class="bolas_passados m-1" id="CP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="CJ2">0</td>
+                                    <td class="dados_tabela" id="CV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CD2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGC2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGP2">0</td>
+                                    <td class="dados_tabela" id="CSG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="CP21"></span>
+                                        <span class="bolas_passados m-1" id="CP22"></span>
+                                        <span class="bolas_passados m-1" id="CP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="CJ3">0</td>
+                                    <td class="dados_tabela" id="CV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CE3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CD3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGC3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGP3">0</td>
+                                    <td class="dados_tabela" id="CSG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="CP31"></span>
+                                        <span class="bolas_passados m-1" id="CP32"></span>
+                                        <span class="bolas_passados m-1" id="CP33"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="CJ4">0</td>
+                                    <td class="dados_tabela" id="CV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="CD4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGC4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="CGP4">0</td>
+                                    <td class="dados_tabela" id="CSG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="CP41"></span>
+                                        <span class="bolas_passados m-1" id="CP42"></span>
+                                        <span class="bolas_passados m-1" id="CP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -652,7 +652,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Austrália</span>
+                                        <span id="D1">Austrália</span>
                                     </div>
                                 </td>
                             </tr>
@@ -661,7 +661,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Dinamarca</span>
+                                        <span id="D2">Dinamarca</span>
                                     </div>
                                 </td>
                             </tr>
@@ -670,7 +670,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>França</span>
+                                        <span id="D3">França</span>
                                     </div>
                                 </td>
                             </tr>
@@ -679,7 +679,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Tunísia</span>
+                                        <span id="D4">Tunísia</span>
                                     </div>
                                 </td>
                             </tr>
@@ -698,59 +698,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="DJ1">0</td>
+                                    <td class="dados_tabela" id="DV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DD1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGP1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGC1">0</td>
+                                    <td class="dados_tabela" id="DSG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="DP11"></span>
+                                        <span class="bolas_passados m-1" id="DP12"></span>
+                                        <span class="bolas_passados m-1" id="DP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="DJ2">0</td>
+                                    <td class="dados_tabela" id="DV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DD2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGP2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGC2">0</td>
+                                    <td class="dados_tabela" id="DSG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="DP21"></span>
+                                        <span class="bolas_passados m-1" id="DP22"></span>
+                                        <span class="bolas_passados m-1" id="DP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="DJ3">0</td>
+                                    <td class="dados_tabela" id="DV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DE3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DD3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGP3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGC3">0</td>
+                                    <td class="dados_tabela" id="DSG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="DP31"></span>
+                                        <span class="bolas_passados m-1" id="DP32"></span>
+                                        <span class="bolas_passados m-1" id="DP32"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="DJ4">0</td>
+                                    <td class="dados_tabela" id="DV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="DD4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGP4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="DGC4">0</td>
+                                    <td class="dados_tabela" id="DSG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="DP41"></span>
+                                        <span class="bolas_passados m-1" id="DP42"></span>
+                                        <span class="bolas_passados m-1" id="DP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -831,7 +831,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Alemanha</span>
+                                        <span id="E1">Alemanha</span>
                                     </div>
                                 </td>
                             </tr>
@@ -840,7 +840,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Costa Rica</span>
+                                        <span id="E2">Costa Rica</span>
                                     </div>
                                 </td>
                             </tr>
@@ -849,7 +849,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Espanha</span>
+                                        <span id="E3">Espanha</span>
                                     </div>
                                 </td>
                             </tr>
@@ -858,7 +858,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Japão</span>
+                                        <span id="E4">Japão</span>
                                     </div>
                                 </td>
                             </tr>
@@ -877,59 +877,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="EJ1">0</td>
+                                    <td class="dados_tabela" id="EV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="EE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="ED1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGP1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGC1">0</td>
+                                    <td class="dados_tabela" id="ESG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="EP11"></span>
+                                        <span class="bolas_passados m-1" id="EP12"></span>
+                                        <span class="bolas_passados m-1" id="EP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="EJ2">0</td>
+                                    <td class="dados_tabela" id="EV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="EE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="ED2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGP2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGC2">0</td>
+                                    <td class="dados_tabela" id="ESG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="EP21"></span>
+                                        <span class="bolas_passados m-1" id="EP22"></span>
+                                        <span class="bolas_passados m-1" id="EP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="EJ3">0</td>
+                                    <td class="dados_tabela" id="EV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="EE3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="ED3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGP3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGC3">0</td>
+                                    <td class="dados_tabela" id="ESG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="EP31"></span>
+                                        <span class="bolas_passados m-1" id="EP32"></span>
+                                        <span class="bolas_passados m-1" id="EP33"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="EJ4">0</td>
+                                    <td class="dados_tabela" id="EV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="EE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="ED4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGP4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="EGC4">0</td>
+                                    <td class="dados_tabela" id="ESG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="EP41"></span>
+                                        <span class="bolas_passados m-1" id="EP42"></span>
+                                        <span class="bolas_passados m-1" id="EP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -1010,7 +1010,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Bélgica</span>
+                                        <span id="F1">Bélgica</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1019,7 +1019,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Canadá</span>
+                                        <span id="F2">Canadá</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1028,7 +1028,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Croácia</span>
+                                        <span id="F3">Croácia</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1037,7 +1037,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Marrocos</span>
+                                        <span id="F4">Marrocos</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1056,59 +1056,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="FJ1">0</td>
+                                    <td class="dados_tabela" id="FV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FD1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGP1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGC1">0</td>
+                                    <td class="dados_tabela" id="FSG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="FP11"></span>
+                                        <span class="bolas_passados m-1" id="FP12"></span>
+                                        <span class="bolas_passados m-1" id="FP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="FJ2">0</td>
+                                    <td class="dados_tabela" id="FV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FD2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGP2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGC2">0</td>
+                                    <td class="dados_tabela" id="FSG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="FP21"></span>
+                                        <span class="bolas_passados m-1" id="FP22"></span>
+                                        <span class="bolas_passados m-1" id="FP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="FJ3">0</td>
+                                    <td class="dados_tabela" id="FV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FE3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FD3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGP3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGC3">0</td>
+                                    <td class="dados_tabela" id="FSG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="FP31"></span>
+                                        <span class="bolas_passados m-1" id="FP32"></span>
+                                        <span class="bolas_passados m-1" id="FP33"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="FJ4">0</td>
+                                    <td class="dados_tabela" id="FV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="FD4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGP4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="FGC4">0</td>
+                                    <td class="dados_tabela" id="FSG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="FP41"></span>
+                                        <span class="bolas_passados m-1" id="FP42"></span>
+                                        <span class="bolas_passados m-1" id="FP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -1189,7 +1189,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Brasil</span>
+                                        <span id="G1">Brasil</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1198,7 +1198,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Camarões</span>
+                                        <span id="G2">Camarões</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1207,7 +1207,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Suiça</span>
+                                        <span id="G3">Suiça</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1216,7 +1216,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Sérvia</span>
+                                        <span id="G4">Sérvia</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1235,59 +1235,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="GJ1">0</td>
+                                    <td class="dados_tabela" id="GV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GD1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGP1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGC1">0</td>
+                                    <td class="dados_tabela" id="GSG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="GP11"></span>
+                                        <span class="bolas_passados m-1" id="GP12"></span>
+                                        <span class="bolas_passados m-1" id="GP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="GJ2">0</td>
+                                    <td class="dados_tabela" id="GV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GD2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGP2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGC2">0</td>
+                                    <td class="dados_tabela" id="GSG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="GP21"></span>
+                                        <span class="bolas_passados m-1" id="GP22"></span>
+                                        <span class="bolas_passados m-1" id="GP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="GJ3">0</td>
+                                    <td class="dados_tabela" id="GV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GE3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GD3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGP3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGC3">0</td>
+                                    <td class="dados_tabela" id="GSG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="GP31"></span>
+                                        <span class="bolas_passados m-1" id="GP32"></span>
+                                        <span class="bolas_passados m-1" id="GP33"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="GJ4">0</td>
+                                    <td class="dados_tabela" id="GV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="GD4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGP4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="GGC4">0</td>
+                                    <td class="dados_tabela" id="GSG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="GP41"></span>
+                                        <span class="bolas_passados m-1" id="GP42"></span>
+                                        <span class="bolas_passados m-1" id="GP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -1368,7 +1368,7 @@
                                     <div class="times_tabela">
                                         <span>1°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Coreia do Sul</span>
+                                        <span id="H1">Coreia do Sul</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1377,7 +1377,7 @@
                                     <div class="times_tabela"> 
                                         <span>2°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Gana</span>
+                                        <span id="H2">Gana</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1386,7 +1386,7 @@
                                     <div class="times_tabela">
                                         <span>3°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Portugal</span>
+                                        <span id="H3"></span>
                                     </div>
                                 </td>
                             </tr>
@@ -1395,7 +1395,7 @@
                                     <div class="times_tabela">
                                         <span>4°</span>
                                         <span><img src="" alt=""></span>
-                                        <span>Uruguai</span>
+                                        <span id="H4">Uruguai</span>
                                     </div>
                                 </td>
                             </tr>
@@ -1414,59 +1414,59 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="HJ1">0</td>
+                                    <td class="dados_tabela" id="HV1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HE1">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HD1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGP1">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGC1">0</td>
+                                    <td class="dados_tabela" id="HSG1">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="HP11"></span>
+                                        <span class="bolas_passados m-1" id="HP12"></span>
+                                        <span class="bolas_passados m-1" id="HP13"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="HJ2">0</td>
+                                    <td class="dados_tabela" id="HV2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HE2">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HD2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGP2">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGC2">0</td>
+                                    <td class="dados_tabela" id="HSG2">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="HP21"></span>
+                                        <span class="bolas_passados m-1" id="HP22"></span>
+                                        <span class="bolas_passados m-1" id="HP23"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="HJ3">0</td>
+                                    <td class="dados_tabela" id="HV3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HE3">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HD3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGP3">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGC3">0</td>
+                                    <td class="dados_tabela" id="HSG3">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="HP31"></span>
+                                        <span class="bolas_passados m-1" id="HP32"></span>
+                                        <span class="bolas_passados m-1" id="HP33"></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="dados_tabela d-none d-sm-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-md-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela d-none d-lg-table-cell">0</td>
-                                    <td class="dados_tabela">0</td>
+                                    <td class="dados_tabela d-none d-sm-table-cell" id="HJ4">0</td>
+                                    <td class="dados_tabela" id="HV4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HE4">0</td>
+                                    <td class="dados_tabela d-none d-md-table-cell" id="HD4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGP4">0</td>
+                                    <td class="dados_tabela d-none d-lg-table-cell" id="HGC4">0</td>
+                                    <td class="dados_tabela" id="HSG4">0</td>
                                     <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
-                                        <span class="bolas_passados m-1"></span>
+                                        <span class="bolas_passados m-1" id="HP41"></span>
+                                        <span class="bolas_passados m-1" id="HP42"></span>
+                                        <span class="bolas_passados m-1" id="HP43"></span>
                                     </td>
                                 </tr>
                             </tbody>
@@ -1550,6 +1550,7 @@
         </div>
     </footer>
     <script src="js/frontendUsuario.js"></script>
+    <script src="js/frontendClassificacoes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>

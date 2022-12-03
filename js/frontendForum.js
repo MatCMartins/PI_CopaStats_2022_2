@@ -72,16 +72,16 @@ async function fazerPost(){
             const URL = `${protocolo}://${host}${forumEndpoint}`
             const resp = (axios.post(URL, {texto, usuario,categoria})).data
             texto.value = ""
-            exibirAlerta('.alert-modal-forum', 'Postagem feita com sucesso!', ['alert-success','show'], ['d-none', 'alert-danger'],2000)
+            exibirAlerta('.alert-modal-forum', 'Postagem feita com sucesso!', ['alert-success','show'], ['d-none', 'alert-danger'],3000)
             
             postarPost(usuario, texto, categoria)
         }
         else{
-            exibirAlerta('.alert-modal-forum', 'Preencha todos os campos!', ['alert-danger','show'], ['d-none'], 2000)
+            exibirAlerta('.alert-modal-forum', 'Preencha todos os campos!', ['alert-danger','show'], ['d-none'], 3000)
         }
     }
     catch(e){
-        exibirAlerta('.alert-modal-forum', 'Erro ao fazer postagem!', ['alert-danger','show'], ['d-none'], 2000)
+        exibirAlerta('.alert-modal-forum', 'Erro ao fazer postagem!', ['alert-danger','show'], ['d-none'], 3000)
         console.log(e)
     }
 

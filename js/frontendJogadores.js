@@ -1,9 +1,9 @@
+let nomeDaSelecao = ""
+let jogadorSelecionado = ""
 async function mostrarSelecao(nomeSelecao) {
     const protocolo = "http"
     const host = "localhost:3000"
     const jogadoresEndpoint = "/jogadores"
-    
-    
     try{
         const URL = `${protocolo}://${host}${jogadoresEndpoint}`
         const jogadores = (await axios.get(URL)).data
@@ -115,15 +115,12 @@ async function mostrarSelecao(nomeSelecao) {
             }
             nomeJogadores = nomeJogadores.sort()
         }
-        console.log(nomeJogadores)
         let index = 1;
-        for (index = 1; index < 21; index++) {
+        for (index = 1; index < 20; index++) {
             let idFoto = String("jogador"+String(index));
             let idNome = String("nomeJogador"+String(index));
-            console.log(idFoto)
             var jogadorFoto = document.getElementById(idFoto)
             var jogadorNome = document.getElementById(idNome)
-            // console.log(idJogador.src)
             jogadorNome.innerHTML = nomeJogadores[index][0]
             jogadorFoto.src = String(nomeJogadores[index][1])
             
@@ -132,5 +129,18 @@ async function mostrarSelecao(nomeSelecao) {
     catch(e){
         console.log(e)
     }
-
+    nomeDaSelecao = nomeSelecao
 }
+
+
+
+async function getJogadores(idJogador){
+    try{
+        jogadorSelecionado = document.getElementById("nomeJogador" + String(idJogador)).innerHTML
+        
+    }
+    catch(e){
+        console.log(e)
+    }
+}
+
