@@ -83,7 +83,7 @@ async function mostrarSelecao(nomeSelecao) {
             else if (selecao=="México"){
                 nomeJogadores.push([jogadores[21].Mexico[indexSelecao].player.name,jogadores[21].Mexico[indexSelecao].player.photo])
             }
-            else if (selecao=="Pais_de_Gales"){
+            else if (selecao=="País de Gales"){
                 nomeJogadores.push([jogadores[22].Pais_de_Gales[indexSelecao].player.name,jogadores[22].Pais_de_Gales[indexSelecao].player.photo])
             }
             else if (selecao=="Polônia"){

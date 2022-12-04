@@ -1,17 +1,5 @@
 {
-  "get": "teams/statistics",
-  "parameters": {
-    "league": "1",
-    "season": "2022",
-    "team": "17"
-  },
-  "errors": [],
-  "results": 11,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": {
+  "Coreia_do_Sul": {
     "league": {
       "id": 1,
       "name": "World Cup",

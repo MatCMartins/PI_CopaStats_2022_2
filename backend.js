@@ -174,6 +174,53 @@ app.get('/classificacoes', async (req,res) =>{
     res.json(classificacoes)
 })
 
+
+//Selecoes
+const selecaoSchema = mongoose.Schema({
+  Selecao:{
+    team:{
+      name: {type: String, required: true},
+      logo: {type: String, required: true},
+    },
+    fixtures:{
+      wins:{
+        total: {type: Number, required: true},
+      },
+      draws:{
+        total: {type: Number, required: true},
+      },
+      losses:{
+        total: {type: Number, required: true},
+      },
+      goals:{
+        for:{
+          total:{
+            total: {type: Number, required: true},
+          }
+        },
+        against:{
+          total:{
+            total: {type: Number, required: true},
+        }
+        }
+
+      },
+      clean_sheet:{
+        total: {type: Number, required: true},
+      },
+      failed_to_score:{
+        total: {type: Number, required: true},
+      }
+    }
+  }
+})
+
+const Selecao = mongoose.model("Selecoes", selecaoSchema)
+app.get('/selecoes', async (req,res) =>{
+    const selecoes = await Selecao.find()
+    res.json(selecoes)
+})
+
 app.listen(3000, () => {
     try{
       conectarAoMongoDB()

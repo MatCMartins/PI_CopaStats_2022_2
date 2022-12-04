@@ -1,17 +1,5 @@
-{
-  "get": "teams/statistics",
-  "parameters": {
-    "league": "1",
-    "season": "2022",
-    "team": "25"
-  },
-  "errors": [],
-  "results": 11,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": {
+
+  {"Alemanha": {
     "league": {
       "id": 1,
       "name": "World Cup",
@@ -266,3 +254,5 @@
     }
   }
 }
+    
+  

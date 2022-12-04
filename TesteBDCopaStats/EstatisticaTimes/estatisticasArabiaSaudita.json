@@ -1,17 +1,6 @@
 {
-  "get": "teams/statistics",
-  "parameters": {
-    "league": "1",
-    "season": "2022",
-    "team": "23"
-  },
-  "errors": [],
-  "results": 11,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": {
+
+  "Arabia_Saudita": {
     "league": {
       "id": 1,
       "name": "World Cup",
