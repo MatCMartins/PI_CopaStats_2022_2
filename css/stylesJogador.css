@@ -1,40 +1,8 @@
 body{
     background-color: #D9D9D9;
 }
+p{
+    display: inline-block;
+    
+}
 
-@media (max-width: 992px){
-    .classJogador{ 
-        margin: auto;
-        position: relative;
-        width: 380px;
-        height: 380px;
-        overflow: hidden;
-        border-radius: 50%; 
-    } 
-    .jogador{ 
-        width: 100%; 
-        height: auto; 
-    }
-}
-@media (min-width: 992px){
-    .classJogador{ 
-        margin: auto;
-        position: relative;
-        width: 150px;
-        height: 165px;
-        overflow: hidden;
-        border-radius: 50%; 
-    } 
-    .jogador{ 
-        width: 100%; 
-        height: auto; 
-    }
-}
-.dado{
-    display: flex;
-    justify-content: space-between;
-}
-span{
-    font-size: 14px;
-    font-weight: 600;
-}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/stylesNavbar.css">
     <link rel="stylesheet" href="css/stylesJogador.css">
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100" onload="carregarDados()">
     <header>
         <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -102,19 +102,18 @@
                     <section class="mt-3 bg-white">
                         <div class="text-center pt-2">
                             <div class="classJogador">
-                                <img class="jogador" src="imgs/neymar.jpeg" alt="foto_jogador">
+                                <img class="jogador" id="foto" src="imgs/neymar.jpeg" alt="foto_jogador">
                             </div>
-                            <p class="border-bottom mt-3 pb-3">Neymar</p>
+                            <p class="border-bottom mt-3 pb-3" id="nome">Neymar</p>
                         </div>
                         <div>
                             <h2 class="text-center">Dados Gerais</h2>
                             <ul class="">
-                                <li class="mb-3"><b>Idade</b>: 30 </li>
-                                <li class="mb-3"><b>Altura</b>: 1.75 m</li>
-                                <li class="mb-3"> <b>Peso</b>: 68 kg</li>
-                                <li class="mb-3"><b>Time atual</b>: Paris-Saint German</li>
-                                <li class="mb-3"><b>Nacionalidade</b>: Brasileira</li>
-                                <li class="mb-3"><b>Posição</b>: Meia-Atacante</li>
+                                <li class="mb-3"><b>Idade:</b><p id="idade"></p>  </li>
+                                <li class="mb-3"><b>Altura:</b><p id="altura"></p> </li>
+                                <li class="mb-3"> <b>Peso:</b><p id="peso"></p> </li>
+                                <li class="mb-3"><b>Nacionalidade:</b><p id="selecao"></p> </li>
+                                <li class="mb-3"><b>Posição:</b><p id="posicao"></p></li>
                             </ul>
                         </div>
                     </section>
@@ -129,13 +128,13 @@
                             <span>Assistências</span> <span class="me-2">0</span>
                         </div>
                         <div class="ms-2 mb-5 dado">
-                            <span>Gols por jogo</span> <span class="me-2">0</span>
+                            <span>Passes totais</span> <span class="me-2">0</span>
                         </div>  
                         <div class="ms-2 mb-5 dado">
                             <span>Chutes totais</span> <span class="me-2">0</span>
                         </div> 
                         <div class="ms-2 mb-5 dado">
-                            <span>Chutes por jogo</span> <span class="me-2">0</span>
+                            <span>Dribles</span> <span class="me-2">0</span>
                         </div>
                         <div class="ms-2 mb-5 dado">
                             <span>Faltas sofridas</span> <span class="me-2">0</span>
@@ -173,7 +172,7 @@
         </div>
     </footer>
     <script  src="js/frontendUsuario.js"></script>
-    <script     src="js/frontendJogador.js"></script>
+    <script src="js/frontendJogadores.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>

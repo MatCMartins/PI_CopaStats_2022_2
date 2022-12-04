@@ -227,7 +227,7 @@ async function ShowSelecao(selecao){
                 clean_sheets = resp[15].Franca.clean_sheet.total
                 penaltis = resp[15].Franca.penalty.scored.total
             }
-            else if (nomeSelecao == "Gana"){
+            else if (nomeSelecao == "Holanda"){
                 nome = resp[16].Holanda.team.name
                 bandeira = resp[16].Holanda.team.logo
                 vitorias = resp[16].Holanda.fixtures.wins.total
