@@ -13,7 +13,7 @@ app.use(cors())
 
 
 async function conectarAoMongoDB(){
-    await mongoose.connect('mongodb+srv://MateusCMartins:58FaSyBmesMp9Hzg@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
+    await mongoose.connect('mongodb+srv://MateusCMartins:IqZoXgCMhL0FNUhB@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
   }
 
 //Cadastro
@@ -49,20 +49,23 @@ app.post('/signup', async (req,res) =>{
 
   
 app.post('/login', async (req,res) =>{
-    const {login, password} = req.body
-    const usuario = await Usuario.findOne({login})
-    if (!usuario){
-        res.status(401).end()
-    }
-    const senhaCorreta = await bcrypt.compare(password, usuario.password)
-    if (!senhaCorreta){
-        res.status(401).end()
-    }
-    const token = jwt.sign({login}, 'segredo',{expiresIn: '1h'})
-    res.status(200).send({token})
+  const {login, password} = req.body 
+
+  const u =  await Usuario.findOne({login: login})
+
+  if (!u){
+    return res.status(401).json({mensagem:"login inválido"})
+  }
+  const senhaValida = await bcrypt.compare(password,u.password)
+  if (!senhaValida){
+    return res.status(401).json({mensagem: "senha inválida"})
+  }
+  const token = jwt.sign({login: login}, 'chave-secreta',{expiresIn: '1h'})
+  res.status(200).json({token})
     
     
 })
+
 
 //Fórum
 

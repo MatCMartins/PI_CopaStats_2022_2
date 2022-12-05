@@ -48,7 +48,6 @@ async function login(){
     let logado = false
     if ((login && password)){
         try{
-            logado = true
             const URL = `${protocolo}://${host}${loginEndpoint}`
             const resp = await axios.post(URL, {login, password
             })
@@ -60,6 +59,7 @@ async function login(){
             loginLink.innerHTML = "Logout"
             cadastroLink.classList.add('disabled')
             console.log(resp.data)
+            logado = true
             
             
 
@@ -83,17 +83,6 @@ async function login(){
 
 
 
-// async function logoff(){
-//     const cadastroLink = document.querySelector('#loginLink')
-//     const loginLink = document.querySelector('#loginLink')
-//     if (loginLink.innerHTML == "Logout"){
-//         resp.data.delete()
-//         loginLink.innerHTML = "Login"
-//         cadastroLink.innerHTML = "Cadastro"
-//         cadastroLink.classList.remove('disabled')
-//         loginLink.innerHTML = "Login"
-//     }
-// }
 
 function exibirAlerta(seletor, conteudo, classesAAdicionar, classeARemover, timeout){
     let alert = document.querySelector(seletor)
