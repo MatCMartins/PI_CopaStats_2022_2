@@ -13,7 +13,7 @@ app.use(cors())
 
 
 async function conectarAoMongoDB(){
-    await mongoose.connect('mongodb+srv://MateusCMartins:@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
+    await mongoose.connect('mongodb+srv://MateusCMartins:58FaSyBmesMp9Hzg@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
   }
 
 //Cadastro

@@ -45,7 +45,7 @@ async function getJogos(){
             jogo_margem.appendChild(jogo_texto)
 
             let primeiro_time = document.createElement("img")
-            primeiro_time.classList.add("col-2","mt-4","mb-4")
+            primeiro_time.classList.add("col-2","mt-4","mb-4", "borda-bandeira-jogos")
             primeiro_time.src = jogos[i][5]
             jogo_texto.appendChild(primeiro_time)
 
@@ -79,7 +79,7 @@ async function getJogos(){
             placar.appendChild(estadio)
 
             let segundo_time = document.createElement("img")
-            segundo_time.classList.add("col-2","mt-4","mb-4")
+            segundo_time.classList.add("col-2","mt-4","mb-4", "borda-bandeira-jogos")
             segundo_time.src = jogos[i][6]
             jogo_texto.appendChild(segundo_time)
 
