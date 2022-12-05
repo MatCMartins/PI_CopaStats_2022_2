@@ -21,7 +21,23 @@
         "country": "Belgium",
         "founded": 1895,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/1.png"
+        "logo": "https://media.api-sports.io/football/teams/1.png",
+        "coach": {
+          "id": 48,
+          "name": "Roberto Martínez",
+          "firstname": "Roberto",
+          "lastname": "Martínez Montoliú",
+          "age": 49,
+          "birth": {
+            "date": "1973-07-13",
+            "place": "Balaguer",
+            "country": "Spain"
+          },
+          "nationality": "Spain",
+          "height": "175 cm",
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/48.png"                 
+        }
       } 
     },
     {
@@ -32,18 +48,50 @@
         "country": "France",
         "founded": 1919,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/2.png"
+        "logo": "https://media.api-sports.io/football/teams/2.png",
+        "coach": {
+          "id": 180,
+          "name": "D. Deschamps",
+          "firstname": "Didier",
+          "lastname": "Deschamps",
+          "age": 54,
+          "birth": {
+            "date": "1968-10-15",
+            "place": "Bayonne",
+            "country": "France"
+          },
+          "nationality": "France",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/180.png"                 
+        }
       }
     },
     {
       "team": {
-        "id": 3,
+        "id": 115,
         "name": "Croatia",
         "code": "CRO",
         "country": "Croatia",
         "founded": 1912,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/3.png"
+        "logo": "https://media.api-sports.io/football/teams/3.png",
+        "coach": {
+          "id": 180,
+          "name": "Z. Dalić",
+          "firstname": "Zlatko",
+          "lastname": "Dalić",
+          "age": 56,
+          "birth": {
+            "date": "1966-10-26",
+            "place": "Livno",
+            "country": "Bosnia and Herzegovina"
+          },
+          "nationality": "Croatia",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/115.png"                 
+        }
       }
     },
     {
@@ -54,7 +102,23 @@
         "country": "Brazil",
         "founded": 1914,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/6.png"
+        "logo": "https://media.api-sports.io/football/teams/6.png",
+        "coach": {
+          "id": 333,
+          "name": "Tite",
+          "firstname": "Adenor Leonardo",
+          "lastname": "Bacchi",
+          "age": 61,
+          "birth": {
+            "date": "961-05-25",
+            "place": "Caxias do Sul",
+            "country": "Brazil"
+          },
+          "nationality": "Brazil",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/333.png"                 
+        }
       }
     },
     {
