@@ -21,7 +21,7 @@ async function pegarClassificacoes(){
             const nomeA = resp.Grupo_A[i].team.name
             const bandeiraA = resp.Grupo_A[i].team.logo
             const sgA = resp.Grupo_A[i].goalsDiff
-            const partidasA = resp.Grupo_A[i].all.played
+            const partidasA = resp.Grupo_A[i].points
             const vitoriasA = resp.Grupo_A[i].all.win
             const empatesA = resp.Grupo_A[i].all.draw
             const derrotasA = resp.Grupo_A[i].all.lose
@@ -33,7 +33,7 @@ async function pegarClassificacoes(){
             const nomeB = resp.Grupo_B[i].team.name
             const bandeiraB = resp.Grupo_B[i].team.logo
             const sgB = resp.Grupo_B[i].goalsDiff
-            const partidasB = resp.Grupo_B[i].all.played
+            const partidasB = resp.Grupo_B[i].points
             const vitoriasB = resp.Grupo_B[i].all.win
             const empatesB = resp.Grupo_B[i].all.draw
             const derrotasB = resp.Grupo_B[i].all.lose
@@ -44,7 +44,7 @@ async function pegarClassificacoes(){
             const nomeC = resp.Grupo_C[i].team.name
             const bandeiraC = resp.Grupo_C[i].team.logo
             const sgC = resp.Grupo_C[i].goalsDiff
-            const partidasC = resp.Grupo_C[i].all.played
+            const partidasC = resp.Grupo_C[i].points
             const vitoriasC = resp.Grupo_C[i].all.win
             const empatesC = resp.Grupo_C[i].all.draw
             const derrotasC = resp.Grupo_C[i].all.lose
@@ -55,7 +55,7 @@ async function pegarClassificacoes(){
             const nomeD = resp.Grupo_D[i].team.name
             const bandeiraD = resp.Grupo_D[i].team.logo
             const sgD = resp.Grupo_D[i].goalsDiff
-            const partidasD = resp.Grupo_D[i].all.played
+            const partidasD = resp.Grupo_D[i].points
             const vitoriasD = resp.Grupo_D[i].all.win
             const empatesD = resp.Grupo_D[i].all.draw
             const derrotasD = resp.Grupo_D[i].all.lose
@@ -66,7 +66,7 @@ async function pegarClassificacoes(){
             const nomeE = resp.Grupo_E[i].team.name
             const bandeiraE = resp.Grupo_E[i].team.logo
             const sgE = resp.Grupo_E[i].goalsDiff
-            const partidasE = resp.Grupo_E[i].all.played
+            const partidasE = resp.Grupo_E[i].points
             const vitoriasE = resp.Grupo_E[i].all.win
             const empatesE = resp.Grupo_E[i].all.draw
             const derrotasE = resp.Grupo_E[i].all.lose
@@ -77,7 +77,7 @@ async function pegarClassificacoes(){
             const nomeF = resp.Grupo_F[i].team.name
             const bandeiraF = resp.Grupo_F[i].team.logo
             const sgF = resp.Grupo_F[i].goalsDiff
-            const partidasF = resp.Grupo_F[i].all.played
+            const partidasF = resp.Grupo_F[i].points
             const vitoriasF = resp.Grupo_F[i].all.win
             const empatesF = resp.Grupo_F[i].all.draw
             const derrotasF = resp.Grupo_F[i].all.lose
@@ -88,7 +88,7 @@ async function pegarClassificacoes(){
             const nomeG = resp.Grupo_G[i].team.name
             const bandeiraG = resp.Grupo_G[i].team.logo
             const sgG = resp.Grupo_G[i].goalsDiff
-            const partidasG = resp.Grupo_G[i].all.played
+            const partidasG = resp.Grupo_G[i].points
             const vitoriasG = resp.Grupo_G[i].all.win
             const empatesG = resp.Grupo_G[i].all.draw
             const derrotasG = resp.Grupo_G[i].all.lose
@@ -99,7 +99,7 @@ async function pegarClassificacoes(){
             const nomeH = resp.Grupo_H[i].team.name
             const bandeiraH = resp.Grupo_H[i].team.logo
             const sgH = resp.Grupo_H[i].goalsDiff
-            const partidasH = resp.Grupo_H[i].all.played
+            const partidasH = resp.Grupo_H[i].points
             const vitoriasH = resp.Grupo_H[i].all.win
             const empatesH = resp.Grupo_H[i].all.draw
             const derrotasH = resp.Grupo_H[i].all.lose

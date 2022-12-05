@@ -259,6 +259,24 @@ app.get('/jogos', async (req,res) =>{
     res.json(jogos)
 })
 
+//Tecnicos
+const tecnicoSchema = mongoose.Schema({
+  Tecnicos:{
+    team:{
+      name: {type: String, required: true},
+      coach:{
+        name: {type: String, required: true},
+        photo: {type: String, required: true},
+      }
+    }
+  }
+})
+
+const Tecnico = mongoose.model("Tecnicos", tecnicoSchema)
+app.get('/tecnicos', async (req,res) =>{
+    const tecnicos = await Tecnico.find()
+    res.json(tecnicos)
+})
 
 app.listen(3000, () => {
     try{
