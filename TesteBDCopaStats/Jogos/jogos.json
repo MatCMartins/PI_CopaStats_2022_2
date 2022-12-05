@@ -1,16 +1,5 @@
 {
-  "get": "fixtures",
-  "parameters": {
-    "league": "1",
-    "season": "2022"
-  },
-  "errors": [],
-  "results": 52,
-  "paging": {
-    "current": 1,
-    "total": 1
-  },
-  "response": [
+  "Jogos": [
     {
       "fixture": {
         "id": 855734,
@@ -40,7 +29,9 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "A"
+        
       },
       "teams": {
         "home": {
@@ -108,7 +99,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "B"
       },
       "teams": {
         "home": {
@@ -176,7 +168,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "A"
       },
       "teams": {
         "home": {
@@ -244,7 +237,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "C"
       },
       "teams": {
         "home": {
@@ -312,7 +306,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "D"
       },
       "teams": {
         "home": {
@@ -380,7 +375,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "C"
       },
       "teams": {
         "home": {
@@ -448,7 +444,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "F"
       },
       "teams": {
         "home": {
@@ -516,7 +513,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "E"
       },
       "teams": {
         "home": {
@@ -584,7 +582,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "F"
       },
       "teams": {
         "home": {
@@ -652,7 +651,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "G"
       },
       "teams": {
         "home": {
@@ -720,7 +720,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "H"
       },
       "teams": {
         "home": {
@@ -788,7 +789,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "H"
       },
       "teams": {
         "home": {
@@ -856,7 +858,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "G"
       },
       "teams": {
         "home": {
@@ -924,7 +927,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "A"
       },
       "teams": {
         "home": {
@@ -992,7 +996,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "A"
       },
       "teams": {
         "home": {
@@ -1060,7 +1065,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "B"
       },
       "teams": {
         "home": {
@@ -1128,7 +1134,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "C"
       },
       "teams": {
         "home": {
@@ -1196,7 +1203,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "D"
       },
       "teams": {
         "home": {
@@ -1264,7 +1272,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "C"
       },
       "teams": {
         "home": {
@@ -1332,7 +1341,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "F"
       },
       "teams": {
         "home": {
@@ -1400,7 +1410,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "F"
       },
       "teams": {
         "home": {
@@ -1468,7 +1479,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "E"
       },
       "teams": {
         "home": {
@@ -1536,7 +1548,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "G"
       },
       "teams": {
         "home": {
@@ -1604,7 +1617,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "H"
       },
       "teams": {
         "home": {
@@ -1672,7 +1686,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "G"
       },
       "teams": {
         "home": {
@@ -1740,7 +1755,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "H"
       },
       "teams": {
         "home": {
@@ -1808,7 +1824,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "A"
       },
       "teams": {
         "home": {
@@ -1876,7 +1893,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "A"
       },
       "teams": {
         "home": {
@@ -1944,7 +1962,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "B"
       },
       "teams": {
         "home": {
@@ -2012,7 +2031,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "D"
       },
       "teams": {
         "home": {
@@ -2080,7 +2100,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "C"
       },
       "teams": {
         "home": {
@@ -2148,7 +2169,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "C"
       },
       "teams": {
         "home": {
@@ -2216,7 +2238,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "F"
       },
       "teams": {
         "home": {
@@ -2284,7 +2307,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "F"
       },
       "teams": {
         "home": {
@@ -2352,7 +2376,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "E"
       },
       "teams": {
         "home": {
@@ -2420,7 +2445,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "H"
       },
       "teams": {
         "home": {
@@ -2488,7 +2514,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "H"
       },
       "teams": {
         "home": {
@@ -2556,7 +2583,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "G"
       },
       "teams": {
         "home": {
@@ -2624,7 +2652,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "G"
       },
       "teams": {
         "home": {
@@ -2692,7 +2721,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "B"
       },
       "teams": {
         "home": {
@@ -2760,7 +2790,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "B"
       },
       "teams": {
         "home": {
@@ -2828,7 +2859,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "B"
       },
       "teams": {
         "home": {
@@ -2896,7 +2928,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "D"
       },
       "teams": {
         "home": {
@@ -2964,7 +2997,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 1"
+        "round": "Group Stage - 1",
+        "group": "E"
       },
       "teams": {
         "home": {
@@ -3032,7 +3066,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "D"
       },
       "teams": {
         "home": {
@@ -3100,7 +3135,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 2"
+        "round": "Group Stage - 2",
+        "group": "E"
       },
       "teams": {
         "home": {
@@ -3168,7 +3204,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "D"
       },
       "teams": {
         "home": {
@@ -3236,7 +3273,8 @@
         "logo": "https://media.api-sports.io/football/leagues/1.png",
         "flag": null,
         "season": 2022,
-        "round": "Group Stage - 3"
+        "round": "Group Stage - 3",
+        "group": "E"
       },
       "teams": {
         "home": {

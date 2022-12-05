@@ -13,7 +13,7 @@ app.use(cors())
 
 
 async function conectarAoMongoDB(){
-    await mongoose.connect('mongodb+srv://MateusCMartins:@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
+    await mongoose.connect('mongodb+srv://MateusCMartins:YVu331RUYc8DRPFk@copastats.knia4lw.mongodb.net/?retryWrites=true&w=majority')
   }
 
 //Cadastro
@@ -220,6 +220,45 @@ app.get('/selecoes', async (req,res) =>{
     const selecoes = await Selecao.find()
     res.json(selecoes)
 })
+
+//Jogos
+const jogoSchema = mongoose.Schema({
+  Jogos:{
+    fixture:{
+      date: {type: String, required: true},
+    },
+    venue:{
+      name: {type: String, required: true},
+    },
+    league:{
+      group: {type: String, required: true},
+    },
+    teams:{
+      home:{
+        name: {type: String, required: true},
+        logo: {type: String, required: true},
+        winner: {type: Boolean, required: true},
+      },
+      away:{
+        name: {type: String, required: true},
+        logo: {type: String, required: true},
+        winner: {type: Boolean, required: true},
+      },
+      goals:{
+        home: {type: Number, required: true},
+        away: {type: Number, required: true},
+        
+      }
+    }
+  }
+})
+
+const Jogos = mongoose.model("Jogos", jogoSchema)
+app.get('/jogos', async (req,res) =>{
+    const jogos = await Jogos.find()
+    res.json(jogos)
+})
+
 
 app.listen(3000, () => {
     try{

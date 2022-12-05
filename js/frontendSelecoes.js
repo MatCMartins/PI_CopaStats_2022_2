@@ -3,6 +3,7 @@ async function ShowSelecao(selecao){
     const protocolo = "http"
     const host = "localhost:3000"
     const selecoesEndpoint = "/selecoes"
+    const jogadoresEndpoint = "/jogadores"
     try{
         const URL = `${protocolo}://${host}${selecoesEndpoint}`
         const resp = (await axios.get(URL)).data
@@ -12,6 +13,10 @@ async function ShowSelecao(selecao){
         document.getElementById("proximo_jogo").style.display = "block";
         document.getElementById("jogadores_selecao").style.display = "block";
         
+        const URL2 = `${protocolo}://${host}${jogadoresEndpoint}`
+        const resp2 = (await axios.get(URL2)).data
+
+
         nomeSelecao = selecao
         listaSelecoes = []
         let nome = ""
@@ -24,6 +29,7 @@ async function ShowSelecao(selecao){
         let media_gols_contra = ""
         let clean_sheets = ""
         let penaltis = ""
+        let lista_jogadores = []
 
             if (nomeSelecao == "Alemanha"){
                  nome = resp[0].Alemanha.team.name
@@ -36,6 +42,9 @@ async function ShowSelecao(selecao){
                  media_gols_contra = resp[0].Alemanha.goals.against.average.total
                  clean_sheets = resp[0].Alemanha.clean_sheet.total
                  penaltis = resp[0].Alemanha.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[0].Alemanha[i].player.name,resp2[0].Alemanha[i].player.photo])
+                }
 
                 
 
@@ -52,6 +61,9 @@ async function ShowSelecao(selecao){
                  media_gols_contra = resp[1].Arabia_Saudita.goals.against.average.total
                  clean_sheets = resp[1].Arabia_Saudita.clean_sheet.total
                  penaltis = resp[1].Arabia_Saudita.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[1].Arabia_Saudita[i].player.name,resp2[1].Arabia_Saudita[i].player.photo])
+                }
 
             }
             else if (nomeSelecao == "Argentina"){
@@ -65,6 +77,10 @@ async function ShowSelecao(selecao){
                  media_gols_contra = resp[2].Argentina.goals.against.average.total
                  clean_sheets = resp[2].Argentina.clean_sheet.total
                  penaltis = resp[2].Argentina.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[2].Argentina[i].player.name,resp2[2].Argentina[i].player.photo])
+                }
+                
 
             }
             else if (nomeSelecao == "Austrália"){
@@ -78,6 +94,10 @@ async function ShowSelecao(selecao){
                  media_gols_contra = resp[3].Australia.goals.against.average.total
                  clean_sheets = resp[3].Australia.clean_sheet.total
                  penaltis = resp[3].Australia.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[3].Australia[i].player.name,resp2[3].Australia[i].player.photo])
+                }
+
                 
             }
             else if (nomeSelecao == "Bélgica"){
@@ -91,6 +111,10 @@ async function ShowSelecao(selecao){
                  media_gols_contra = resp[4].Belgica.goals.against.average.total
                  clean_sheets = resp[4].Belgica.clean_sheet.total
                  penaltis = resp[4].Belgica.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[4].Belgica[i].player.name,resp2[4].Belgica[i].player.photo])
+                }
+
 
 
             }
@@ -105,6 +129,10 @@ async function ShowSelecao(selecao){
                  media_gols_contra = resp[5].Brasil.goals.against.average.total
                  clean_sheets = resp[5].Brasil.clean_sheet.total
                  penaltis = resp[5].Brasil.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[5].Brasil[i].player.name,resp2[5].Brasil[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Camarões"){
                 nome = resp[6].Camaroes.team.name
@@ -117,6 +145,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[6].Camaroes.goals.against.average.total
                 clean_sheets = resp[6].Camaroes.clean_sheet.total
                 penaltis = resp[6].Camaroes.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[6].Camaroes[i].player.name,resp2[6].Camaroes[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Canadá"){
                 nome = resp[7].Canada.team.name
@@ -129,6 +161,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[7].Canada.goals.against.average.total
                 clean_sheets = resp[7].Canada.clean_sheet.total
                 penaltis = resp[7].Canada.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[7].Canada[i].player.name,resp2[7].Canada[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Coreia do Sul"){
                 nome = resp[8].Coreia_do_Sul.team.name
@@ -141,6 +177,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[8].Coreia_do_Sul.goals.against.average.total
                 clean_sheets = resp[8].Coreia_do_Sul.clean_sheet.total
                 penaltis = resp[8].Coreia_do_Sul.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[8].Coreia_do_Sul[i].player.name,resp2[8].Coreia_do_Sul[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Costa Rica"){
                 nome = resp[9].Costa_Rica.team.name
@@ -153,6 +193,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[9].Costa_Rica.goals.against.average.total
                 clean_sheets = resp[9].Costa_Rica.clean_sheet.total
                 penaltis = resp[9].Costa_Rica.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[9].Costa_Rica[i].player.name,resp2[9].Costa_Rica[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Croácia"){
                 nome = resp[10].Croacia.team.name
@@ -165,6 +209,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[10].Croacia.goals.against.average.total
                 clean_sheets = resp[10].Croacia.clean_sheet.total
                 penaltis = resp[10].Croacia.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[10].Croacia[i].player.name,resp2[10].Croacia[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Dinamarca"){
                 nome = resp[11].Dinamarca.team.name
@@ -177,6 +225,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[11].Dinamarca.goals.against.average.total
                 clean_sheets = resp[11].Dinamarca.clean_sheet.total
                 penaltis = resp[11].Dinamarca.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[11].Dinamarca[i].player.name,resp2[11].Dinamarca[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Equador"){
                 nome = resp[12].Equador.team.name
@@ -189,6 +241,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[12].Equador.goals.against.average.total
                 clean_sheets = resp[12].Equador.clean_sheet.total
                 penaltis = resp[12].Equador.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[12].Equador[i].player.name,resp2[12].Equador[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Espanha"){
 
@@ -202,6 +258,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[13].Espanha.goals.against.average.total
                 clean_sheets = resp[13].Espanha.clean_sheet.total
                 penaltis = resp[13].Espanha.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[13].Espanha[i].player.name,resp2[13].Espanha[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Estados Unidos"){
                 nome = resp[14].Estados_Unidos.team.name
@@ -214,6 +274,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[14].Estados_Unidos.goals.against.average.total
                 clean_sheets = resp[14].Estados_Unidos.clean_sheet.total
                 penaltis = resp[14].Estados_Unidos.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[14].Estados_Unidos[i].player.name, resp2[14].Estados_Unidos[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "França"){
                 nome = resp[15].Franca.team.name
@@ -226,6 +290,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[15].Franca.goals.against.average.total
                 clean_sheets = resp[15].Franca.clean_sheet.total
                 penaltis = resp[15].Franca.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[15].Franca[i].player.name,resp2[15].Franca[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Holanda"){
                 nome = resp[16].Holanda.team.name
@@ -238,6 +306,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[16].Holanda.goals.against.average.total
                 clean_sheets = resp[16].Holanda.clean_sheet.total
                 penaltis = resp[16].Holanda.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[16].Holanda[i].player.name,resp2[16].Holanda[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Inglaterra"){
                 nome = resp[17].Inglaterra.team.name
@@ -250,6 +322,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[17].Inglaterra.goals.against.average.total
                 clean_sheets = resp[17].Inglaterra.clean_sheet.total
                 penaltis = resp[17].Inglaterra.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[17].Inglaterra[i].player.name,resp2[17].Inglaterra[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Irã"){
                 nome = resp[18].Ira.team.name
@@ -262,6 +338,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[18].Ira.goals.against.average.total
                 clean_sheets = resp[18].Ira.clean_sheet.total
                 penaltis = resp[18].Ira.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[18].Ira[i].player.name,resp2[18].Ira[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Japão"){
                 nome = resp[19].Japao.team.name
@@ -274,6 +354,9 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[19].Japao.goals.against.average.total
                 clean_sheets = resp[19].Japao.clean_sheet.total
                 penaltis = resp[19].Japao.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[19].Japao[i].player.name,resp2[19].Japao[i].player.photo])
+                }
             }
             else if (nomeSelecao == "Marrocos"){
                 nome = resp[20].Marrocos.team.name
@@ -286,6 +369,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[20].Marrocos.goals.against.average.total
                 clean_sheets = resp[20].Marrocos.clean_sheet.total
                 penaltis = resp[20].Marrocos.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[20].Marrocos[i].player.name,resp2[20].Marrocos[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "México"){
                 nome = resp[21].Mexico.team.name
@@ -298,6 +385,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[21].Mexico.goals.against.average.total
                 clean_sheets = resp[21].Mexico.clean_sheet.total
                 penaltis = resp[21].Mexico.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[21].Mexico[i].player.name,resp2[21].Mexico[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "País de Gales"){
                 nome = resp[22].Pais_de_Gales.team.name
@@ -310,6 +401,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[22].Pais_de_Gales.goals.against.average.total
                 clean_sheets = resp[22].Pais_de_Gales.clean_sheet.total
                 penaltis = resp[22].Pais_de_Gales.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[22].Pais_de_Gales[i].player.name,resp2[22].Pais_de_Gales[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Polônia"){
                 nome = resp[23].Polonia.team.name
@@ -322,6 +417,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[23].Polonia.goals.against.average.total
                 clean_sheets = resp[23].Polonia.clean_sheet.total
                 penaltis = resp[23].Polonia.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[23].Polonia[i].player.name,resp2[23].Polonia[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Portugal"){
                 nome = resp[24].Portugal.team.name
@@ -334,6 +433,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[24].Portugal.goals.against.average.total
                 clean_sheets = resp[24].Portugal.clean_sheet.total
                 penaltis = resp[24].Portugal.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[24].Portugal[i].player.name,resp2[24].Portugal[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Catar"){
                 nome = resp[25].Qatar.team.name
@@ -346,6 +449,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[25].Qatar.goals.against.average.total
                 clean_sheets = resp[25].Qatar.clean_sheet.total
                 penaltis = resp[25].Qatar.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[25].Qatar[i].player.name,resp2[25].Qatar[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Senegal"){
                 nome = resp[26].Senegal.team.name
@@ -358,6 +465,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[26].Senegal.goals.against.average.total
                 clean_sheets = resp[26].Senegal.clean_sheet.total
                 penaltis = resp[26].Senegal.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[26].Senegal[i].player.name,resp2[26].Senegal[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Sérvia"){
                 nome = resp[27].Servia.team.name
@@ -370,6 +481,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[27].Servia.goals.against.average.total
                 clean_sheets = resp[27].Servia.clean_sheet.total
                 penaltis = resp[27].Servia.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[27].Servia[i].player.name,resp2[27].Servia[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Suiça"){
                 nome = resp[28].Suica.team.name
@@ -382,6 +497,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[28].Suica.goals.against.average.total
                 clean_sheets = resp[28].Suica.clean_sheet.total
                 penaltis = resp[28].Suica.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[28].Suica[i].player.name,resp2[28].Suica[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Tunísia"){
                 nome = resp[29].Tunisia.team.name
@@ -394,6 +513,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[29].Tunisia.goals.against.average.total
                 clean_sheets = resp[29].Tunisia.clean_sheet.total
                 penaltis = resp[29].Tunisia.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[29].Tunisia[i].player.name,resp2[29].Tunisia[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Uruguai"){
                 nome = resp[30].Uruguai.team.name
@@ -406,6 +529,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[30].Uruguai.goals.against.average.total
                 clean_sheets = resp[30].Uruguai.clean_sheet.total
                 penaltis = resp[30].Uruguai.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[30].Uruguai[i].player.name,resp2[30].Uruguai[i].player.photo])
+                }
+
             }
             else if (nomeSelecao == "Gana"){
                 nome = resp[31].Gana.team.name
@@ -418,6 +545,10 @@ async function ShowSelecao(selecao){
                 media_gols_contra = resp[31].Gana.goals.against.average.total
                 clean_sheets = resp[31].Gana.clean_sheet.total
                 penaltis = resp[31].Gana.penalty.scored.total
+                for (let i = 0; i < 20; i++){
+                    lista_jogadores.push([resp2[31].Gana[i].player.name,resp2[31].Gana[i].player.photo])
+                }
+
             }
             
 
@@ -429,7 +560,7 @@ async function ShowSelecao(selecao){
 
         
         listaSelecoes.push(nome, bandeira, vitorias, empates, derrotas, gols_pro, media_gols_pro, media_gols_contra, clean_sheets, penaltis)
-
+        console.log(lista_jogadores)
 
         const idNome = document.getElementById("nomeSelecao")
         idNome.innerHTML = listaSelecoes[0]
@@ -451,6 +582,20 @@ async function ShowSelecao(selecao){
         idCleanSheets.innerHTML = listaSelecoes[8]
         const idPenaltis = document.getElementById("penaltisSelecao")
         idPenaltis.innerHTML = listaSelecoes[9]
+
+
+        for (let index = 0; index < 19; index++) {
+            let idFoto = String("jogador"+String(index));
+            let idNome = String("nome"+String(index));
+            console.log(idNome)
+            var jogadorFoto = document.getElementById(idFoto)
+            var jogadorNome = document.getElementById(idNome)
+            jogadorNome.innerHTML = lista_jogadores[index][0]
+            jogadorFoto.src = String(lista_jogadores[index][1])
+            
+        }
+        
+
     }   
     catch(e){
         console.log(e)
