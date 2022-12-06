@@ -4,6 +4,8 @@ async function ShowSelecao(selecao){
     const host = "localhost:3000"
     const selecoesEndpoint = "/selecoes"
     const jogadoresEndpoint = "/jogadores"
+    const tecnicoEndpoint = "/tecnicos"
+    const jogosEndpoint = "/jogos"
     try{
         const URL = `${protocolo}://${host}${selecoesEndpoint}`
         const resp = (await axios.get(URL)).data
@@ -16,6 +18,12 @@ async function ShowSelecao(selecao){
         const URL2 = `${protocolo}://${host}${jogadoresEndpoint}`
         const resp2 = (await axios.get(URL2)).data
 
+
+        const URL3 = `${protocolo}://${host}${tecnicoEndpoint}`
+        const resp3 = (await axios.get(URL3)).data
+
+        const URL4 = `${protocolo}://${host}${jogosEndpoint}`
+        const resp4 = (await axios.get(URL4)).data
 
         nomeSelecao = selecao
         listaSelecoes = []
@@ -30,6 +38,10 @@ async function ShowSelecao(selecao){
         let clean_sheets = ""
         let penaltis = ""
         let lista_jogadores = []
+        let lista_jogos = []
+
+        let tecnico_nome = ""
+        const tecnico_idade = ""
 
             if (nomeSelecao == "Alemanha"){
                  nome = resp[0].Alemanha.team.name
@@ -45,6 +57,16 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[0].Alemanha[i].player.name,resp2[0].Alemanha[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Germany"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Germany"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
+                
+              
 
                 
 
@@ -64,6 +86,16 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[1].Arabia_Saudita[i].player.name,resp2[1].Arabia_Saudita[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Saudi Arabia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Saudi Arabia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
+
+
 
             }
             else if (nomeSelecao == "Argentina"){
@@ -80,6 +112,15 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[2].Argentina[i].player.name,resp2[2].Argentina[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Argentina"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Argentina"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
+
                 
 
             }
@@ -97,6 +138,15 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[3].Australia[i].player.name,resp2[3].Australia[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Australia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Australia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
+
 
                 
             }
@@ -114,6 +164,15 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[4].Belgica[i].player.name,resp2[4].Belgica[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Belgium"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Belgium"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
+
 
 
 
@@ -132,6 +191,15 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[5].Brasil[i].player.name,resp2[5].Brasil[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Brazil"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Brazil"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
+
 
             }
             else if (nomeSelecao == "Camarões"){
@@ -147,6 +215,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[6].Camaroes.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[6].Camaroes[i].player.name,resp2[6].Camaroes[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Cameroon"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Cameroon"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -164,6 +240,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[7].Canada[i].player.name,resp2[7].Canada[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Canada"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Canada"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Coreia do Sul"){
@@ -179,6 +263,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[8].Coreia_do_Sul.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[8].Coreia_do_Sul[i].player.name,resp2[8].Coreia_do_Sul[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "South Korea"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "South Korea"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -196,6 +288,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[9].Costa_Rica[i].player.name,resp2[9].Costa_Rica[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Costa Rica"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Costa Rica"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Croácia"){
@@ -211,6 +311,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[10].Croacia.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[10].Croacia[i].player.name,resp2[10].Croacia[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Croatia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Croatia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -228,6 +336,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[11].Dinamarca[i].player.name,resp2[11].Dinamarca[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Denmark"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Denmark"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Equador"){
@@ -243,6 +359,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[12].Equador.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[12].Equador[i].player.name,resp2[12].Equador[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Ecuador"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Ecuador"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -261,6 +385,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[13].Espanha[i].player.name,resp2[13].Espanha[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Spain"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Spain"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Estados Unidos"){
@@ -276,6 +408,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[14].Estados_Unidos.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[14].Estados_Unidos[i].player.name, resp2[14].Estados_Unidos[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "USA"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "USA"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -293,6 +433,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[15].Franca[i].player.name,resp2[15].Franca[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "France"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "France"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Holanda"){
@@ -308,6 +456,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[16].Holanda.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[16].Holanda[i].player.name,resp2[16].Holanda[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Netherlands"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Netherlands"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -325,6 +481,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[17].Inglaterra[i].player.name,resp2[17].Inglaterra[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "England"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "England"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Irã"){
@@ -340,6 +504,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[18].Ira.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[18].Ira[i].player.name,resp2[18].Ira[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Iran"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Iran"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -357,6 +529,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[19].Japao[i].player.name,resp2[19].Japao[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Japan"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Japan"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
             }
             else if (nomeSelecao == "Marrocos"){
                 nome = resp[20].Marrocos.team.name
@@ -371,6 +551,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[20].Marrocos.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[20].Marrocos[i].player.name,resp2[20].Marrocos[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Morocco"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Morocco"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -388,6 +576,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[21].Mexico[i].player.name,resp2[21].Mexico[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Mexico"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Mexico"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "País de Gales"){
@@ -403,6 +599,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[22].Pais_de_Gales.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[22].Pais_de_Gales[i].player.name,resp2[22].Pais_de_Gales[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Wales"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Wales"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -420,6 +624,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[23].Polonia[i].player.name,resp2[23].Polonia[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Poland"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Poland"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Portugal"){
@@ -435,6 +647,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[24].Portugal.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[24].Portugal[i].player.name,resp2[24].Portugal[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Portugal"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Portugal"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -452,6 +672,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[25].Qatar[i].player.name,resp2[25].Qatar[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Qatar"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Qatar"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Senegal"){
@@ -468,6 +696,15 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[26].Senegal[i].player.name,resp2[26].Senegal[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Senegal"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Senegal"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
+
 
             }
             else if (nomeSelecao == "Sérvia"){
@@ -483,6 +720,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[27].Servia.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[27].Servia[i].player.name,resp2[27].Servia[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Serbia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Serbia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -500,6 +745,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[28].Suica[i].player.name,resp2[28].Suica[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Switzerland"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Switzerland"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Tunísia"){
@@ -515,6 +768,14 @@ async function ShowSelecao(selecao){
                 penaltis = resp[29].Tunisia.penalty.scored.total
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[29].Tunisia[i].player.name,resp2[29].Tunisia[i].player.photo])
+                }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Tunisia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Tunisia"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
                 }
 
             }
@@ -532,6 +793,14 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[30].Uruguai[i].player.name,resp2[30].Uruguai[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Uruguay"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Uruguay"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             else if (nomeSelecao == "Gana"){
@@ -548,19 +817,32 @@ async function ShowSelecao(selecao){
                 for (let i = 0; i < 20; i++){
                     lista_jogadores.push([resp2[31].Gana[i].player.name,resp2[31].Gana[i].player.photo])
                 }
+                for (let i = 0; i< resp4[1].Jogos.length; i++){
+                    if (resp4[1].Jogos[i].teams.home.name == "Ghana"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home,resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away])
+                    }
+                    else if (resp4[1].Jogos[i].teams.away.name == "Ghana"){
+                        lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
+                    }
+                }
 
             }
             
+            let jogo_destaque = ""
+            let gols_destaque =0
 
-
-
+            for (var jogo of lista_jogos){
+                if (jogo[1] > gols_destaque){
+                    gols_destaque = jogo[1]
+                    jogo_destaque = jogo
+                }
+            }
 
 
 
 
         
         listaSelecoes.push(nome, bandeira, vitorias, empates, derrotas, gols_pro, media_gols_pro, media_gols_contra, clean_sheets, penaltis)
-        console.log(lista_jogadores)
 
         const idNome = document.getElementById("nomeSelecao")
         idNome.innerHTML = listaSelecoes[0]
@@ -583,11 +865,21 @@ async function ShowSelecao(selecao){
         const idPenaltis = document.getElementById("penaltisSelecao")
         idPenaltis.innerHTML = listaSelecoes[9]
 
+        
+        const timeSelecao1 = document.getElementById("timeSelecao1")
+        timeSelecao1.src = jogo_destaque[0]
+        const golsSelecao1 = document.getElementById("golsSelecao1")
+        golsSelecao1.innerHTML = jogo_destaque[1]
+        const timeSelecao2 = document.getElementById("timeSelecao2")
+        timeSelecao2.src = jogo_destaque[2]
+        const golsSelecao2 = document.getElementById("golsSelecao2")
+        golsSelecao2.innerHTML = jogo_destaque[3]
+        
+
 
         for (let index = 0; index < 19; index++) {
             let idFoto = String("jogador"+String(index));
             let idNome = String("nome"+String(index));
-            console.log(idNome)
             var jogadorFoto = document.getElementById(idFoto)
             var jogadorNome = document.getElementById(idNome)
             jogadorNome.innerHTML = lista_jogadores[index][0]

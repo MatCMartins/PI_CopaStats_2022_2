@@ -1,6 +1,6 @@
 {  "Tecnicos": [
     {
-      "team": {
+      "Belgica": {
         "id": 1,
         "name": "Bélgica",
         "code": "BEL",
@@ -27,7 +27,7 @@
       } 
     },
     {
-      "team": {
+      "Franca": {
         "id": 2,
         "name": "França",
         "code": "FRA",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "team": {
+      "Croacia": {
         "id": 115,
         "name": "Croácia",
         "code": "CRO",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "team": {
+      "Brasil": {
         "id": 6,
         "name": "Brasil",
         "code": "BRA",
@@ -96,7 +96,7 @@
           "lastname": "Bacchi",
           "age": 61,
           "birth": {
-            "date": "961-05-25",
+            "date": "1961-05-25",
             "place": "Caxias do Sul",
             "country": "Brazil"
           },
@@ -108,272 +108,657 @@
       }
     },
     {
-      "team": {
+      "Uruguai": {
         "id": 7,
-        "name": "Uruguay",
+        "name": "Uruguai",
         "code": "URU",
         "country": "Uruguay",
         "founded": 1900,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/7.png"
+        "logo": "https://media.api-sports.io/football/teams/7.png",
+        "coach": {
+          "id": 362,
+          "name": "Ó. Tabárez",
+          "firstname": "Óscar Washington",
+          "lastname": "Tabárez Silva",
+          "age": 75,
+          "birth": {
+            "date": "1947-03-03",
+            "place": "Montevideo",
+            "country": "Uruguay"
+          },
+          "nationality": "Uruguay",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/362.png"                 
+        }
         
       }
     },
     {
-      "team": {
+      "Espanha": {
         "id": 9,
-        "name": "Spain",
+        "name": "Espanha",
         "code": "SPA",
         "country": "Spain",
         "founded": 1913,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/9.png"
+        "logo": "https://media.api-sports.io/football/teams/9.png",
+        "coach": {
+          "id": 193,
+          "name": "Luis Enrique",
+          "firstname": "Luis Enrique",
+          "lastname": "Martínez García",
+          "age": 52,
+          "birth": {
+            "date": "1970-05-08",
+            "place": "Gijón",
+            "country": "Spain"
+          },
+          "nationality": "Spain",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/362.png"                 
+        }
       }
     },
     {
-      "team": {
+      "Inglaterra": {
         "id": 10,
-        "name": "England",
+        "name": "Inglaterra",
         "code": "ENG",
         "country": "England",
         "founded": 1863,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/10.png"
+        "logo": "https://media.api-sports.io/football/teams/10.png",
+        "coach": {
+          "id": 173,
+          "name": "G. Southgate",
+          "firstname": "Gareth",
+          "lastname": "Southgate",
+          "age": 52,
+          "birth": {
+            "date": "1970-09-03",
+            "place": "Watford",
+            "country": "England"
+          },
+          "nationality": "England",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/173.png"                 
+        }
       }
     },
     {
-      "team": {
+      "Japao": {
         "id": 12,
-        "name": "Japan",
+        "name": "Japão",
         "code": "JAP",
         "country": "Japan",
         "founded": 1921,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/12.png"
+        "logo": "https://media.api-sports.io/football/teams/12.png",
+        "coach": {
+          "id": 323,
+          "name": "H. Moriyasu",
+          "firstname": "Hajime",
+          "lastname": "Moriyasu",
+          "age": 54,
+          "birth": {
+            "date": "1968-08-23",
+            "place": null,
+            "country": "Japan"
+          },
+          "nationality": "Japan",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/323.png"                 
+        }
       }
     },
     {
-      "team": {
+      "Senegal": {
         "id": 13,
         "name": "Senegal",
         "code": "SEN",
         "country": "Senegal",
         "founded": 1960,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/13.png"
+        "logo": "https://media.api-sports.io/football/teams/13.png",
+        "coach": {
+          "id": 340,
+          "name": "A. Cissé",
+          "firstname": "Aliou",
+          "lastname": "Cissé",
+          "age": 46,
+          "birth": {
+            "date": "1976-03-24",
+            "place": "Ziguinchor",
+            "country": "Senegal"
+          },
+          "nationality": "Senegal",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/340.png"                 
+        }
       }
     },
     {
-      "team": {
+      "Servia": {
         "id": 14,
-        "name": "Serbia",
+        "name": "Sérvia",
         "code": "SER",
         "country": "Serbia",
         "founded": 1919,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/14.png"
+        "logo": "https://media.api-sports.io/football/teams/14.png",
+        "coach": {
+          "id": 58,
+          "name": "D. Stojković",
+          "firstname": "Dragan",
+          "lastname": "Stojković",
+          "age": 57,
+          "birth": {
+            "date": "1965-03-03",
+            "place": "Nis",
+            "country": "Serbia"
+          },
+          "nationality": "Serbia",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/58.png"                 
+        }
       }
     },
     {
-      "team": {
+      "Suica": {
         "id": 15,
-        "name": "Switzerland",
+        "name": "Suiça",
         "code": "SWI",
         "country": "Switzerland",
         "founded": 1895,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/15.png"
+        "logo": "https://media.api-sports.io/football/teams/15.png",
+        "coach": {
+          "id": 1504,
+          "name": "M. Yakin",
+          "firstname": "Murat",
+          "lastname": "Yakin",
+          "age": 48,
+          "birth": {
+            "date": "1974-09-15",
+            "place": "Basel",
+            "country": "Switzerland"
+          },
+          "nationality": "Switzerland",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/1504.png"   
+        }
       }
     },
     {
-      "team": {
+      "Mexico": {
         "id": 16,
-        "name": "Mexico",
+        "name": "México",
         "code": "MEX",
         "country": "Mexico",
         "founded": 1927,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/16.png"
+        "logo": "https://media.api-sports.io/football/teams/16.png",
+        "coach": {
+          "id": 331,
+          "name": "G. Martino",
+          "firstname": "Gerardo Daniel",
+          "lastname": "Martino",
+          "age": 60,
+          "birth": {
+            "date": "1962-11-20",
+            "place": "Rosario",
+            "country": "Argentina"
+          },
+          "nationality": "Argentina",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/331.png"   
+        }
       }
     },
     {
-      "team": {
+      "Coreia_do_Sul": {
         "id": 17,
-        "name": "South Korea",
+        "name": "Coreia do Sul",
         "code": "SOU",
         "country": "South-Korea",
         "founded": 1933,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/17.png"
+        "logo": "https://media.api-sports.io/football/teams/17.png",
+        "coach": {
+          "id": 325,
+          "name": "Paulo Bento",
+          "firstname": "Paulo Jorge",
+          "lastname": "Gomes Bento",
+          "age": 53,
+          "birth": {
+            "date": "1969-06-20",
+            "place": "Lisboa",
+            "country": "Portugal"
+          },
+          "nationality": "Portugal",
+          "height": "175 cm",
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/325.png"   
+        }
       }
     },
     {
-      "team": {
+      "Australia": {
         "id": 20,
-        "name": "Australia",
+        "name": "Austrália",
         "code": "AUS",
         "country": "Australia",
         "founded": 1961,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/20.png"
+        "logo": "https://media.api-sports.io/football/teams/20.png",
+        "coach": {
+          "id": 1394,
+          "name": "T. Gustavsson",
+          "firstname": "Tony",
+          "lastname": "Gustavsson",
+          "age": 49,
+          "birth": {
+            "date": "1973-08-14",
+            "place": "Sundsvall",
+            "country": "Sweden"
+          },
+          "nationality": "Sweden",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/1394.png"   
+        }
       }
     },
     {
-      "team": {
+      "Dinamarca": {
         "id": 21,
-        "name": "Denmark",
+        "name": "Dinamarca",
         "code": "DEN",
         "country": "Denmark",
         "founded": 1889,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/21.png"
+        "logo": "https://media.api-sports.io/football/teams/21.png",
+        "coach": {
+          "id": 2869,
+          "name": "K. Hjulmand",
+          "firstname": "Kasper",
+          "lastname": "Hjulmand",
+          "age": 50,
+          "birth": {
+            "date": "1972-04-09",
+            "place": null,
+            "country": "Denmark"
+          },
+          "nationality": "Denmark",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/2869.png"   
+        }
       }
     },
     {
-      "team": {
+      "Ira": {
         "id": 22,
-        "name": "Iran",
+        "name": "Irã",
         "code": "IRA",
         "country": "Iran",
         "founded": 1920,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/22.png"
+        "logo": "https://media.api-sports.io/football/teams/22.png",
+        "coach": {
+          "id": 2719,
+          "name": "D. Skočić",
+          "firstname": "Dragan",
+          "lastname": "Skočić",
+          "age": 54,
+          "birth": {
+            "date": "1968-09-03",
+            "place": "Rijeka",
+            "country": "Croatia"
+          },
+          "nationality": "Croatia",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/2713.png"   
+        }
       }
     },
     {
-      "team": {
+      "Arabia_Saudita": {
         "id": 23,
-        "name": "Saudi Arabia",
+        "name": "Arábia Saudita",
         "code": "SAU",
         "country": "Saudi-Arabia",
         "founded": 1956,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/23.png"
+        "logo": "https://media.api-sports.io/football/teams/23.png",
+        "coach": {
+          "id": 344,
+          "name": "H. Renard",
+          "firstname": "Hervé",
+          "lastname": "Renard",
+          "age": 54,
+          "birth": {
+            "date": "1968-09-30",
+            "place": "Aix-les-Bains",
+            "country": "France"
+          },
+          "nationality": "France",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/344.png"   
+        }
       }
     },
     {
-      "team": {
+      "Polonia": {
         "id": 24,
-        "name": "Poland",
+        "name": "Polônia",
         "code": "POL",
         "country": "Poland",
         "founded": 1919,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/24.png"
+        "logo": "https://media.api-sports.io/football/teams/24.png",
+        "coach": {
+          "id": 5834,
+          "name": "C. Michniewicz",
+          "firstname": "Czesław",
+          "lastname": "Michniewicz",
+          "age": 52,
+          "birth": {
+            "date": "1970-02-12",
+            "place": "Brzozowka",
+            "country": "Poland"
+          },
+          "nationality": "Poland",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/344.png"   
+        }
       }
     },
     {
-      "team": {
+      "Alemanha": {
         "id": 25,
-        "name": "Germany",
+        "name": "Alemanha",
         "code": "GER",
         "country": "Germany",
         "founded": 1900,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/25.png"
+        "logo": "https://media.api-sports.io/football/teams/25.png",
+        "coach": {
+          "id": 113,
+          "name": "J. Löw",
+          "firstname": "Joachim",
+          "lastname": "Löw",
+          "age": 62,
+          "birth": {
+            "date": "1960-02-03",
+            "place": "Schönau",
+            "country": "Germany"
+          },
+          "nationality": "Germany",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/113.png"   
+        }
       }
     },
     {
-      "team": {
+      "Argentina": {
         "id": 26,
         "name": "Argentina",
         "code": "ARG",
         "country": "Argentina",
         "founded": 1893,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/26.png"
+        "logo": "https://media.api-sports.io/football/teams/26.png",
+        "coach": {
+          "id": 326,
+          "name": "L. Scaloni",
+          "firstname": "Lionel Sebastián",
+          "lastname": "Scaloni",
+          "age": 44,
+          "birth": {
+            "date": "1978-05-16",
+            "place": "Rosario",
+            "country": "Argentina"
+          },
+          "nationality": "Argentina",
+          "height": "182 cm",
+          "weight": "80 kg",
+          "photo": "https://media.api-sports.io/football/coachs/326.png"   
+        }
       }
     },
     {
-      "team": {
+      "Portugal": {
         "id": 27,
         "name": "Portugal",
         "code": "POR",
         "country": "Portugal",
         "founded": 1914,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/27.png"
+        "logo": "https://media.api-sports.io/football/teams/27.png",
+        "coach": {
+          "id": 175,
+          "name": "Fernando Santos",
+          "firstname": "Fernando Santos",
+          "lastname": "Fernandes da Costa Santos",
+          "age": 68,
+          "birth": {
+            "date": "1954-10-10",
+            "place": "Lisboa",
+            "country": "Portugal"
+          },
+          "nationality": "Portugal",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/175.png"  
+        }
       }
     },
     {
-      "team": {
+      "Tunisia": {
         "id": 28,
-        "name": "Tunisia",
+        "name": "Tunísia",
         "code": "TUN",
         "country": "Tunisia",
         "founded": 1957,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/28.png"
+        "logo": "https://media.api-sports.io/football/teams/28.png",
+        "coach": {
+          "id": 384,
+          "name": "M. Kbaïer",
+          "firstname": "Mondher",
+          "lastname": "Kebaier",
+          "age": 52,
+          "birth": {
+            "date": "1970-04-02",
+            "place": "Bizerte",
+            "country": "Tunisia"
+          },
+          "nationality": "Tunisia",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/175.png"  
+        }
       }
     },
     {
-      "team": {
+      "Costa_Rica": {
         "id": 29,
         "name": "Costa Rica",
         "code": "COS",
         "country": "Costa-Rica",
         "founded": 1921,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/29.png"
+        "logo": "https://media.api-sports.io/football/teams/29.png",
+        "coach": {
+          "id": 316,
+          "name": "G. Matosas",
+          "firstname": "Gustavo Cristian",
+          "lastname": "Matosas Paidón",
+          "age": 55,
+          "birth": {
+            "date": "1967-05-25",
+            "place": "Buenos Aires",
+            "country": "Argentina"
+          },
+          "nationality": "Uruguay",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/316.png"  
+        }
       }
     },
     {
-      "team": {
+      "Marrocos": {
         "id": 31,
-        "name": "Morocco",
+        "name": "Marrocos",
         "code": "MOR",
         "country": "Morocco",
         "founded": 1955,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/31.png"
+        "logo": "https://media.api-sports.io/football/teams/31.png",
+        "coach": {
+          "id": 386,
+          "name": "V. Halilhodžić",
+          "firstname": "Vahid",
+          "lastname": "Halilhodžić",
+          "age": 70,
+          "birth": {
+            "date": "1952-05-15",
+            "place": "Jablanica",
+            "country": "Bosnia and Herzegovina"
+          },
+          "nationality": "Bosnia and Herzegovina",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/386.png"  
+        }
       }
     },
     {
-      "team": {
+      "Pais_de_Gales": {
         "id": 767,
-        "name": "Wales",
+        "name": "País de Gales",
         "code": "WAL",
         "country": "Wales",
         "founded": 1876,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/767.png"
+        "logo": "https://media.api-sports.io/football/teams/767.png",
+        "coach": {
+          "id": 114,
+          "name": "R. Giggs",
+          "firstname": "Ryan",
+          "lastname": "Giggs",
+          "age": 49,
+          "birth": {
+            "date": "1973-11-29",
+            "place": "Cardiff",
+            "country": "Wales"
+          },
+          "nationality": "Wales",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/114.png"  
+        }
       }
     },
     {
-      "team": {
+      "Holanda": {
         "id": 1118,
-        "name": "Netherlands",
+        "name": "Holanda",
         "code": "NET",
         "country": "Netherlands",
         "founded": 1889,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/1118.png"
+        "logo": "https://media.api-sports.io/football/teams/1118.png",
+        "coach": {
+          "id": 1979,
+          "name": "F. de Boer",
+          "firstname": "Frank",
+          "lastname": "de Boer",
+          "age": 52,
+          "birth": {
+            "date": "1970-05-15",
+            "place": "Hoorn",
+            "country": "Netherlands"
+          },
+          "nationality": "Netherlands",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/1979.png"  
+        }
+
       }
     },
     {
-      "team": {
+      "Gana": {
         "id": 1504,
-        "name": "Ghana",
+        "name": "Gana",
         "code": "GHA",
         "country": "Ghana",
         "founded": 1957,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/1504.png"
+        "logo": "https://media.api-sports.io/football/teams/1504.png",
+        "coach": {
+          "id": 371,
+          "name": "K. Appiah",
+          "firstname": "James Kwesi",
+          "lastname": "Appiah",
+          "age": 62,
+          "birth": {
+            "date": "1960-06-30",
+            "place": "Kumasi",
+            "country": "Ghana"
+          },
+          "nationality": "Ghana",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/371.png"  
+        }
       }
     },
     {
-      "team": {
+      "Camaroes": {
         "id": 1530,
-        "name": "Cameroon",
+        "name": "Camarões",	
         "code": "CAM",
         "country": "Cameroon",
         "founded": 1959,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/1530.png"
+        "logo": "https://media.api-sports.io/football/teams/1530.png",
+        "coach": {
+          "id": 364,
+          "name": "C. Seedorf",
+          "firstname": "Clarence",
+          "lastname": "Seedorf",
+          "age": 46,
+          "birth": {
+            "date": "1976-04-01",
+            "place": "Paramaribo",
+            "country": "Suriname"
+          },
+          "nationality": "Netherlands",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/364.png"  
+        }
       }
     },
     {
-      "team": {
+      "Qatar": {
         "id": 1569,
         "name": "Qatar",
         "code": "QAT",
@@ -381,39 +766,89 @@
         "founded": 1960,
         "national": true,
         "logo": "https://media.api-sports.io/football/teams/1569.png"
+        
       }
     },
     {
-      "team": {
+      "Equador": {
         "id": 2382,
-        "name": "Ecuador",
+        "name": "Equador",
         "code": "ECU",
         "country": "Ecuador",
         "founded": 1925,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/2382.png"
+        "logo": "https://media.api-sports.io/football/teams/2382.png",
+        "coach": {
+          "id": 861,
+          "name": "G. Alfaro",
+          "firstname": "Gustavo Julio",
+          "lastname": "Alfaro",
+          "age": 60,
+          "birth": {
+            "date": "1962-08-14",
+            "place": "Rafaela",
+            "country": "Argentina"
+          },
+          "nationality": "Argentina",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/861.png"  
+        }
+        
       }
     },
     {
-      "team": {
+      "Estados_Unidos": {
         "id": 2384,
-        "name": "USA",
+        "name": "Estados Unidos",
         "code": "USA",
         "country": "USA",
         "founded": 1913,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/2384.png"
+        "logo": "https://media.api-sports.io/football/teams/2384.png",
+        "coach": {
+          "id": 314,
+          "name": "G. Berhalter",
+          "firstname": "Gregg",
+          "lastname": "Berhalter",
+          "age": 49,
+          "birth": {
+            "date": "973-08-01",
+            "place": "Englewood",
+            "country": "USA"
+          },
+          "nationality": "USA",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/314.png"  
+        }
       }
     },
     {
-      "team": {
+      "Canada": {
         "id": 5529,
-        "name": "Canada",
+        "name": "Canadá",
         "code": "CAN",
         "country": "Canada",
         "founded": 1912,
         "national": true,
-        "logo": "https://media.api-sports.io/football/teams/5529.png"
+        "logo": "https://media.api-sports.io/football/teams/5529.png",
+        "coach": {
+          "id": 10762,
+          "name": "K. Heiner-Møller",
+          "firstname": "Kenneth",
+          "lastname": "Heiner-Møller",
+          "age": 51,
+          "birth": {
+            "date": "1971-01-17",
+            "place": null,
+            "country": "Denmark"
+          },
+          "nationality": "Denmark",
+          "height": null,
+          "weight": null,
+          "photo": "https://media.api-sports.io/football/coachs/10762.png"  
+        }
       }   
     }
   ]
