@@ -61,6 +61,8 @@ span{
 }
 .tabela{
     margin-bottom: 10px;
+    margin: auto;
+    
 }
 h1, h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -71,4 +73,14 @@ h1, h2{
 .carousel-control-prev,.carousel-control-next {
     width: 4%;
     filter: invert(100%);
+}
+@media (max-width: 992px) {
+    .bandeiraTime{
+        width: 60px;
+    }
+}
+@media (min-width: 992px) {
+    .bandeiraTime{
+        width: 50px;
+    }
 }

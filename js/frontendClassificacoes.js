@@ -233,3 +233,162 @@ async function pegarClassificacoes(){
         console.log("Erro ao pegar classificações")
     }
 }
+
+async function pegarJogos(){
+    const protocolo = "http"
+    const host = "localhost:3000"
+    const endpointJogos = "/jogos"
+    const url = `${protocolo}://${host}${endpointJogos}`
+
+    try{
+        resp = (await axios.get(url)).data
+
+        let jogos1 = []
+        let jogos2 = []
+        let jogos3 = []
+        const grupos = ["A", "B", "C", "D", "E", "F", "G", "H"]
+        const rodadas = ["1","2","3"]
+        let p = 1
+        for (let i = 0; i < resp[1].Jogos.length; i++) {
+            let rodada = resp[1].Jogos[i].league.round
+            rodada = rodada.substring(rodada.length - 1)
+            if (rodada == "1") {
+                jogos1.push([resp[1].Jogos[i].league.group,resp[1].Jogos[i].teams.home.logo, resp[1].Jogos[i].goals.home, resp[1].Jogos[i].goals.away, resp[1].Jogos[i].teams.away.logo])
+            }
+            else if (rodada == "2") {
+                jogos2.push([resp[1].Jogos[i].league.group,resp[1].Jogos[i].teams.home.logo, resp[1].Jogos[i].goals.home, resp[1].Jogos[i].goals.away, resp[1].Jogos[i].teams.away.logo])
+            }
+            else if (rodada == "3") {
+                jogos3.push([resp[1].Jogos[i].league.group,resp[1].Jogos[i].teams.home.logo, resp[1].Jogos[i].goals.home, resp[1].Jogos[i].goals.away, resp[1].Jogos[i].teams.away.logo])
+            }
+
+                
+
+             
+            
+
+        }
+        jogos1.sort()
+        jogos2.sort()
+        jogos3.sort()
+        
+        for (let i = 0; i < jogos1.length; i++) {
+
+            const grupo = jogos1[i][0]
+            const time1 = jogos1[i][1]
+            const gols1 = jogos1[i][2]
+            const gols2 = jogos1[i][3]
+            const time2 = jogos1[i][4]
+            
+            let idtime1 = ""
+            let idtime2 = ""
+            let idgols1 = ""
+            let idgols2 = ""
+            
+            if (i %2 == 0) {
+            idtime1 = `#time${grupo}11`
+            idtime2 = `#time${grupo}12`
+            idgols1 = `#gols${grupo}11`
+            idgols2 = `#gols${grupo}12`
+
+
+            
+            
+            }
+            else{
+             idtime1 = `#time${grupo}13`
+             idtime2 = `#time${grupo}14`
+             idgols1 = `#gols${grupo}13`
+             idgols2 = `#gols${grupo}14`
+            }
+            const Time1 = document.querySelector(idtime1)
+            const Time2 = document.querySelector(idtime2)
+            const Gols1 = document.querySelector(idgols1)
+            const Gols2 = document.querySelector(idgols2)
+            Time1.src = time1
+            Time2.src = time2
+            Gols1.innerHTML = gols1
+            Gols2.innerHTML = gols2 
+        }
+        for (let i = 0; i < jogos2.length; i++) {
+
+            const grupo = jogos2[i][0]
+            const time1 = jogos2[i][1]
+            const gols1 = jogos2[i][2]
+            const gols2 = jogos2[i][3]
+            const time2 = jogos2[i][4]
+            
+            let idtime1 = ""
+            let idtime2 = ""
+            let idgols1 = ""
+            let idgols2 = ""
+            
+            if (i %2 == 0) {
+            idtime1 = `#time${grupo}21`
+            idtime2 = `#time${grupo}22`
+            idgols1 = `#gols${grupo}21`
+            idgols2 = `#gols${grupo}22`
+
+
+            
+            
+            }
+            else{
+             idtime1 = `#time${grupo}23`
+             idtime2 = `#time${grupo}24`
+             idgols1 = `#gols${grupo}23`
+             idgols2 = `#gols${grupo}24`
+            }
+            const Time1 = document.querySelector(idtime1)
+            const Time2 = document.querySelector(idtime2)
+            const Gols1 = document.querySelector(idgols1)
+            const Gols2 = document.querySelector(idgols2)
+            Time1.src = time1
+            Time2.src = time2
+            Gols1.innerHTML = gols1
+            Gols2.innerHTML = gols2 
+        }
+        for (let i = 0; i < jogos3.length; i++) {
+
+            const grupo = jogos3[i][0]
+            const time1 = jogos3[i][1]
+            const gols1 = jogos3[i][2]
+            const gols2 = jogos3[i][3]
+            const time2 = jogos3[i][4]
+            
+            let idtime1 = ""
+            let idtime2 = ""
+            let idgols1 = ""
+            let idgols2 = ""
+            
+            if (i %2 == 0) {
+            idtime1 = `#time${grupo}31`
+            idtime2 = `#time${grupo}32`
+            idgols1 = `#gols${grupo}31`
+            idgols2 = `#gols${grupo}32`
+
+
+            
+            
+            }
+            else{
+             idtime1 = `#time${grupo}33`
+             idtime2 = `#time${grupo}34`
+             idgols1 = `#gols${grupo}33`
+             idgols2 = `#gols${grupo}34`
+            }
+            const Time1 = document.querySelector(idtime1)
+            const Time2 = document.querySelector(idtime2)
+            const Gols1 = document.querySelector(idgols1)
+            const Gols2 = document.querySelector(idgols2)
+            Time1.src = time1
+            Time2.src = time2
+            Gols1.innerHTML = gols1
+            Gols2.innerHTML = gols2 
+        }
+       
+    }
+    catch(e){
+        console.log(e)
+    }
+}

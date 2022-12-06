@@ -8,3 +8,35 @@
     width: 4%;
    
 }
+
+
+
+@media (max-width: 992px) {
+    #foto1{
+        content: url("/imgs/copastats_jogadores_pequeno.png");
+    }
+    #foto2{
+        content: url("/imgs/copastats_logo_pequeno.png");
+    }
+    #foto3{
+        content: url("/imgs/copastats_mascote_pequeno.png");
+    }
+
+}
+@media (min-width: 992px) {
+    #foto1{
+        content : url("/imgs/copastats_jogadores.png"); 
+    }
+    #foto2{
+        content: url("/imgs/copastats_logo.png");
+    }
+    #foto3{
+        content: url("/imgs/copastats_mascote.png");
+    }
+    .texto_inicial{
+        font-size: 400%;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+    }
+}

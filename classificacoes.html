@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/stylesNavbar.css">
     <link rel="stylesheet" href="css/stylesClassificacoes.css">  
 </head>
-<body class="d-flex flex-column min-vh-100" onload="pegarClassificacoes()">
+<body class="d-flex flex-column min-vh-100" onload="pegarClassificacoes(); pegarJogos()">
     <header>
         <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -97,12 +97,12 @@
     </header>
     <main>
         <article>
-            <div class="container bg-white mt-2">
+            <div class="container  mt-2">
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo A</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -157,7 +157,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -168,11 +168,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGP1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGC1">0</td>
                                     <td class="dados_tabela" id="ASG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="AP11"></span>
-                                        <span class="bolas_passados m-1" id="AP12"></span>
-                                        <span class="bolas_passados m-1" id="AP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="AJ2">0</td>
@@ -182,11 +178,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGP2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGC2">0</td>
                                     <td class="dados_tabela" id="ASG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="AP21"></span>
-                                        <span class="bolas_passados m-1" id="AP22"></span>
-                                        <span class="bolas_passados m-1" id="AP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="AJ3">0</td>
@@ -196,11 +188,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGP3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGC3">0</td>
                                     <td class="dados_tabela" id="ASG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="AP31"></span>
-                                        <span class="bolas_passados m-1" id="AP32"></span>
-                                        <span class="bolas_passados m-1" id="AP33"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="AJ4">0</td>
@@ -210,55 +198,63 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGP4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="AGC4">0</td>
                                     <td class="dados_tabela" id="ASG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="AP41"></span>
-                                        <span class="bolas_passados m-1" id="AP42"></span>
-                                        <span class="bolas_passados m-1" id="AP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela  mt-5 p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_A" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeA11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsA11"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsA12"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" id="timeA12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeA13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsA13"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsA14"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png"  id="timeA14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeA21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsA21"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsA22"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeA22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeA23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsA23"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsA24"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeA24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeA31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsA31"></span>
+                                    <span>x</span>
+                                    <span id="golsA32"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeA32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeA33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsA33"></span>
+                                    <span>x</span>
+                                    <span id="golsA34"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeA34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                             </div>
@@ -276,12 +272,12 @@
             </div>
         </article>
         <article>
-            <div class="container bg-white mt-2">    
+            <div class="container  mt-2">    
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo B</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -336,7 +332,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -347,11 +343,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGP1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGC1">0</td>
                                     <td class="dados_tabela" id="BSG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="BP11"></span>
-                                        <span class="bolas_passados m-1" id="BP12"></span>
-                                        <span class="bolas_passados m-1" id="BP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="BJ2">0</td>
@@ -361,11 +353,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGP2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGC2">0</td>
                                     <td class="dados_tabela" id="BSG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="BP21"></span>
-                                        <span class="bolas_passados m-1" id="BP22"></span>
-                                        <span class="bolas_passados m-1" id="BP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="BJ3">0</td>
@@ -375,11 +363,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGP3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGC3">0</td>
                                     <td class="dados_tabela" id="BSG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="BP31"></span>
-                                        <span class="bolas_passados m-1" id="BP32"></span>
-                                        <span class="bolas_passados m-1" id="BP33"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="BJ4">0</td>
@@ -389,56 +373,64 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGP4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="BGC4">0</td>
                                     <td class="dados_tabela" id="BSG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="BP41"></span>
-                                        <span class="bolas_passados m-1" id="BP42"></span>
-                                        <span class="bolas_passados m-1" id="BP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>   
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela mt-5 p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_B" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeB11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsB11"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsB12"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeB12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeB13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsB13"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsB14"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeB14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
+                                  <div class=" mt-2  pb-4 text-center ">
+                                      <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeB21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                      <span id="golsB21"></span>
+                                      <span>x</span>
+                                      <span id="golsB22"></span>
+                                      <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeB22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                  </div>
+                                  <div class=" mt-4  text-center">
+                                      <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeB23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                      <span id="golsB23"></span>
+                                      <span>x</span>
+                                      <span id="golsB24"></span>
+                                      <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeB24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <div class=" mt-2  pb-4 text-center ">
+                                  <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeB31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                  <span id="golsB31"></span>
+                                  <span>x</span>
+                                  <span id="golsB32"></span>
+                                  <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeB32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                              </div>
+                              <div class=" mt-4  text-center">
+                                  <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeB33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                  <span id="golsB33"></span>
+                                  <span>x</span>
+                                  <span id="golsB34"></span>
+                                  <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeB34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                              </div>
                               </div>
                             </div>
                             <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_B" data-bs-slide="prev">
@@ -455,12 +447,12 @@
             </div>
         </article>
         <article>
-            <div class="container bg-white mt-2">    
+            <div class="container  mt-2">    
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo C</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -515,7 +507,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -526,11 +518,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGC1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGP1">0</td>
                                     <td class="dados_tabela" id="CSG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="CP11"></span>
-                                        <span class="bolas_passados m-1" id="CP12"></span>
-                                        <span class="bolas_passados m-1" id="CP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="CJ2">0</td>
@@ -540,11 +528,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGC2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGP2">0</td>
                                     <td class="dados_tabela" id="CSG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="CP21"></span>
-                                        <span class="bolas_passados m-1" id="CP22"></span>
-                                        <span class="bolas_passados m-1" id="CP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="CJ3">0</td>
@@ -554,11 +538,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGC3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGP3">0</td>
                                     <td class="dados_tabela" id="CSG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="CP31"></span>
-                                        <span class="bolas_passados m-1" id="CP32"></span>
-                                        <span class="bolas_passados m-1" id="CP33"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="CJ4">0</td>
@@ -568,55 +548,63 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGC4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="CGP4">0</td>
                                     <td class="dados_tabela" id="CSG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="CP41"></span>
-                                        <span class="bolas_passados m-1" id="CP42"></span>
-                                        <span class="bolas_passados m-1" id="CP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>   
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela  mt-5 p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_C" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                <div class="carousel-item active">
+                                    <div class=" mt-2  pb-4 text-center ">
+                                        <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeC11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                        <span id="golsC11"></span>
+                                        <span>x</span>
+                                        <span id="golsC12"></span>
+                                        <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeC12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                    </div>
+                                    <div class=" mt-4  text-center">
+                                        <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeC13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                        <span id="golsC13"></span>
+                                        <span>x</span>
+                                        <span id="golsC14"></span>
+                                        <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeC14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                    </div>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                <div class="carousel-item">
+                                    <div class=" mt-2  pb-4 text-center ">
+                                        <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeC21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                        <span id="golsC21"></span>
+                                        <span>x</span>
+                                        <span id="golsC22"></span>
+                                        <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeC22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                    </div>
+                                    <div class=" mt-4  text-center">
+                                        <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeC23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                        <span id="golsC23"></span>
+                                        <span>x</span>
+                                        <span id="golsC24"></span>
+                                        <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeC24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                    </div>
                                 </div>
-                              </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeC31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsC31"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsC32"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeC32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeC33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsC33"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsC34"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeC34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                             </div>
@@ -634,12 +622,12 @@
             </div>
         </article>
         <article>
-            <div class="container bg-white mt-2">    
+            <div class="container  mt-2">    
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo D</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -694,7 +682,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -705,11 +693,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGP1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGC1">0</td>
                                     <td class="dados_tabela" id="DSG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="DP11"></span>
-                                        <span class="bolas_passados m-1" id="DP12"></span>
-                                        <span class="bolas_passados m-1" id="DP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="DJ2">0</td>
@@ -719,11 +703,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGP2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGC2">0</td>
                                     <td class="dados_tabela" id="DSG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="DP21"></span>
-                                        <span class="bolas_passados m-1" id="DP22"></span>
-                                        <span class="bolas_passados m-1" id="DP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="DJ3">0</td>
@@ -733,11 +713,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGP3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGC3">0</td>
                                     <td class="dados_tabela" id="DSG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="DP31"></span>
-                                        <span class="bolas_passados m-1" id="DP32"></span>
-                                        <span class="bolas_passados m-1" id="DP32"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="DJ4">0</td>
@@ -747,55 +723,63 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGP4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="DGC4">0</td>
                                     <td class="dados_tabela" id="DSG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="DP41"></span>
-                                        <span class="bolas_passados m-1" id="DP42"></span>
-                                        <span class="bolas_passados m-1" id="DP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>   
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela  mt-5 p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_D" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeD11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsD11"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsD12"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeD12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeD13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsD13"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsD14"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeD14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeD21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsD21"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsD22"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeD22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeD23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsD23"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsD24"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeD24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeD31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsD31"></span>
+                                    <span>x</span>
+                                    <span id="golsD32"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeD32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeD33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsD33"></span>
+                                    <span>x</span>
+                                    <span id="golsD34"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeD34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                             </div>
@@ -813,12 +797,12 @@
             </div>
         </article>
         <article>
-            <div class="container bg-white mt-2">    
+            <div class="container  mt-2">    
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo E</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -873,7 +857,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -884,11 +868,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGP1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGC1">0</td>
                                     <td class="dados_tabela" id="ESG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="EP11"></span>
-                                        <span class="bolas_passados m-1" id="EP12"></span>
-                                        <span class="bolas_passados m-1" id="EP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="EJ2">0</td>
@@ -898,11 +878,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGP2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGC2">0</td>
                                     <td class="dados_tabela" id="ESG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="EP21"></span>
-                                        <span class="bolas_passados m-1" id="EP22"></span>
-                                        <span class="bolas_passados m-1" id="EP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="EJ3">0</td>
@@ -912,11 +888,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGP3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGC3">0</td>
                                     <td class="dados_tabela" id="ESG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="EP31"></span>
-                                        <span class="bolas_passados m-1" id="EP32"></span>
-                                        <span class="bolas_passados m-1" id="EP33"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="EJ4">0</td>
@@ -926,55 +898,63 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGP4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="EGC4">0</td>
                                     <td class="dados_tabela" id="ESG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="EP41"></span>
-                                        <span class="bolas_passados m-1" id="EP42"></span>
-                                        <span class="bolas_passados m-1" id="EP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>   
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela  mt-5 p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_E" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeE11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsE11"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsE12"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeE12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeE13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsE13"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsE14"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeE14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeE21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsE21"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsE22"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeE22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeE23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsE23"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsE24"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeE24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeE31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsE31"></span>
+                                    <span>x</span>
+                                    <span id="golsE32"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeE32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeE33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsE33"></span>
+                                    <span>x</span>
+                                    <span id="golsE34"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeE34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                             </div>
@@ -992,12 +972,12 @@
             </div>
         </article>
         <article>
-            <div class="container bg-white mt-2">    
+            <div class="container  mt-2">    
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo F</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -1052,7 +1032,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -1063,11 +1043,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGP1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGC1">0</td>
                                     <td class="dados_tabela" id="FSG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="FP11"></span>
-                                        <span class="bolas_passados m-1" id="FP12"></span>
-                                        <span class="bolas_passados m-1" id="FP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="FJ2">0</td>
@@ -1077,11 +1053,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGP2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGC2">0</td>
                                     <td class="dados_tabela" id="FSG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="FP21"></span>
-                                        <span class="bolas_passados m-1" id="FP22"></span>
-                                        <span class="bolas_passados m-1" id="FP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="FJ3">0</td>
@@ -1091,11 +1063,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGP3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGC3">0</td>
                                     <td class="dados_tabela" id="FSG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="FP31"></span>
-                                        <span class="bolas_passados m-1" id="FP32"></span>
-                                        <span class="bolas_passados m-1" id="FP33"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="FJ4">0</td>
@@ -1105,55 +1073,63 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGP4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="FGC4">0</td>
                                     <td class="dados_tabela" id="FSG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="FP41"></span>
-                                        <span class="bolas_passados m-1" id="FP42"></span>
-                                        <span class="bolas_passados m-1" id="FP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>   
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela  mt-5 p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_F" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeF11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsF11"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsF12"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeF12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeF13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsF13"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsF14"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeF14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeF21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsF21"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsF22"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeF22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeF23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsF23"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsF24"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeF24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeF31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsF31"></span>
+                                    <span>x</span>
+                                    <span id="golsF32"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeF32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeF33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsF33"></span>
+                                    <span>x</span>
+                                    <span id="golsF34"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeF34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                             </div>
@@ -1171,12 +1147,12 @@
             </div>
         </article>
         <article>
-            <div class="container bg-white mt-2">    
+            <div class="container  mt-2">    
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo G</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -1231,7 +1207,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -1242,11 +1218,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGP1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGC1">0</td>
                                     <td class="dados_tabela" id="GSG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="GP11"></span>
-                                        <span class="bolas_passados m-1" id="GP12"></span>
-                                        <span class="bolas_passados m-1" id="GP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="GJ2">0</td>
@@ -1256,11 +1228,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGP2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGC2">0</td>
                                     <td class="dados_tabela" id="GSG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="GP21"></span>
-                                        <span class="bolas_passados m-1" id="GP22"></span>
-                                        <span class="bolas_passados m-1" id="GP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="GJ3">0</td>
@@ -1270,11 +1238,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGP3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGC3">0</td>
                                     <td class="dados_tabela" id="GSG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="GP31"></span>
-                                        <span class="bolas_passados m-1" id="GP32"></span>
-                                        <span class="bolas_passados m-1" id="GP33"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="GJ4">0</td>
@@ -1284,57 +1248,64 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGP4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="GGC4">0</td>
                                     <td class="dados_tabela" id="GSG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="GP41"></span>
-                                        <span class="bolas_passados m-1" id="GP42"></span>
-                                        <span class="bolas_passados m-1" id="GP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>   
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela  mt-5 p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_G" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeG11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsG11"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsG12"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeG12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeG13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsG13"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsG14"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeG14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeG21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsG21"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsG22"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeG22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeG23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsG23"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsG24"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeG24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
+                              <div class="carousel-item">
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeG31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsG31"></span>
+                                    <span>x</span>
+                                    <span id="golsG32"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png"  id="timeG32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeG33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsG33"></span>
+                                    <span>x</span>
+                                    <span id="golsG34"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeG34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
                             </div>
                             <button class="carousel-control-prev ms-1" type="button" data-bs-target="#carousel_grupo_G" data-bs-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1350,12 +1321,12 @@
             </div>
         </article>
         <article>
-            <div class="container bg-white mt-2">    
+            <div class="container  mt-2">    
                 <div class="row">
                     <div class="d-inline">
                         <h2 class="grupo mt-2">Grupo H</h2>
                     </div>
-                    <div class="col-xxl-9 col-xl-10 tabela p-0">
+                    <div class="col-xxl-8 col-xl-9 tabela p-0">
                         <table class="topicos d-inline-block">
                             <thead>
                             <tr>
@@ -1410,7 +1381,7 @@
                                 <th class="p-3 d-none d-lg-table-cell">GP</th>
                                 <th class="p-3 d-none d-lg-table-cell">GC</th>
                                 <th class="p-3">SG</th>
-                                <th class="p-3 d-none d-lg-table-cell">Jogos Passados</th>
+                                
                             </thead>
                             <tbody>
                                 <tr>
@@ -1421,11 +1392,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGP1">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGC1">0</td>
                                     <td class="dados_tabela" id="HSG1">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="HP11"></span>
-                                        <span class="bolas_passados m-1" id="HP12"></span>
-                                        <span class="bolas_passados m-1" id="HP13"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="HJ2">0</td>
@@ -1435,11 +1402,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGP2">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGC2">0</td>
                                     <td class="dados_tabela" id="HSG2">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="HP21"></span>
-                                        <span class="bolas_passados m-1" id="HP22"></span>
-                                        <span class="bolas_passados m-1" id="HP23"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="HJ3">0</td>
@@ -1449,11 +1412,7 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGP3">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGC3">0</td>
                                     <td class="dados_tabela" id="HSG3">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="HP31"></span>
-                                        <span class="bolas_passados m-1" id="HP32"></span>
-                                        <span class="bolas_passados m-1" id="HP33"></span>
-                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td class="dados_tabela d-none d-sm-table-cell" id="HJ4">0</td>
@@ -1463,55 +1422,63 @@
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGP4">0</td>
                                     <td class="dados_tabela d-none d-lg-table-cell" id="HGC4">0</td>
                                     <td class="dados_tabela" id="HSG4">0</td>
-                                    <td class="passado d-none d-lg-table-cell">
-                                        <span class="bolas_passados m-1" id="HP41"></span>
-                                        <span class="bolas_passados m-1" id="HP42"></span>
-                                        <span class="bolas_passados m-1" id="HP43"></span>
-                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>   
                     </div>
-                    <div class="col-xxl-3 col-xl-2 tabela  mt-5 p-0">
+                    <div class="col-xxl-3 col-xl-3  tabela  mt-5  p-0">
                         <div class="mb-5">
                             <h2>Jogos</h2>
                         </div>
                         <div id="carousel_grupo_H" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeH11" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsH11"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsH12"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" id="timeH12" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeH13" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsH13"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
-                                </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
-                                    <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsH14"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeH14" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <div class="bg-white mt-2  pb-4 text-center ">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeH21" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsH21"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsH22"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" id="timeH22" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
-                                <div class="bg-white mt-4  text-center">
-                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" alt="Brasao - Time Adversario" width="30"></span>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeH23" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsH23"></span>
                                     <span>x</span>
-                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" alt="Brasao - Time Adversario " width="30"></span>
+                                    <span id="golsH24"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeH24" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class=" mt-2  pb-4 text-center ">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/1118.png" id="timeH31" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsH31"></span>
+                                    <span>x</span>
+                                    <span id="golsH32"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/1569.png" id="timeH32" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
+                                </div>
+                                <div class=" mt-4  text-center">
+                                    <span class="me-5"> <img src="https://media.api-sports.io/football/teams/2382.png" id="timeH33" alt="Brasao - Time Adversario" class="bandeiraTime"></span>
+                                    <span id="golsH33"></span>
+                                    <span>x</span>
+                                    <span id="golsH34"></span>
+                                    <span class="ms-5"><img src="https://media.api-sports.io/football/teams/13.png" id="timeH34" alt="Brasao - Time Adversario " class="bandeiraTime"></span>
                                 </div>
                               </div>
                             </div>
