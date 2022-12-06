@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/stylesTelaInicial.css">
 </head>
 
-<body class="tela_inicial border p-0 d-flex flex-column min-vh-100">
+<body class="tela_inicial border p-0 d-flex flex-column min-vh-100"  id="pagina">
     <header>
         <div class="modal fade" id="modalCadastro" aria-labelledby="modalCadastro" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -87,7 +87,7 @@
                             <a href="jogadores.html" class="nav-item nav-link cat">Jogadores</a>
                             <a href="forum.html" class="nav-item nav-link cat">Fórum</a>
                             <div class="dropup-center dropup">
-                                <a href="#" class="img me-lg-5 cat dropdown-toggle" data-bs-toggle="dropdown"
+                                <a href="#" class="img  cat dropdown-toggle" data-bs-toggle="dropdown"
                                     aria-expanded="false"><img src="imgs/usuario.png" alt="Foto Usuário"></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#" id="cadastroLink" data-bs-target="#modalCadastro"
@@ -96,6 +96,8 @@
                                             class="dropdown-item">Login</a></li>
                                 </ul>
                             </div>
+                            <a href="#"><img src="imgs/contraste.jpg" alt="Imagem Contraste Tela" class="cat img me-lg-5" onclick="mudarCor()" ></a>
+
                         </div>
                     </div>
                 </nav>
@@ -165,6 +167,7 @@
 
 
     <script src="js/frontendUsuario.js"></script>
+    <script src="js/frontendAcessibilidade.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
