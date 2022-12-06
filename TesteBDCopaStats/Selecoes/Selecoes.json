@@ -118,7 +118,7 @@
         "logo": "https://media.api-sports.io/football/teams/7.png",
         "coach": {
           "id": 362,
-          "name": "Ó. Tabárez",
+          "name": "D. Alonso",
           "firstname": "Óscar Washington",
           "lastname": "Tabárez Silva",
           "age": 75,
@@ -130,7 +130,7 @@
           "nationality": "Uruguay",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/362.png"                 
+          "photo": "https://media.api-sports.io/football/coachs/993.png"                 
         }
         
       }
@@ -362,7 +362,7 @@
         "logo": "https://media.api-sports.io/football/teams/20.png",
         "coach": {
           "id": 1394,
-          "name": "T. Gustavsson",
+          "name": "Graham Arnold",
           "firstname": "Tony",
           "lastname": "Gustavsson",
           "age": 49,
@@ -374,7 +374,7 @@
           "nationality": "Sweden",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/1394.png"   
+          "photo": "https://media.api-sports.io/football/coachs/356.png"   
         }
       }
     },
@@ -482,7 +482,7 @@
           "nationality": "Poland",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/344.png"   
+          "photo": "https://media.api-sports.io/football/coachs/5834.png"   
         }
       }
     },
@@ -497,7 +497,7 @@
         "logo": "https://media.api-sports.io/football/teams/25.png",
         "coach": {
           "id": 113,
-          "name": "J. Löw",
+          "name": "H. Flick",
           "firstname": "Joachim",
           "lastname": "Löw",
           "age": 62,
@@ -509,7 +509,7 @@
           "nationality": "Germany",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/113.png"   
+          "photo": "https://media.api-sports.io/football/coachs/6472.png"   
         }
       }
     },
@@ -545,7 +545,7 @@
         "id": 27,
         "name": "Portugal",
         "code": "POR",
-        "country": "Portugal",
+        "country": "Portugal", 
         "founded": 1914,
         "national": true,
         "logo": "https://media.api-sports.io/football/teams/27.png",
@@ -578,7 +578,7 @@
         "logo": "https://media.api-sports.io/football/teams/28.png",
         "coach": {
           "id": 384,
-          "name": "M. Kbaïer",
+          "name": "Jalel Kadri",
           "firstname": "Mondher",
           "lastname": "Kebaier",
           "age": 52,
@@ -590,7 +590,7 @@
           "nationality": "Tunisia",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/175.png"  
+          "photo": "https://media.api-sports.io/football/coachs/2992.png"  
         }
       }
     },
@@ -605,7 +605,7 @@
         "logo": "https://media.api-sports.io/football/teams/29.png",
         "coach": {
           "id": 316,
-          "name": "G. Matosas",
+          "name": "L. Suárez",
           "firstname": "Gustavo Cristian",
           "lastname": "Matosas Paidón",
           "age": 55,
@@ -617,7 +617,7 @@
           "nationality": "Uruguay",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/316.png"  
+          "photo": "https://media.api-sports.io/football/coachs/2164.png"  
         }
       }
     },
@@ -632,7 +632,7 @@
         "logo": "https://media.api-sports.io/football/teams/31.png",
         "coach": {
           "id": 386,
-          "name": "V. Halilhodžić",
+          "name": "H. Regragui",
           "firstname": "Vahid",
           "lastname": "Halilhodžić",
           "age": 70,
@@ -644,7 +644,7 @@
           "nationality": "Bosnia and Herzegovina",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/386.png"  
+          "photo": "https://media.api-sports.io/football/coachs/2645.png"  
         }
       }
     },
@@ -659,7 +659,7 @@
         "logo": "https://media.api-sports.io/football/teams/767.png",
         "coach": {
           "id": 114,
-          "name": "R. Giggs",
+          "name": "R. Page",
           "firstname": "Ryan",
           "lastname": "Giggs",
           "age": 49,
@@ -671,7 +671,7 @@
           "nationality": "Wales",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/114.png"  
+          "photo": "https://media.api-sports.io/football/coachs/9468.png"  
         }
       }
     },
@@ -714,7 +714,7 @@
         "logo": "https://media.api-sports.io/football/teams/1504.png",
         "coach": {
           "id": 371,
-          "name": "K. Appiah",
+          "name": "O. Addo",
           "firstname": "James Kwesi",
           "lastname": "Appiah",
           "age": 62,
@@ -726,7 +726,7 @@
           "nationality": "Ghana",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/371.png"  
+          "photo": "https://media.api-sports.io/football/coachs/16966.png"  
         }
       }
     },
@@ -741,7 +741,7 @@
         "logo": "https://media.api-sports.io/football/teams/1530.png",
         "coach": {
           "id": 364,
-          "name": "C. Seedorf",
+          "name": "R. Song",
           "firstname": "Clarence",
           "lastname": "Seedorf",
           "age": 46,
@@ -753,7 +753,7 @@
           "nationality": "Netherlands",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/364.png"  
+          "photo": "https://media.api-sports.io/football/coachs/11899.png"  
         }
       }
     },
@@ -835,7 +835,7 @@
         "logo": "https://media.api-sports.io/football/teams/5529.png",
         "coach": {
           "id": 10762,
-          "name": "K. Heiner-Møller",
+          "name": "J. Herdman",
           "firstname": "Kenneth",
           "lastname": "Heiner-Møller",
           "age": 51,
@@ -847,7 +847,7 @@
           "nationality": "Denmark",
           "height": null,
           "weight": null,
-          "photo": "https://media.api-sports.io/football/coachs/10762.png"  
+          "photo": "https://media.api-sports.io/football/coachs/5572.png"  
         }
       }   
     }

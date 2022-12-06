@@ -45,12 +45,12 @@ async function getJogos(){
             jogo_margem.appendChild(jogo_texto)
 
             let primeiro_time = document.createElement("img")
-            primeiro_time.classList.add("col-2","mt-4","mb-4", "borda-bandeira-jogos")
+            primeiro_time.classList.add("col-2","mt-4","mb-4","me-4")
             primeiro_time.src = jogos[i][5]
             jogo_texto.appendChild(primeiro_time)
 
             let placar = document.createElement("div")
-            placar.classList.add("col-4","d-inline-block","area_pontuacao")
+            placar.classList.add("col-6","d-inline-block","area_pontuacao")
             jogo_texto.appendChild(placar)
 
             let data_texto = document.createElement("span")
@@ -73,13 +73,13 @@ async function getJogos(){
             gols_segundo_time.innerHTML = jogos[i][4]
             placar.appendChild(gols_segundo_time)
             
-            let estadio = document.createElement("span")
-            estadio.classList.add("elemento_area_pontuacao", "d-block")
-            estadio.innerHTML = jogos[i][0]
-            placar.appendChild(estadio)
+            // let estadio = document.createElement("span")
+            // estadio.classList.add("elemento_area_pontuacao", "d-block")
+            // estadio.innerHTML = jogos[i][0]
+            // placar.appendChild(estadio)
 
             let segundo_time = document.createElement("img")
-            segundo_time.classList.add("col-2","mt-4","mb-4", "borda-bandeira-jogos")
+            segundo_time.classList.add("col-2","mt-4","mb-4", "ms-4")
             segundo_time.src = jogos[i][6]
             jogo_texto.appendChild(segundo_time)
 
@@ -142,7 +142,7 @@ async function getJogosData(){
             jogo_margem.appendChild(jogo_texto)
 
             let primeiro_time = document.createElement("img")
-            primeiro_time.classList.add("col-2","mt-4","mb-4")
+            primeiro_time.classList.add("col-2","mt-4","mb-4","me-4")
             primeiro_time.src = jogos[i][5]
             jogo_texto.appendChild(primeiro_time)
 
@@ -170,13 +170,10 @@ async function getJogosData(){
             gols_segundo_time.innerHTML = jogos[i][4]
             placar.appendChild(gols_segundo_time)
             
-            let estadio = document.createElement("span")
-            estadio.classList.add("elemento_area_pontuacao", "d-block")
-            estadio.innerHTML = jogos[i][0]
-            placar.appendChild(estadio)
+
 
             let segundo_time = document.createElement("img")
-            segundo_time.classList.add("col-2","mt-4","mb-4")
+            segundo_time.classList.add("col-2","mt-4","mb-4","ms-4")
             segundo_time.src = jogos[i][6]
             jogo_texto.appendChild(segundo_time)
 

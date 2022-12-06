@@ -16,6 +16,11 @@ body{
     background-color: #F6F6F6;
 }
 
-.borda-bandeira-jogos{
+.bandeira_jogos{
     border: solid 3px;
+}
+@media (max-width: 992px){
+    .bandeira_jogos{
+        
+    }
 }

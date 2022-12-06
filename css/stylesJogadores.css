@@ -9,8 +9,8 @@ body{
     .classJogador{ 
         margin: auto;
         position: relative;
-        width: 380px;
-        height: 380px;
+        width: 300px;
+        height: 300px;
         overflow: hidden;
         border-radius: 50%; 
     } 
@@ -20,6 +20,21 @@ body{
     }
 }
 @media (min-width: 992px){
+    .classJogador{ 
+        margin: auto;
+        position: relative;
+        width: 130px;
+        height: 145px;
+        overflow: hidden;
+        border-radius: 50%; 
+    } 
+    .jogador{ 
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+@media (min-width: 1200px){
     .classJogador{ 
         margin: auto;
         position: relative;

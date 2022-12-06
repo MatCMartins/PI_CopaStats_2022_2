@@ -89,7 +89,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[0].Alemanha[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[0].Alemanha[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[0].Alemanha[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[0].Alemanha[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[0].Alemanha[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[0].Alemanha[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[0].Alemanha[indexSelecao].player.weight)
 
@@ -106,7 +106,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[1].Arabia_Saudita[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[1].Arabia_Saudita[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[1].Arabia_Saudita[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[1].Arabia_Saudita[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[1].Arabia_Saudita[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[1].Arabia_Saudita[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[1].Arabia_Saudita[indexSelecao].player.weight)
             }
@@ -122,7 +122,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[2].Argentina[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[2].Argentina[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[2].Argentina[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[2].Argentina[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[2].Argentina[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[2].Argentina[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[2].Argentina[indexSelecao].player.weight)
 
@@ -140,7 +140,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[3].Australia[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[3].Australia[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[3].Australia[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[3].Australia[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[3].Australia[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[3].Australia[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[3].Australia[indexSelecao].player.weight)
 
@@ -157,7 +157,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[4].Belgica[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[4].Belgica[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[4].Belgica[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[4].Belgica[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[4].Belgica[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[4].Belgica[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[4].Belgica[indexSelecao].player.weight)
 
@@ -174,7 +174,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[5].Brasil[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[5].Brasil[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[5].Brasil[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[5].Brasil[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[5].Brasil[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[5].Brasil[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[5].Brasil[indexSelecao].player.weight)
 
@@ -191,7 +191,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[6].Camaroes[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[6].Camaroes[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[6].Camaroes[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[6].Camaroes[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[6].Camaroes[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[6].Camaroes[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[6].Camaroes[indexSelecao].player.weight)
 
@@ -209,7 +209,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[7].Canada[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[7].Canada[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[7].Canada[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[7].Canada[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[7].Canada[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[7].Canada[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[7].Canada[indexSelecao].player.weight)
 
@@ -226,7 +226,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[8].Coreia_do_Sul[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[8].Coreia_do_Sul[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[8].Coreia_do_Sul[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[8].Coreia_do_Sul[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[8].Coreia_do_Sul[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[8].Coreia_do_Sul[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[8].Coreia_do_Sul[indexSelecao].player.weight)
 
@@ -244,7 +244,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[9].Costa_Rica[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[9].Costa_Rica[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[9].Costa_Rica[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[9].Costa_Rica[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[9].Costa_Rica[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[9].Costa_Rica[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[9].Costa_Rica[indexSelecao].player.weight)
 
@@ -261,7 +261,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[10].Croacia[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[10].Croacia[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[10].Croacia[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[10].Croacia[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[10].Croacia[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[10].Croacia[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[10].Croacia[indexSelecao].player.weight)
                     
@@ -278,7 +278,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[11].Dinamarca[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[11].Dinamarca[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[11].Dinamarca[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[11].Dinamarca[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[11].Dinamarca[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[11].Dinamarca[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[11].Dinamarca[indexSelecao].player.weight)
 
@@ -295,7 +295,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[12].Equador[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[12].Equador[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[12].Equador[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[12].Equador[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[12].Equador[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[12].Equador[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[12].Equador[indexSelecao].player.weight)
             }
@@ -311,7 +311,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[13].Espanha[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[13].Espanha[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[13].Espanha[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[13].Espanha[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[13].Espanha[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[13].Espanha[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[13].Espanha[indexSelecao].player.weight)
             }   
@@ -327,7 +327,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[14].Estados_Unidos[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[14].Estados_Unidos[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[14].Estados_Unidos[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[14].Estados_Unidos[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[14].Estados_Unidos[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[14].Estados_Unidos[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[14].Estados_Unidos[indexSelecao].player.weight)
 
@@ -344,7 +344,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[15].Franca[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[15].Franca[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[15].Franca[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[15].Franca[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[15].Franca[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[15].Franca[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[15].Franca[indexSelecao].player.weight)
 
@@ -362,7 +362,7 @@ async function mostrarSelecao(nomeSelecao) {
 
                 driblesJogadores.push(jogadores[16].Holanda[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[16].Holanda[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[16].Holanda[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[16].Holanda[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[16].Holanda[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[16].Holanda[indexSelecao].player.weight)
 
@@ -379,7 +379,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[17].Inglaterra[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[17].Inglaterra[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[17].Inglaterra[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[17].Inglaterra[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[17].Inglaterra[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[17].Inglaterra[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[17].Inglaterra[indexSelecao].player.weight)
 
@@ -396,7 +396,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[18].Ira[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[18].Ira[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[18].Ira[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[18].Ira[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[18].Ira[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[18].Ira[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[18].Ira[indexSelecao].player.weight)
 
@@ -413,7 +413,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[19].Japao[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[19].Japao[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[19].Japao[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[19].Japao[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[19].Japao[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[19].Japao[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[19].Japao[indexSelecao].player.weight)
                 
@@ -430,7 +430,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[20].Marrocos[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[20].Marrocos[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[20].Marrocos[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[20].Marrocos[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[20].Marrocos[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[20].Marrocos[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[20].Marrocos[indexSelecao].player.weight)
 
@@ -447,7 +447,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[21].Mexico[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[21].Mexico[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[21].Mexico[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[21].Mexico[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[21].Mexico[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[21].Mexico[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[21].Mexico[indexSelecao].player.weight)
                 
@@ -464,7 +464,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[22].Pais_de_Gales[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[22].Pais_de_Gales[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[22].Pais_de_Gales[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[22].Pais_de_Gales[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[22].Pais_de_Gales[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[22].Pais_de_Gales[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[22].Pais_de_Gales[indexSelecao].player.weight)
 
@@ -481,7 +481,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[23].Polonia[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[23].Polonia[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[23].Polonia[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[23].Polonia[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[23].Polonia[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[23].Polonia[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[23].Polonia[indexSelecao].player.weight)
 
@@ -500,7 +500,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[24].Portugal[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[24].Portugal[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[24].Portugal[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[24].Portugal[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[24].Portugal[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[24].Portugal[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[24].Portugal[indexSelecao].player.weight)
                 
@@ -517,7 +517,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[25].Qatar[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[25].Qatar[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[25].Qatar[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[25].Qatar[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[25].Qatar[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[25].Qatar[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[25].Qatar[indexSelecao].player.weight)
 
@@ -534,7 +534,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[26].Senegal[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[26].Senegal[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[26].Senegal[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[26].Senegal[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[26].Senegal[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[26].Senegal[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[26].Senegal[indexSelecao].player.weight)
 
@@ -552,7 +552,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[27].Servia[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[27].Servia[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[27].Servia[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[27].Servia[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[27].Servia[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[27].Servia[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[27].Servia[indexSelecao].player.weight)
             }
@@ -568,7 +568,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[28].Suica[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[28].Suica[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[28].Suica[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[28].Suica[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[28].Suica[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[28].Suica[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[28].Suica[indexSelecao].player.weight)
             }
@@ -584,7 +584,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[29].Tunisia[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[29].Tunisia[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[29].Tunisia[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[29].Tunisia[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[29].Tunisia[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[29].Tunisia[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[29].Tunisia[indexSelecao].player.weight)
 
@@ -601,7 +601,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[30].Uruguai[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[30].Uruguai[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[30].Uruguai[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[30].Uruguai[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[30].Uruguai[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[30].Uruguai[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[30].Uruguai[indexSelecao].player.weight)
 
@@ -618,7 +618,7 @@ async function mostrarSelecao(nomeSelecao) {
                 faltasCometidas.push(jogadores[31].Gana[indexSelecao].statistics[0].fouls.committed)
                 driblesJogadores.push(jogadores[31].Gana[indexSelecao].statistics[0].dribbles.attempts)
                 idadeJogadores.push(jogadores[31].Gana[indexSelecao].player.age)
-                posicaoJogadores.push(jogadores[31].Gana[indexSelecao].player.position)
+                posicaoJogadores.push(jogadores[31].Gana[indexSelecao].statistics[0].games.position)
                 alturaJogadores.push(jogadores[31].Gana[indexSelecao].player.height)
                 pesoJogadores.push(jogadores[31].Gana[indexSelecao].player.weight)
 
@@ -663,6 +663,31 @@ async function getJogadores(idLinkJogador){
                 posicao = posicaoJogadores[index]
                 altura = alturaJogadores[index]
                 peso = pesoJogadores[index]
+                if (assistencias == null){
+                    assistencias = 0
+                }
+                if (cartoesAmarelos == null){
+                    cartoesAmarelos = 0
+                }
+                if (cartoesVermelhos == null){
+                    cartoesVermelhos = 0
+                }
+                if (chutes == null){
+                    chutes = 0
+                }
+                if (passes == null){
+                    passes = 0
+                }
+                if (faltasS == null){
+                    faltasS = 0
+                }
+                if (faltasC == null){
+                    faltasC = 0
+                }
+                if (dribles == null){
+                    dribles = 0
+                }
+                
 
                 
                 
@@ -670,6 +695,9 @@ async function getJogadores(idLinkJogador){
                 console.log(nome)
             }
         }
+
+
+
 
 
         const golsJogador = document.getElementById("gols")
@@ -695,8 +723,8 @@ async function getJogadores(idLinkJogador){
         assistenciasJogador.innerHTML = assistencias
         cartoesAmarelosJogador.innerHTML = cartoesAmarelos
         cartoesVermelhosJogador.innerHTML = cartoesVermelhos
-        chutesJogador.innerHTML = chutes
-        passesJogador.innerHTML = passes
+        chutesJogador.innerHTML = passes
+        passesJogador.innerHTML = chutes
         faltasSofridasJogador.innerHTML = faltasS
         faltasCometidasJogador.innerHTML = faltasC
         driblesJogador.innerHTML = dribles

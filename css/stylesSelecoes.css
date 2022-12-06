@@ -50,8 +50,8 @@ span{
     .classTecnico{
         margin: auto; 
         position: relative;
-        width: 160px;
-        height: 175px;
+        width: 200px;
+        height: 215px;
         overflow: hidden;
         border-radius: 50%; 
     }
@@ -69,5 +69,22 @@ span{
     .jogadorS{
         width: 100%; 
         height: auto; 
+    }
+}
+
+@media (max-width: 992px){
+    #timeSelecao1, #timeSelecao2{
+        width: 70px;
+    }
+}
+
+@media (min-width: 992px){
+    #timeSelecao1, #timeSelecao2{
+        width: 48px;
+    }
+}
+@media (min-width: 1200px){
+    #timeSelecao1, #timeSelecao2{
+        width: 70px;
     }
 }

@@ -41,9 +41,9 @@ async function ShowSelecao(selecao){
         let lista_jogos = []
 
         let tecnico_nome = ""
-        const tecnico_idade = ""
+        let tecnico_foto = ""
 
-            if (nomeSelecao == "Alemanha"){
+        if (nomeSelecao == "Alemanha"){
                  nome = resp[0].Alemanha.team.name
                  bandeira = resp[0].Alemanha.team.logo
                  vitorias = resp[0].Alemanha.fixtures.wins.total
@@ -65,7 +65,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
-                
+                tecnico_nome = resp3[0].Tecnicos[18].Alemanha.coach.name 
+                tecnico_foto = resp3[0].Tecnicos[18].Alemanha.coach.photo
+
               
 
                 
@@ -94,6 +96,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[16].Arabia_Saudita.coach.name
+                tecnico_foto = resp3[0].Tecnicos[16].Arabia_Saudita.coach.photo
 
 
 
@@ -120,6 +124,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[19].Argentina.coach.name
+                tecnico_foto = resp3[0].Tecnicos[19].Argentina.coach.photo
+
 
                 
 
@@ -146,6 +153,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[13].Australia.coach.name
+                tecnico_foto = resp3[0].Tecnicos[13].Australia.coach.photo
 
 
                 
@@ -172,6 +181,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[0].Belgica.coach.name
+                tecnico_foto = resp3[0].Tecnicos[0].Belgica.coach.photo
 
 
 
@@ -199,6 +210,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[3].Brasil.coach.name
+                tecnico_foto = resp3[0].Tecnicos[3].Brasil.coach.photo
+
 
 
             }
@@ -224,6 +238,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[27].Camaroes.coach.name
+                tecnico_foto = resp3[0].Tecnicos[27].Camaroes.coach.photo
+
 
             }
             else if (nomeSelecao == "Canadá"){
@@ -248,6 +265,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[31].Canada.coach.name
+                tecnico_foto = resp3[0].Tecnicos[31].Canada.coach.photo
+
 
             }
             else if (nomeSelecao == "Coreia do Sul"){
@@ -272,6 +292,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[12].Coreia_do_Sul.coach.name
+                tecnico_foto = resp3[0].Tecnicos[12].Coreia_do_Sul.coach.photo
 
             }
             else if (nomeSelecao == "Costa Rica"){
@@ -296,6 +318,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[22].Costa_Rica.coach.name
+                tecnico_foto = resp3[0].Tecnicos[22].Costa_Rica.coach.photo
+
 
             }
             else if (nomeSelecao == "Croácia"){
@@ -320,6 +345,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[2].Croacia.coach.name
+                tecnico_foto = resp3[0].Tecnicos[2].Croacia.coach.photo
 
             }
             else if (nomeSelecao == "Dinamarca"){
@@ -344,6 +371,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[14].Dinamarca.coach.name
+                tecnico_foto = resp3[0].Tecnicos[14].Dinamarca.coach.photo
 
             }
             else if (nomeSelecao == "Equador"){
@@ -368,6 +397,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[29].Equador.coach.name
+                tecnico_foto = resp3[0].Tecnicos[29].Equador.coach.photo
 
             }
             else if (nomeSelecao == "Espanha"){
@@ -393,6 +424,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[5].Espanha.coach.name
+                tecnico_foto = resp3[0].Tecnicos[5].Espanha.coach.photo
 
             }
             else if (nomeSelecao == "Estados Unidos"){
@@ -417,6 +450,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[30].Estados_Unidos.coach.name
+                tecnico_foto = resp3[0].Tecnicos[30].Estados_Unidos.coach.photo
 
             }
             else if (nomeSelecao == "França"){
@@ -441,6 +476,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[1].Franca.coach.name
+                tecnico_foto = resp3[0].Tecnicos[1].Franca.coach.photo
+
 
             }
             else if (nomeSelecao == "Holanda"){
@@ -465,6 +503,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[25].Holanda.coach.name
+                tecnico_foto = resp3[0].Tecnicos[25].Holanda.coach.photo
 
             }
             else if (nomeSelecao == "Inglaterra"){
@@ -489,6 +529,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[6].Inglaterra.coach.name
+                tecnico_foto = resp3[0].Tecnicos[6].Inglaterra.coach.photo
 
             }
             else if (nomeSelecao == "Irã"){
@@ -513,6 +555,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[15].Ira.coach.name
+                tecnico_foto = resp3[0].Tecnicos[15].Ira.coach.photo
 
             }
             else if (nomeSelecao == "Japão"){
@@ -537,6 +581,9 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[7].Japao.coach.name
+                tecnico_foto = resp3[0].Tecnicos[7].Japao.coach.photo
+
             }
             else if (nomeSelecao == "Marrocos"){
                 nome = resp[20].Marrocos.team.name
@@ -560,6 +607,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[23].Marrocos.coach.name
+                tecnico_foto = resp3[0].Tecnicos[23].Marrocos.coach.photo
 
             }
             else if (nomeSelecao == "México"){
@@ -584,6 +633,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[11].Mexico.coach.name
+                tecnico_foto = resp3[0].Tecnicos[11].Mexico.coach.photo
 
             }
             else if (nomeSelecao == "País de Gales"){
@@ -608,6 +659,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[24].Pais_de_Gales.coach.name
+                tecnico_foto = resp3[0].Tecnicos[24].Pais_de_Gales.coach.photo
 
             }
             else if (nomeSelecao == "Polônia"){
@@ -632,6 +685,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[17].Polonia.coach.name
+                tecnico_foto = resp3[0].Tecnicos[17].Polonia.coach.photo
 
             }
             else if (nomeSelecao == "Portugal"){
@@ -656,6 +711,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[20].Portugal.coach.name
+                tecnico_foto = resp3[0].Tecnicos[20].Portugal.coach.photo
 
             }
             else if (nomeSelecao == "Catar"){
@@ -680,6 +737,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[28].Catar.coach.name
+                tecnico_foto = resp3[0].Tecnicos[28].Catar.coach.photo
 
             }
             else if (nomeSelecao == "Senegal"){
@@ -704,6 +763,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[8].Senegal.coach.name
+                tecnico_foto = resp3[0].Tecnicos[8].Senegal.coach.photo
 
 
             }
@@ -729,6 +790,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[9].Servia.coach.name
+                tecnico_foto = resp3[0].Tecnicos[9].Servia.coach.photo
 
             }
             else if (nomeSelecao == "Suiça"){
@@ -753,6 +816,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[10].Suica.coach.name
+                tecnico_foto = resp3[0].Tecnicos[10].Suica.coach.photo
 
             }
             else if (nomeSelecao == "Tunísia"){
@@ -777,6 +842,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[21].Tunisia.coach.name
+                tecnico_foto = resp3[0].Tecnicos[21].Tunisia.coach.photo
 
             }
             else if (nomeSelecao == "Uruguai"){
@@ -801,6 +868,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[4].Uruguai.coach.name
+                tecnico_foto = resp3[0].Tecnicos[4].Uruguai.coach.photo
 
             }
             else if (nomeSelecao == "Gana"){
@@ -825,6 +894,8 @@ async function ShowSelecao(selecao){
                         lista_jogos.push([resp4[1].Jogos[i].teams.away.logo,resp4[1].Jogos[i].goals.away,resp4[1].Jogos[i].teams.home.logo,resp4[1].Jogos[i].goals.home])
                     }
                 }
+                tecnico_nome = resp3[0].Tecnicos[26].Gana.coach.name
+                tecnico_foto = resp3[0].Tecnicos[26].Gana.coach.photo
 
             }
             
@@ -843,6 +914,8 @@ async function ShowSelecao(selecao){
 
         
         listaSelecoes.push(nome, bandeira, vitorias, empates, derrotas, gols_pro, media_gols_pro, media_gols_contra, clean_sheets, penaltis)
+        
+            
 
         const idNome = document.getElementById("nomeSelecao")
         idNome.innerHTML = listaSelecoes[0]
@@ -875,7 +948,10 @@ async function ShowSelecao(selecao){
         const golsSelecao2 = document.getElementById("golsSelecao2")
         golsSelecao2.innerHTML = jogo_destaque[3]
         
-
+        const idTecnico = document.getElementById("nomeTecnico")
+        idTecnico.innerHTML = tecnico_nome
+        const idTecnicoSelecao = document.getElementById("tecnicoSelecao")
+        idTecnicoSelecao.src = tecnico_foto
 
         for (let index = 0; index < 19; index++) {
             let idFoto = String("jogador"+String(index));
