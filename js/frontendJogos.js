@@ -123,6 +123,8 @@ async function getJogosData(){
         if (espaco_jogos.contains(document.querySelector(".container"))){
             espaco_jogos.removeChild(document.querySelector(".container"))
             espaco_jogos.removeChild(document.querySelector(".container"))
+
+            
         }
         for (let  i = 0; i < jogos.length;  i++) {
             let jogo = document.createElement("div")
@@ -142,7 +144,7 @@ async function getJogosData(){
             jogo_margem.appendChild(jogo_texto)
 
             let primeiro_time = document.createElement("img")
-            primeiro_time.classList.add("col-2","mt-4","mb-4","me-4")
+            primeiro_time.classList.add("col-2","mt-4","mb-4","me-5")
             primeiro_time.src = jogos[i][5]
             jogo_texto.appendChild(primeiro_time)
 
@@ -161,7 +163,7 @@ async function getJogosData(){
             placar.appendChild(gols_primeiro_time)
 
             let x = document.createElement("span")
-            x.classList.add("elemento_area_pontuacao", "ms-5", "me-5")
+            x.classList.add("elemento_area_pontuacao", "ms-4", "me-4")
             x.innerHTML = "x"
             placar.appendChild(x)
 
@@ -173,7 +175,7 @@ async function getJogosData(){
 
 
             let segundo_time = document.createElement("img")
-            segundo_time.classList.add("col-2","mt-4","mb-4","ms-4")
+            segundo_time.classList.add("col-2","mt-4","mb-4","ms-5")
             segundo_time.src = jogos[i][6]
             jogo_texto.appendChild(segundo_time)
 
